@@ -1,0 +1,3069 @@
+//////////////ITEMS
+
+{
+	dev_name: "coffee"
+	title: "Coffee"
+	
+	item_type: "consumable"
+	cons_stat: energy
+	cons_amount: 2
+	desc: "Hot beverage that restores §amnt energy and cures 1 stack of tired. Don't let it get cold!"
+	tags: cafe, beverage, hot, gas_station,hot_coffee,caffeine
+	price: 2
+	charges: 1
+	w:1
+	h:1
+	sprite: spr_item_coffee
+}
+
+{
+	dev_name: "coffee_cafe"
+	title: "Coffee"
+	
+	item_type: "consumable"
+	cons_stat: energy
+	cons_amount: 2
+	desc: "Hot beverage that restores §amnt energy and cures 1 stack of tired. Don't let it get cold!"
+	tags: cafe, beverage, hot,breakable_glass,hot_coffee, caffeine
+	price: 2
+	charges: 1
+	w:1
+	h:1
+	sprite: spr_item_coffee_cafe
+}
+
+{
+	dev_name: "tea"
+	title: "Tea"
+	
+	item_type: "consumable"
+	cons_cure: "headache"
+	cons_stat: energy
+	cons_amount: 2
+	desc: "Hot beverage that restores §amnt energy and cures §cure. Smells so nice!"
+	tags: cafe, beverage, hot,breakable_glass
+	price: 2
+	charges: 1
+	w:1
+	h:1
+	sprite: spr_item_tea
+}
+
+
+{
+	dev_name: "cold_coffee"
+	title: "Cold Coffee"
+	
+	item_type: "consumable"
+	cons_buff: tired
+	desc: "Yuck! Cold Coffee!"
+	tags: token,cold, caffeine
+	price: 1
+	charges: 1
+	w:1
+	h:1
+	sprite: spr_item_coffee_cold
+	
+}
+
+{
+	dev_name: "cold_coffee_cafe"
+	title: "Cold Coffee"
+	
+	item_type: "consumable"
+	cons_buff: tired
+	desc: "Yuck! Cold Coffee!"
+	tags: token,cold
+	price: 1
+	charges: 1
+	w:1
+	h:1
+	sprite: spr_item_coffee_cafe_cold
+	
+}
+
+{
+	dev_name: "juice_box"
+	title: "Juice"
+	
+	item_type: "consumable"
+	
+	charges: 1
+	cons_stat: energy
+	cons_amount: 3
+	cons_buff: tired
+	desc: "Drink that restores §amnt §st when consumed. Also makes you tired.
+	
+	tags: drink, gas_station, super_market, beverage, sugar
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_juice_box
+}
+
+
+
+{
+	dev_name: "coke_big"
+	title: "Coke"
+	
+	item_type: "consumable"
+	
+	charges: 2
+	cons_stat: energy
+	cons_amount: 3
+	cons_buff: tired
+	desc: "Cold drink that restores §amnt §st when consumed. Also makes you tired.
+	
+	tags: drink, gas_station, super_market, beverage, cold, junk_food, caffeine, sugar
+	price: 2
+	
+	w:1
+	h:2
+	sprite: spr_item_coke_big
+}
+
+{
+	dev_name: "coke_small"
+	title: "Coke"
+	
+	item_type: "consumable"
+	
+	charges: 1
+	cons_stat: energy
+	cons_amount: 3
+	cons_buff: tired
+	desc: "Cold drink that restores §amnt §st when consumed. Also makes you tired.
+	
+	tags: drink, gas_station, super_market, beverage, cold, junk_food, caffeine, sugar
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_coke_small
+}
+
+{
+	dev_name: "sprite_big"
+	title: "Soda"
+	
+	item_type: "consumable"
+	
+	charges: 2
+	cons_stat: energy
+	cons_amount: 3
+	cons_buff: tired
+	desc: "Cold drink that restores §amnt §st when consumed. Also makes you tired.
+	
+	tags: drink, gas_station, super_market, beverage, cold, junk_food, sugar
+	price: 2
+	
+	w:1
+	h:2
+	sprite: spr_item_sprite_big
+}
+
+{
+	dev_name: "sprite_small"
+	title: "Soda"
+	
+	item_type: "consumable"
+	
+	charges: 1
+	cons_stat: energy
+	cons_amount: 3
+	cons_buff: tired
+	desc: "Cold drink that restores §amnt §st when consumed. Also makes you tired.
+	
+	tags: drink, gas_station, super_market, beverage, cold, junk_food, sugar
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_sprite_small
+}
+
+{
+	dev_name: "cocaine"
+	title: "Cocaine"
+	
+	item_type: "consumable"
+	charges: 2
+	cons_stat: energy
+	cons_amount: 10
+	cons_buff: "speeded"
+	desc: "Illegal drug. Fully restores §st when consumed. Gain the speeded status."
+	tags: illegal_drug, snort, drug_dealer,illegal
+	min_shop_amount: 3
+	price: 45
+	charges: 2
+	w:1
+	h:1
+	sprite: spr_item_cocaine
+	
+}
+
+{
+	dev_name: "weed"
+	title: "Weed"
+	
+	item_type: "consumable"
+
+	cons_buff: "hungry"
+	desc: "Use to get relaxed. And maybe you'll feel good!"
+	tags: illegal_drug, smoke, weed, drug_dealer,illegal
+	min_shop_amount: 3
+	price: 25
+	charges: 5
+	w:1
+	h:1
+	sprite: spr_item_weed
+	
+}
+
+{
+	dev_name: "joint"
+	title: "Joint"
+	
+	item_type: "consumable"
+	cons_buff: "hungry"
+	desc: "Use to get relaxed. And maybe you'll feel good!"
+	tags: illegal_drug, smoke, weed, drug_dealer,illegal
+	min_shop_amount: 3
+	price: 12
+	charges: 2
+	w:1
+	h:1
+	sprite: spr_item_weed_joint
+	
+}
+
+
+{
+	dev_name: "baguette"
+	title: "Baguette"
+	
+	item_type: "consumable"
+	cons_cure: starving
+	desc: "Cures §cure. Oh la la!"
+	tags: cafe, bread, food, gourmet
+	charges: 1
+	price: 2
+	charges: 1
+	w: 2
+	h: 1
+	sprite: spr_item_baguette
+	
+}
+
+{
+	dev_name: "cinnamon_bun"
+	title: "Cinnamon Bun"
+	
+	item_type: "consumable"
+	cons_cure: hungry
+	cons_stat: energy
+	cons_amount: 1
+	desc: "Cures §cure and restores §amnt energy. Very tasty!"
+	tags: cafe, bread, food, gourmet, sugar
+	price: 1.5
+	charges: 2
+	w: 1
+	h: 1
+	sprite: spr_item_bulle
+	
+}
+
+{
+	dev_name: "danish"
+	title: "Danish"
+	
+	item_type: "consumable"
+	cons_cure: hungry
+	cons_stat: energy
+	cons_amount: 1
+	desc: "Cures §cure and restores §amnt energy. Very tasty!"
+	tags: cafe, bread, food, gourmet,sugar
+	price: 1.5
+	charges: 1
+	w: 1
+	h: 1
+	sprite: spr_item_bulle_2
+	
+}
+
+{
+	dev_name: "pie_small_1"
+	title: "Cherry Pie"
+	
+	item_type: "consumable"
+	cons_cure: hungry
+	cons_stat: energy
+	cons_amount: 2
+	cons_buff: tired
+	desc: "Cures §cure and restores §amnt energy. Also makes you tired. So good! "
+	
+	
+	tags: cafe, bread, food, gourmet,sugar
+	price: 1.5
+	charges: 1
+	w: 1
+	h: 1
+	sprite: spr_item_pie_piece_1
+	
+}
+
+{
+	dev_name: "pie_small_2"
+	title: "Blueberry Pie"
+	
+	item_type: "consumable"
+	cons_cure: hungry
+	cons_stat: energy
+	cons_amount: 2
+	cons_buff: tired
+	desc: "Cures §cure and restores §amnt energy. Also makes you tired. So good!"
+	tags: cafe, bread, food, gourmet,sugar
+	price: 1.5
+	charges: 1
+	w: 1
+	h: 1
+	sprite: spr_item_pie_piece_2
+	
+}
+{
+	dev_name: "pie_big
+	title: "Blueberry Pie"
+	
+	item_type: "consumable"
+	cons_cure: starving
+	cons_stat: energy
+	cons_amount: 1
+	cons_buff: tired
+	desc: "Cures §cure and restores §amnt energy. Also makes you tired. So good!"
+	tags: cafe, bread, food, gourmet,sugar,finish_satisfied
+	price: 6
+	charges: 7
+	w: 2
+	h: 2
+	sprite: spr_item_pie
+	
+}
+
+{
+	dev_name: "baguette_half"
+	title: "Baguette"
+	
+	item_type: "consumable"
+	cons_cure: starving
+	desc: "Cures §cure. Oh la la!"
+	tags: bread, food, gourmet, token,non_shop
+	charges: 1
+	price: 2
+	charges: 1
+	w: 1
+	h: 1
+	sprite: spr_item_baguette_half
+	
+}
+
+{
+	dev_name: "chicken_wings"
+	title: "Chicken Wings"
+	
+	item_type: "consumable"
+	cons_cure: starving
+	cons_buff:satisfied
+	desc: "Cures §cure. Spicy! Makes you satisfied."
+	tags: fast_food, bar, food, meat, junk_food, super_market
+	charges: 1
+	price: 4
+	charges: 1
+	w: 2
+	h: 1
+	sprite: spr_item_chicken_wings
+	
+}
+
+{
+	dev_name: "sandwich"
+	title: "Sandwich"
+	
+	item_type: "consumable"
+	cons_cure: starving
+	cons_buff:satisfied
+	desc: "Made with love. Cures §cure. Makes you satisfied."
+	tags: food,cafe
+	price: 1.5
+	charges: 1
+	w: 1
+	h: 1
+	sprite: spr_item_sandwich
+	
+}
+
+{
+	dev_name: "egg_jar"
+	title: "Jar of Eggs"
+	
+	item_type: "consumable"
+	cons_cure: starving
+	desc: "Eggs. In a jar. They're pickled. Cures §cure."
+	tags: food,cafe,bar
+	price: 1.5
+	charges: 3
+	w: 1
+	h: 1
+	sprite: spr_item_egg_jar
+	
+}
+
+{
+	dev_name: "chips_big"
+	title: "Chips Big-Pack"
+	
+	item_type: "consumable"
+	cons_cure: hungry
+	desc: "Cures §cure. Mmm!"
+	tags: snack, vegetarian, junk_food, super_market, gas_station, food
+	charges: 3
+	price: 2
+	w: 1
+	h: 2
+	sprite: spr_item_chips_big
+	
+}
+
+{
+	dev_name: "chips_small"
+	title: "Chips"
+	
+	item_type: "consumable"
+	cons_cure: hungry
+	desc: "Cures §cure. Mmm!"
+	tags: snack, vegetarian, junk_food, super_market, gas_station, food,common_find
+
+	price: 1
+	charges: 1
+	w: 1
+	h: 1
+	sprite: spr_item_chips_small
+	
+}
+
+{
+	dev_name: "nuts"
+	title: "Nuts"
+	
+	item_type: "consumable"
+	cons_cure: hungry
+	desc: "Cures §cure. Nutritious!"
+	tags: snack, vegetarian, junk_food, super_market, gas_station, food,bar
+
+	price: 3
+	charges: 2
+	w: 1
+	h: 1
+	sprite: spr_item_nuts
+	
+}
+
+{
+	dev_name: "hot_dog"
+	title: "Hot Dog"
+	
+	item_type: "consumable"
+	cons_cure: starving
+	desc: "Cures §cure. Popular food!"
+	tags: fast_food, food, gas_station, meat, junk_food
+	charges: 1
+	price: 1
+	charges: 1
+	w: 1
+	h: 1
+	sprite: spr_item_hot_dog
+	
+}
+
+{
+	dev_name: "fries"
+	title: "Fries"
+	
+	item_type: "consumable"
+	cons_cure: starving
+	desc: "Cures §cure. C'est bon!"
+	tags: fast_food, food, bar, junk_food
+	charges: 1
+	price: 1
+	charges: 1
+	w: 1
+	h: 1
+	sprite: spr_item_fries
+	
+}
+
+{
+	dev_name: "dog_food"
+	title: "Dog Food"
+	
+	item_type: "consumable"
+	cons_cure: hungry
+	cons_buff:dirty
+	desc: "Cures §cure. Not meant for humans though..."
+	tags:  food, super_market, meat
+	charges: 1
+	price: 1
+	charges: 1
+	w: 1
+	h: 1
+	sprite: spr_item_dog_food
+	
+}
+
+{
+	dev_name: "toolbox"
+	title: "Tool box"
+	
+	item_type: "consumable"
+	cons_stat: car_health
+	cons_amount: 2
+	charges: 3
+	desc: Use to restore §amnt §st. DIY!
+	tags: thrift,mechanic,common_find,macgyver,camping,toolbox
+	price: 30
+	
+	w:2
+	h:1
+	sprite: spr_item_toolbox
+
+	
+}
+
+{
+	dev_name: "rope"
+	title: "Rope"
+	
+	item_type: "trait"
+	trait: "rope"
+	desc: "A rope can always come in handy!"
+	
+	tags: utility, mechanic,macgyver,camping, gas_station
+	price: 8
+	
+	w:2
+	h:2
+	sprite: spr_item_rope
+	
+	
+}
+
+{
+	dev_name: "knife"
+	title: "knife"
+	
+	item_type: "trait"
+	trait: "knife"
+	desc: "A knife can always come in handy!"
+	
+	tags: utility,macgyver,camping,common_find,crime,thrift
+	price: 10
+	
+	w:2
+	h:1
+	sprite: spr_item_knife_b
+}
+
+{
+	dev_name: "gun"
+	title: "Gun"
+	
+	item_type: "trait"
+	trait: "knife"
+	desc: "A gun. Hopefully you'll never have to use it. [#FF4535]Better not get caught having it near any cops.[/color]"
+	
+	tags: utility,crime,non_shop, drug_dealer,illegal
+	price: 99
+	
+	w:2
+	h:1
+	sprite: spr_item_gun
+}
+
+{
+	dev_name: "knife_small"
+	title: "Butterfly Knife"
+	
+	item_type: "trait"
+	trait: "knife"
+	desc: "A knife can always come in handy!"
+	
+	tags: utility,macgyver,crime, drug_dealer
+	price: 7
+	
+	w:1
+	h:1
+	sprite: spr_item_knife_small
+}
+
+
+{
+	dev_name: "knife_small_golden"
+	title: "Golden Knife"
+	
+	item_type: "combat"
+	charges: 12
+	
+	pattern: AA
+	
+	desc: "A gift from the Stranger. Can be used during events. It has many uses and might be worth a lot of money"
+	
+	tags: utility,macgyver,crime,non_shop
+	price: 100
+	
+	w:1
+	h:1
+	sprite: spr_item_knife_small_golden
+}
+
+
+
+{
+	dev_name: "crowbar"
+	title: "Crowbar"
+	
+	item_type: "trait"
+	trait: "crowbar"
+	desc: "A crowbar can always come in handy!"
+	
+	tags: utility,macgyver,common_find,crime,thrift,drug_dealer
+	price: 13
+	
+	w:1
+	h:3
+	sprite: spr_item_crowbar
+	
+	
+}
+
+{
+	dev_name: "flash_light"
+	title: "Flash Light"
+	
+	item_type: "trait"
+	trait: "light_source"
+	desc: "Good to light up dark areas. Remove one threat at start of road during night."
+	
+	tags: utility,macgyver,camping,common_find,crime, gas_station,thrift
+	price: 8
+	
+	w:2
+	h:1
+	sprite: spr_item_flash_light
+	
+	
+}
+
+{
+	dev_name: "sunglasses"
+	title: "Cool Shades"
+	
+	item_type: "trait"
+	trait: "sunglasses"
+	desc: "Sunlight won't be a problem with these!"
+	
+	tags: accessory, cool, common_find, gas_station,thrift
+	price: 4
+	
+	w:2
+	h:1
+	sprite: spr_item_sunglasses
+}
+
+{
+	dev_name: "gas_tank_big"
+	title: "Jerrycan (full)"
+	
+	item_type: "consumable"
+	cons_stat: gas
+	cons_amount: 6
+	charges: 1
+	desc: "Use to gain §amnt §st. Always handy!"
+	
+	tags: gas, mechanic, common_find, gas_station
+	price: 30
+	
+	w:1
+	h:2
+	sprite: spr_item_gas_tank_big
+}
+
+{
+	dev_name: "gas_tank_low"
+	title: "Jerrycan (low)"
+	
+	item_type: "consumable"
+	cons_stat: gas
+	cons_amount: 2
+	charges: 1
+	desc: "Use to gain §amnt §st. Always handy!"
+	
+	tags: gas, common_find, token, non_shop
+	price: 10
+	
+	w:1
+	h:2
+	sprite: spr_item_gas_tank_big
+}
+
+{
+	dev_name: "gas_tank_half"
+	title: "Jerrycan (half)"
+	
+	item_type: "consumable"
+	cons_stat: gas
+	cons_amount: 3
+	charges: 1
+	desc: "Use to gain §amnt §st. Always handy!"
+	
+	tags: gas, common_find, token, non_shop
+	price: 20
+	
+	w:1
+	h:2
+	sprite: spr_item_gas_tank_big
+}
+
+{
+	dev_name: "gas_tank_empty"
+	title: "Jerrycan (empty)"
+	
+	item_type: "trash"
+	desc: "It is empty."
+	
+	tags:  token, non_shop
+	price: 0
+	
+	w:1
+	h:2
+	sprite: spr_item_gas_tank_big
+}
+
+
+{
+	dev_name: "cheese"
+	title: "Cheese"
+	
+	item_type: "consumable"
+	cons_cure: "hungry"
+	charges: 1
+	desc: "Cures §cure! Kinda smelly!"
+	
+	tags: food, dairy, gourmet, super_market
+	price: 5
+	
+	w:1
+	h:1
+	sprite: spr_item_cheese
+	
+}
+
+{
+	dev_name: "orange"
+	title: "Orange"
+	
+	item_type: consumable
+	cons_cure: "hungry"
+	charges: 1
+	desc: "Cures §cure! Fresh!"
+	
+	tags: food, fruit
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_orange
+}
+
+
+{
+	dev_name: "apple"
+	title: "Apple"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 2
+	desc: "Cures §cure! Fresh!"
+	
+	tags: food, fruit, vegetarian
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_apple
+}
+
+{
+	dev_name: "watermelon"
+	title: "Watermelon"
+	item_type: consumable
+	
+	cons_cure: "starving"
+	charges: 1
+	desc: "Cures §cure! Fresh!"
+	
+	tags: food, fruit, vegetarian
+	price: 1
+	
+	w:2
+	h:1
+	sprite: spr_item_watermelon
+}
+
+{
+	dev_name: "watermelon_half"
+	title: "Watermelon"
+	item_type: consumable
+	
+	cons_cure: "starving"
+	charges: 1
+	desc: "Cures §cure! Fresh!"
+	
+	tags: food, fruit, vegetarian,token, non_shop
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_watermelon_half
+}
+
+{
+	dev_name: "carrots"
+	title: "Carrots"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 2
+	desc: "Cures §cure! Good for you!"
+	
+	tags: food, vegetable, vegetarian
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_carrots
+}
+
+{
+	dev_name: "potatoes"
+	title: "Potatoes"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	cons_stat:energy
+	cons_amount: 0
+	charges: 2
+	desc: "Boil 'em, mash 'em stick 'em in a stew! (You'll need to cook these)"
+	
+	tags: food, vegetarian, vegetable, uncooked, super_market
+	price: 0.15
+	
+	w:1
+	h:1
+	sprite: spr_item_potatoes
+}
+
+{
+	dev_name: "berries_red"
+	title: "Berries"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 1
+	desc: "Wild berries. Cures §cure! Fresh!"
+	
+	tags: food, berries, non_shop
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_berries_red
+}
+
+{
+	dev_name: "berries_blue"
+	title: "Berries"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 1
+	desc: "Wild berries. Cures §cure! Fresh!"
+	
+	tags: food, berries, non_shop
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_berries_blue
+}
+
+
+
+{
+	dev_name: "mushroom_karl"
+	title: "Mushroom"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 1
+	desc: "A mushroom! you found it!"
+	
+	tags: food, mushroom, non_shop
+	price: 5
+	
+	w:1
+	h:1
+	sprite: spr_item_mushroom_karl
+}
+
+
+{
+	dev_name: "mushroom_kant"
+	title: "Mushroom"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	cons_stat: energy
+	cons_amount: 2
+	charges: 1
+	desc: "A mushroom! you found it!"
+	
+	tags: food, mushroom,non_shop
+	price: 7
+	
+	w:1
+	h:1
+	sprite: spr_item_mushroom_kant
+}
+
+{
+	dev_name: "mushroom_poison"
+	title: "Mushroom"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	cons_buff: "headache"
+	cons_buff: "sad"
+	charges: 1
+	desc: "A mushroom! you found it!"
+	
+	tags: food, mushroom, non_shop
+	price: 5
+	
+	w:1
+	h:1
+	sprite: spr_item_mushroom_poison
+}
+
+{
+	dev_name: "soap"
+	title: "Soap"
+	item_type: consumable
+	
+	cons_cure: "dirty"
+	charges: 2
+	desc: "Removes §cure! So clean!"
+	
+	tags: hygiene, soap, super_market
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_soap
+}
+{
+	dev_name: "toilet_paper"
+	title: "Toilet Paper"
+	item_type: consumable
+	
+	cons_cure: "dirty"
+	charges: 4
+	desc: "Removes §cure! Perfect!"
+	
+	tags: hygiene, soap, super_market, trash,common_find
+	price: 2
+	
+	w:1
+	h:1
+	sprite: spr_item_toilet_paper
+}
+
+{
+	dev_name: "canned_beans"
+	title: "Canned Beans"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 3
+	desc: "Cures §cure! Wooh!"
+	cons_stat: energy
+	cons_amount: 1
+	
+	tags: food, canned, camping, super_market,uncooked
+	price: 4
+	
+	w:1
+	h:1
+	sprite: spr_item_beans
+}
+
+{
+	dev_name: "pizza_veg"
+	title: "Pizza Margherita"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 8
+	desc: "Nice Margherita pizza. Cures §cure! Cowabunga!"
+	
+	tags: food, fast_food, dairy, junk_food, super_market,finish_satisfied
+	price: 8
+	max_shop_amount: 1
+	
+	w:2
+	h:2
+	sprite: spr_item_pizza
+}
+
+{
+	dev_name: "pizza_meat"
+	title: "Pizza Peperoni"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 8
+	desc: "Nice Peperoni pizza. Cures §cure! Cowabunga!"
+	
+	tags: food, fast_food, dairy, meat, junk_food, super_market,finish_satisfied
+	price: 8
+	max_shop_amount: 1
+	
+	w:2
+	h:2
+	sprite: spr_item_pizza
+}
+
+
+{
+	dev_name: "banana"
+	title: "Banana"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 3
+	desc: "Cures §cure! Yum!"
+	
+	tags: food, fruit
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_banana
+}
+
+
+{
+	dev_name: "noodles_1"
+	title: "Instant Ramen"
+	item_type: consumable
+	
+	cons_stat: energy
+	cons_amount: 0
+	charges: 1
+	desc: "Needs to be cooked"
+	
+	tags: food, super_market,uncooked,vegetarian
+	price: 0.5
+	
+	w:1
+	h:1
+	sprite: spr_item_noodles_1
+}
+
+{
+	dev_name: "noodles_2"
+	title: "Instant Ramen"
+	item_type: consumable
+	
+	cons_stat: energy
+	cons_amount: 0
+	charges: 1
+	desc: "Needs to be cooked"
+	
+	tags: food, super_market,uncooked,vegetarian
+	price: 0.25
+	
+	w:1
+	h:1
+	sprite: spr_item_noodles_2
+}
+
+{
+	dev_name: "noodles_3"
+	title: "Instant Ramen"
+	item_type: consumable
+	
+	cons_stat: energy
+	cons_amount: 0
+	charges: 1
+	desc: "Needs to be cooked"
+	
+	tags: food, super_market,uncooked,vegetarian
+	price: 0.25
+	
+	w:1
+	h:1
+	sprite: spr_item_noodles_3
+}
+
+{
+	dev_name: "ravioli"
+	title: "Ravioli"
+	item_type: consumable
+	
+	cons_stat: energy
+	cons_amount: 0
+	charges: 3
+	desc: "Needs to be cooked. Contains meat."
+	
+	tags: food, super_market,uncooked,meat
+	price: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_ravioli
+}
+
+{
+	dev_name: "tuna_can"
+	title: "Tuna Can"
+	item_type: consumable
+	
+	cons_cure: "hungry"
+	charges: 3
+	desc: "Cures §cure! Wooh!"
+	
+	tags: food, super_market,meat
+	price: 2
+	
+	w:1
+	h:1
+	sprite: spr_item_tuna
+}
+
+{
+	dev_name: "ice_cream"
+	title: "Ice Cream"
+	item_type: consumable
+	
+	cons_cure: "hot"
+	cons_stat: energy
+	cons_amount: 4
+	charges: 1
+	desc: "Vanilla Flavour! Gain §amnt §st! Very cold!"
+	
+	tags: food, dairy,super_market,cold
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_ice_cream
+}
+
+{
+	dev_name: "milk_shake"
+	title: "Milk Shake"
+	item_type: consumable
+	
+	cons_cure: "hot"
+	cons_buff:satisfied
+	cons_stat: energy
+	cons_amount: 3
+	charges: 1
+	desc: "Strawberry flavour! And with whipped cream! Gain §amnt §st! Very cold! Makes you satisfied."
+	
+	tags: beverage, dairy,cold,cafe
+	price: 3
+	
+	w:1
+	h:2
+	sprite: spr_item_milkshake
+}
+
+
+{
+	dev_name: "aspirin"
+	title: "Aspirin"
+	
+	item_type: "consumable"
+	cons_cure: "headache"
+	charges: 2
+	desc: "Cures §cure! Ahhh..."
+	
+	tags: legal_drug, gas_station, super_market
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_aspirin
+}
+
+
+{
+	dev_name: caffeine_pills
+	title: "Caffeine pills"
+	
+	item_type: "consumable"
+	cons_stat: "energy"
+	cons_amount: 4
+	charges: 1
+	desc: "Restore §amnt §st!!!!"
+	
+	tags: legal_drug, pill, caffeine
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_caffeine_pills
+	
+}
+
+{
+	dev_name: "wine"
+	title: "Wine"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	charges: 1
+	desc: "Nice cheap wine. Gets you happy and drunk!"
+	
+	tags: beverage, alcohol,thrift,bar,common_find
+	price: 5
+	
+	w:1
+	h:2
+	sprite: spr_item_wine
+}
+{
+	dev_name: "wine_2"
+	title: "Wine"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	charges: 1
+	desc: "Nice cheap white wine. Gets you happy and drunk!"
+	
+	tags: beverage, alcohol,thrift,bar,common_find
+	price: 5
+	
+	w:1
+	h:2
+	sprite: spr_item_wine_2
+}
+
+{
+	dev_name: "whiskey"
+	title: "Whiskey"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	charges: 3
+	desc: "Some whiskey. Gets you happy and drunk!"
+	
+	tags: beverage, alcohol,thrift,bar
+	price: 10
+	
+	w:1
+	h:2
+	sprite: spr_item_whiskey
+}
+{
+	dev_name: "liquor"
+	title: "Strong Liquor"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	charges: 3
+	desc: "Some hard liquor. Gets you drunk!"
+	
+	tags: beverage, alcohol,thrift,bar
+	price: 8
+	
+	w:1
+	h:2
+	sprite: spr_item_liquor
+}
+
+{
+	dev_name: "happy_pills"
+	title: "Happy Pills"
+	
+	item_type: consumable
+	cons_buff: "happy"
+	charges: 2
+	desc: "Makes you happy"
+	
+	tags: non_shop
+	price: 9
+	
+	w:1
+	h:1
+	sprite: spr_item_happy_pills
+}
+
+{
+	dev_name: "beer_case_green"
+	title: "Beer Case"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	
+	charges: 20
+	desc: "A case of beer. Gets you happy and drunk!"
+	
+	tags: beverage, alcohol,cold,gas_station,super_market
+	price: 30
+	max_shop_amount: 2
+	
+	w:2
+	h:3
+	sprite: spr_item_beer_case_green
+}
+
+{
+	dev_name: "beer_can_1"
+	title: "Beer Can"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	
+	charges: 1
+	desc: "A beer. Gets you happy and drunk!"
+	
+	tags: beverage, alcohol,cold,gas_station,bar,super_market
+	price: 1.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_item_beer_can_1
+}
+{
+	dev_name: "beer_can_2"
+	title: "Beer Can"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	charges: 1
+	desc: "A beer. Gets you happy and drunk!"
+	
+	tags: beverage, alcohol,cold,gas_station,bar,super_market
+	price: 1.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_item_beer_can_2
+}
+
+{
+	dev_name: "beer_can_3"
+	title: "Beer Can"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	charges: 1
+	desc: "A beer. Gets you happy and drunk!"
+	
+	tags: beverage, alcohol,cold,gas_station,bar,super_market
+	price: 1.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_item_beer_can_3
+}
+
+{
+	dev_name: "beer_can_4"
+	title: "Beer Can"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	charges: 1
+	desc: "A beer. Gets you happy and drunk!"
+	
+	tags: beverage, alcohol,cold,gas_station,bar,super_market
+	price: 1.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_item_beer_can_4
+}
+
+{
+	dev_name: "beer_glass"
+	title: "Beer - Pint"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	cons_buff: "social"
+	charges: 1
+	desc: "A cold beer. Gets you happy, social and drunk!"
+	
+	tags: beverage, alcohol,cold,bar,breakable_glass
+	price: 1.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_beer_glass
+}
+
+{
+	dev_name: "beer_glass_broken"
+	title: "Beer - Spilled"
+	
+	item_type: trash
+	desc: "You spilled the beer..."
+	
+	tags: trash,non_shop,token
+	price: 0.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_beer_glass_spilled
+}
+
+{
+	dev_name: "wine_glass"
+	title: "Wine - Glass"
+	
+	item_type: consumable
+	cons_buff: "drunk"
+	cons_buff: "social"
+	charges: 1
+	desc: "Fancy wine. Gets you happy, social and drunk!"
+	
+	tags: beverage, alcohol,bar,breakable_glass
+	price: 2
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_wine_glass
+}
+
+
+{
+	dev_name: "wine_glass_broken"
+	title: "Broken Wine Glass"
+	
+	item_type: trash
+	desc: "... only shattered pieces of glass remains"
+	
+	tags: trash,non_shop,token
+	price: 0.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: wine_glass_spilled
+}
+
+{
+	dev_name: "milk_shake_broken"
+	title: "Former Milk Shake"
+	
+	item_type: trash
+	desc: "... a drink formerly known as milk shake. Small pieces of shattered glass everywhere"
+	
+	tags: trash,non_shop,token
+	price: 0.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_milkshake_broken
+}
+
+{
+	dev_name: "coffee_cafe_broken"
+	title: "Coffee - Spilled"
+	
+	item_type: trash
+	desc: "Spilled coffee..."
+	
+	tags: trash,non_shop,token
+	price: 0.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_coffee_cafe_spilled
+}
+
+{
+	dev_name: "tea_broken"
+	title: "Tea - Spilled"
+	
+	item_type: trash
+	desc: "Spilled tea..."
+	
+	tags: trash,non_shop,token
+	price: 0.5
+	max_shop_amount: 2
+	
+	w:1
+	h:1
+	sprite: spr_item_tea_spilled
+}
+
+{
+	dev_name: "electric_guitar"
+	title: "Electric Guitar"
+	
+	item_type: "music"
+	desc: "A nice electric guitar!"
+	
+	tags: instrument, trophy, common_find, musical_equipment,thrift
+	price: 100
+	
+	sound:SFX_Menu_Instrument_Guitar_Only_01
+	
+	w:2
+	h:4
+	sprite: spr_item_electric_guitar
+}
+
+{
+	dev_name: "amp"
+	title: "Amp"
+	
+	item_type: "trophy"
+	desc: "A nice amplifier!"
+	
+	tags: instrument, trophy, musical_equipment,thrift
+	price: 25
+	
+	w:2
+	h:2
+	sprite: spr_item_amp
+}
+
+{
+	dev_name: "melodica"
+	title: "Melodica"
+	
+	item_type: "music"
+	desc: "A nice melodica!"
+	
+	tags: instrument, trophy, musical_equipment, thrift
+	price: 5
+	
+	sound:SFX_Menu_Instrument_Melodica_01
+	
+	w:2
+	h:1
+	sprite: spr_item_melodica
+}
+
+{
+	dev_name: "music_case"
+	title: "Instrument Case"
+	
+	item_type: "trophy"
+	desc: "A case for musical equipment! Maybe a synth?"
+	
+	tags: instrument, trophy, musical_equipment
+	price: 25
+	
+	w:2
+	h:1
+	sprite: spr_item_music_case
+}
+
+{
+	dev_name: "music_case_big"
+	title: "Instrument Case"
+	
+	item_type: "trophy"
+	desc: "A case for musical equipment! Maybe an amp?"
+	
+	tags: instrument, trophy, musical_equipment
+	price: 40
+	
+	w:2
+	h:2
+	sprite: spr_item_music_case_big
+}
+
+{
+	dev_name: "music_cable"
+	title: "Audio Cable"
+	
+	item_type: "trophy"
+	desc: "A cable for connecting instuments"
+	
+	tags: instrument, trophy, musical_equipment
+	price: 5
+	
+	w:1
+	h:1
+	sprite: spr_item_music_cable
+}
+
+{
+	dev_name: "pedal_board"
+	title: "Pedal Board"
+	
+	item_type: "trophy"
+	desc: "Several effect pedals rigged to a board."
+	
+	tags: instrument, trophy, musical_equipment,thrift
+	price: 30
+	
+	w:3
+	h:1
+	sprite: spr_item_pedal_board
+}
+
+{
+	dev_name: "tambourine"
+	title: "Tambourine"
+	
+	item_type: "music"
+	desc: "Hey man! A tambourine"
+	
+	tags: instrument, trophy, common_find, musical_equipment,thrift
+	price: 4
+	
+	sound:SFX_Menu_Instrument_Tambourine_01
+	
+	w:2
+	h:2
+	sprite: spr_item_tambourine
+}
+
+{
+	dev_name: "trumpet"
+	title: "Trumpet"
+	
+	item_type: "music"
+	desc: "Very nice and clean trumpet"
+	
+	tags: instrument, trophy, common_find, musical_equipment,thrift
+	price: 25
+	
+	sound:SFX_Menu_Instrument_Trumpet_01
+	
+	w:1
+	h:3
+	sprite: spr_item_trumpet
+}
+
+{
+	dev_name: "cat"
+	title: "Cat"
+	
+	item_type: "trophy"
+	desc: "A black cat. Someone is probably missing it."
+	
+	tags: quest, animal, non_shop,missing_cat
+	price: 4
+	
+	w:2
+	h:1
+	sprite: spr_item_cat
+}
+
+{
+	dev_name: "songwriter_guitar"
+	title: "Guitar Case"
+	
+	item_type: "key"
+	desc: "Belongs to the Songwriter"
+	
+	tags: instrument, hh_item
+	price: 300
+	
+	w:2
+	h:4
+	sprite: spr_item_songwriter_guitar
+}
+
+{
+	dev_name: "video_game"
+	title: "Video Game"
+	
+	item_type: "demo"
+	desc: "Classic game! It's an Aquatic Adventure! Gotta bring this to your friend's house!"
+	
+	tags: non_shop
+	price: 50
+	
+	w:1
+	h:1
+	sprite: spr_item_video_game
+}
+
+{
+	dev_name: "letter_festival"
+	title: "Letters"
+	
+	item_charges:1
+	
+	item_type: "consumable"
+	desc: "Seems like there is one letter here from your friend"
+	
+	tags: non_shop, key,quest_give
+	price: 0
+	
+	w:2
+	h:1
+	sprite: spr_item_envelope
+}
+
+{
+	dev_name: "letter_race"
+	title: "Envelope"
+	
+	item_charges:1
+	
+	item_type: "consumable"
+	desc: "It reads something about a race"
+	
+	tags: non_shop, key,quest_give
+	price: 0
+	
+	w:2
+	h:1
+	sprite: spr_item_envelope
+}
+
+{
+	dev_name: "teddy_bunny"
+	title: "Cute Bunny"
+	cons_buff: happy
+	item_type: "consumable"
+	desc: "Cute stuffed animal. Hugging this makes you happy."
+	
+	item_charges:5
+	tags: toy, trophy
+	price: 50
+	
+	w:2
+	h:2
+	sprite: spr_item_bunny
+}
+
+{
+	dev_name: "festival_ticket"
+	title: "Festival Ticket"
+	
+	item_type: "key"
+	desc: "Ticket to the WAY OUT festival"
+	
+	tags: key, ticket, festival_ticket
+	price: 30
+	
+	w:1
+	h:1
+	sprite: spr_item_festival_ticket
+}
+
+//////////////////////////////////////////////////////////////////////////////CDs
+
+{
+	dev_name: "cd_honey_1"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "The Honeydrips""
+	music_group:honeydrips_1
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_honey_2"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "The Honeydrips""
+	music_group:honeydrips_2
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_honey_3"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "The Honeydrips""
+	music_group:honeydrips_3
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_honey_bright"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "The Honeydrips""
+	music_group:honeydrips_bright
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+//HOLY NOW
+
+{
+	dev_name: "cd_holy_now_1"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "Holy Now""
+	music_group:holy_now_1
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_holy_now_2"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "Holy Now""
+	music_group:holy_now_2
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_holy_now_3"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "Holy Now""
+	music_group:holy_now_3
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+{
+	dev_name: "cd_holy_now_wake_up"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "Holy Now""
+	music_group:holy_now_wake_up
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+//AASMA
+
+{
+	dev_name: "cd_aasma"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "Going Nowhere""
+	music_group:aasma
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+//FWA SINGLES
+
+{
+	dev_name: "cd_fwa_1"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "FWA"
+	music_group:fwa_single_1
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_fwa_2"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "FWA"
+	music_group:fwa_single_2
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_fwa_3"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "FWA"
+	music_group:fwa_single_3
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_fwa_4"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "FWA"
+	music_group:fwa_single_4
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+
+{
+	dev_name: "cd_mundane_1"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "Mundane"
+	music_group:mundane_single_1
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_mundane_2"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "Mundane"
+	music_group:mundane_single_2
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_el_huervo_five"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "El Huervo"
+	music_group:el_huervo_five
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+{
+	dev_name: "cd_el_huervo_recluse"
+	title: "CD"
+	
+	item_type: "cd"
+	desc: "It reads "El Huervo"
+	music_group:el_huervo_recluse
+	
+	tags: cd
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_cd
+}
+
+
+
+
+{
+	dev_name: "cooler"
+	title: "Cooler Box"
+	
+	item_type: "key"
+	desc: "A cooler box to be delivered somewhere."
+	
+	tags: delivery
+	price: 50
+	
+	w:2
+	h:2
+	sprite: spr_item_cooler
+}
+{
+	dev_name: "cooler_big"
+	title: "Big Cooler Box"
+	
+	item_type: "key"
+	desc: "A big cooler box to be delivered somewhere."
+	
+	tags: delivery
+	price: 25
+	
+	w:4
+	h:2
+	sprite: spr_item_cooler_big
+}
+
+{
+	dev_name: "box_small"
+	title: "Moving Box"
+	
+	item_type: "trophy"
+	desc: "A box to be delivered somewhere."
+	
+	tags: delivery,box
+	price: 6
+	
+	w:2
+	h:2
+	sprite: spr_item_box_small
+}
+
+{
+	dev_name: "box_medium"
+	title: "Moving Box"
+	
+	item_type: "trophy"
+	desc: "A box to be delivered somewhere."
+	
+	tags: delivery,box
+	price: 9
+	
+	w:3
+	h:2
+	sprite: spr_item_box_medium
+}
+
+{
+	dev_name: "box_big"
+	title: "Moving Box"
+	
+	item_type: "trophy"
+	desc: "A box to be delivered somewhere."
+	
+	tags: delivery,box
+	price: 12
+	
+	w:4
+	h:3
+	sprite: spr_item_box_big
+}
+
+
+{
+	dev_name: cigarettes
+	title: "Cigarettes"
+	
+	item_type: "combat"
+	charges: 12
+	desc: "Use from glovebox during events"
+	
+	pattern: E
+	
+	tags: gas_station, super_market, tobacco, trash, smoke, cigarettes
+	price: 6
+	
+	w:1
+	h:1
+	sprite: spr_item_cigarettes
+	
+}
+
+{
+	dev_name: cigarettes_2
+	title: "Cigarettes"
+	
+	item_type: "combat"
+	charges: 12
+	desc: "Use from glovebox during events"
+	
+	pattern: E
+	
+	tags: gas_station, super_market, tobacco, trash, smoke, cigarettes
+	price: 6
+	
+	w:1
+	h:1
+	sprite: spr_item_cigarettes_2
+	
+}
+
+{
+	dev_name: cigarettes_3
+	title: "Cigarettes"
+	
+	item_type: "combat"
+	charges: 12
+	desc: "Use from glovebox during events"
+	
+	pattern: E
+	
+	tags: gas_station, super_market, tobacco, trash, smoke, cigarettes
+	price: 6
+	
+	w:1
+	h:1
+	sprite: spr_item_cigarettes_3
+	
+}
+
+{
+	dev_name: pipe
+	title: "Pipe"
+	
+	item_type: "combat"
+	charges: 12
+	desc: "Use from glovebox during events"
+	
+	pattern: EXE
+	
+	tags: tobacco, smoke
+	price: 9
+	
+	w:1
+	h:1
+	sprite: spr_item_pipe
+	
+}
+
+{
+	dev_name: bandage
+	title: "Bandage"
+	
+	item_type: "combat"
+	charges: 3
+	desc: "Use from glovebox during events, removes threat warnings"
+	
+	pattern: XXX
+	
+	tags: gas_station, super_market,macgyver,drug_store
+	price: 5
+	
+	w:1
+	h:1
+	sprite: spr_item_bandage
+	
+}
+{
+	dev_name: harmonica
+	title: "Harmonica"
+	
+	item_type: "combat"
+	charges: 15
+	desc: "Use from glovebox during events, change target threat warning to a note"
+	
+	pattern: XX
+	
+	tags: mystic
+	price: 20
+	max_shop_amount: 1
+	
+	w:1
+	h:1
+	sprite: spr_item_harmonica
+	
+}
+
+{
+	dev_name: chocolate
+	title: "Chocolate"
+	
+	item_type: "consumable"
+	charges: 3
+	cons_stat: energy
+	cons_amount: 2
+	desc: "Yummy chocolate that restores §amnt §st when consumed.
+	
+	
+	tags: gas_station, super_market, candy, dairy, food
+	price: 2
+	
+	w:1
+	h:1
+	sprite: spr_chocolate
+	
+}
+
+{
+	dev_name: gum2
+	title: "Chewing Gum"
+	
+	item_type: "combat"
+	charges: 3
+	desc: "Use from glovebox during events"
+	
+	pattern: EE
+	
+	tags: gas_station, super_market, candy, dairy
+	price: 2
+	
+	w:1
+	h:1
+	sprite: spr_item_gum2
+	
+}
+
+{
+	dev_name: gum
+	title: "Chewing Gum"
+	
+	item_type: "combat"
+	charges: 3
+	desc: "Use from glovebox during events"
+	
+	pattern: EE
+	
+	tags: gas_station, super_market, candy, dairy
+	price: 2
+	
+	w:1
+	h:1
+	sprite: spr_item_gum
+	
+}
+
+
+{
+	dev_name: skittles
+	title: "Fruit Candy"
+	
+	item_type: "combat"
+	charges: 3
+	desc: "Use from glovebox during events"
+	
+	pattern: EXE
+	
+	tags: gas_station, super_market, candy
+	price: 3
+	
+	w:1
+	h:1
+	sprite: spr_item_skittles
+	
+}
+
+{
+	dev_name: candy_wrapping
+	title: "Candy Wrapping"
+	
+	item_type: "trash"
+
+	desc: "Worthless Trash"
+
+	
+	tags: trash
+	price: 0
+	
+	w:1
+	h:1
+	sprite: spr_item_candy_wrapping
+	
+}
+{
+	dev_name: empty_can
+	title: "Empty Soda Can"
+	
+	item_type: "trash"
+
+	desc: "Worthless Trash"
+
+	
+	tags: trash
+	price: 0.1
+	
+	w:1
+	h:1
+	sprite: spr_item_empty_can
+	
+}
+
+{
+	dev_name: empty_tp
+	title: "Empty Roll"
+	
+	item_type: "trash"
+
+	desc: "Worthless Trash"
+
+	
+	tags: trash
+	price: 0
+	
+	w:1
+	h:1
+	sprite: spr_item_tp_empty
+	
+}
+
+{
+	dev_name: porn_mag_a
+	title: "Porn Magazine"
+	
+	item_type: "trash"
+
+	desc: "Lewd magazine... Found in the forest"
+
+	
+	tags: porn
+	price: 4
+	
+	w:1
+	h:1
+	sprite: spr_item_porn_a
+	
+}
+{
+	dev_name: porn_mag_b
+	title: "Porn Magazine"
+	
+	item_type: "trash"
+
+	desc: "Lewd magazine... Found in the forest"
+
+	
+	tags: porn
+	price: 4
+	
+	w:1
+	h:1
+	sprite: spr_item_porn_b
+	
+}
+{
+	dev_name: porn_mag_c
+	title: "Porn Magazine"
+	
+	item_type: "trash"
+
+	desc: "Lewd magazine... Found in the forest"
+
+	
+	tags: porn
+	price: 4
+	
+	w:1
+	h:1
+	sprite: spr_item_porn_c
+	
+}
+
+{
+	dev_name: coupon
+	title: "Lottery Ticket"
+	
+	item_type: "combat"
+	charges: 3
+	desc: "Use from glovebox during events. Maybe you'll win..."
+	
+	pattern: MM
+	
+	tags: gas_station, super_market
+	price: 6
+	
+	w:1
+	h:1
+	sprite: spr_item_coupon
+	
+}
+
+
+{
+	dev_name: "honey_1"
+	title: "Honey"
+	cons_stat: energy
+	cons_amount:4
+	item_type: "consumable"
+	desc: "It's honey! Restore §amnt §st and one use for each skill when consumed."
+	tags: honey, sugar
+	price: 5
+	charges: 3
+	w:1
+	h:1
+	sprite: spr_item_honey_1
+}
+{
+	dev_name: "honey_2"
+	title: "Honey"
+	cons_stat: energy
+	cons_amount:4
+	item_type: "consumable"
+	desc: "It's honey! Restore §amnt §st and one use for each skill when consumed."
+	tags: honey, sugar
+	price: 5
+	charges: 3
+	w:1
+	h:1
+	sprite: spr_item_honey_2
+}
+
+
+
+{
+	dev_name: "tent"
+	title: "Tent"
+	
+	item_type: "utility"
+	desc: "A comfy tent. (passive) Restore three more energy when sleeping in car."
+	
+	tags: thrift,camping, passive, common_find,car_part_shop
+	price: 20
+	
+	w:2
+	h:4
+	sprite: spr_item_tent
+}
+
+{
+	dev_name: "sleeping_bag"
+	title: "Sleeping Bag"
+	
+	item_type: "utility"
+	desc: "A comfy Sleeping bag. (passive) Don't become cold when resting from car menu."
+	
+	tags: thrift,camping, passive, common_find,car_part_shop
+	price: 5
+	
+	w:2
+	h:2
+	sprite: spr_item_sleeping_bag
+}
+
+{
+	dev_name: "camera"
+	title: "Camera"
+	
+	item_type: "utility"
+	desc: "A vintage camera. Grants you access to change camera filters in the options menu."
+	
+	tags: thrift,common_find
+	price: 30
+	
+	w:2
+	h:1
+	sprite: spr_item_camera
+}
+
+{
+	dev_name: "portable_stove"
+	title: "Portable Stove"
+	
+	item_type: "utility"
+	desc: "A portable stove (passive). Makes certain food items edible."
+	
+	tags: camping, passive, common_find,thrift,car_part_shop
+	price: 20
+	
+	w:3
+	h:1
+	sprite: spr_item_portable_stove
+}
+
+{
+	dev_name: "thermos"
+	title: "Thermos"
+	
+	item_type: "utility"
+	desc: "Keeps your hot beverages from getting cold (passive). "Picked out for you!"
+	
+	tags: camping, passive, common_find,thrift,car_part_shop
+	price: 7
+	
+	w:1
+	h:2
+	sprite: item_thermos
+}
+
+{
+	dev_name: "car_jack"
+	title: "Car Jack"
+	
+	item_type: "utility"
+	desc: "Allows you to switch tires anywhere!"
+	
+	tags: mechanic, passive, common_find,thrift,car_part_shop
+	price: 20
+	
+	w:3
+	h:1
+	sprite: spr_item_car_jack
+}
+
+{
+	dev_name: duct_tape
+	title: "Duct Tape"
+	
+	item_type: "combat"
+	charges: 5
+	desc: "Use from glovebox during events"
+	
+	pattern: DXD
+	
+	tags: gas_station, super_market, macgyver,camping,car_part_shop
+	price: 9
+	
+	w:1
+	h:1
+	sprite: spr_item_duct_tape
+	
+}
+
+{
+	dev_name: matches
+	title: "Matches"
+	
+	item_type: "combat"
+	charges: 8
+	desc: "Use from glovebox during events. Might not always work"
+	
+	pattern: D
+	
+	tags: gas_station, super_market, macgyver,camping,car_part_shop
+	price: 4
+	
+	w:1
+	h:1
+	sprite: spr_item_matches
+	
+}
+
+{
+	dev_name: multispray
+	title: "Multispray"
+	
+	item_type: "combat"
+	charges: 6
+	desc: "Use from glovebox during events."
+	
+	pattern: DD
+	
+	tags: gas_station, mechanic, macgyver,camping,car_part_shop
+	price: 6
+	
+	w:1
+	h:1
+	sprite: spr_item_multispray
+	
+}
+
+//scrap
+
+{
+	dev_name: scrap_1
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 9
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_1
+	
+}
+
+{
+	dev_name: scrap_2
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_2
+	
+}
+
+
+
+{
+	dev_name: scrap_3
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_3
+	
+}
+
+
+
+{
+	dev_name: scrap_4
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_4
+	
+}
+
+
+
+{
+	dev_name: scrap_5
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_5
+	
+}
+
+
+
+{
+	dev_name: scrap_6
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_6
+	
+}
+
+
+
+{
+	dev_name: scrap_7
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_7
+	
+}
+
+
+
+{
+	dev_name: scrap_8
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_8
+	
+}
+
+
+
+{
+	dev_name: scrap_9
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_9
+	
+}
+
+
+
+{
+	dev_name: scrap_10
+	title: "Scrap"
+	
+	item_type: "scrap"
+
+	desc: "Useless junk. Maybe someone wants to buy it at least."
+
+	
+	tags: scrap
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_scrap_10
+	
+}
+
+//BOOKS
+
+
+{
+	dev_name: "book_ac"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems interesting"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_ac
+}
+
+{
+	dev_name: "book_bible"
+	title: "Book"
+	
+	charges:3
+	item_type: "book"
+	desc: "A book. Seems important to some"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_bible
+}
+
+{
+	dev_name: "book_horror"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems scary"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_horror
+}
+
+{
+	dev_name: "book_mich"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems funny"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_mich
+}
+
+{
+	dev_name: "book_mura"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems nostalgic"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_mich
+}
+
+{
+	dev_name: "book_peng"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems popular"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_peng
+}
+
+
+{
+	dev_name: "book_phil"
+	title: "Book"
+	
+	charges:3
+	item_type: "book"
+	desc: "A book. Seems deep"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_phil
+}
+
+{
+	dev_name: "book_poem"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems moving"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_poem
+}
+
+{
+	dev_name: "book_road"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems sad"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_road
+}
+
+{
+	dev_name: "book_scifi"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems exciting"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_scifi
+}
+
+{
+	dev_name: "book_slaughter"
+	title: "Book"
+	
+	charges:1
+	item_type: "book"
+	desc: "A book. Seems violent"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_slaughter
+}
+
+{
+	dev_name: "book_surreal"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems surreal"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_surreal
+}
+
+{
+	dev_name: "book_thirdp"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems mysterious"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_thirdp
+}
+
+{
+	dev_name: "book_walden"
+	title: "Book"
+	
+	charges:2
+	item_type: "book"
+	desc: "A book. Seems inspiring"
+	
+	tags: book,thrift
+	price: 8
+	
+	w:1
+	h:1
+	sprite: spr_item_book_walden
+}
+
+
+
+
+

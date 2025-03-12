@@ -1,0 +1,164 @@
+//ambience
+
+
+
+{
+	name: cafe
+	asset: SFX_Ambience_Indoor_Caf__Loop_01
+	inside: 1
+}
+{
+	name: garage
+	asset: SFX_Ambience_Indoor_Garage_Loop_01
+	inside: 1
+}
+{
+	name: gas_pumps
+	asset: SFX_Ambience_Indoor_Gas_Pump_Loop_01
+	inside: 0
+}
+{
+	name: garage_store
+	asset: SFX_Ambience_Indoor_Mechanic_Parts_store_Loop_01
+	inside: 1
+}
+{
+	name: pub
+	asset: SFX_Ambience_Indoor_Pub_Loop_01
+	inside: 1
+}
+{
+	name: gas_store
+	asset: SFX_Ambience_Indoor_Seven_11_Gas_Station_Loop_01
+	inside: 1
+}
+{
+	name: super_market
+	asset: SFX_Ambience_Indoor_Supermarket_Loop_01
+	inside: 1
+}
+
+{
+	name: farmers_market
+	asset: SFX_Ambience_Indoor_Farmers_Market_Loop_01
+	inside: 1
+}
+
+{
+	name: home
+	asset: SFX_Ambience_Indoor_Home_Loop_01
+	inside: 1
+}
+
+{
+	name: thrift
+	asset: SFX_Ambience_Indoor_Thrift_Store_Loop_01
+	inside: 1
+}
+
+{
+	name: part_store
+	asset: SFX_Ambience_Indoor_Mechanic_Parts_store_Loop_01
+	inside: 1
+}
+
+{
+	name: hotel
+	asset: SFX_Ambience_Indoor_Hotel_Loop_01
+	inside: 1
+}
+
+{
+	name: drug_alley
+	asset: SFX_Ambience_Indoor_Drug_Alley_Loop_01
+	inside: 1
+}
+
+{
+	name: explore_city
+	asset: SFX_Ambience_Explore_City_01
+	inside: 1
+}
+
+{
+	name: explore_forest
+	asset: SFX_Ambience_Explore_Woods_01
+	inside: 1
+}
+
+
+//OUTSIDE
+{
+	name: small_town_day
+	asset: SFX_Ambience_Outside_Small_Town_Day_Loop_01
+}
+
+{
+	name: small_town_night
+	asset: SFX_Ambience_Outside_Small_Town_Night_Loop_01
+}
+
+{
+	name: big_city_day
+	asset: SFX_Ambience_Outside_Big_City_Day_Loop_01
+}
+
+{
+	name: big_city_night
+	asset: SFX_Ambience_Outside_Big_City_Night_Loop_01
+}
+
+{
+	name: country_day
+	asset: SFX_Ambience_Outside_Country_Day_Loop_01
+}
+
+{
+	name: country_night
+	asset: SFX_Ambience_Outside_Country_Night_Loop_01
+}
+
+{
+	name: desert_day
+	asset: SFX_Ambience_Outside_Desert_Day_Loop_01
+}
+
+{
+	name: desert_night
+	asset: SFX_Ambience_Outside_Desert_Night_Loop_01
+}
+
+{
+	name: forest_day
+	asset: SFX_Ambience_Outside_Forest_Day_Loop_01
+}
+
+{
+	name: forest_night
+	asset: SFX_Ambience_Outside_Forest_Night_Loop_01
+}
+
+{
+	name: festival_pre
+	asset: SFX_Ending_Festival_Ambience_Pre_Ending_Loop_01
+}
+
+{
+	name: festival_post
+	asset: SFX_Ending_Festival_Ambience_Post_Ending_Loop_01
+}
+
+{
+	name: race
+	asset: SFX_Ending_Folk_Race_Ambience_Loop_01
+}
+
+{
+	name: mountain_top
+	asset: SFX_Ending_Mountain_Ambience_Loop_01
+}
+
+{
+	name: intro_sky
+	asset: SFX_UI_Character_Creator_Sky_Loop_01
+}

@@ -1,0 +1,450 @@
+////PASSIVE SKILLS
+
+{
+	dev_name: "cheap_repair"
+	title: "I know a guy"
+	desc: "Reduces the price to repair at a mechanic by 50%"
+	sprite: "spr_pskill_img_temp"
+	//IMPLEMENTED
+}
+
+{
+	dev_name: "perfectionist"
+	title: "Perfectionist"
+	desc: "getting a PERFECT will reward you one energy"
+	sprite: "spr_pskill_img_temp"
+	//IMPLEMENTED
+}
+
+{
+	dev_name: "cure_negative_ailment_arrive"
+	title: "Backrubber"
+	desc: "50% chance to cure one negative status when you reach your destination"
+	sprite: "spr_pskill_img_temp"
+	//IMPLEMENTED
+}
+
+{
+	dev_name: "choice_event_gamble"
+	title: "Taking risks"
+	desc: "Increases chance of getting positive outcomes on choice events, but penalties are more harsh."
+	sprite: "spr_pskill_img_temp"
+}
+
+//SUIT
+
+{
+	dev_name: "sloppy_work"
+	title: "Sloppy Work"
+	desc: "Reduces time and energy spent when working, but decreases pay."
+	sprite: "spr_ui_skill_suit_passive_sloppywork"
+}
+
+{
+	dev_name: "closer_quests"
+	title: "Nearby Hustles"
+	desc: "Find delivery quests closer to you."
+	sprite: "spr_pskill_img_temp"
+}
+
+{
+	dev_name: "uncool"
+	title: "Uncool"
+	desc: "Your other hitchhikers gain less exp."
+	sprite: "spr_ui_skill_suit_passive_sadandboring"
+}
+
+{
+	dev_name: "flee_easy"
+	title: "Ignorance"
+	desc: "Take less damage when escaping from road events"
+	sprite: "spr_pskill_img_temp"
+}
+
+{
+	dev_name: "due_taxes"
+	title: "Due Taxes"
+	desc: "Cash threat in road events deal double damage"
+	sprite: "spr_ui_skill_suit_passive_taxesdue"
+}
+
+//THE GIRL
+
+{
+	dev_name: "extra_neg_status"
+	title: "Stacking Status"
+	desc: "When you gain a positive status, also gain a negative one"
+	sprite: "spr_ui_skill_girl_passive_pessimist"
+}
+
+{
+	dev_name: "skill_points"
+	title: "Skill Points"
+	desc: "Gain 3 skill points"
+	sprite: "spr_ui_skill_girl_passive_experience"
+}
+
+{
+	dev_name: "road_start_neg_status"
+	title: "Bad Vibes"
+	desc: "Road start: Get a random negative status"
+	sprite: "spr_ui_skill_girl_passive_badvibes"
+}
+
+
+//MECHANIC
+
+
+{
+	dev_name: "auto_repair"
+	title: "Auto Repair"
+	desc: "Automatically restores 1 durability when you reach your destination"
+	sprite: "spr_ui_skill_mechanic_passive_autorepair"
+	//IMPLEMENTED
+}
+
+
+{
+	dev_name: "cigarette_share"
+	title: "Cigarette Sharing"
+	desc: "Will consume some of your cigarettes at times"
+	sprite: "spr_ui_skill_mechanic_passive_smoker"
+}
+
+{
+	dev_name: "upgrade_anywhere"
+	title: "Upgrade anywhere!"
+	desc: "You can change car upgrades directly from your trunk"
+	sprite: "spr_ui_skill_mechanic_passive_upgradeanywhere"
+}
+
+
+{
+	dev_name: "upgrade_dependant"
+	title: "Upgrade Dependant"
+	desc: "Lose one energy at the start of a road for each empty car upgrade slot"
+	sprite: "spr_ui_skill_mechanic_passive_upgradedependant"
+}
+
+
+//HURRICANE
+
+
+{
+	dev_name: messy
+	title: Messy
+	desc: Leaves trash in the trunk
+	sprite: spr_ui_skill_hurricane_passive_messy
+}
+
+{
+	dev_name: drunk_energy
+	title: Drink up!
+	desc: Gain 3 energy when you consume alcohol
+	sprite: spr_ui_skill_hurricane_passive_drinkup
+}
+
+{
+	dev_name: shoplifting
+	title: Shoplifter
+	desc: Snatch one small item for free when visiting a shop the first time.
+	sprite: spr_ui_skill_hurricane_passive_shoplifting
+}
+
+{
+	dev_name: demanding
+	title: Demanding
+	desc: You're always tired.
+	sprite: spr_ui_skill_hurricane_passive_demanding
+}
+
+
+//PUNK
+{
+	dev_name: dog
+	title: Dog Owner
+	desc: Needs an extra space in the car for the Dog.
+	sprite: spr_ui_skill_punk_passive_dog
+}
+
+{
+	dev_name: dog_friend
+	title: Dog approval
+	desc: You now have access to The Dog's skills.
+	sprite: spr_ui_skill_punk_passive_friendofdog
+}
+
+
+{
+	dev_name: hh_forced_vegan
+	title: Vegan Lifestyle
+	desc: You no longer have access to meat and dairy products from stores.
+	sprite: spr_ui_skill_punk_passive_straightedge
+}
+
+//Dog
+{
+	dev_name: dog_passive_1
+	title: Nice Fur
+	desc: The Dog has very nice fur
+	sprite: spr_pskill_img_temp
+}
+
+{
+	dev_name: dog_passive_2
+	title: Pretty Face
+	desc: The dog has a very pretty face
+	sprite: spr_pskill_img_temp
+}
+
+{
+	dev_name: dog_passive_3
+	title: Good Girl
+	desc: She is a very good girl
+	sprite: spr_pskill_img_temp
+}
+
+//KID
+{
+	dev_name: pee_breaks
+	title: Pee Breaks
+	desc: Needs to stop every once in a while to pee.
+	sprite: spr_ui_skill_kid_passive_peebreak
+}
+
+{
+	dev_name: night_sleep
+	title: Nighty night
+	desc: Always asleep at night
+	sprite: spr_ui_skill_kid_passive_sleepatnight
+}
+
+{
+	dev_name: no_drugs
+	title: Good Influence
+	desc: Become sad if you use any illegal substances.
+	sprite: spr_ui_skill_kid_passive_goodinfluence
+}
+
+{
+	dev_name: idol_power
+	title: Childish Imagination
+	desc: Increases the power of your bobble-head
+	sprite: spr_ui_skill_kid_passive_imagination
+}
+
+//SONGWRITER
+{
+	dev_name: guitar_case
+	title: Guitar Case
+	desc: Needs space in your inventory for his guitar case.
+	sprite: spr_ui_skill_songwriter_passive_guitarcase
+}
+
+{
+	dev_name: street_musician
+	title: Street Musician
+	desc: Gives you some money earned after you spend a night at a destination.
+	sprite: spr_ui_skill_songwriter_active_streetmusic
+}
+
+{
+	dev_name: center_of_attention
+	title: Center of Attention
+	desc: Lose 1 energy if you don't use any of the Songwriters skills during an event.
+	sprite: spr_ui_skill_songwriter_passive_attention
+}
+
+{
+	dev_name: kick_penalty
+	title: Business partners...?
+	desc: Lose half your resources if you kick the Songwriter.
+	sprite: spr_ui_skill_songwriter_passive_businesspartners
+}
+
+//STRANGER
+{
+	dev_name: gambler
+	title: Gambler
+	desc: When you sleep at a destination. The stranger borrows some of your money and gambles with it.
+	sprite: spr_ui_skill_stranger_passive_gambler
+}
+
+{
+	dev_name: creepy
+	title: Creepy
+	desc: Your female hitchhikers gain no exp.
+	sprite: spr_ui_skill_stranger_passive_creepy
+}
+
+{
+	dev_name: loan_sharks
+	title: Loan Sharks
+	desc: Chance of encountering loan sharks when leaving a destination.
+	sprite: spr_ui_skill_stranger_passive_sharks
+}
+
+//IDIOT
+{
+	dev_name: gb_organize
+	title: OCD
+	desc: Will sometimes organize threat
+	sprite: spr_ui_skill_idiot_passive_ocd
+}
+
+
+{
+	dev_name: oblivious
+	title: Oblivious
+	desc: Take more damage when escaping
+	sprite: spr_ui_skill_idiot_passive_oblivious
+}
+
+
+{
+	dev_name: idiot_x
+	title: Aha!
+	desc: ALL skills X-targets become whatever the Idiot is thinking of.
+	sprite: spr_ui_skill_idiot_passive_beauty
+}
+
+{
+	dev_name: idiot_flowers
+	title: Flowery Interior
+	desc: Decorates the interior of your car!
+	sprite: spr_ui_skill_idiot_passive_flowery
+}
+
+
+//CONVICT
+{
+	dev_name: convict_no_adjacent
+	title: Scary
+	desc: Hitchhikers won't sit next to the Convict
+	sprite: spr_ui_skill_convict_passive_scary
+}
+
+{
+	dev_name: on_the_run
+	title: On the Run
+	desc: The cops are looking for the Convict.
+	sprite: spr_ui_skill_convict_passive_ontherun
+}
+
+{
+	dev_name: partner_in_crime
+	title: Partner in crime
+	desc: If you lose to a police-event, you will go to jail (lose the game).
+	sprite: spr_ui_skill_convict_passive_aidingandabetting
+}
+
+
+{
+	dev_name: double_engine
+	title: Souped up!
+	desc: Double the active effect of your engine
+	sprite: spr_ui_skill_convict_passive_soupedup
+}
+
+{
+	dev_name: hh_drive_faster
+	title: Full speed ahead!
+	desc: Increase your driving speed.
+	sprite: spr_pskill_img_temp
+}
+
+//SLEEPER
+
+{
+	dev_name: hypersomnia
+	title: Hypersomnia
+	desc: Falls asleep at times
+	sprite: spr_ui_skill_sleeper_passive_narcolepsy
+}
+
+{
+	dev_name: smoke_sleep
+	title: Sleepy Smells
+	desc: Smoking makes the sleeper fall asleep
+	sprite: spr_ui_skill_sleeper_passive_smokesleep
+}
+
+{
+	dev_name: sleeper_less_energy
+	title: Infectious Yawn
+	desc: Gain less energy when sleeping at destinations
+	sprite: spr_ui_skill_sleeper_passive_snore
+}
+
+//HIKER
+
+{
+	dev_name: hh_city_hate
+	title: The city sucks!
+	desc: Become sad when in a city.
+	sprite: spr_ui_skill_hiker_passive_citysucks
+}
+
+{
+	dev_name: hiker_new_roads
+	title: Offroader!
+	desc: Adds new rough roads on the map!
+	sprite: spr_ui_skill_hiker_passive_shortcut
+}
+
+{
+	dev_name: weather_extra_energy
+	title: Weather Conditions
+	desc: When the weather isn't clear skies, add an energy threat to each road event.
+	sprite: spr_ui_skill_hiker_passive_weather
+}
+
+{
+	dev_name: hh_barter
+	title: Money skills
+	desc: Sell items for double the money.
+	sprite: spr_pskill_img_temp
+}
+
+{
+	dev_name: hh_no_inspire
+	title: Comfortably Numb
+	desc: You can no longer get inspired.
+	sprite: spr_ui_skill_hiker_passive_comfortablynumb
+}
+
+//BRIDE
+{
+	dev_name: runaway_bride
+	title: Runaway Bride
+	desc: If you black out, the bride will leave
+	sprite: spr_ui_skill_bride_passive_runnawaybride
+}
+
+{
+	dev_name: junk_food_inspire
+	title: Junk Food Junkie
+	desc: Become inspired when you consume junk food
+	sprite: spr_pskill_img_temp
+}
+
+{
+	dev_name: lose_happy_sad
+	title: Sadness
+	desc: When you lose the Happy status, become sad
+	sprite: spr_ui_skill_bride_passive_sadness
+}
+
+{
+	dev_name: inspire_happy
+	title: Joyful
+	desc: When you become inspired, also become happy
+	sprite: spr_ui_skill_bride_passive_joyful
+}
+
+{
+	dev_name: double_hot_cold
+	title: Uncomfortable
+	desc: Double the damage taken from the hot and cold status.
+	sprite: spr_ui_skill_bride_passive_uncomfortable
+}

@@ -1,0 +1,1266 @@
+///////////////////////HITCHHIKERS
+
+//---------------------------------THE SUIT
+{
+	dev_name: "suit"
+	hh_name: "The Suit"
+	desc: "This is a hitchhiker"
+	sex: male
+	age: 42
+	pick_up_quest: suit_get_to_work
+	
+	
+	start_skill: "smooth_talker"
+	
+	perk_id: "excuse"
+	perk_name: "Excuse"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "sloppy_work"
+	perk_name: "Sloppy Work"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	perk_id: "exploit"
+	perk_name: "exploit"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	perk_id: "uncool"
+	perk_name: "Uncool"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "going_home"
+	perk_name: "going_home"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	perk_id: "due_taxes"
+	perk_name: "Due Taxes"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_suit_greeting_a
+	greeting_dia: hh_suit_greeting_b
+	greeting_dia: hh_suit_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_suit_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_suit_portrait_small_sleep
+
+	
+	sprite_portrait: spr_hh_portrait_suit
+	sprite_rw_big: spr_hh_suit_rw_big
+	sprite_rw_small: spr_hh_suit_rw_small
+	sprite_menu_portrait: spr_hitchhiker_suit_portrait_hitchermenu
+	
+	sprite_button: spr_hh_suit_button
+	
+	sprite_idle: spr_hitchhiker_suit_idle
+	sprite_idle: spr_hitchhiker_suit_idle_2
+	
+	sprite_hitch: spr_hitchhiker_suit_hitch
+	
+	sprite_kicked: spr_hitchhiker_suit_sitting_loop
+	
+	sprite_car: spr_hh_suit_incar
+	
+	hitch_dialogue: hh_suit_hitch
+	
+	talk_dialogue: hh_suit_begin_q2
+	talk_dialogue_quest: suit_get_to_family
+	
+	talk_dialogue: hh_suit_party_cabin
+	talk_dialogue: hh_suit_festival
+	talk_dialogue: hh_suit_inheritance
+	
+	
+	impression: He looked so sad standing there in his unkempt suit. I couldn’t quite tell, he looked like he was 50, but he was probably in his late 30s. He said he quit his job and wanted to get out of town, but didn’t have a buck for the bus.
+	impression: The suit mumbles when he speaks - not a great salesman. He told me about a way to deduct my taxes and that he can probably help me save some money. Not sure about that though. He mentioned he had a kid in another town.
+	impression: It seems like everything reminds him of his daughter now. I don’t think he really wants to be here. I overheard him on the phone saying he was coming home and that he’d get his job back. I heard him promise. Probably doesn’t count for much.
+	
+}
+//---------------------------------THE HIPPIE GIRL
+{
+	dev_name: "hippie_girl"
+	hh_name: "The Girl"
+	desc: "This is a hitchhikerette"
+	sex: female
+	age: 22
+	
+	start_skill: "backrubber"
+	
+	perk_id: "super_cheer"
+	perk_name: "When I was a cheerleader"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	perk_id: "backrubber"
+	perk_name: "Backrubs"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "lose_status"
+	perk_name: "Get through anything"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "extra_neg_status"
+	perk_name: "Stacking thoughts"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	perk_id: "skill_points"
+	perk_name: "Skill points"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "road_start_neg_status"
+	perk_name: "Bad vibes"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	
+	greeting_dia: hh_girl_greeting_a
+	greeting_dia: hh_girl_greeting_b
+	greeting_dia: hh_girl_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_girl_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_girl_portrait_small_sleep
+	
+	impression: As soon as I stopped, her gaudy hippie energy poured over the car. She asked where I was headed, but didn’t really care about my answer. She probably ran away from home.
+	impression: Her joy came and went. I found her crying one night, but not for long. She said she wants to leave it all behind her. “Life always hurts you, so it’s best to leave before it does.” I guess I’m her ferryman now.
+	impression: She kissed me on the cheek while I was driving and told me I’m boring. Her breath smelt of egg. When she isn’t flirting with strangers, she sleeps on her Dad’s old military jacket and dreams away the day.
+	
+	
+	hitch_dialogue: hh_hippie_girl_hitch
+	
+	talk_dialogue: hh_hippie_girl_talk
+	talk_dialogue: hh_hippie_girl_festival
+	talk_dialogue: hh_hippie_girl_inheritance
+	
+	
+	sprite_portrait: spr_hh_portrait_hippiegirl
+	sprite_rw_big: spr_hh_girl_rw_big
+	sprite_rw_small: spr_hh_girl_rw_small
+	sprite_menu_portrait: spr_hitchhiker_girl_portrait_hitchermenu
+	
+	sprite_button: spr_hh_girl_button
+	
+	sprite_idle: spr_hitchhiker_girl_idle_1
+	sprite_idle: spr_hitchhiker_girl_idle_1b
+	
+	sprite_car: spr_hh_girl_incar
+	
+	sprite_hitch: spr_hitchhiker_girl_hitch
+	
+	sprite_kicked: spr_hitchhiker_girl_sitting
+	
+}
+
+//---------------------------------THE MECHANIC
+{
+	dev_name: "mechanic"
+	hh_name: "The Mechanic"
+	desc: "Doesn't talk much."
+	sex: male
+	age: 27
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "instruct"
+	perk_name: "Instruct"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "auto_repair"
+	perk_name: "Fixing things"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "fast_repair"
+	perk_name: "The right whack!"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "cigarette_share"
+	perk_name: "Smoker"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "upgrade_anywhere"
+	perk_name: "Upgrade anywhere!"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "upgrade_dependant"
+	perk_name: "Upgrade dependant!"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_mechanic_greeting_a
+	greeting_dia: hh_mechanic_greeting_b
+	greeting_dia: hh_mechanic_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_mechanic_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_mechanic_portrait_small_sleep
+	
+	impression: A good looking guy with a bunch of tools - I should be scared. But his easy manner and quiet voice puts me at ease. He looks at my car and asks about the engine. After a drag of his cigarette he returns to inspecting the car.
+	impression: The mechanic doesn’t talk much. He lays under the car for a few minutes and reappears with brown fingers that are steadily supplied with new cigarettes. Hidden behind work, literally. 
+	impression: I was surprised he had nothing with him but tools, but I’m starting to realize that that’s really all he has. All he has ever had. And an engine makes sense, it’s easier to fix that.
+	
+	hitch_dialogue: hh_mechanic_hitch
+	
+	talk_dialogue: hh_mechanic_talk1
+	talk_dialogue_quest: mechanic_upgrades
+	
+	talk_dialogue: hh_mechanic_talk_race
+	talk_dialogue_quest: race
+	
+	talk_dialogue: hh_mechanic_party_cabin
+	talk_dialogue: hh_mechanic_festival
+	talk_dialogue: hh_mechanic_inheritance
+
+	
+	sprite_portrait: spr_hh_portrait_mechanic
+	sprite_rw_big: spr_hh_mechanic_rw_big
+	sprite_rw_small: spr_hh_mechanic_rw_small
+	sprite_menu_portrait: spr_hitchhiker_mechanic_portrait_hitchermenu
+	
+	sprite_button: spr_hh_mechanic_button
+	
+	sprite_idle: spr_hitchhiker_mechanic_idle
+	
+	sprite_car: spr_hh_mechanic_incar
+	
+	sprite_hitch: spr_hitchhiker_mechanic_hitch
+	
+}
+
+
+//---------------------------------THE HURRICANE
+{
+	dev_name: "hurricane"
+	hh_name: "The Hurricane"
+	desc: "wild"
+	sex: female
+
+	age: 25
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "dont_worry_2"
+	perk_name: "dont_worry"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "messy"
+	perk_name: "Messy"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "drunk_master"
+	perk_name: "drunk_master"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "drunk_energy"
+	perk_name: "Drink up!"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "shoplifting"
+	perk_name: "Shoplifter"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "demanding"
+	perk_name: "demanding"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_hurricane_greeting_a
+	greeting_dia: hh_hurricane_greeting_b
+	greeting_dia: hh_hurricane_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_indiechick_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_indiechick_portrait_small_sleep
+	
+	impression: She had her thumb out like she’s done this 100 times before. Her confidence was astounding. Makes sense in a way - she was incredibly beautiful. I couldn’t quite see her eyes, but I heard some rock music from her headphones.
+	impression: When she drank she spoke loudly and laughed. She sounded a bit like a witch when she burst, but always ended with a cute giggle that restored the balance. I didn’t want to disappoint her, and I didn’t want her laughter to end.
+	impression: She told me she left college and wanted to live a fun life. If fun means dancing through a hurricane. At gas stations she’d snag stuff without the clerks noticing while talking to me about nothing.
+	
+	hitch_dialogue: hh_hurricane_hitch
+	
+	talk_dialogue:hh_hurricane_begin_q1
+	talk_dialogue_quest:hurricane_drunk_driving
+	
+	talk_dialogue:hh_hurricane_give_cd
+	
+	talk_dialogue:hh_hurricane_party_complete
+	talk_dialogue:hh_hurricane_festival
+	talk_dialogue:hh_hurricane_inheritance
+
+	
+	sprite_portrait: spr_hh_portrait_hurricane
+	sprite_rw_big: spr_hh_hurricane_rw_big
+	sprite_rw_small: spr_hh_hurricane_rw_small
+	sprite_menu_portrait: spr_hh_hurricane_portrait_hitchermenu
+	
+	sprite_button: spr_hh_hurricane_button
+	
+	sprite_idle: spr_hh_hurricane_idle_1
+	sprite_idle: spr_hh_hurricane_idle_2
+	sprite_idle: spr_hh_hurricane_idle_3
+	
+	sprite_car: spr_hh_hurricane_incar
+	
+	sprite_hitch: spr_hh_hurricane_hitch
+	
+}
+
+
+//---------------------------------THE PUNK
+{
+	dev_name: "punk"
+	hh_name: "The Punk"
+	desc: "punky skunky wunky"
+	sex: male
+	pick_up_quest: punk_city_club
+	
+	age: 24
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "poison_heart"
+	perk_name: "poison_heart"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "dog"
+	perk_name: "dog"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "songwriter_soothe"
+	perk_name: "songwriter_soothe"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "motor_breath"
+	perk_name: "motor_breath!"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "dog_friend"
+	perk_name: "dog_friend"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "hh_forced_vegan"
+	perk_name: "hh_forced_vegan"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_punk_greeting_a
+	greeting_dia: hh_punk_greeting_b
+	greeting_dia: hh_punk_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_punk_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_punk_portrait_small_sleep
+	
+	impression: This kid was just standing on the side of the road with his dog, a pure-breed borzoi. I couldn’t even tell he was looking for a ride. “It doesn’t pay to try” was written on one of his pins. He looked a bit like a junky.
+	impression: I’m not surprised when he said he was feeling alone, just surprised he said it. He also asked me to play some better music. “Anything fast.” It helps him think. I think he thinks too much.
+	impression: I never caught the name of his dog, it was so shy anyway. He talked about animals and how they deserve better and asked me if I would consider being straight edge, like him. But mostly he just talked about music.
+	
+	hitch_dialogue: hh_punk_hitch
+	
+	talk_dialogue:hh_punk_city
+	
+	talk_dialogue: hh_punk_party_cabin
+	talk_dialogue: hh_punk_festival
+	talk_dialogue: hh_punk_inheritance
+	
+	talk_dialogue: hh_punk_give_cd
+	talk_dialogue: hh_punk_fail_quest
+
+	
+	sprite_portrait: spr_hitchhiker_punk_portrait_small_seat
+	sprite_rw_big: spr_hitchhiker_punk_portrait_full
+	sprite_rw_small: spr_hitchhiker_punk_portrait_small
+	sprite_menu_portrait: spr_hitchhiker_punk_portrait_hitchermenu
+	
+	sprite_button: spr_hh_punk_button
+	
+	sprite_idle: spr_hitchhiker_punk_idle_1a
+	sprite_idle: spr_hitchhiker_punk_idle_petting
+	
+	sprite_hitch: spr_hitchhiker_punk_sitting
+	
+	sprite_car: spr_hh_punk_incar
+	
+	sprite_kicked: spr_hitchhiker_punk_sitting
+	
+}
+
+//---------------------------------THE DOG
+{
+	dev_name: "dog"
+	hh_name: "The Dog"
+	desc: "doggo skunky wunky"
+	sex: female
+	age: 5
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "bark"
+	perk_name: "bark"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "dog_passive_1"
+	perk_name: "Messy"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "pet"
+	perk_name: "pet"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "dog_passive_2"
+	perk_name: "dog_passive_2"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "fetch"
+	perk_name: "fetch"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "dog_passive_3"
+	perk_name: "dog_passive_3"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	sleep_sprite_full:	spr_hitchhiker_punk_dog_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_punk_dog_portrait_small_sleep
+	
+	impression: Soft white fur on a bony body. She would let me pet her head now and the way she pushed back for more was adorable.
+	impression: She didn’t seem like the most playful dog at first but once we got her going she’d be loads of fun.
+	impression: Sometimes we’d stop and play fetch; She’s a borzoi after all, she needs to run! A lot!
+
+	
+	sprite_portrait: spr_hitchhiker_punk_dog_portrait_small_seat
+	sprite_rw_big: spr_hitchhiker_punk_dog_portrait_full
+	sprite_rw_small: spr_hitchhiker_punk_dog_portrait_small
+	sprite_menu_portrait: spr_hitchhiker_punk_dog_portrait_full_hitchermenu
+	
+	sprite_button: spr_hitchhiker_punk_dog_button
+	
+	sprite_button: spr_hitchhiker_punk_dog_button
+	
+	sprite_idle: spr_hitchhiker_punk_idle_1a
+	
+	sprite_hitch: spr_hitchhiker_punk_sitting
+	
+	sprite_kicked: spr_hitchhiker_punk_sitting
+	
+	sprite_car: spr_hh_dog_incar
+	
+}
+
+
+//---------------------------------THE KID
+{
+	dev_name: "kid"
+	hh_name: "The Kid"
+	desc: "needs to pee ALL THE TIME"
+	sex: female
+	pick_up_quest: kid_dad_1
+	age: 6
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "innocence"
+	perk_name: "innocence"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "pee_breaks"
+	perk_name: "pee_breaks"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "kid_game_1"
+	perk_name: "kid_game_1"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "night_sleep"
+	perk_name: "night_sleep"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "idol_power"
+	perk_name: "idol_power"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "no_drugs"
+	perk_name: "no_drugs"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_kid_greeting_a
+	greeting_dia: hh_kid_greeting_b
+	greeting_dia: hh_kid_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_kid_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_kid_portrait_small_sleep
+	
+	impression: I found her on the side of the road looking oddly optimistic. She said she thinks she took the right bus, but it dropped her off here. I asked if she wanted to call her mom but she couldn't remember the number. 	
+	impression: I saw a ticket stick out of her bag - it was for an Express bus. She must have taken a local bus by accident. It’s kind of fun having her around though. She said she was on her way to her dad’s.
+	impression: She’s the kind of kid that makes me wish I had a little sister. It’s both kind of annoying and really fun hearing her play in the back with her toys. More than anything I wish I still had her imagination.
+	
+	hitch_dialogue:hh_kid_hitch
+	
+	talk_dialogue: hh_kid_greeting_b
+	talk_dialogue: hh_kid_party_cabin
+	talk_dialogue: hh_kid_festival
+	talk_dialogue: hh_kid_inheritance
+
+	
+	sprite_portrait: spr_hitchhiker_kid_portrait_small_seat
+	sprite_rw_big: spr_hitchhiker_kid_portrait_full
+	sprite_rw_small: spr_hitchhiker_kid_small
+	sprite_menu_portrait: spr_hitchhiker_kid_portrait_full_hitchermenu
+	
+	sprite_button: spr_hitchhiker_kid_button
+	
+	sprite_idle: spr_hitchhiker_kid_idle
+	sprite_idle: spr_hitchhiker_kid_idle_2
+	sprite_idle: spr_hitchhiker_kid_idle_3
+	
+	sprite_hitch: spr_hitchhiker_kid_hitch
+	
+	sprite_car: spr_hh_kid_incar
+	
+	sprite_kicked: spr_hitchhiker_kid_idle
+	
+}
+//---------------------------------THE SONGWRITER
+{
+	dev_name: "songwriter"
+	hh_name: "The Songwriter"
+	desc: "musician"
+	sex: male
+	age: 32
+	
+	pick_up_quest: songwriter_sing
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "songwriter_setup"
+	perk_name: "songwriter_setup"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "guitar_case"
+	perk_name: "guitar_case"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "power_chord"
+	perk_name: "power_chord"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "center_of_attention"
+	perk_name: "center_of_attention"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "street_musician"
+	perk_name: "street_musician"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "kick_penalty"
+	perk_name: "kick_penalty"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_songwriter_greeting_a
+	greeting_dia: hh_songwriter_greeting_b
+	greeting_dia: hh_songwriter_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_songwriter_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_songwriter_portrait_small_sleep
+	
+	impression: Some people have such easy faces to read. He said he was on tour and needed a ride... sure. He looked so tired. I wonder where he slept last night. At least his cat doesn’t look hungry.
+	impression: Apparently he broke up with his girlfriend just before going on this “tour” and stole her - I mean took his - cat when he left. He said he had to break up with her to not be unfaithful, it was ‘the right thing to do’.
+	impression: He wrote a few songs while we were on the road together and started playing them at stops. He’s not bad. Not great either. But really not bad. I hope this “tour” has helped him deal with his ex.
+	
+	hitch_dialogue: hh_songwriter_hitch
+	
+	talk_dialogue:hh_songwriter_talk
+	
+	talk_dialogue: hh_songwriter_party_cabin
+	talk_dialogue: hh_songwriter_festival
+	talk_dialogue: hh_songwriter_inheritance
+	
+	talk_dialogue: hh_songwriter_talk_max
+	
+	
+	sprite_portrait: spr_hh_songwriter_portrait_small_seat
+	sprite_rw_big: spr_hh_songwriter_portrait_full
+	sprite_rw_small: spr_hh_songwriter_portrait_small
+	sprite_menu_portrait: spr_hh_songwriter_portrait_full_hitchermenu
+	
+	sprite_button: spr_hh_songwriter_button
+	
+	sprite_idle: spr_hh_songwriter_idle
+	sprite_idle: spr_hh_songwriter_idle_2
+	sprite_idle: spr_hh_songwriter_idle_3
+	
+	sprite_hitch: spr_hh_songwriter_idle
+	
+	sprite_car: spr_hh_songwriter_incar
+	
+	sprite_kicked: spr_hh_songwriter_idle
+	
+}
+
+
+//---------------------------------THE STRANGER
+{
+	dev_name: "stranger"
+	hh_name: "The Stranger"
+	desc: "Very strange"
+	sex: male
+	pick_up_quest: stranger_casino
+	age: 37
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "gambler_1"
+	perk_name: "gambler_1"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "gambler"
+	perk_name: "gambler"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "big_gamble"
+	perk_name: "big_gamble"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "creepy"
+	perk_name: "creepy"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "bribe"
+	perk_name: "bribe"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "loan_sharks"
+	perk_name: "loan_sharks"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_stranger_greeting_a
+	greeting_dia: hh_stranger_greeting_b
+	greeting_dia: hh_stranger_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_stranger_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_stranger_portrait_small_sleep
+	
+	hitch_dialogue: hh_stranger_hitch
+	
+	talk_dialogue:hh_stranger_q2_begin
+	talk_dialogue_quest:stranger_debt
+	
+	talk_dialogue: hh_stranger_party_cabin
+	talk_dialogue: hh_stranger_festival
+	talk_dialogue: hh_stranger_inheritance
+	
+	impression: It didn’t take long before he started telling me about how much money he made once before he lost it all. He seems like the capable sort, but I wouldn’t trust him with my life.
+	impression: I don’t really know, but I felt like he didn’t care about anything anyone said to him. Like everyone was uninteresting. Everyone except pretty girls, which he would immediately point out while we were driving.
+	impression: One evening, after he came back from a loss, he mentioned that I should keep my eye out for a couple of thugs. He said he just had to borrow some cash for a game - it wouldn’t be a problem - he’d make it back soon.
+
+	
+	sprite_portrait: spr_hitchhiker_stranger_portrait_small_seat
+	sprite_rw_big: spr_hitchhiker_stranger_portrait_full
+	sprite_rw_small: spr_hitchhiker_stranger_portrait_small
+	sprite_menu_portrait: spr_hitchhiker_stranger_portrait_full_hitchermenu
+	
+	sprite_button: spr_hitchhiker_stranger_button
+	
+	
+	
+	sprite_idle: spr_hitchhiker_stranger_idle
+	sprite_idle: spr_hitchhiker_stranger_idle_2
+	sprite_idle: spr_hitchhiker_stranger_idle_3
+	
+	sprite_hitch: spr_hitchhiker_stranger_hitch
+	
+	sprite_car: spr_hh_stranger_incar
+	
+	sprite_kicked: spr_hitchhiker_stranger_idle
+	
+}
+
+
+//---------------------------------THE IDIOT
+{
+	dev_name: "idiot"
+	hh_name: "The Idiot"
+	desc: "Very smart"
+	sex: male
+	pick_up_quest: idiot_mission
+	age: 38
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "idiotic_1"
+	perk_name: "idiotic_1"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "gb_organize"
+	perk_name: "gb_organize"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "idiot_think"
+	perk_name: "idiot_think"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "oblivious"
+	perk_name: "oblivious"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "idiot_x"
+	perk_name: "idiot_x"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "idiot_flowers"
+	perk_name: "idiot_flowers"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_idiot_greeting_a
+	greeting_dia: hh_idiot_greeting_b
+	greeting_dia: hh_idiot_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_idiot_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_idiot_portrait_small_sleep
+	
+	impression: The way he just stood there and stared out into the horizon made me a bit worried for him. I wasn’t sure he was all there. He said he picked some flowers for his sister and was waiting to be driven to her. 
+	impression: He mostly just looks out the window and smiles at whatever nature is going by. When I asked him what he did with his days he thought for a while and said he took walks and thought about things.
+	impression: Some shitheads called him an idiot when we stopped for gas as he picked another bouquet from the side of the road. He said ‘beauty will save the world and the world is beautiful’. I didn’t understand, but smiled all the same.
+	
+	hitch_dialogue: hh_idiot_hitch
+	
+	talk_dialogue: hh_idiot_party_cabin
+	talk_dialogue: hh_idiot_festival
+	talk_dialogue: hh_idiot_inheritance
+	talk_dialogue: hh_idiot_q_complete_again
+	
+	
+	sprite_portrait: spr_hh_idiot_portrait_small_seat
+	sprite_rw_big: spr_hh_idiot_portrait_full
+	sprite_rw_small: spr_hh_idiot_portrait_small
+	sprite_menu_portrait: spr_hh_idiot_portrait_full_hitchermenu
+	
+	sprite_button: spr_hh_idiot_button
+	
+	sprite_idle: spr_hitchhiker_idiot_idle
+	sprite_idle: spr_hitchhiker_idiot_idle_2
+	sprite_idle: spr_hitchhiker_idiot_idle_3
+	
+	sprite_hitch: spr_hitchhiker_idiot_hitch
+	
+	sprite_car: spr_hh_idiot_incar
+	
+	sprite_kicked: spr_hitchhiker_idiot_idle
+	
+}
+
+
+//---------------------------------THE CONVICT
+{
+	dev_name: "convict"
+	hh_name: "The Convict"
+	desc: "Very jail"
+	sex: male
+	age: 48
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "convict_1"
+	perk_name: "convict_1"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "convict_no_adjacent"
+	perk_name: "convict_no_adjacent"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "convict_2"
+	perk_name: "convict_2"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "on_the_run"
+	perk_name: "on_the_run"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "double_engine"
+	perk_name: "double_engine"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "partner_in_crime"
+	perk_name: "partner_in_crime"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_convict_greeting_a
+	greeting_dia: hh_convict_greeting_b
+	greeting_dia: hh_convict_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_convict_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_convict_portrait_small_sleep
+	
+	impression: I probably shouldn’t have acted on the saying “don’t judge a book by its cover” when stopping for an escaped prisoner, but I did. Besides his stressed out demeanor there was a cool kindness hiding in his eyes.
+	impression: He told me to just keep driving… fast. I should be more freaked out, but he kept assuring me he was innocent. Look, of course he’d say that, it’s just for some reason I believe him. He said the guards were sadists.
+	impression: The way he modified the engine was gnarly. There is no way this guy hasn’t been involved in some illegal racing or chop shop. I guess as long as I don’t get caught with him we make a great team.
+
+	
+	hitch_dialogue:hh_convict_hitch
+	
+	talk_dialogue:hh_convict_talk
+	talk_dialogue_quest:convict_escape
+	
+	talk_dialogue: hh_convict_party_cabin
+	talk_dialogue: hh_convict_festival
+	talk_dialogue: hh_convict_inheritance
+	
+	
+	
+	sprite_portrait: spr_hitchhiker_convict_portrait_small_seat
+	sprite_rw_big: spr_hitchhiker_convict_portrait_full
+	sprite_rw_small: spr_hitchhiker_convict_portrait_small
+	sprite_menu_portrait: spr_hitchhiker_convict_portrait_full_hitchermenu
+	
+	sprite_button: spr_hh_convict_button
+	
+	sprite_idle: spr_hitchhiker_convict_idle
+	sprite_idle: spr_hitchhiker_convict_idle_2
+	sprite_idle: spr_hitchhiker_convict_idle_3
+	
+	sprite_hitch: spr_hitchhiker_convict_hitch
+	
+	sprite_car: spr_hh_convict_incar
+	
+	sprite_kicked: spr_hitchhiker_convict_idle
+	
+}
+
+//---------------------------------THE SLEEPER
+{
+	dev_name: "sleeper"
+	hh_name: "The Sleeper"
+	desc: "Very Tired"
+	sex: male
+	age: 29
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "sleeper_armor"
+	perk_name: "sleeper_armor"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "hypersomnia"
+	perk_name: "hypersomnia"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "tired_eyes"
+	perk_name: "tired_eyes"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "smoke_sleep"
+	perk_name: "smoke_sleep"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "snore"
+	perk_name: "snore"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "sleeper_less_energy"
+	perk_name: "sleeper_less_energy"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_sleeper_greeting_a
+	greeting_dia: hh_sleeper_greeting_b
+	greeting_dia: hh_sleeper_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_sleeper_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_sleeper_portrait_small_sleep
+	
+	impression: Poor guy looks like he just woke up! He told me he has a condition where he just falls asleep all of the sudden. Anytime, anywhere. At least I know he’s pretty and harmless.
+	impression: I can’t believe someone just left him on the side of the road. It’s kind of funny how he just shuts off sometimes. He mentioned he was staying with some rich old lady in the city, but not much more than that.
+	impression: I asked him where his friends were and he replied “what friends, I can’t keep any with this condition.” But honestly it felt like it was because he was ashamed of his work - he was often on the move, and always skint. 
+
+	hitch_dialogue:hh_sleeper_hitch
+	
+	talk_dialogue:hh_sleeper_inheritance
+	
+	sprite_portrait: spr_hitchhiker_sleeper_portrait_small_seat
+	sprite_rw_big: spr_hitchhiker_sleeper_portrait_full
+	sprite_rw_small: spr_hitchhiker_sleeper_portrait_small
+	sprite_menu_portrait: spr_hitchhiker_sleeper_portrait_full_hitchermenu
+	
+	sprite_button: spr_hh_sleeper_button
+	
+	sprite_idle: spr_hitchhiker_sleeper_idle
+	
+	sprite_hitch: spr_hitchhiker_sleeper_idle
+	
+	sprite_car: spr_hh_sleeper_incar
+	
+	sprite_kicked: spr_hitchhiker_sleeper_idle
+	
+}
+
+//---------------------------------THE HIKER
+{
+	dev_name: "hiker"
+	hh_name: "The Hiker"
+	desc: "Very rich"
+	sex: male
+	pick_up_quest: hiker_go_mountain
+	age: 51
+	
+	start_skill: "instruct"
+	
+	// LEVEL 1
+	
+	perk_id: "hiker_resource"
+	perk_name: "hiker_resource"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "hh_city_hate"
+	perk_name: "hh_city_hate"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "take_in_nature"
+	perk_name: "take_in_nature"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "weather_extra_energy"
+	perk_name: "weather_extra_energy"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "hiker_new_roads"
+	perk_name: "hiker_new_roads"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "hh_no_inspire"
+	perk_name: "hh_no_inspire"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_hiker_greeting_a
+	greeting_dia: hh_hiker_greeting_b
+	greeting_dia: hh_hiker_greeting_c
+	
+	sleep_sprite_full:	spr_hitchhiker_hiker_portrait_full_sleep
+	sleep_sprite_small:	spr_hitchhiker_hiker_portrait_small_sleep
+	
+	impression: I could tell he liked my old car, this is a good start, but he was so sweaty. He must have been hiking for a few days before he got onto the road. It was kind of funny, he couldn’t get rid of his hiccups.
+	impression: He didn’t smell great and his beard had little crumbs in it that he’d find and eat. He would tell me about the ways he built fires in the rain and all the beautiful creeks and vistas he found on his hikes. He hiked alone.
+	impression: Maybe it’s his age, or maybe he’s always like this but he kept backseat driving. ‘Take this route, it’s more scenic’. He talked a lot about how beautiful the nature is around these parts and how he misses it.
+	
+	hitch_dialogue: hh_hiker_hitch
+	talk_dialogue: hh_hiker_talk
+	
+	talk_dialogue: hh_hiker_party_cabin
+	talk_dialogue: hh_hiker_festival
+	
+	talk_dialogue: hh_hiker_inheritance
+	talk_dialogue: hh_hiker_quest_fail
+	talk_dialogue: hh_hiker_mountain_top
+	
+	sprite_portrait: spr_hitchhiker_hiker_portrait_small_seat
+	sprite_rw_big: spr_hitchhiker_hiker_portrait_full
+	sprite_rw_small: spr_hitchhiker_hiker_portrait_small
+	sprite_menu_portrait: spr_hitchhiker_hiker_portrait_full_hitchermenu
+	
+	sprite_button: spr_hh_hiker_button
+	
+	sprite_idle: spr_hitchhiker_hiker_idle
+	sprite_idle: spr_hitchhiker_hiker_idle_2
+	sprite_idle: spr_hitchhiker_hiker_idle_3
+	
+	sprite_hitch: spr_hitchhiker_hiker_hitch
+	
+	sprite_car: spr_hh_hiker_incar
+	
+	sprite_kicked: spr_hitchhiker_hiker_idle_3
+	
+}
+
+
+//---------------------------------THE BRIDE
+{
+	dev_name: "bride"
+	hh_name: "The Bride"
+	desc: "Very unmarried"
+	sex: female
+	age: 31
+	
+	pick_up_quest: bride_fun_stuff
+	
+	start_skill: "instruct"
+	
+	
+	// LEVEL 1
+	
+	perk_id: "bride_happy"
+	perk_name: "bride_happy"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "runaway_bride"
+	perk_name: "runaway_bride"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	// LEVEL 2
+	
+	perk_id: "bride_basic"
+	perk_name: "bride_basic"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "lose_happy_sad"
+	perk_name: "lose_happy_sad"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	// LEVEL 3
+	
+	perk_id: "inspire_happy"
+	perk_name: "inspire_happy"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+		
+	perk_id: "double_hot_cold"
+	perk_name: "double_hot_cold"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	greeting_dia: hh_bride_greeting_a
+	greeting_dia: hh_bride_greeting_b
+	greeting_dia: hh_bride_greeting_c
+	
+	impression: It’s hard to describe the relief she displayed that someone stopped for her. She was stern and said "there is a wedding in search of a bride" after I asked if she happened to be looking for a wedding.
+	impression: The bride had been on the run for a few hours before I found her and she said she just can't go back to that life. She wants something more! I’m glad to have her here. She’s giddy and fun and enjoying the ride.
+	impression: She asked me about the trip and talked about her favorite musicals and how she wish we could go dancing some time. We got nothing in common but our will to find joy anywhere we can. I’m happy she feels free.
+
+	hitch_dialogue: hh_bride_hitch
+	
+	talk_dialogue: hh_bride_party_cabin
+	talk_dialogue: hh_bride_festival
+	talk_dialogue: hh_bride_inheritance
+	
+	sprite_portrait: spr_hitchhiker_bride_portrait_small_seat
+	sprite_rw_big: spr_hitchhiker_bride_portrait_full
+	sprite_rw_small: spr_hitchhiker_bride_portrait_small
+	sprite_menu_portrait: spr_hitchhiker_bride_portrait_full_hitchermenu
+	
+	sprite_button: spr_hh_bride_button
+	
+	sprite_idle: spr_hitchhiker_bride_trash_idle
+	sprite_idle: spr_hitchhiker_bride_idle_2
+	
+	sprite_hitch: spr_hitchhiker_bride_dress_hitch
+	
+	sprite_car: spr_hh_bride1_incar
+	
+	sprite_kicked: spr_hitchhiker_bride_idle
+	
+}

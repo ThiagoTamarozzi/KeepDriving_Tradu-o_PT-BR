@@ -1,0 +1,361 @@
+///////////////ENEMIES
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//COUNTRY//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////LEVEL ONE///////////////////////////////////
+{
+	name: "co1_1_Sleepy Thoughts"
+	level: "1"
+	pattern: "GEGE"
+	type: "country"
+}
+
+{
+	name: "co2_1_Speed Bump"
+	level: "1"
+	pattern: "EGD"
+	type: "country"
+}
+
+{
+	name: "co3_1_Speed_Cameras"
+	level: "1"
+	pattern: "DEM"
+	type: "country"
+}
+
+{
+	name: "co4_1_Road Kill"
+	level: "1"
+	pattern: "MGD"
+	type: "country"
+}
+///////////////////////////////////LEVEL TWO///////////////////////////////////
+{
+	name: "co1_2_Slow Tractor"
+	level: "2"
+	pattern: "GEDGE"
+	type: "country"
+}
+
+{
+	name: "co2_2_Distracting Bird"
+	level: "2"
+	pattern: "EGED"
+	type: "country"
+}
+
+{
+	name: "co3_2_Narrow road"
+	level: "2"
+	pattern: "DEMD"
+	type: "country"
+}
+
+{
+	name: "co4_2_Speed cameras"
+	level: "2"
+	pattern: "MEMD"
+	type: "country"
+}
+///////////////////////////////////LEVEL THREE///////////////////////////////////
+{
+	name: "co1_3"
+	level: "3"
+	pattern: "DDEGEDDG"
+	type: "country"
+}
+
+{
+	name: "co2_3"
+	level: "3"
+	pattern: "EDGEDDE"
+	type: "country"
+}
+
+{
+	name: "co3_3"
+	level: "3"
+	pattern: "DGDEGM"
+	type: "country"
+}
+
+{
+	name: "co4_3"
+	level: "3"
+	pattern: "EMDEGMD"
+	type: "country"
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTORWAY//MOTO
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////LEVEL ONE///////////////////////////////////
+{
+	name: "mw1_1"
+	level: "1"
+	pattern: "EGEG"
+	type: "motorway"
+}
+
+{
+	name: "mw2_1"
+	level: "1"
+	pattern: "GEG"
+	type: "motorway"
+}
+
+{
+	name: "mw3_1"
+	level: "1"
+	pattern: "GEM"
+	type: "motorway"
+}
+
+{
+	name: "mw4_1"
+	level: "1"
+	pattern: "GME"
+	type: "motorway"
+}
+
+///////////////////////////////////LEVEL TWO///////////////////////////////////
+{
+	name: "mw1_2"
+	level: "2"
+	pattern: "EGEGEG"
+	type: "motorway"
+}
+
+{
+	name: "mw2_2"
+	level: "2"
+	pattern: "GEEEG"
+	type: "motorway"
+}
+
+{
+	name: "mw3_2"
+	level: "2"
+	pattern: "GEMGE"
+	type: "motorway"
+}
+
+{
+	name: "mw4_2"
+	level: "2"
+	pattern: "GEMEG"
+	type: "motorway"
+}
+///////////////////////////////////LEVEL THREE///////////////////////////////////
+{
+	name: "mw1_3"
+	level: "3"
+	pattern: "EGEMEGGEM"
+	type: "motorway"
+}
+
+{
+	name: "mw2_3"
+	level: "3"
+	pattern: "GEEMEEG"
+	type: "motorway"
+}
+
+{
+	name: "mw3_3"
+	level: "3"
+	pattern: "GEGMGGE"
+	type: "motorway"
+}
+
+{
+	name: "mw4_3"
+	level: "3"
+	pattern: "GEMGEMEG"
+	type: "motorway"
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUGH//ROUG
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////LEVEL ONE///////////////////////////////////
+{
+	name: "r1_1"
+	level: "1"
+	pattern: "DED"
+	type: "rough"
+}
+
+{
+	name: "r2_1"
+	level: "1"
+	pattern: "DEG"
+	type: "rough"
+}
+
+{
+	name: "r3_1"
+	level: "1"
+	pattern: "DDD"
+	type: "rough"
+}
+
+{
+	name: "r4_1"
+	level: "1"
+	pattern: "GDDG"
+	type: "rough"
+}
+///////////////////////////////////LEVEL TWO///////////////////////////////////
+{
+	name: "r1_2"
+	level: "2"
+	pattern: "DEDD"
+	type: "rough"
+}
+
+{
+	name: "r2_2"
+	level: "2"
+	pattern: "DEGD"
+	type: "rough"
+}
+
+{
+	name: "r3_2"
+	level: "2"
+	pattern: "DDDE"
+	type: "rough"
+}
+
+{
+	name: "r4_2"
+	level: "2"
+	pattern: "GDEDG"
+	type: "rough"
+}
+
+///////////////////////////////////LEVEL THREE///////////////////////////////////
+
+{
+	name: "r1_3"
+	level: "3"
+	pattern: "DGDEDGD"
+	type: "rough"
+}
+
+{
+	name: "r2_3"
+	level: "3"
+	pattern: "DDEDEDDD"
+	type: "rough"
+}
+
+{
+	name: "r3_3"
+	level: "3"
+	pattern: "GEDGEDGE"
+	type: "rough"
+}
+
+{
+	name: "r4_3"
+	level: "3"
+	pattern: "GDDEDDGD"
+	type: "rough"
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//CITY//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////LEVEL ONE///////////////////////////////////
+{
+	name: "ci1_1"
+	level: "1"
+	pattern: "EMM"
+	type: "city"
+}
+
+{
+	name: "ci2_1"
+	level: "1"
+	pattern: "EMEM"
+	type: "city"
+}
+
+{
+	name: "ci3_1"
+	level: "1"
+	pattern: "EGM"
+	type: "city"
+}
+///////////////////////////////////LEVEL TWO///////////////////////////////////
+{
+	name: "ci1_2"
+	level: "2"
+	pattern: "EMME"
+	type: "city"
+}
+
+{
+	name: "ci2_2"
+	level: "2"
+	pattern: "EMEME"
+	type: "city"
+}
+
+{
+	name: "ci3_2"
+	level: "2"
+	pattern: "EEGMM"
+	type: "city"
+}
+
+///////////////////////////////////LEVEL THREE///////////////////////////////////
+
+{
+	name: "ci1_3"
+	level: "3"
+	pattern: "GEMMEG"
+	type: "city"
+}
+
+{
+	name: "ci2_3"
+	level: "3"
+	pattern: "EEMEMEE"
+	type: "city"
+}
+
+{
+	name: "ci3_3"
+	level: "3"
+	pattern: "MEMEGMM"
+	type: "city"
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////SPECIFIC
+
+{
+	name: "drunk_driving"
+	level: "3"
+	pattern: DDDDEEDDDD
+	type: "drunk"
+}
+
+
+
+

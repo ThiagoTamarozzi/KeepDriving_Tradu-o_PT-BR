@@ -1,0 +1,523 @@
+{
+	dev_name: all_attack
+	name: Unlucky
+	desc: set all threat to attack
+	reqs: none
+	rarity: 1
+	level:1
+}
+
+{
+	dev_name: clear_skies
+	name: Clear skies
+	desc: nothing happens
+	reqs: clear,day
+	effect: weather
+	rarity: 1
+}
+
+{
+	dev_name: more_attacks
+	name: Threatening
+	desc: More attacks this turn!
+	reqs: none
+	rarity: 1
+}
+
+{
+	dev_name: quiet_night
+	name: Quiet Night
+	desc: nothing happens
+	reqs: clear,night
+	effect: weather
+	rarity: 1
+}
+
+
+{
+	dev_name: heavy_rain
+	name: Heavy Rain
+	type: add_threat
+	stat: durability
+	amount: 1
+	desc: add §amnt §st threat
+	reqs: rain
+	effect: weather
+	rarity: 3
+}
+
+{
+	dev_name: foggy
+	name: Thick Fog
+	type: special
+	desc: It's hard to see
+	reqs: fog
+	effect: weather
+	rarity: 3
+}
+
+{
+	dev_name: hh_sleep
+	name: Tired hitchhikers
+	desc: all hitchhikers are asleep
+	reqs: night, hh_in_car,!spec:hh_argument,!tribe:race
+	effect: car
+	rarity: 3
+}
+
+
+//MUSIC
+
+
+{
+	dev_name: playing_music
+	name: Music Playing
+	type: status
+	status: bomb
+	amount: 1
+	desc: Music is blasting from the car stereo
+	reqs: music_playing
+	effect: road
+	rarity: 1
+}
+
+
+//ENV STUFF
+{
+	dev_name: city_ailment
+	name: Getting hungry
+	type: ailment
+	ailment: hungry
+	desc: You're getting hungry
+	reqs: env:city
+	effect: env
+	rarity: 2
+}
+
+{
+	dev_name: country_ailment
+	name: Getting tired
+	type: ailment
+	ailment: tired
+	desc: You're getting tired
+	reqs: env:country
+	effect: env
+	rarity: 1
+	level:2
+}
+
+{
+	dev_name: forest_ailment
+	name: Forest Tranquility
+	type: ailment
+	ailment: inspired
+	desc: The forest is inspring
+	reqs: env:forest
+	effect: env
+	rarity: 2
+}
+
+//EVENT TYPE SPECIFIC
+
+{
+	dev_name: animal_instincts
+	name: Animal Instincts
+	desc: Shuffle all threat
+	reqs: tribe:animal
+	rarity: 2
+}
+
+
+{
+	dev_name: follow_the_law
+	name: Follow the Rules
+	desc: Order all threat
+	reqs: tribe:order
+	rarity: 2
+}
+
+{
+	dev_name: socially_awkward
+	name: Awkward silence
+	type: stat_change
+	stat: energy
+	amount: -1
+	desc: lose §amnt §st
+	reqs: tribe:social
+	effect: car
+	rarity: 3
+	level:3
+}
+
+{
+	dev_name: dangerous_situation
+	name: Imminent threat
+	type: add_threat
+	stat: durability
+	amount: 2
+	desc: add §amnt §st threat
+	reqs: tribe:danger
+	effect: road
+	rarity: 3
+	level:2
+}
+
+{
+	dev_name: scared
+	name: You're scared
+	type: add_threat
+	stat: energy
+	amount: 2
+	desc: add §amnt §st threat
+	reqs: tribe:scary
+	effect: road
+	rarity: 3
+	level:2
+}
+
+{
+	dev_name: scared
+	name: You're scared
+	type: ailment
+	ailment: scared
+	desc: become stressed
+	reqs: tribe:scary
+	effect: road
+	rarity: 2
+}
+
+//EVENT SPECIFIC
+{
+	dev_name: bee_buzz
+	name: Buzzing Bee
+	desc: The bee is buzzing around
+	reqs: spec:bee
+	rarity: 3
+}
+
+{
+	dev_name: cow_moo
+	name: Moo
+	desc: The cow lets out a deep Moo
+	reqs: spec:cow
+	rarity: 3
+}
+
+{
+	dev_name: sheep_bah
+	name: Baah
+	desc: The sheep stares directly into your eyes
+	reqs: spec:sheep
+	rarity: 3
+}
+
+{
+	dev_name: goat_stare
+	name: Goat Stare
+	desc: One goat stares directly into your soul.
+	reqs: spec:goats
+	type: ailment
+	ailment: scared
+	rarity: 3
+}
+
+{
+	dev_name: slow_driving_sounds
+	name: Ba-Dunk
+	desc: There's a rythm to the sound of the speed bumps
+	reqs: spec:slow_driving
+	rarity: 3
+}
+
+{
+	dev_name: speed_camera_wave
+	name: Strike a pose
+	desc: You try to strike a pose for the camera
+	reqs: spec:speed_cameras
+	rarity: 3
+}
+
+{
+	dev_name: ambulance_sound
+	name: Sirens
+	desc: The wailing sounds of the sirens
+	reqs: spec:ambulance
+	rarity: 3
+}
+
+{
+	dev_name: skate_kids_trick
+	name: Almost!
+	desc: It almost looked like the kid was gonna land the trick!
+	reqs: spec:skate_kids
+	rarity: 3
+}
+
+{
+	dev_name: tractor_humming
+	name: Peaceful humming
+	desc: The tractor makes a peaceful humming sound
+	reqs: spec:tractor
+	rarity: 3
+}
+
+{
+	dev_name: cyclist_sweat
+	name: Sweaty
+	desc: The cyclist looks awfully sweaty
+	reqs: spec:cyclist
+	rarity: 3
+}
+
+
+{
+	dev_name: thunder_inspire
+	name: Awesome Thunder
+	type: ailment
+	ailment: inspired
+	desc: The thunder is inspiring
+	reqs: spec:thunder_storm
+	effect: road
+	rarity: 2
+}
+
+
+{
+	dev_name: snake_scary
+	name: Hiss!
+	type: ailment
+	ailment: scared
+	desc: The snake stresses you out!
+	reqs: spec:snake
+	effect: road
+	rarity: 2
+}
+
+{
+	dev_name: turtle_shield
+	name: Tanky Turtle!
+	type: status
+	status: shield
+	amount: 2
+	desc: The Turtle shields itself!
+	reqs: spec:turtle
+	effect: road
+	rarity: 2
+}
+
+
+{
+	dev_name: traffic_stuck
+	name: Traffic isn't moving
+	type: add_threat
+	stat: gas
+	amount: 2
+	desc: add §amnt §st threat
+	reqs: spec:traffic_jam
+	effect: road
+	rarity: 3
+}
+
+
+
+//RACE
+
+
+{
+	dev_name: race_music
+	name: Engine music
+	type: status
+	status: bomb
+	amount: 1
+	desc: The engine's sound is like music to your ears
+	reqs: tribe:race
+	effect: road
+	rarity: 1
+}
+
+{
+	dev_name: race_inspire
+	name: Thrill of the race
+	type: ailment
+	ailment: inspired
+	desc: Driving at this speed inspires you
+	reqs: tribe:race
+	effect: road
+	rarity: 1
+}
+
+{
+	dev_name: race_happy
+	name: Going fast
+	type: ailment
+	ailment: happy
+	desc: You're enjoying this
+	reqs: tribe:race
+	effect: road
+	rarity: 1
+}
+
+
+
+//AILMENT SPECIFIC
+{
+	dev_name: drunk_driving
+	name: Drunk Driving
+	desc: You shouldn't be driving
+	reqs: ail:drunk
+	rarity: 20
+}
+
+
+//TRAIT
+
+
+{
+	dev_name: idiot_sort
+	name: OCD
+	desc: The Idiot organizes the threat
+	reqs: gb_organize
+	rarity: 2
+}
+
+//ROAD STUFF
+{
+	dev_name: rough_road_basic_stat
+	name: Rough Road Stone Chip
+	type: stat_change
+	stat: durability
+	amount: -1
+	desc: lose §amnt §st
+	reqs: road:rough, moving
+	effect: road
+	rarity: 3
+	level:2
+}
+
+
+{
+	dev_name: rough_road_shields
+	name: Rough Terrain
+	type: status
+	status: shield
+	amount: 1
+	desc: Give shields to §amnt random threat
+	reqs: road:rough
+	effect: road
+	rarity: 2
+}
+
+{
+	dev_name: city_crit
+	name: Inner City Pressure
+	type: status
+	status: crit
+	amount: 3
+	desc: Give DANGER to §amnt random threat
+	reqs: road:city
+	effect: road
+	rarity: 2
+}
+
+{
+	dev_name: motorway_ailment
+	name: Autobahn
+	type: status
+	status: debuff
+	amount: 3
+	desc: Give debuff to §amnt random threat
+	reqs: road:motorway
+	effect: road
+	rarity: 2
+}
+
+
+
+
+{
+	dev_name: country_road_basic_stat
+	name: Slow Country Road
+	type: add_threat
+	stat: energy
+	amount: 1
+	desc: add §amnt §st threat
+	reqs: road:country
+	effect: road
+	rarity: 3
+	level:2
+}
+
+{
+	dev_name: motorway_road_basic_stat
+	name: Draining Motorway
+	type: stat_change
+	stat: gas
+	amount: -1
+	desc: lose §amnt §st
+	reqs: road:motorway
+	effect: road
+	rarity: 3
+	level:2
+}
+
+{
+	dev_name: motorway_bomb
+	name: Motorway madness
+	type: special
+	stat: gas
+	amount: 2
+	desc: add §amnt §st threat with bombs
+	reqs: road:motorway
+	effect: road
+	rarity: 0
+}
+
+{
+	dev_name: city_road_basic_stat
+	name: City Street Tolls
+	type: stat_change
+	stat: money
+	amount: -10
+	desc: lose §amnt §st
+	reqs: road:city
+	effect: road
+	rarity: 3
+}
+
+{
+	dev_name: saving_grace
+	name: Energy Reserve
+	type: stat_change
+	stat: energy
+	amount: 1
+	desc: gain §amnt §st
+	reqs: !scary,!road:city
+	effect: road
+	rarity: 0
+}
+
+{
+	dev_name: saving_grace_gas
+	name: More Juice
+	type: stat_change
+	stat: gas
+	amount: 1
+	desc: gain §amnt §st
+	reqs: road:country
+	effect: road
+	rarity: 0
+}
+
+{
+	dev_name: saving_grace_durability
+	name: Oh! It works!
+	type: stat_change
+	stat: durability
+	amount: 1
+	desc: gain §amnt §st
+	reqs: road:city
+	effect: road
+	rarity: 1
+}
+
+

@@ -1,0 +1,70 @@
+
+
+{
+	occ_name: unemployed
+	occ_title: Unemployed
+	occ_desc: Young and ready for adventure!
+	
+	occ_trait: carefree
+}
+
+{
+	occ_name: car_enthusiast
+	occ_title: Part-time mechanic
+	occ_desc: Loves anything car-related.
+	
+	occ_trait: car_savvy
+}
+
+{
+	occ_name: student
+	occ_title: Student
+	occ_desc: Young spirit with an urge to learn.
+	
+	occ_trait: student
+}
+
+{
+	occ_name:rehab
+	occ_title: Post Junkie
+	occ_desc: You are rehabilitated
+	
+	occ_trait: rehabilitated
+	occ_locked: 1
+}
+
+{
+	occ_name:racer
+	occ_title: Racer
+	occ_desc: You love driving fast
+	
+	occ_trait: racer
+	occ_locked: 1
+}
+
+{
+	occ_name:veteran
+	occ_title: Veteran
+	occ_desc: You know the drill.
+	
+	occ_trait: veteran
+	occ_locked: 1
+}
+
+{
+	occ_name:worker
+	occ_title: Intern
+	occ_desc: You've worked all year.
+	
+	occ_trait: worker
+	occ_locked: 1
+}
+
+{
+	occ_name:mourning
+	occ_title: In mourning
+	occ_desc: You've not been feeling great.
+	
+	occ_trait: downer
+	occ_locked: 1
+}

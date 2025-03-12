@@ -1,0 +1,1130 @@
+/////BASIC
+{
+	name: "test1"
+	title: "Too tired"
+	text: "You are feeling tired. Very tired.
+	tags: basic
+	
+	choice: "Fixate on keeping your eyes open"
+	resolution: "You manage to stay awake, but you can feel a headache growing"
+	reward: "ailment:headache"
+
+	choice: "Slap yourself in the face!"
+	resolution: "Ouch! You're awake!"
+	reward: "energy:-1,ailment:tired"
+}
+
+{
+	name: "test2"
+	title: "Introspection"
+	text: What am I doing. Shouldn't I be looking for a job or something?
+	tags: basic
+	
+	choice: "No! It's the time for adventure!"
+	resolution: "Kind of helps."
+	reward: "ailment:inspired"
+
+	choice: "That can wait! Although some cash wouldn't hurt..."
+	resolution: "You keep doubting your own decisions"
+	reward: "energy:-2"
+}
+
+{
+	name: "finger_nails"
+	text: How did my finger nails get so dirty?
+	tags: basic
+	
+	choice: "I guess I've been scratching my head again."
+	resolution: "Should shower, maybe."
+	reward: "ailment: dirty"
+
+	choice: "Hmm... I don't care."
+	resolution: "You look up at the road, and stop thinking about your nails."
+	reward:
+}
+//start new
+{
+	name: "lumbar_support"
+	text: Jeez, my back is hurting from these seats.
+	tags: basic
+	
+	choice: I'll need to stretch a bit. I should just do it now.
+	resolution:  "Arch your back, squeeze your shoulder blades together and stretch it out good."
+	reward: "energy:1"
+
+	choice: I wish I had some painkillers.
+	resolution: "You make a feeble attempt to look for painkillers, but, instead, just think about the pain."
+	reward: "energy:-1"
+}
+
+{
+	name: "pass_car"
+	text: Didn't I just pass this car?
+	tags: basic
+	
+	choice: "Rub your eyes."
+	resolution: "I must be getting tired."
+	reward: "ailment:tired"
+
+	choice: "I can't let him pass me again"
+	resolution: "Drive Faster"
+	reward: ailment:zone
+
+	choice: "He's following me..."
+	resolution:  "Looking into your rearview mirror you try to see who this person is and feel a little paranoid."
+	reward: energy:-2
+}
+
+{
+	name: "bright_headlights"
+	text: They gotta make high power headlights illegal.
+	tags: night
+	
+	choice: "Are they really safer? Blinds me every time."
+	resolution: "Maybe I should get some myself. Oh! Some cash!"
+	reward: money:2
+
+	choice: "Fucking idiots."
+	resolution:  "You get yourself worked up and annoyed everyone."
+	reward: ailment:headache
+}
+
+{
+	name: "fan_fidget"
+	text: Yes! At last, I got the fans set perfectly. Good strength, not too loud, and in all the right directions.
+	tags: basic
+	
+	choice: "Hmm maybe I should just adjust it a little; could be better."
+	resolution:  "You adjust the fan speed a tiny bit, and the direction a fraction. Yet, you somehow madeit a lot worse."
+	reward: "durability:-1"
+
+	choice: "Leave it! Please, just leave it be."
+	resolution:  "You put your hand up to the fan, and then hold over the controls, but refrain."
+	reward: "energy:1"
+}
+
+{
+	name: "crack_or_not"
+	text: Fuck, is that a crack or just some dirt on the windshield?
+	tags: basic
+	
+	choice:  "Pick at it with your finger."
+	resolution: "Phew, it's just some snot or something. Must have sneezed hard."
+	reward: "durability:1"
+
+	choice: "Does it matter? If it's a crack, it's a crack."
+	resolution:  "Your indifference gives you a sense of control."
+	reward: "ailment:inspired"
+}
+
+{
+	name: "funny_licenseplate"
+	text: CEX 699 ...hehe
+	tags: basic
+	
+	choice: "Oh man, too good!"
+	resolution: "I wish mine was better."
+	reward: "ailment:social"
+
+	choice: "I'd be so embarrassed with that license plate."
+	resolution: "Not as bad as my old email address though. "
+	reward:
+}
+
+{
+	name: "the_pick"
+	text: Come on, how deep are you gonna pick your nose? Don't you know we can see you?
+	tags: basic
+	
+	choice: "Thing is, I kind of need to do it too."
+	resolution:  "You subtly pick your nose."
+	reward: ailment: dirty
+	
+	choice: "Maybe it's a scratch - on the outside like."
+	resolution: "I doubt it though; people are gross."
+	reward:
+}
+
+{
+	name: "owning_bar"
+	text: If I had a bar, what would I call it?
+	tags: basic
+	
+	choice: "You would never be able to take care of a bar."
+	resolution: "Yeah, I would. Or maybe not. Probably not, actually."
+	reward: "ailment: headache"
+	
+	choice: "Hmm what's that pub called in Ulysses? That'd be good."
+	resolution: "Whatever, all I know is it would have to have an Arcade machine in it."
+	reward: 
+}
+
+{
+	name: "forgot_something"
+	text: Did I forget...
+	tags: basic
+	
+	choice: "Saying bye to my best friend?"
+	resolution: "No, no, we said bye a few days before."
+	reward: ailment:social
+	
+	choice: "Turning off the oven before I left?"
+	resolution: "I made some pizza bagles and then... yeah I turned it off."
+	reward: ailment:hungry
+}
+
+{
+	name: "call_parents"
+	text: I gotta call my parents soon. And not only when I need help. 
+	tags: basic
+	
+	choice: "I'll do it tomorrow!"
+	resolution: "Sure you will..."
+	reward: 
+	
+	choice: "I miss them."
+	resolution: "Hope they're not worried about me."
+	reward: 
+}
+
+
+
+
+
+
+//end new
+
+//ENVIRONMENTS
+
+{
+	name: "something_there"
+	text: I wonder what lives in these woods.
+	tags: env:forest
+	
+	choice: "I bet there's a troll in a cave munching on some berries."
+	resolution: "Oh, or a slightly charred boar... with blueberries... and icecream."
+	reward: "ailment: hungry"
+	
+	choice: "look out the window"
+	resolution: "I dunno, I thought that this was moment I'd see a moose or bigfoot for the first time."
+	reward: 
+}
+//ROADS
+{
+	name: "motorway_test"
+	text: Driving on the motorway sure is monotonous...
+	tags: env:forest
+	
+	choice: "I should enjoy it"
+	resolution: "...I really should..."
+	reward: "ailment: hungry"
+	
+	choice: "I'm looking forward to see something new"
+	resolution: "It could be anything!"
+	reward: energy:2
+}
+
+{
+	name: "stressed_out"
+	text: God damn, why are some people so stressfull. Chill!
+	tags: road:city
+	
+	choice:  "give'em the bird"
+	resolution: "Idiots! What are you in such a fucking hurry for?"
+	reward: "energy: -1"
+	
+	choice: "Yeah, yeah, go around. Take it easy."
+	resolution: "I'm happy I don't have their life."
+	reward:
+}
+
+
+
+
+//HITCHHIKERS
+{
+	name: "mechanic_doubts"
+	title: "Introspection"
+	text: This guy, Brian, is so talented... What am I doing with my life!?
+	tags: hh_mechanic
+	
+	choice: "It's ok I am good at ...stuff!"
+	resolution: "Like what?"
+	reward: "ailment:headache,energy:2"
+
+	choice: "He really is. Maybe one day I could also learn a trade."
+	resolution: "Your values and life-goals are changing"
+	reward: "energy:1"
+}
+
+{
+	name: "hippie_girl_thoughts"
+	title: "Introspection"
+	text: I wonder what the Girl's goals and dreams are.
+	tags: hh_hippie_girl
+	
+	choice: "Maybe she's just an aimless drifter"
+	resolution: "Am I also just like that? What are MY goals and ambitions?"
+	reward: "ailment:headache,energy:2"
+
+	choice: "She probably just lives in the moment"
+	resolution: "Planning is overrated! I should try to be more like her!"
+	reward: "energy:1,ailment:inspired"
+}
+//ITEMS
+{
+	name: "tent_thoughts"
+	text: There's something about lying in a tent while it's raining.
+	tags: item_tent
+	
+	choice: "The sound. It's the sound!"
+	resolution: "The way the pitter patter is amplified by the tent's vibration. It's like lying at home next to the window, but better."
+	reward: trait:rain_lover
+
+	choice: "It gets so humid! It's like having sex in a bathhouse."
+	resolution: "I wish I knew what that's like."
+	reward: none
+}
+
+
+//TRAITS
+
+{
+	name: "vegetarian"
+	text: Hmmm... Maybe I should become a vegetarian...?
+	tags: basic
+	
+	choice: "Yeah! Why not?"
+	resolution: "It shouldn't be too hard to stay away from meat!"
+	reward: trait:vegetarian
+
+	choice: "I don't think I could do it"
+	resolution: "I really don't think I could live without eating meat..."
+	reward: none
+}
+
+//MAIN QUESTS
+
+{
+	name: "rehab_old"
+	text: What am I doing? Maybe I am overdoing it with all the drugs...
+	tags: none
+	weight: 1
+	
+	choice: "I should seek help"
+	resolution: "I should probably get to a hospital to get help"
+	reward: quest:rehab_first
+
+	choice: "I'm fine!"
+	resolution: "I can handle this!"
+	reward: none
+}
+
+{
+	name: "rehab"
+	text: I fucking hate being addicted to something.
+	tags: trait_junkie
+	weight:1
+
+	choice: "I can stop anytime I want. I just don't want to."
+	resolution: "Would be nice with a little hit now."
+	reward: ailment:low,trait:junkie_2
+	
+	choice: "I remember I saw a rehab postcard somewhere."
+	resolution: "Holy shit, yeah, I can't keep living like this."
+	reward: quest:rehab_first
+}
+
+{
+	name: "work_end_old"
+	text: Hmm it sure is nice to have some extra cash.
+	tags: not_in_anymore
+	weight:1
+	
+	choice: "I should work more"
+	resolution: "There was that place where I found a lot of jobs"
+	reward: quest:settle_down
+
+	choice: "I'll manage, somehow"
+	resolution: "Or will I?"
+	reward: ailment:sad
+}
+
+
+
+
+{
+	name: "work_end"
+	text: Honestly, it wouldn't be that bad having a job this summer.
+	tags: trait_workaholic
+	weight:1
+
+
+	choice: "I was pretty good at it. And they liked me!"
+	resolution: "Hmm, maybe I should go back and see if I get something more permanent."  
+	reward: quest:settle_down
+	
+	choice: "How can you think that! Why would you want to work now?!"
+	resolution: "Look around. You got the whole summer and so much to do!"
+	reward: ailment:inspired,ailment:happy
+
+	choice: "Yeah... why not. Got nothing else planned really."
+	resolution: "I mean. money, right? I'll spend it next summer... I guess."
+	reward: quest:settle_down
+}
+
+//NEW
+
+{
+	name: "the_clouds"
+	text: Wow, those clouds are incredible.
+	tags: basic
+	
+	choice: "Looks like some massive olympian castle. I gotta stop."
+	resolution:	-You decide to stop the car and just watch the clouds go by."
+	reward: stop_car,ailment:inspired
+	
+	choice: "It's strange that I still get moved by something like a well lit cloud."
+	resolution: "Sunsets, clouds, the sound of rain - Cliche and basic, but I can't help it."
+	reward: ailment:inspired
+}
+
+
+{
+	name: "the_clouds2"
+	text: It feels like some parts of the world have better clouds than others.
+	tags: basic
+	
+	choice: "I hope I find a place with really big clouds. Thick, illuminated, majestic."
+	resolution: "-You continue driving with a small smile of purpose."
+	reward: ailment:zone
+	
+	choice: "The best places are always up in the mountains or in fields."
+	resolution: "You get a strong yearning for fields and mountains."
+	reward: ailment:inspired
+}
+
+
+{
+	name: "something_there"
+	text: I wonder what lives in these woods.
+	tags: forest
+	
+	choice: "I bet there's a troll in a cave munching on some blueberries."
+	resolution: "Oh, or a slightly charred boar... with blueberries... and ice cream."
+	reward: "ailment: hungry"
+	
+	choice: "-look out the window"
+	resolution: "I dunno, I thought that this was moment I'd see a moose or bigfoot for the first time."
+	reward: 
+}
+
+{
+	name: "dog_heaven"
+	text: Do dogs go to heaven? 
+	tags: hh_dog
+
+	
+	choice: "Heaven, whatever that may be."
+	resolution: "I'm sure they would just want to be where their owner is, even in death."
+	reward: ailment:inspired
+	
+	choice: "Yeah! Of course."
+	resolution: "They're all good, through and through. Just bad owners."
+	reward: ailment:happy
+}
+
+{
+	name: "unfair"
+	text: It's not fair...
+	tags: basic
+		
+	choice: "I've never once won at a carnival or lottery or anything."
+	resolution: "I wonder if most people feel that way?"
+	reward: money:1
+	
+	choice: "Gas prices went up as soon as I decided to get a car."
+	resolution: "I bet they'll go down as soon as I sell it too."
+	reward: gas:1
+
+	choice: "When I need a mechanic there are none and when I don't they're everywhere."
+	resolution: "It's just not fair."
+	reward: durability:1
+}
+
+{
+	name: "stressed_out"
+	text: God damn, why are some people so stressful. Chill!
+	tags: city
+	
+	choice: "give'em the finger"
+	resolution: "Idiots! What are you in such a hurry for?"
+	reward: "energy:-1"
+	
+	choice: "Yeah, yeah, go around. Take it easy."
+	resolution: "I'm happy I don't have their life."
+	reward:
+}
+
+{
+	name: "stressed_out_together"
+	text: If I crash now... Or if something happens...
+	tags: hh_in_car
+	
+	choice: "I'd be responsible for killing all these people."
+	resolution: "I don't even know them!"
+	reward: energy:-1,ailment:scared
+	
+	choice: "Oh shit. Oh shit. Oh shit!"
+	resolution: "Calm down; everyone is enjoying themselves; the road is fine; take it easy."
+	reward:  
+
+	choice: "-Tell everyone in the car to be quiet."
+	resolution: "I hope they're not mad at me for snapping at them."
+	reward: ailment:sad
+}
+
+{
+	name: "a_million_dollars"
+	text: Ok, imagine, tomorrow, I wake up with a million bucks cash in the trunk. What would I do?
+	tags: basic
+	
+	choice: "Hmm, I dunno, get a better car? Keep some for gas and give away the rest.
+	resolution: "Problem is, who'd I give it to?"
+	reward: ailment: spender
+	
+	choice: "I'd be very worried I would wake up the next day next to a horse head."
+	resolution: "Like, where did that money come from?"
+	reward: ailment:saver
+}
+
+{
+	name: "not_a_reader"
+	text: I really don't read enough anymore.
+	tags: basic
+	
+	choice: "I wish I had time."
+	resolution: "And everytime I try before bed, I just fall asleep."
+	reward: ailment: tired
+	
+	choice: "The pile of books I WANT to read is just getting bigger."
+	resolution: "And yet, I don't read any of them."
+	reward: item:random_book
+}
+
+
+{
+	name: "pimples_again"
+	text: That driver must be like 14. No way he could have a licence.
+	tags: basic
+	
+	choice: "So happy I don't have pimples like that anymore."
+	resolution: "Or did I ever really have them? Yeah of course I did."
+	reward: ailment: happy
+	
+	choice:-"feel your face, touch your brow and the crease of your nostrils."
+	resolution: "Can't tell if I'm really greasy or just sweaty."
+	reward: ailment:hot
+}
+
+{
+	name: "brakes_break"
+	text: If my brakes break now... I'd be fucked. So fucked.
+	tags: basic
+
+	choice: "I don't even think this car has airbags."
+	resolution: "- You check for airbags"
+	reward: ailment:scared
+	
+	choice: "-Test the brakes."
+	resolution: "They do feel a bit - hmm - squishy? I should get them checked out."
+	reward: durability:-1
+}
+
+{
+	name: "beautiful_road"
+	text: I'm happy I took this road.
+	tags: road:country
+	
+	choice: "-Keep your eyes on the road."
+	resolution: "I really love how the road stretches out. Easy and free. Easy and free."
+	reward: ailment:zone
+	
+	choice: "-Look out the door window"
+	resolution: "The open fields, the clouds, the sky, and the color of it all."
+	reward: ailment:inspired
+}
+
+{
+	name: "boring_road"
+	text: Geez, this road is really boring.
+	tags: road:motorway
+	choice: "-Keep your eyes on the road"
+	resolution: "Not a bend or curve or even some nice nature. I'm gonna fall asleep."
+	reward:ailment: tired
+	
+	choice: "-Look out the door window"
+	resolution: "Not even pretty outside. At least the car seems to enjoy the monotony."
+	reward: ailment:zone
+}
+
+
+{
+	name: "stressful_road"
+	text: Ok, focus. Focus! Damn, it's stressful driving in the city.
+	tags: road:city
+	
+	choice: "People are crazy!"
+	resolution: "I swear everyone secretly wants to die."
+	reward: energy:-1
+	
+	choice: "Don't go too fast, look around, take it easy."
+	resolution: "I think I can do this!"
+	reward: ailment:zone
+}
+
+{
+	name: "empty_thoughts"
+	text: I should think of something to think.
+	tags: basic
+	
+	choice: "-Think."
+	resolution: "It's been... I know... umm... the car..."
+	reward: energy:-1
+	
+	choice: "-Do not think."
+	resolution: "Not as easy as I thought."
+	reward: energy:4
+}
+
+{
+	name: "good_driver"
+	text: I really am amazing at driving!
+	tags: ailment_zone
+	
+	choice: "I've been keeping the speed perfectly steady."
+	resolution: "-You hold the wheel steadily with confidence."
+	reward: ailment:happy
+	
+	choice: "And this car isn't the easiest to drive either!"
+	resolution: "I should do a race or something."
+	reward: energy:2
+}
+
+
+//MORE NEW ONES
+{
+	name: "faces_places"
+	text: There are billions of different faces, yet I feel like I've seen most of them before.
+	tags: basic
+	
+	choice: "Sometimes I wonder if there are only so many 'types' that just get slightly morphed."
+	resolution: "-Look in the rearview mirror at yourself."
+	reward: ailment:tired
+	
+	choice: "There are so many weird faces, yet they are always some version of a face I've seen before."
+	resolution: "At least they're more different from eachother than Hollywood stars."
+	reward: "ailment:social"
+
+	choice: "It's like the simulation's random generator is busted."
+	resolution: "Or just lazily made."
+	reward: "ailment:scared"
+}
+
+
+{
+	name: "grandpa_book"
+	text: My grandpa told me once about a book I MUST read when I come of age.
+	tags: trait_bookworm
+
+	choice: "But I can't remember the name of the author or which book."
+	resolution: "I think it was either Tolstoy or Dostojevskij"
+	reward: ailment:inspired
+	
+	choice: "But fuck that. I don't have time to read."
+	resolution: "This road is too long and I need a beer."
+	reward: ailment:tired
+}
+
+
+{
+	name: "commuter"
+	text: I hope I never become a commuter - but I hope I become responsible - but I hope I don't become boring - but I hope I'll be happy...
+	tags:basic
+
+	choice: "-Close your eyes"
+	resolution: "Two seconds go by. They feel long and frightening. Then you open them again."
+	reward: clear_ailments
+	
+	choice: "-Look up into the sky and smile."
+	resolution: "It's a nice day today"
+	reward: "energy: +10"
+}
+
+{
+	name: "screenshot"
+	text: Oh, wow! It's pretty here. 
+	tags: 
+requirements: country road or mountain or coast
+
+	choice: "I should stop when I get a chance and take a picture."
+	resolution: "This is exactly the kind of thing I'm here for."
+	reward: "trait: naturalist" or "skill: naturalist +1"
+	
+	choice: "Can't believe the world looks like this sometimes."
+	resolution: "It's almost too beautiful. It's unreal. Just beyond the road there's a town, a tree-swing, a life."
+	reward: "inspired" or something better
+}
+
+
+
+
+{
+	name: "shitty_driver"
+	text: How did that person get a license? Seriously, how?!
+	tags:basic
+
+	choice: -"HONK"
+	resolution: "Fucking, idiot."
+	reward: "energy:-1,honk"
+	
+	choice: "-Slow down and shake your head"
+	resolution: "I wonder who this person is."
+	reward: "energy:1"
+}
+
+//road event distracted
+
+{
+	name: "view_point_drive"
+	text: Where are all the make-out spots with amazing views I keep seeing in movies?
+	tags: env:desert,road:city
+	
+	choice: "Apparently, not anywhere I am."
+	resolution: "I can imagine it's quite nice at one alone too, though."
+	reward: "energy:-1"
+	
+	choice: "Ok, next time I'm near a town, I'll look for some hills."
+	resolution: "And if I'm with someone, great - if not, whatever."
+	reward: "energy:1"
+
+	choice: "Honestly, is making out in a car really that romantic?"
+	resolution: "It's dirty, and it gets all humid, and I hate sitting in the back seat."
+	reward: "ailment:tired"
+}
+
+
+{
+	name: "beer_limit"
+	text: The legal limit is like around 0.05, right? I wonder what my limit is?
+	tags: basic
+
+	choice: "Could I drink like 5 beers and be ok to drive?"
+	resolution: "I mean, I think so. But, probably best not to test it."
+	reward: ailment:scared
+	
+	choice: "I feel like after 1 pint I get tipsy."
+	resolution: "There's no way I'd drink and drive."
+	reward: energy:1
+
+	choice: "I'm sure I could drink a whole bottle of vodka and be fine."
+	resolution: "There's gotta be something to drink somewhere under the seats."
+	reward: "item:liquor"
+}
+
+
+{
+	name: "beer_limit_drunk"
+	text: The legal limit is like around 5%, or wait 0.08? or no i dunno. right?
+	tags: ailment_drunk
+
+	choice: "Fuck, I could have like 5 more beers and I'd be fine."
+	resolution: "Do I really need 5 more though?"
+	reward: "ailment:tired"
+	
+	choice: "There's a squirrel on the road. Oh wait, no."
+	resolution: "That's a trashbag. I shouldn't have had that last, that last drink."
+	reward: "energy: -3"
+
+	choice: "The road is a lot thinner than I thought. it's thinner. Yeah."
+	resolution: "God, I hope no one notices."
+	reward: "ailment:scared"
+}
+
+
+{
+	name: "screenshot"
+	text: Oh, wow! It's pretty here. 
+	tags: road:country
+
+	choice: "I should stop when I get a chance and take a picture."
+	resolution: "This is exactly the kind of thing I'm here for."
+	reward: ailment:inspired
+	
+	choice: "Can't believe the world looks like this sometimes."
+	resolution: "It's almost too beautiful. It's unreal. Just beyond the road there's a town, a tree-swing, a life."
+	reward: ailment:happy
+}
+
+
+{
+	name: "screenshot2"
+	text: I can't get enough of these beautiful open roads.
+	tags: road:country
+
+
+	choice: "I'm so happy that I can just drive around for a summer. "
+	resolution: "Although, it'd be nice if someone else drove a bit too. So I can look around more."
+	reward: ailment:inspired,energy:-1
+	
+	choice: "I never want to leave the road."
+	resolution: "It's like some kind of mystery dream I never want to leave."
+	reward: ailment:inspired
+}
+
+
+{
+	name: "dirty_fart"
+	text: *Ppprtt!* What the hell did I eat?! I thought it was going to be a tiny one.
+	tags: basic
+
+	choice: "Open the window and keep quiet."
+	resolution: "Everyone is silent"
+	reward: ailment:dirty
+	
+	choice: "Feels better now though..."
+	resolution: "I gotta take better care about what I eat."
+	reward: ailment:satisfied
+}
+
+
+{
+	name: "sneeze"
+	text: I'm gonna sneeze... Oohh I'm gonna sneeeezeee!
+	tags: road:country
+
+	choice: "Ohh it's soo cloose!!"
+	resolution: "Nah, nevermind. It went away."
+	reward: ailment:headache
+	
+	choice: "Fucking pollen.. ahhh."
+	resolution: "Hold it! Hold it! Hold it!"
+	reward: energy:-1,trait:allergic
+}
+
+{
+	name: "snacksy"
+	text: I'm starting to get a little snacksy.
+	tags: ailment_hungry
+
+	choice: "I should check if there's something in the door pockets."
+	resolution: "-Rummage through the door sleeves."
+	reward: item:nuts
+	
+	choice: "Swallow some extra saliva and be happy."
+	resolution: "You swallow whatever was in your mouth and feel hungry - not happy."
+	reward: ailment:hungry
+
+	choice: "Who says snacksy? just say snacky or hungry or anything else."
+	resolution: "Where the hell did I even hear that in the first place."
+	reward: ailment:headache
+}
+
+{
+	name: "sky_bird_plane"
+	text: You lean forward and look up at the sky.
+	tags: weather_clear
+
+	choice: "I wonder where that plane is going?"
+	resolution: "It's strange to think that there's a bunch of people up there now sitting, watching a movie, sleeping or just waiting to arrive somewhere on earth."
+	reward: ailment:inspired
+	
+	choice: "Oh cool! I think that's a hawk!"
+	resolution: "...or a falcon? Not sure what the difference is. Either way, it's probably just a pigeon."
+	reward: road_event:falcon
+}
+
+{
+	name: "no_money_1"
+	text: I don't think I have a lot of money left. If any at all.
+	tags: trait_broke
+
+	choice: "Eh, doesn't matter. I'll figure it out."
+	resolution: "That feels good, but I kinda hope I didn't just jinx it..."
+	reward: ailment:satisfied
+	
+	choice: "I should check between the seats."
+	resolution: "Fuck yeah! Found some loose change."
+	reward: money:15
+}
+
+
+{
+	name: "no_money_2"
+	text:Ugh... it sucks being broke.
+	tags: trait_broke
+
+	choice: "I don't even really want to keep driving anymore."
+	resolution: "Broke, no friends, shitty car, shitty music, and only problems on the road all the fucking time."
+	reward: ailment:sad
+	
+	choice: "Maybe I should sell some stuff?"
+	resolution: "I could live like that ex-heroin addict I met last summer, without possessions. That'd be badass."
+	reward: trait:spartan
+}
+
+{
+	name: "rich_money"
+	text: Since when do I have so much money?
+	tags: trait_rich
+
+	choice: "I have too much money, someone is going to rob me. I know it."
+	resolution: "I should put some in my shoe and some in the glove box and some in my underwear and some under the carpets."
+	reward: ailment:saver
+	
+	choice: "I don't really even know what to spend it on."
+	resolution: "Maybe I should get a boat. Sail the 7 seas. See the world."
+	reward: ailment:spender
+}
+
+{
+	name: "school_thoughts"
+	text: I wonder if I'll forget everything I learnt in school some day?
+	tags: basic
+
+	choice: "I hope I at least remember the psychology and philosophy classes."
+	resolution: "Seems like something I can use in life... or maybe not at all."
+	reward: ailment:social
+	
+	choice: "I hope I remember physics and math, like some simple formulas at least."
+	resolution: "I'm already starting to forget those... (f)=2x+y2+... ugh, I can't remember."
+	reward: road_event:distracted
+
+	choice: "Or will all the new thoughts I have push out the old?"
+	resolution: "Maybe I gotta go back to school! Shit..."
+	reward: skill_point:1
+}
+
+{
+	name: "married_pact"
+	text: This bride kind of reminds me of that pact I made with my friend last spring. We'd get married if we don't find anyone by the time we're 30.
+	tags: hh_bride
+
+	choice: "I kinda hope it happens. Might be my only chance."
+	resolution: "You dream of a quick and fun wedding."
+	reward: ailment:social
+	
+	choice: "So stupid. I wonder if we'll even still be friends by then."
+	resolution: "I doubt it. They'll probably get married before that anyway."
+	reward: ailment:sad
+}
+
+{
+	name: "low_gas"
+	text: Hmm... I think I might need gas...
+	tags: gas_low
+	weight:1
+
+	choice: "It's in the red, but there's always a lot more than you think."
+	resolution: "The needle quivers over red, but almost looks like it wants to go up."
+	reward: gas:2
+	
+	choice: "I wonder how far I can go?"
+	resolution: "You keep your eye on the needle as it gets lower and lower and lower."
+	reward: ailment:zone
+}
+
+
+
+{
+	name: "low_durability"
+	text: I swear I can hear a clanking sound somewhere. Is that the car?
+	tags: durability_low
+
+	choice: "Roll down the window."
+	resolution: "Listen closely to the sound, and hear that the brakes are making a low clicking noise."
+	reward: ailment:scared
+	
+	choice: "Turn down the music."
+	resolution: "Can't seem to hear it now. Must have been imagining things."
+	reward: durability:2
+
+	choice: "fucking car, don't do this to me..."
+	resolution: "I'll fix you up at the next town, I promise."
+	reward: item:duct_tape
+}
+
+{
+	name: "low_durability_2"
+	text: Kind of amazing that this car is still running.
+	tags: durability_low
+
+	choice: "Feels like it'll never die!"
+	resolution: "Shit, I shouldn't jinx it!"
+	reward: durability:-1
+	
+	choice: "I'm a bit worried that one hard turn and the whole car will collapse like a cartoon. "
+	resolution: "I'll just keep her slow and steady. Slow and steady."
+	reward: ailment:zone
+}
+
+{
+	name: "happy_for_music"
+	text: I'm so happy I fixed the stereo before I left. Imagine if I had no music!
+	tags: music_playing
+
+	choice: "It's definitely one of the most important things in a road trip."
+	resolution: "It makes everything cooler."
+	reward: ailment:inspired
+	
+	choice: "It'd be so damn boring. just listening to the car and wind for hours and hours."
+	resolution: "I don't even want to think about that."
+	reward: ailment:scared
+
+	choice: "Wouldn't be the end of the world to be honest."
+	resolution: "I could listen to the best sound in the world: the motor's purr and the tires' hum."
+	reward: ailment:zone
+
+}
+
+
+{
+	name: "parents_footsteps"
+	text: I wonder what my parents were doing at my age?
+	tags: basic
+
+	choice: "Probably just studying."
+	resolution: "I feel like they never really wanted to explore the country."
+	reward: energy:1
+	
+	choice: "I don't think they ever really got a chance to travel much."
+	resolution: "Or they just won't tell me about it. I can imagine it was kind of wild back then."
+	reward: none
+
+	choice: "It must have been so much easier to go out on a road trip those days."
+	resolution: "...wasn't the gas like dirt cheap?"
+	reward: gas:-1
+
+}
+
+
+{
+	name: "parents_footsteps_2"
+	text: I'm so tired of my parents wanting me to be everything, but what I want to be. 
+	tags: bad_parent_relation
+
+	choice: "I don't even really know what I want to be."
+	resolution: "But it feels like they've decided it already for me. Fuck that."
+	reward: ailment:sad
+	
+	choice: "Like why can't they just relax and leave me alone."
+	resolution: "I know what's best for me!"
+	reward: ailment:sad
+
+	choice: "I feel like there're too many options in life
+	resolution: "It would be kind of nice to just follow in their footsteps."
+	reward: ailment:sad
+
+}
+
+
+{
+	name: "rehab_quest_2"
+	text: Ok, sure I can stop anytime I want to. I know I can.
+	tags: trait_junkie_2
+	weight:1
+
+	choice: "But maybe a little help wouldn't hurt."
+	resolution: "Honestly, getting really tired of feeling like shit. I gotta find that info letter laying around here somewhere."
+	reward: quest:rehab_first
+	
+	choice: "Wait, what? Why am I even thinking about that?"
+	resolution: "I love living like this!"
+	reward: gain 4 energy
+}
+
+
+{
+	name: "grilled_cheese"
+	text: I wonder if I'll ever fall deep into a grilled cheese addiction again?
+	tags: trait_gourmand
+
+	choice: "So funny that it seems like everyone has one of those moments."
+	resolution: "The grilled cheese takes hold and doesnt let go until youve had too many "
+	reward: ailment:happy
+	
+	choice: "Kinda jonzing for one right now to be honest."
+	resolution: "Buttered pan, some nice fluffy toast and some cheddar cheese"
+	reward: ailment:hungry
+}
+
+{
+	name: "road_life"
+	text: It's wild to think about how many people live and work driving on these roads.
+	tags: basic
+
+	choice: "So many people drive such incredibly long commutes for work."
+	resolution: "Spending hours and hours on the road, alone."
+	reward: ailment:social
+	
+	choice: "I mean, bless all those truck drivers and bus drivers that drive all around the world."
+	resolution: "It must be really cozy at times and really quite lonely as well."
+	reward: ailment:inspired
+}
+
+{
+	name: "missing_homely"
+	text: Look, it's great being out on the road, but I really miss...
+	tags: basic
+
+	choice: "being alone in the morning, running hot water on my hands, just staring into the bathroom mirror."
+	resolution: "Time seems to be standing still until you realize you only have 10 minutes before you have to leave for school.  
+	reward: ailment:tired
+	
+	choice: "Getting up, making some tea and listening to music with the sun on my face."
+	resolution: "When a minute feels like a second and a second feels like a minute."
+	reward: energy:1
+}
+
+
+
+
+
+//LOCATION SPECIFIC
+
+{
+	name: "casino"
+	text: "Gambling... Maybe I should try my luck at the slot machines...
+	tags: location_specific
+	
+	choice: "I will gamble 10 bucks!"
+	resolution: "..."
+	req:money:10
+	reward: money:-10,money:25%15
+	
+	choice: "100 bucks! I'm here to win big!"
+	resolution: "..."
+	req:money:100
+	reward: money:-100,money:250%15
+	
+	choice: "Not today..."
+	resolution: "I won't take any risks"
+	reward: none
+		
+}
+
+{
+	name: "light_house"
+	text: "The ocean. Both calm and violent. I wonder how long this light house has been standing here.
+	tags: location_specific
+	
+	choice: "One day I would like to set out to the sea"
+	resolution: "...I would just keep sailing"
+	reward: ailment:inspired
+	
+	choice: "Imagine being a light house keeper..."
+	resolution: "...The stormy nights would be so scary"
+	reward: ailment:scared
+
+		
+}

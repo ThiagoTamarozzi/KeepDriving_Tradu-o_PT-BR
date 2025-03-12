@@ -1,0 +1,249 @@
+///////////EXPLORATION
+
+{
+	name: rocks
+	ep_env: forest
+	ep_type: door
+	key_item: rope
+	text_fail: A big rock is blocking the way forward.
+	text_success: You use your rope to climb over the rocks.
+	sprite: spr_exp_forest_door_rock
+	
+	solution:item:rope
+	solution_text: You use your rope to climb over the rocks.
+	
+	solution:hh:hiker
+	solution_text: The Hiker uses his rope to climb over the rocks.
+}
+
+{
+	name: vines
+	ep_env: forest
+	ep_type: door
+	key_item: knife
+	text_fail: vines are blocking your way forward.
+	text_success: You use your knife to slash through the vines.
+	sprite: spr_exp_forest_door_vines
+	
+	solution:item:knife
+	solution_text: You use your knife to slash through the vines.
+	
+	solution:item:knife_small
+	solution_text: You use your knife to slash through the vines.
+	
+	solution:item:wine_glass_broken
+	solution_text: You use the shattered glass pieces of your wine glass to cut through the vines
+	
+	solution:item:milk_shake_broken
+	solution_text: You use the shattered glass pieces of your former milk shake to cut through the vines
+}
+
+{
+	name: cave
+	ep_env: forest
+	ep_type: door
+	key_item: flash_light
+	text_fail: It's too dark to see in the cave ahead.
+	text_success: You light up the cave with your flash light.
+	sprite: spr_exp_forest_door_cave
+	
+	solution:item:flash_light
+	solution_text: You light up the cave with your flash light.
+	
+	solution:hh:hiker
+	solution_text: The Hiker guides you through the cave.
+}
+
+{
+	name: dog
+	ep_env: city
+	ep_type: door
+	key_item: dog_food
+	text_fail: A snarling dog is blocking the way
+	text_success: You throw some food for the dog.
+	sprite: spr_exp_city_door_dog
+	
+	solution:item:dog_food
+	solution_text: You throw some food for the dog.
+	solution_consume:1	
+	
+	solution:hh:dog
+	solution_text: The Punk's Dog befriends the snarling dog.
+}
+
+{
+	name: muggers
+	ep_env: city
+	ep_type: door
+	key_item: knife
+	text_fail: Some muggers are blocking the way
+	text_success: You threaten the muggers with your knife
+	sprite: spr_exp_city_door_muggers
+	
+	solution:item:knife
+	solution_text: You threaten the muggers with your knife.
+	
+	solution:item:knife_small
+	solution_text: You threaten the muggers with your knife.
+	
+	solution:hh:dog
+	solution_text: The Punk's Dog scares away the muggers.
+	
+	solution:hh:stranger
+	solution_text: The Stranger threatens the muggers.
+	
+	solution:item:gun
+	solution_text: You threaten the muggers with your gun.
+}
+
+{
+	name: fence
+	ep_env: city
+	ep_type: door
+	key_item: crowbar
+	text_fail: A closed iron gate is blocking the way forward.
+	text_success: You pry open the gate with your crowbar.
+	sprite: spr_exp_city_door_fence
+	
+	solution:item:crowbar
+	solution_text: You pry open the gate with your crowbar.
+	
+	solution:hh:convict
+	solution_text: The Convict picks the lock and opens the gate.
+	
+	
+	solution:item:gun
+	solution_text: You shoot the lock with your gun.
+}
+
+
+//TREASURES
+
+{
+	name: mushrooms
+	ep_env: forest
+	ep_type: treasure
+	ep_reward_item: item:random_mushroom,item:random_mushroom,item:random_mushroom,item:random_mushroom%50,item:random_mushroom%50, item:random_porn%10
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_forest_treasure_mushrooms
+}
+
+{
+	name: berry_bush
+	ep_env: forest
+	ep_type: treasure
+	ep_reward_item: item:random_berries,item:random_berries,item:random_berries,item:random_berries%50,item:random_berries%50, item:random_porn%10
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_forest_treasure_berry_1
+}
+
+{
+	name: tent
+	ep_env: forest
+	ep_type: treasure
+	ep_reward_item: item:random_camping, item:random_trash, item:random_trash%50, item:random_porn%50
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_forest_treasure_tent
+}
+
+{
+	name: shed
+	ep_env: forest
+	ep_type: treasure
+	ep_reward_item: item:random_common_find,item:random_common_find%50,item:random_drug%50, item:random_porn%75
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_forest_treasure_shed
+}
+
+{
+	name: car_city
+	ep_env: city
+	ep_type: treasure
+	ep_reward_item: item:random_car_upgrade, item:random_scrap, item:random_scrap%50, item:random_scrap%50
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_forest_treasure_car
+}
+
+{
+	name: car_forest
+	ep_env: forest
+	ep_type: treasure
+	ep_reward_item: item:random_car_upgrade, item:random_porn%10, item:random_scrap, item:random_scrap%50, item:random_scrap%50
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_forest_treasure_car
+}
+
+{
+	name: dumpster
+	ep_env: city
+	ep_type: treasure
+	ep_reward_item: item:random_food,item:random_drug%50
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_city_dumpster
+}
+{
+	name: boxes
+	ep_env: city
+	ep_type: treasure
+	ep_reward_item: item:random_food,energy:-1,item:random_drug%50
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_city_boxes
+}
+
+{
+	name: vents
+	ep_env: city
+	ep_type: treasure
+	ep_reward_item: item:random_spray,energy:-1,item:random_drug%50
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_city_vents
+}
+
+{
+	name: graffitti
+	ep_env: city
+	ep_type: treasure
+	ep_reward_item: item:random_drug,item:random_spray
+	text_fail: You found some mushrooms! They look delicious!
+	text_success: You found some mushrooms! They look delicious!
+	sprite: spr_exp_city_spray
+}
+
+{
+	name: punk_club
+	ep_env: special
+	ep_type: door
+	ep_reward_item: item:random_food,energy:-1,item:random_drug%50
+	
+	text_fail: You can't seem to get into the club
+	text_success: You found some mushrooms! They look delicious!
+	
+	solution:hh:punk
+	solution_text: The Punk enters The Club. Leaving The Dog with you.
+	
+	sprite: spr_exp_city_punk_club
+}
+
+{
+	name: punk_club_done
+	ep_env: special
+	ep_type: door
+	ep_reward_item: item:random_food,energy:-1,item:random_drug%50
+	
+	text_fail: You can't seem to get into the club
+	text_success: You found some mushrooms! They look delicious!
+	
+	solution:hh:punk
+	solution_text: bug
+	
+	sprite: spr_exp_city_punk_club_done
+}

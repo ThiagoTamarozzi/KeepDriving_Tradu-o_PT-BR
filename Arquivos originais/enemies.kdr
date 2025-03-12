@@ -1,0 +1,849 @@
+///////////////ENEMIES
+
+{
+	dev_name: 	no_event
+	name:		NO_EVENTS_AVAILABLE
+	pattern:	"E"
+	level: 		1
+	rarity:		5
+	tags:		debug
+	reqs:		debug
+	types:		none
+	stop:		0
+}
+
+{
+	dev_name: 	bee
+	name:		Bee in car
+	pattern: "EGEDE"
+	level: 		2
+	rarity:		2
+	tags:		env:city, env:country, env:forest,env:rural
+	reqs:		day
+	types:		none
+	stop:		0
+	speed:		.75
+}
+//spec cards added
+
+{
+	dev_name: 	find_item
+	name:		Something on the roadside
+	pattern:	EGGE
+	level: 		1
+	rarity:		3
+	tags:		none
+	reqs:		day
+	types:		find
+	stop:		1
+	reward:		item:random_common_find,item:random_book%50
+	sprite:		spr_re_item_common
+	clear_item:	crowbar
+}
+
+
+{
+	dev_name: 	abandoned_car
+	name:		Abandoned Car
+	pattern:	DDDEE
+	level: 		1
+	rarity:		2
+	tags:		none
+	reqs:		none
+	types:		find
+	stop:		1
+	reward:		item:random_car_upgrade,item:gas_tank_low%50,item:random_scrap
+	sprite:		spr_re_abandoned_car
+	clear_item:	crowbar
+}
+
+{
+	dev_name: 	abandoned_hut
+	name:		Abandoned Hut
+	pattern:	DEDEED
+	level: 		3
+	rarity:		2
+	tags:		env:forest
+	reqs:		none
+	types:		find,scary
+	stop:		1
+	reward:		item:random_car_upgrade,item:random_common_find,item:random_common_find%50,item:random_drug%50
+	sprite:		spr_re_abandoned_hut
+	clear_item:	crowbar
+}
+
+{
+	dev_name: 	dumpster_diving
+	name:		Dumpster Diving
+	pattern:	EEE
+	level: 		1
+	rarity:		2
+	tags:		none
+	reqs:		road:city
+	types:		find
+	stop:		1
+	reward:		item:random_food,energy:-1,item:random_drug%50
+	sprite:		spr_re_dumpster
+}
+
+
+
+{
+	dev_name: 	muddy_road
+	name:		Muddy Road
+	pattern:	DGDDG
+	level: 		2
+	rarity:		5
+	tags:		road:rough
+	reqs:		!hot,!env:desert
+	types:		environmental
+	stop:		0
+	speed:		.5
+}
+
+{
+	dev_name: 	fireflies
+	name:		Fireflies
+	pattern:	EGEE
+	level: 		2
+	rarity:		2
+	tags:		env:forest,env:country
+	reqs:		night,road:rough
+	types:		environmental
+	stop:		0
+	speed:		.1
+	reward:		ailment:happy
+}
+
+{
+	dev_name: 	cow
+	name:		Cow!
+	pattern:	DDEEDD
+	level: 		2
+	rarity:		3
+	tags:		env:country,env:rural
+	reqs:		road:country,day
+	types:		animal,animal_big
+	stop:		1
+	sprite:		spr_re_cow
+}
+//spec cards added
+
+{
+	dev_name: 	snake
+	name:		Snake!
+	pattern:	DDMMDD
+	level: 		2
+	rarity:		3
+	tags:		env:desert
+	reqs:		none
+	types:		animal,animal_big
+	stop:		1
+	sprite:		spr_roadevent_desert_snake_v2
+}
+
+{
+	dev_name: 	turtle
+	name:		Turtle
+	pattern:	DDDEDDD
+	level: 		2
+	rarity:		3
+	tags:		env:desert
+	reqs:		none
+	types:		animal,animal_big
+	stop:		1
+	sprite:		spr_roadevent_desert_slowturtle_1framstill
+}
+
+{
+	dev_name: 	dust_devil
+	name:		Dust Devil
+	pattern:	DDGEDEGG
+	level: 		2
+	rarity:		4
+	tags:		env:desert
+	reqs:		day
+	types:		scary
+	stop:		1
+	sprite:		spr_road_event_dust_devil
+}
+
+
+{
+	dev_name: 	sheep
+	name:		Flock of Sheep
+	pattern:	DEDED
+	level: 		1
+	rarity:		3
+	tags:		env:country,env:mountain,env:rural
+	reqs:		road:country,day
+	types:		animal,animal_big
+	stop:		1
+	sprite:		spr_re_sheep_1
+}
+
+{
+	dev_name: 	goats
+	name:		Goats!
+	pattern:	DEDEDDED
+	level: 		2
+	rarity:		3
+	tags:		env:mountain
+	reqs:		road:rough
+	types:		animal,animal_big
+	stop:		1
+	sprite:		spr_roadevent_goats
+}
+//spec cards added
+
+
+{
+	dev_name: 	deer
+	name:		Deer!
+	pattern:	DEEEED
+	level: 		4
+	rarity:		2
+	tags:		env:forest,env:country,env:mountain,env:rural
+	reqs:		night
+	types:		animal,animal_big
+	stop:		1
+}
+
+
+{
+	dev_name: 	slow_driving
+	name:		Slow Driving Area
+	pattern:	GEMG
+	level: 		1
+	rarity:		4
+	tags:		env:city,road:city
+	reqs:		none
+	types:		urban, order
+	stop:		0
+	speed:		.25
+	sprite_type: on_road
+	sprite: spr_speed_bumps
+}
+//spec cards added
+
+{
+	dev_name: 	construction_area
+	name:		Construction Area
+	pattern:	GEGGMG
+	level: 		3
+	rarity:		4
+	tags:		env:city, road:city
+	reqs:		none
+	types:		urban, order
+	stop:		0
+	speed:		.25
+	sprite_type: on_road
+	sprite: 	spr_contruction_fence
+}
+
+{
+	dev_name: 	speed_cameras
+	name:		Speed Cameras
+	pattern:	MGMG
+	level: 		1
+	rarity:		3
+	tags:		env:city,env:country
+	reqs:		!road:rough
+	types:		urban, order
+	stop:		0
+	speed:		.35
+}
+//spec cards added
+
+{
+	dev_name: 	ambulance
+	name:		Ambulance!
+	pattern:	DGGDGD
+	level: 		2
+	rarity:		2
+	tags:		env:city
+	reqs:		!road:rough
+	types:		urban, order
+	stop:		0
+	speed:		1
+}
+//spec cards added
+
+{
+	dev_name: 	police_pull_over
+	name:		Pulled over by Cop!
+	pattern:	DGMEMDEG
+	level: 		4
+	rarity:		2
+	tags:		env:country,env:city,env:rural,env:desert
+	reqs:		!road:rough
+	types:		urban, order, social, police
+	stop:		1
+}
+
+{
+	dev_name: 	police_chase
+	name:		Chased by cops!
+	pattern:	DGMEMDEGGE
+	level: 		4
+	rarity:		2
+	tags:		special
+	reqs:		specific
+	types:		urban, order, social, police
+	stop:		0
+	speed:		1.5
+}
+
+{
+	dev_name: 	behind_large_truck
+	name:		Behind Large Truck
+	pattern:	GGDEDG
+	level: 		4
+	rarity:		4
+	tags:		none
+	reqs:		!env:mountain
+	types:		traffic, scary
+	stop:		0
+	speed:		0.75
+}
+{
+	dev_name: 	tailgating
+	name:		Tailgating Car
+	pattern:	DGGDEDG
+	level: 		4
+	rarity:		4
+	tags:		none
+	reqs:		!road:rough,!env:mountain
+	types:		traffic, scary
+	stop:		0
+	speed:		1
+}
+
+{
+	dev_name: 	loan_sharks
+	name:		Loan Sharks
+	pattern:	EMMEDDEMME
+	level: 		4
+	rarity:		2
+	tags:		env:country,env:city
+	reqs:		specific
+	types:		urban, social, danger, crime
+	stop:		1
+	clear_item:	gun
+}
+
+{
+	dev_name: 	robber
+	name:		Robber
+	pattern:	MMDMDM
+	level: 		3
+	rarity:		2
+	tags:		env:city
+	reqs:		specific
+	types:		urban, danger, social, crime
+	stop:		1
+	clear_item:	gun
+}
+
+{
+	dev_name: 	pee_break
+	name:		Pee Break!
+	pattern:	E
+	level: 		4
+	rarity:		2
+	tags:		none
+	reqs:		specific
+	types:		social
+	stop:		1
+}
+
+{
+	dev_name: 	window_cleaner
+	name:		Window cleaner
+	pattern:	MEGM
+	level: 		2
+	rarity:		2
+	tags:		road:city
+	reqs:		!road:rough
+	types:		urban, social
+	stop:		1
+}
+
+{
+	dev_name: 	car_crash
+	name:		Car crash
+	pattern:	DDGEEGEDD
+	level: 		5
+	rarity:		1
+	tags:		none
+	reqs:		!road:rough
+	types:		urban, death, scary, social
+	stop:		1
+	sprite:		spr_re_crash_cars
+}
+{
+	dev_name: 	chicken_race
+	name:		Maniacs
+	pattern:	DDGEEGEDD
+	level: 		5
+	rarity:		1
+	tags:		road:motorway
+	reqs:		!road:rough
+	types:		urban, death, scary, social
+	stop:		0
+}
+
+{
+	dev_name: 	skate_kids
+	name:		Skate Kids
+	pattern:	GGEMG
+	level: 		2
+	rarity:		3
+	tags:		env:city
+	reqs:		!road:rough
+	types:		urban, social
+	stop:		1
+}
+//spec cards added
+
+{
+	dev_name: 	kids_playing
+	name:		Kids Playing
+	pattern:	GMEGEG
+	level: 		2
+	rarity:		3
+	tags:		env:city
+	reqs:		!road:rough
+	types:		urban, social
+	stop:		1
+	sprite:		spr_re_kids_playingcards
+}
+
+{
+	dev_name: 	tractor
+	name:		Tractor
+	pattern:	GDEEDG
+	level: 		1
+	rarity:		4
+	tags:		road:rough,road:country
+	reqs:		env:country
+	types:		none
+	stop:		0
+	speed:		.25
+}
+//spec cards added
+
+{
+	dev_name: 	epa
+	name:		EPA
+	pattern:	DEDG
+	level: 		1
+	rarity:		4
+	tags:		road:rough,road:country
+	reqs:		env:country
+	types:		none
+	stop:		0
+	speed:		.25
+}
+
+{
+	dev_name: 	traffic_jam
+	name:		Traffic Jam
+	pattern:	GGGADAG
+	level: 		2
+	rarity:		4
+	tags:		road:motorway,road:city
+	reqs:		day
+	types:		none
+	stop:		0
+	speed:		.15
+}
+
+{
+	dev_name: 	cyclist
+	name:		Cyclist
+	pattern:	GDEDG
+	level: 		2
+	rarity:		3
+	tags:		road:rough,road:country,road:city,env:mountain
+	reqs:		!env:desert,day
+	types:		none
+	stop:		0
+	speed:		.4
+}
+//spec cards added
+
+{
+	dev_name: 	biker_gang
+	name:		Biker Gang
+	pattern:	GDEGDGGD
+	level: 		4
+	rarity:		2
+	tags:		road:motorway
+	reqs:		none
+	types:		scary, danger
+	stop:		0
+	speed:		.5
+}
+
+
+{
+	dev_name: 	hh_argument
+	name:		Hitchhiker Argument
+	pattern:	EEEE
+	level: 		1
+	rarity:		3
+	tags:		none
+	reqs:		hh_in_car
+	types:		psychological,social
+	stop:		0
+}
+
+{
+	dev_name: 	distracted
+	name:		Distracted
+	pattern:	EGDM
+	level: 		1
+	rarity:		1
+	tags:		none
+	reqs:		none
+	types:		psychological
+	stop:		0
+}
+
+{
+	dev_name: 	lost
+	name:		Lost
+	pattern:	GEEG
+	level: 		1
+	rarity:		3
+	tags:		none
+	reqs:		!road:country
+	types:		none
+	stop:		0
+}
+
+
+{
+	dev_name: 	confusing_road
+	name:		Vague Lanes
+	pattern:	EGGE
+	level: 		1
+	rarity:		2
+	tags:		none
+	reqs:		!road:rough
+	types:		none
+	stop:		0
+	sprite:		spr_vague_lanes
+	sprite_type: on_road
+}
+
+{
+	dev_name: 	leg_cramps
+	name:		Leg cramps
+	pattern:	EEGD
+	level: 		1
+	rarity:		4
+	tags:		none
+	reqs:		energy_low
+	types:		physical
+	stop:		0
+}
+
+{
+	dev_name: 	tired
+	name:		Tired
+	pattern:	EEE
+	level: 		1
+	rarity:		4
+	tags:		none
+	reqs:		energy_low
+	types:		psychological
+	stop:		0
+}
+
+{
+	dev_name: 	pot_holes
+	name:		Potholes
+	pattern:	DDGD
+	level: 		1
+	rarity:		4
+	tags:		none
+	reqs:		!road:rough
+	types:		environmental
+	stop:		0
+	speed:		.4
+}
+
+{
+	dev_name: 	tumbleweed
+	name:		Tumbleweed
+	pattern:	DDGDGD
+	level: 		1
+	rarity:		4
+	tags:		env:desert
+	reqs:		none
+	types:		environmental
+	stop:		0
+	speed:		.15
+}
+
+{
+	dev_name: 	water_puddles
+	name:		Water puddles
+	pattern:	DGDE
+	level: 		1
+	rarity:		5
+	tags:		none
+	reqs:		rain
+	types:		environmental
+	stop:		0
+}
+
+{
+	dev_name: 	rough_terrain
+	name:		Rough Terrain
+	pattern:	DDGDDG
+	level: 		2
+	rarity:		5
+	tags:		road:rough
+	reqs:		!env:city
+	types:		environmental
+	stop:		0
+}
+
+
+{
+	dev_name: 	car_weird_sounds
+	name:		Weird Sounds From Car
+	pattern:	DDDD
+	level: 		2
+	rarity:		4
+	tags:		none
+	reqs:		durability_low
+	types:		car
+	stop:		0
+}
+
+
+{
+	dev_name: 	road_kill
+	name:		Road Kill
+	pattern:	DEEGD
+	level: 		2
+	rarity:		4
+	tags:		road:motorway,road:country
+	reqs:		!env:city
+	types:		death
+	stop:		1
+	sprite:		spr_re_road_kill
+}
+
+
+{
+	dev_name: 	sun_in_eyes
+	name:		Sunlight in Eyes
+	pattern:	GEDDEEG
+	level: 		3
+	rarity:		2
+	tags:		none
+	reqs:		heat,day
+	types:		light
+	clear_item:sunglasses
+}
+{
+	dev_name: 	forest_shadows
+	name:		Forest Shadows
+	pattern:	GEDDEEG
+	level: 		3
+	rarity:		2
+	tags:		none
+	reqs:		env:forest,day
+	types:		light
+	speed:		.35
+	clear_item:sunglasses
+}
+
+{
+	dev_name: 	birds_on_road
+	name:		Birds that won't move
+	pattern:	GDEDG
+	level: 		2
+	rarity:		4
+	tags:		env:city,env:country,,env:rural
+	reqs:		!road:motorway
+	types:		animal
+	stop:		1
+}
+
+{
+	dev_name: 	falcon
+	name:		Majestic Falcon
+	pattern:	EGEE
+	level: 		1
+	rarity:		1
+	tags:		env:forest,road:rough,env:mountain
+	reqs:		none
+	types:		animal
+	reward:		ailment:inspired
+}
+
+{
+	dev_name: 	insect_swarm
+	name:		Insect Swarm!
+	pattern:	DGDEDGD
+	level: 		3
+	rarity:		2
+	tags:		env:forest,env:mountain,env:country
+	reqs:		!rain
+	types:		animal
+	speed:		.35
+}
+
+{
+	dev_name: 	rainbow
+	name: 		Rainbow
+	pattern:	GMED
+	level:		1
+	rarity:		2
+	tags:		day
+	reqs:		!env:forest,!weather:fog,!weather:heat
+	types:		weather
+	speed		.75
+	reward:	ailment:inspired
+}
+
+{
+	dev_name: 	thunder_storm
+	name: 		Thunder Storm
+	pattern:	DDEDD
+	level:		1
+	rarity:		2
+	tags:		none
+	reqs:		rain
+	types:		weather
+	speed		1
+	
+	//has specific card
+	
+}
+
+{
+	dev_name: 	thick_fog
+	name: 		Thick Fog
+	pattern:	DEDED
+	level:		1
+	rarity:		2
+	tags:		none
+	reqs:		fog
+	types:		weather
+	speed		1
+	
+	//has specific card
+	
+}
+
+{
+	dev_name: 	fallen_tree
+	name:		Fallen Tree
+	pattern:	DGDDG
+	level: 		2
+	rarity:		3
+	tags:		env:country,env:forest,env:mountain
+	reqs:		!road:motorway,!road:city
+	types:		nature
+	stop:		1
+	sprite:		spr_re_fallen_tree_front
+}
+
+{
+	dev_name: 	fallen_rocks
+	name:		Fallen Rocks
+	pattern:	DGDDG
+	level: 		2
+	rarity:		3
+	tags:		env:mountain
+	reqs:		none
+	types:		nature
+	stop:		1
+	sprite:		spr_roadevent_fallenrocks_frontlayer
+}
+
+{
+	dev_name: 	flat_tire
+	name:		Flat Tire
+	pattern:	DDDDG
+	level: 		2
+	rarity:		2
+	tags:		none
+	reqs:		none
+	types:		nature
+	stop:		1
+}
+
+{
+	dev_name: 	race_slow_start
+	name:		Slow Start
+	pattern:	GDEGDGGD
+	level: 		4
+	rarity:		2
+	tags:		special
+	reqs:		none
+	types:		race, danger
+	stop:		0
+	speed:		1.5
+}
+
+{
+	dev_name: 	race_catching_up
+	name:		Catching up
+	pattern:	GGDDEE
+	level: 		4
+	rarity:		2
+	tags:		special
+	reqs:		none
+	types:		race, danger
+	stop:		0
+	speed:		1.25
+}
+
+{
+	dev_name: 	race_hard_turn
+	name:		Hard Turn
+	pattern:	EEDDGGE
+	level: 		4
+	rarity:		2
+	tags:		special
+	reqs:		none
+	types:		race, danger
+	stop:		0
+	speed:		0.5
+}
+
+{
+	dev_name: 	race_getting_ahead
+	name:		Getting ahead
+	pattern:	GDEGDGGD
+	level: 		4
+	rarity:		2
+	tags:		special
+	reqs:		none
+	types:		race, danger
+	stop:		0
+	speed:		1.25
+}
+{
+	dev_name: 	race_final_stretch
+	name:		Final Stretch
+	pattern:	GGGGEEEE
+	level: 		4
+	rarity:		2
+	tags:		special
+	reqs:		none
+	types:		race, danger
+	stop:		0
+	speed:		1.5
+}
+
+
+

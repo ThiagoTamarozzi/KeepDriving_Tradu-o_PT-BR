@@ -1,0 +1,2444 @@
+{	
+	bg_name:				"none"
+	bg_layer:				-1
+	bg_biome:				"none"
+	bg_env:					"none"
+	bg_sprite_tag:			bg_space_64
+	bg_sprite_begin:		spr_bg_space_64
+	bg_sprite_end:			spr_bg_space_64
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					0
+}
+
+
+
+{	
+	bg_name:				"clouds"
+	bg_layer:				0
+	bg_biome:				"clouds"
+	bg_env:					"all"
+	bg_sprite_tag:			bg_0_clouds_1
+	bg_sprite_begin:		spr_bg_0_sky_cloud_start_1a
+	bg_sprite_end:			spr_bg_0_sky_cloud_1d
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					0
+}
+
+
+{
+	bg_name:			flatgrass_3
+	bg_layer:			3
+	bg_env:				country
+	bg_sprite_tag:		bg_3_flat_grass_1
+	bg_sprite_begin:	spr_bg_3_flat_grass_green_1_begin
+	bg_sprite_end:		spr_bg_3_flat_grass_green_1_end
+	bg_y:				57
+}
+
+
+
+{	
+	bg_name:				"country_1"
+	bg_layer:				1
+	bg_env:					"country,forest,rural"
+	bg_sprite:				spr_bg_1_mountain_flat_woods_loop_1
+	bg_sprite_begin:		spr_bg_1_mountain_flat_woods_begin
+	bg_sprite_end:			spr_bg_1_mountain_flat_woods_end
+	bg_y:					53
+
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				WATER
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{	
+	bg_name:				"water_1"
+	bg_layer:				1
+	bg_biome:				"water"
+	bg_env:					"water"
+	bg_sprite_tag:			bg_space_64
+	bg_sprite_begin:		spr_bg_space_512
+	bg_sprite_end:			spr_bg_space_512
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					0
+}
+
+{	
+	bg_name:				"water_2"
+	bg_layer:				2
+	bg_biome:				"water"
+	bg_env:					"water"
+	bg_sprite_tag:			bg_space_64
+	bg_sprite_begin:		spr_bg_space_512
+	bg_sprite_end:			spr_bg_space_512
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					0
+}
+
+{	
+	bg_name:				"water_3"
+	bg_layer:				3
+	bg_biome:				"water"
+	bg_env:					"water"
+	bg_sprite_tag:			bg_space_64
+	bg_sprite_begin:		spr_bg_space_256
+	bg_sprite_end:			spr_bg_space_256
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					0
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				COUNTRY,RURAL - GREEN FLAT
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			green_hills_2
+	bg_layer:			2
+	bg_env:				forest
+	bg_sprite_tag:		bg_2_country_hills
+	bg_sprite_begin:	spr_bg_2_greenhills_1start
+	bg_sprite_end:		spr_bg_2_greenhills_1end
+	bg_y:				39
+}
+
+{
+	bg_name:			green_flat_2
+	bg_layer:			2
+	bg_env:				country,rural
+	bg_sprite_tag:		bg_2_country_flat
+	bg_sprite_begin:	spr_bg_2_green_flat_start
+	bg_sprite_end:		spr_bg_2_green_flat_end
+	bg_y:				39
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				COUNTRY,RURAL - THREES
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+{
+	bg_name:			country_forest
+	bg_layer:			3
+	bg_env:				country,forest
+	bg_sprite_tag:		bg_3_country_forest
+	bg_sprite_begin:	spr_bg_3_hill_leaf_start
+	bg_sprite_end:		spr_bg_3_hill_leaf_end
+	bg_y:				77
+}
+
+{
+	bg_name:			country_forest_sparse
+	bg_layer:			3
+	bg_env:				country,forest
+	bg_sprite_tag:		bg_3_country_sparse
+	bg_sprite_begin:	spr_bg_3_hill_leaf_sparse_start
+	bg_sprite_end:		spr_bg_3_hill_leaf_sparse_end
+	bg_y:				68
+}
+
+{
+	bg_name:			flat_grass_a_3
+	bg_layer:			3
+	bg_env:				country,rural
+	bg_sprite:			spr_bg_3_flat_grass_green_6
+	bg_sprite_begin:	spr_bg_3_flat_grass_green_6_begin
+	bg_sprite_end:		spr_bg_3_flat_grass_green_6_end
+	bg_y:				68
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				LOW GRASS - NORMAL
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			lowgrass_5
+	bg_layer:			5
+	bg_env:				country
+	bg_sprite_tag:		bg_5_lowgrass
+	bg_sprite_begin:	spr_bg_5_country_lowgrass_start
+	bg_sprite_end:		spr_bg_5_country_lowgrass_end
+	bg_y:				49
+	
+	struct: bg_5_c_tree
+	struct_wind: 1
+	struct_number: 8
+	struct_chance: 80
+	struct_y_min: 6
+	struct_y_max: 24
+	
+	struct: bg_5_c_bush
+	struct_wind: 1
+	struct_number: 16
+	struct_chance: 80
+	struct_y_min: 6
+	struct_y_max: 32
+	
+}
+
+{
+	bg_name:			lowgrass_6
+	bg_layer:			6
+	bg_env:				country
+	bg_sprite_tag:		bg_6_lowgrass
+	bg_sprite_begin:	spr_bg_6_country_lowgrass_start
+	bg_sprite_end:		spr_bg_6_country_lowgrass_end
+	bg_y:				15
+	
+	struct: bg_6_tree_lonely
+	struct_wind: 1
+	struct_number: 2
+	struct_chance: 50
+	struct_y_min: 16
+	struct_y_max: 24	
+	
+	struct: bg_6_c_bush_big
+	struct_wind: 1
+	struct_number: 6
+	struct_chance: 50
+	struct_y_min: 16
+	struct_y_max: 24		
+	
+	struct: bg_6_c_bush_small
+	struct_wind: 1
+	struct_number: 8
+	struct_chance: 50
+	struct_y_min: 16
+	struct_y_max: 24	
+	
+	struct: bg_6_houses_country
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 5
+	struct_y_min: 16
+	struct_y_max: 24
+}
+
+{
+	bg_name:			lowgrass_7
+	bg_layer:			7
+	bg_env:				country
+	bg_sprite_tag:		bg_7_lowgrass
+	bg_sprite_begin:	spr_bg_7_country_lowgrass_start
+	bg_sprite_end:		spr_bg_7_country_lowgrass_end
+	bg_y:				14
+	
+	struct: bg_7_tree_lonely
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 8
+	
+	struct: bg_7_c_bush_big
+	struct_wind: 1
+	struct_number: 3
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1	
+	
+	struct: bg_7_c_bush_small
+	struct_wind: 1
+	struct_number: 6
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1
+	
+	
+	
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				COUNTRY / RURAL -SHORTLIVED
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			lowgrass_6_sl
+	bg_layer:			6
+	bg_env:				short_lived
+	bg_sprite_tag:		bg_6_lowgrass
+	bg_sprite_begin:	spr_bg_6_country_lowgrass_start
+	bg_sprite_end:		spr_bg_6_country_lowgrass_end
+	bg_y:				38
+	bg_short_lived:		4
+	
+	struct: bg_6_tree_lonely
+	struct_wind: 1
+	struct_number: 2
+	struct_chance: 80
+	struct_y_min: 4
+	struct_y_max: 8	
+		
+	struct: bg_6_c_tree
+	struct_wind: 1
+	struct_number: 4
+	struct_chance: 100
+	struct_y_min: 4
+	struct_y_max: 8	
+	
+	struct: bg_6_c_bush_big
+	struct_wind: 1
+	struct_number: 12
+	struct_chance: 50
+	struct_y_min: 4
+	struct_y_max: 16		
+	
+	struct: bg_6_c_bush_small
+	struct_wind: 1
+	struct_number: 16
+	struct_chance: 50
+	struct_y_min: 4
+	struct_y_max: 16	
+
+}
+
+
+
+
+{
+	bg_name:			birch_hill_6_sl
+	bg_layer:			6
+	bg_env:				short_lived
+	bg_sprite_tag:		bg_6_highgrass
+	bg_sprite_begin:	spr_bg_6_country_highgrass_start
+	bg_sprite_end:		spr_bg_6_country_highgrass_end
+	bg_y:				30
+	bg_short_lived:		4
+	
+	struct: bg_6_birch
+	struct_wind: 1
+	struct_number: 3
+	struct_chance: 80
+	struct_y_min: 8
+	struct_y_max: 8	
+	
+	struct: bg_6_birch
+	struct_wind: 1
+	struct_number: 3
+	struct_chance: 80
+	struct_y_min: 16
+	struct_y_max: 16
+}
+
+
+{
+	bg_name:			birch_hill_7_sl
+	bg_layer:			7
+	bg_env:				short_lived
+	bg_sprite_tag:		bg_7_highgrass
+	bg_sprite_begin:	spr_bg_7_country_highgrass_start
+	bg_sprite_end:		spr_bg_7_country_highgrass_end
+	bg_y:				24
+	bg_short_lived:		4
+	
+	struct: bg_7_birch
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 80
+	struct_y_min: 8
+	struct_y_max: 8	
+	struct_x_min: 0
+	struct_x_max: .5
+	
+	struct: bg_7_birch
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 80
+	struct_y_min: 16
+	struct_y_max: 16
+	struct_x_min: .5
+	struct_x_max: 1
+
+}
+
+
+{
+	bg_name:			yellowgrass_6_sl
+	bg_layer:			6
+	bg_env:				short_lived
+	bg_sprite_tag:		bg_6_yellowgrass
+	bg_sprite_begin:	spr_bg_6_country_yellowgrass_start
+	bg_sprite_end:		spr_bg_6_country_yellowgrass_end
+	bg_y:				34
+	bg_short_lived:		3
+	
+	
+	struct: bg_6_mc_house
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 8
+	struct_x_min: .5
+	struct_x_max: .5
+}
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				FOREST - SHORTLIVED
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{	
+	bg_name:				"forest_house_6_sl"
+	bg_layer:				6
+	bg_biome:				"forest"
+	bg_env:					"short_lived"
+	bg_sprite_tag:			bg_6_forest_earth
+	bg_sprite_begin:		spr_bg_6_forestfloor_earthly_start
+	bg_sprite_end:			spr_bg_6_forestfloor_earthly_end
+	bg_iis:					1
+	bg_y:					24
+	bg_short_lived:			4
+	
+	
+	struct: bg_6_forest_houses
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 100
+	struct_y_min: 9
+	struct_y_max: 9
+	struct_x_min: .5
+	struct_x_max: .5
+
+	struct: bg_6_pines
+	struct_wind: 1
+	struct_number: 4
+	struct_chance: 80
+	struct_y_min: 2
+	struct_y_max: 10
+	struct_x_min: 0
+	struct_x_max: .4
+	
+	struct: bg_6_pines
+	struct_wind: 1
+	struct_number: 4
+	struct_chance: 80
+	struct_y_min: 2
+	struct_y_max: 10
+	struct_x_min: .6
+	struct_x_max: 1
+
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				LOW GRASS - NO TREES
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+{
+	bg_name:			lowgrass_clean_5
+	bg_layer:			5
+	bg_env:				country
+	bg_sprite_tag:		bg_5_lowgrass
+	bg_sprite_begin:	spr_bg_5_country_lowgrass_start
+	bg_sprite_end:		spr_bg_5_country_lowgrass_end
+	bg_y:				49
+}
+
+{
+	bg_name:			lowgrass_clean_6
+	bg_layer:			6
+	bg_env:				country
+	bg_sprite_tag:		bg_6_lowgrass
+	bg_sprite_begin:	spr_bg_6_country_lowgrass_start
+	bg_sprite_end:		spr_bg_6_country_lowgrass_end
+	bg_y:				15
+}
+
+{
+	bg_name:			lowgrass_clean_7
+	bg_layer:			7
+	bg_env:				country
+	bg_sprite_tag:		bg_7_lowgrass
+	bg_sprite_begin:	spr_bg_7_country_lowgrass_start
+	bg_sprite_end:		spr_bg_7_country_lowgrass_end
+	bg_y:				14
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				TOWN- COUNTRY
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			town_country_5
+	bg_layer:			5
+	bg_env:				country
+	bg_sprite_tag:		bg_5_lowgrass
+	bg_sprite_begin:	spr_bg_5_country_lowgrass_start
+	bg_sprite_end:		spr_bg_5_country_lowgrass_end
+	bg_y:				52
+	
+	
+	struct: bg_5_houses_country
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 100
+	struct_y_min: 8
+	struct_y_max: 12
+	struct_x_min: 0.25
+	struct_x_max: 0.75	
+	
+	struct: bg_5_c_tree
+	struct_wind: 1
+	struct_number: 8
+	struct_chance: 80
+	struct_y_min: 6
+	struct_y_max: 24
+	
+	struct: bg_5_c_bush
+	struct_wind: 1
+	struct_number: 16
+	struct_chance: 80
+	struct_y_min: 6
+	struct_y_max: 32
+	
+}
+
+{
+	bg_name:			town_country_6
+	bg_layer:			6
+	bg_env:				country
+	bg_sprite_tag:		bg_6_lowgrass
+	bg_sprite_begin:	spr_bg_6_country_lowgrass_start
+	bg_sprite_end:		spr_bg_6_country_lowgrass_end
+	bg_y:				15
+	
+	struct: bg_6_tree_lonely
+	struct_wind: 1
+	struct_number: 2
+	struct_chance: 50
+	struct_y_min: 16
+	struct_y_max: 24
+	
+	struct: bg_6_houses_country
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 50
+	struct_y_min: 16
+	struct_y_max: 24
+	struct_x_min: 0.25
+	struct_x_max: 0.75	
+	
+	struct: bg_6_c_bush_big
+	struct_wind: 1
+	struct_number: 3
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1	
+	
+	struct: bg_6_c_bush_small
+	struct_wind: 1
+	struct_number: 6
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1	
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				LOW GRASS - POPPY
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			poppy_5
+	bg_layer:			5
+	bg_env:				country
+	bg_sprite_tag:		bg_5_poppy
+	bg_sprite_begin:	spr_bg_5_country_poppygrass_start
+	bg_sprite_end:		spr_bg_5_country_poppygrass_end
+	bg_y:				22
+	
+	struct: bg_5_c_tree
+	struct_wind: 1
+	struct_number: 8
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1
+}
+
+{
+	bg_name:			poppy_6
+	bg_layer:			6
+	bg_env:				country
+	bg_sprite_tag:		bg_6_poppy
+	bg_sprite_begin:	spr_bg_6_country_poppygrass_start
+	bg_sprite_end:		spr_bg_6_country_poppygrass_end
+	bg_y:				15
+	
+	struct: bg_6_c_tree_huge
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 12
+	struct_y_min: 24
+	struct_y_max: 30	
+	struct_x_min: 0
+	struct_x_max: 1
+}
+
+{
+	bg_name:			poppy_7
+	bg_layer:			7
+	bg_env:				country
+	bg_sprite_tag:		bg_7_poppy
+	bg_sprite_begin:	spr_bg_7_country_poppygrass_start
+	bg_sprite_end:		spr_bg_7_country_poppygrass_end
+	bg_y:				14
+	
+	struct: bg_7_tree_lonely
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 25
+	struct_y_min: 8
+	struct_y_max: 10
+	struct_x_min: 0
+	struct_x_max: 1	
+	
+	
+	
+	
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				HIGH GRASS - NORMAL
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			highgrass_5
+	bg_layer:			5
+	bg_env:				country
+	bg_sprite_tag:		bg_5_highgrass
+	bg_sprite_begin:	spr_bg_5_country_highgrass_start
+	bg_sprite_end:		spr_bg_5_country_highgrass_end
+	bg_y:				47
+	
+	struct: bg_5_c_tree
+	struct_wind: 1
+	struct_number: 8
+	struct_chance: 80
+	struct_y_min: 6
+	struct_y_max: 24
+	
+	struct: bg_5_c_bush
+	struct_wind: 1
+	struct_number: 16
+	struct_chance: 80
+	struct_y_min: 6
+	struct_y_max: 32
+}
+
+{
+	bg_name:			highgrass_6
+	bg_layer:			6
+	bg_env:				country
+	bg_sprite_tag:		bg_6_highgrass
+	bg_sprite_begin:	spr_bg_6_country_highgrass_start
+	bg_sprite_end:		spr_bg_6_country_highgrass_end
+	bg_y:				12
+	
+	struct: bg_6_tree_lonely
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 10
+	struct_y_min: 16
+	struct_y_max: 24	
+	
+	struct: bg_6_c_tree
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 12
+	struct_y_min: 16
+	struct_y_max: 24
+	
+	struct: bg_6_c_bush_big
+	struct_wind: 1
+	struct_number: 3
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1	
+	
+	struct: bg_6_c_bush_small
+	struct_wind: 1
+	struct_number: 6
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1	
+	
+	struct: bg_6_c_tree_huge
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 10
+	struct_y_min: 8
+	struct_y_max: 24	
+	struct_x_min: 0
+	struct_x_max: 1
+	
+	
+}
+
+{
+	bg_name:			highgrass_6_clean
+	bg_layer:			6
+	bg_env:				country
+	bg_sprite_tag:		bg_6_highgrass
+	bg_sprite_begin:	spr_bg_6_country_highgrass_start
+	bg_sprite_end:		spr_bg_6_country_highgrass_end
+	bg_y:				12
+	
+	struct: bg_6_c_bush_big
+	struct_wind: 1
+	struct_number: 2
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1	
+	
+	struct: bg_6_c_bush_small
+	struct_wind: 1
+	struct_number: 3
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1	
+	
+	struct: bg_6_c_tree_huge
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 10
+	struct_y_min: 8
+	struct_y_max: 12	
+	struct_x_min: 0
+	struct_x_max: 1
+	
+	
+}
+
+{
+	bg_name:			highgrass_7
+	bg_layer:			7
+	bg_env:				country
+	bg_sprite_tag:		bg_7_highgrass
+	bg_sprite_begin:	spr_bg_7_country_highgrass_start
+	bg_sprite_end:		spr_bg_7_country_highgrass_end
+	bg_y:				22
+	
+	
+	struct: bg_7_tree_lonely
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 8
+	struct_y_min: 8
+	struct_y_max: 8	
+	struct_x_min: 0
+	struct_x_max: 1		
+	
+	struct: bg_7_c_tree
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 12
+	struct_y_min: 8
+	struct_y_max: 8	
+	struct_x_min: 0
+	struct_x_max: 1	
+	
+	struct: bg_7_c_bush_big
+	struct_wind: 1
+	struct_number: 3
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1	
+	
+	struct: bg_7_c_bush_small
+	struct_wind: 1
+	struct_number: 6
+	struct_chance: 50
+	struct_y_min: 8
+	struct_y_max: 10	
+	struct_x_min: 0
+	struct_x_max: 1
+	
+}
+
+{
+	bg_name:			highgrass_7_clean
+	bg_layer:			7
+	bg_env:				country
+	bg_sprite_tag:		bg_7_highgrass
+	bg_sprite_begin:	spr_bg_7_country_highgrass_start
+	bg_sprite_end:		spr_bg_7_country_highgrass_end
+	bg_y:				22
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				HIGH GRASS - BIRCH
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			birch_hill_5
+	bg_layer:			5
+	bg_env:				country
+	bg_sprite_tag:		bg_5_highgrass
+	bg_sprite_begin:	spr_bg_5_country_highgrass_start
+	bg_sprite_end:		spr_bg_5_country_highgrass_end
+	bg_y:				47
+	
+	struct: bg_5_birch
+	struct_wind: 1
+	struct_number: 32
+	struct_chance: 80
+	struct_y_min: 8
+	struct_y_max: 24
+	
+}
+
+
+{
+	bg_name:			birch_hill_6
+	bg_layer:			6
+	bg_env:				country
+	bg_sprite_tag:		bg_6_highgrass
+	bg_sprite_begin:	spr_bg_6_country_highgrass_start
+	bg_sprite_end:		spr_bg_6_country_highgrass_end
+	bg_y:				12
+	
+	struct: bg_6_birch
+	struct_wind: 1
+	struct_number: 3
+	struct_chance: 80
+	struct_y_min: 8
+	struct_y_max: 8	
+	
+	struct: bg_6_birch
+	struct_wind: 1
+	struct_number: 3
+	struct_chance: 80
+	struct_y_min: 16
+	struct_y_max: 16
+}
+
+{
+	bg_name:			birch_hill_7
+	bg_layer:			7
+	bg_env:				mini
+	bg_sprite_tag:		bg_7_highgrass
+	bg_sprite_begin:	spr_bg_7_country_highgrass_start
+	bg_sprite_end:		spr_bg_7_country_highgrass_end
+	bg_y:				24
+	
+	struct: bg_7_birch
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 80
+	struct_y_min: 8
+	struct_y_max: 8	
+	struct_x_min: 0
+	struct_x_max: .5
+	
+	struct: bg_7_birch
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 80
+	struct_y_min: 16
+	struct_y_max: 16
+	struct_x_min: .5
+	struct_x_max: 1
+
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				YELLOW GRASS - NORMAL
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			yellowgrass_2
+	bg_layer:			2
+	bg_env:				country,rural
+	bg_sprite_tag:		bg_2_yellowgrass
+	bg_sprite_begin:	spr_bg_2_yellow_flat_begin
+	bg_sprite_end:		spr_bg_2_yellow_flat_end
+	bg_y:				39
+}
+
+{
+	bg_name:			yellowgrass_3
+	bg_layer:			3
+	bg_env:				country,rural
+	bg_sprite_tag:		bg_3_yellowgrass
+	bg_sprite_begin:	spr_bg_3_flat_grass_yellow_start
+	bg_sprite_end:		spr_bg_3_flat_grass_yellow_end1
+	bg_y:				68
+}
+
+
+{
+	bg_name:			yellowgrass_5
+	bg_layer:			5
+	bg_env:				country
+	bg_sprite_tag:		bg_5_yellowgrass
+	bg_sprite_begin:	spr_bg_5_country_yellowgrass_start
+	bg_sprite_end:		spr_bg_5_country_yellowgrass_end
+	bg_y:				23
+}
+
+{
+	bg_name:			yellowgrass_6
+	bg_layer:			6
+	bg_env:				country
+	bg_sprite_tag:		bg_6_yellowgrass
+	bg_sprite_begin:	spr_bg_6_country_yellowgrass_start
+	bg_sprite_end:		spr_bg_6_country_yellowgrass_end
+	bg_y:				28
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				RURAL - ORCHARD
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{
+	bg_name:			apple_orchard_5
+	bg_layer:			5
+	bg_env:				rural
+	bg_sprite:			spr_bg_5_country_lowgrass_loop2
+	bg_sprite_begin:	spr_bg_5_country_lowgrass_start
+	bg_sprite_end:		spr_bg_5_country_lowgrass_end
+	bg_y:				49
+	
+	struct: bg_5_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.125
+	struct_x_max:	0.125
+	struct_y_min: 8
+	struct_y_max: 8	
+	
+	struct: bg_5_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.25
+	struct_x_max:	0.25
+	struct_y_min: 16
+	struct_y_max: 16	
+		
+	struct: bg_5_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.375
+	struct_x_max:	0.375
+	struct_y_min: 8
+	struct_y_max: 8	
+	
+	struct: bg_5_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.5
+	struct_x_max:	0.5
+	struct_y_min: 16
+	struct_y_max: 16
+
+	
+	struct: bg_5_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.625
+	struct_x_max:	0.625
+	struct_y_min: 8
+	struct_y_max: 8	
+	
+	
+	struct: bg_5_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.75
+	struct_x_max:	0.75
+	struct_y_min: 16
+	struct_y_max: 16
+	
+	struct: bg_5_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.875
+	struct_x_max:	0.875
+	struct_y_min: 8
+	struct_y_max: 8
+	
+		
+	struct: bg_5_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	1
+	struct_x_max:	1
+	struct_y_min: 16
+	struct_y_max: 16	
+	
+	
+}
+
+{
+	bg_name:			apple_orchard_6
+	bg_layer:			6
+	bg_env:				rural
+	bg_sprite:			spr_bg_6_country_lowgrass_loop2
+	bg_sprite_begin:	spr_bg_6_country_lowgrass_start
+	bg_sprite_end:		spr_bg_6_country_lowgrass_end
+	bg_y:				0
+	
+	struct: bg_6_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.5
+	struct_x_max:	0.5
+	struct_y_min: 18
+	struct_y_max: 18	
+	
+	struct: bg_6_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.25
+	struct_x_max:	0.25
+	struct_y_min: 18
+	struct_y_max: 18
+	
+	struct: bg_6_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	1
+	struct_x_max:	1
+	struct_y_min: 18
+	struct_y_max: 18
+	
+	struct: bg_6_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.75
+	struct_x_max:	0.75
+	struct_y_min: 18
+	struct_y_max: 18
+	
+}
+
+{
+	bg_name:			apple_orchard_7
+	bg_layer:			7
+	bg_env:				rural
+	bg_sprite:			spr_bg_7_country_lowgrass_loop2
+	bg_sprite_begin:	spr_bg_7_country_lowgrass_start
+	bg_sprite_end:		spr_bg_7_country_lowgrass_end
+	bg_y:				14
+	
+	struct: bg_7_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	0.5
+	struct_x_max:	0.5
+	struct_y_min: 8
+	struct_y_max: 8
+	
+	struct: bg_7_apple_trees
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 100
+	struct_x_min:	1
+	struct_x_max:	1
+	struct_y_min: 8
+	struct_y_max: 8
+	
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				RURAL - WHEAT
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{	
+	bg_name:				"farm_patch_3"
+	bg_layer:				3
+	bg_env:					"country,rural"
+	bg_sprite:				spr_bg_3_flat_grass_green_5
+	bg_sprite_begin:		spr_bg_3_flat_grass_green_5_begin
+	bg_sprite_end:			spr_bg_3_flat_grass_green_5_end
+	bg_y:					57
+}
+
+
+{
+	bg_name:			wheat_5
+	bg_layer:			5
+	bg_env:				rural
+	bg_sprite_tag:		bg_5_wheat
+	bg_sprite_begin:	spr_bg_5_rural_wheat_start
+	bg_sprite_end:		spr_bg_5_rural_wheat_end
+	bg_y:				20
+}
+
+{
+	bg_name:			wheat_6
+	bg_layer:			6
+	bg_env:				rural
+	bg_sprite_tag:		bg_6_wheat
+	bg_sprite_begin:	spr_bg_6_rural_wheat_start
+	bg_sprite_end:		spr_bg_6_rural_wheat_end
+	bg_y:				24
+}
+
+{
+	bg_name:			wheat_7
+	bg_layer:			7
+	bg_env:				rural
+	bg_sprite_tag:		bg_7_wheat
+	bg_sprite_begin:	spr_bg_7_rural_wheat_start
+	bg_sprite_end:		spr_bg_7_rural_wheat_end
+	bg_y:				33
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				RURAL - RAPS
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+{
+	bg_name:			raps_5
+	bg_layer:			5
+	bg_env:				rural
+	bg_sprite_tag:		bg_5_raps
+	bg_sprite_begin:	spr_bg_5_rural_raps_start
+	bg_sprite_end:		spr_bg_5_rural_raps_end
+	bg_y:				27
+}
+
+{
+	bg_name:			raps_6
+	bg_layer:			6
+	bg_env:				rural
+	bg_sprite_tag:		bg_6_raps
+	bg_sprite_begin:	spr_bg_6_rural_raps_start
+	bg_sprite_end:		spr_bg_6_rural_raps_end
+	bg_y:				21
+}
+
+{
+	bg_name:			raps_7
+	bg_layer:			7
+	bg_env:				rural
+	bg_sprite_tag:		bg_7_raps
+	bg_sprite_begin:	spr_bg_7_rural_raps_start
+	bg_sprite_end:		spr_bg_7_rural_raps_end
+	bg_y:				33
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				RURAL - LAVENDER
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+{
+	bg_name:			lavender_5
+	bg_layer:			5
+	bg_env:				rural
+	bg_sprite_tag:		bg_5_lavender
+	bg_sprite_begin:	spr_bg_5_rural_lavender_start
+	bg_sprite_end:		spr_bg_5_rural_lavender_end
+	bg_y:				24
+}
+
+{
+	bg_name:			lavender_6
+	bg_layer:			6
+	bg_env:				rural
+	bg_sprite_tag:		bg_6_lavender
+	bg_sprite_begin:	spr_bg_6_rural_lavender_start
+	bg_sprite_end:		spr_bg_6_rural_lavender_end
+	bg_y:				9
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				RURAL - SUNFLOWERS
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			sunflower_3
+	bg_layer:			3
+	bg_env:				country,rural
+	bg_sprite_tag:		bg_3_sunflowers
+	bg_sprite_begin:	spr_bg_3_flat_grass_green_4_begin
+	bg_sprite_end:		spr_bg_3_flat_grass_green_4_end
+	bg_y:				68
+}
+
+{
+	bg_name:			sunflower_5
+	bg_layer:			5
+	bg_env:				rural
+	bg_sprite_tag:		bg_5_sunflower
+	bg_sprite_begin:	spr_bg_5_rural_sunflower_start
+	bg_sprite_end:		spr_bg_5_rural_sunflower_end
+	bg_y:				32
+}
+
+{
+	bg_name:			sunflower_6
+	bg_layer:			6
+	bg_env:				rural
+	bg_sprite_tag:		bg_6_sunflower
+	bg_sprite_begin:	spr_bg_6_rural_sunflower_start
+	bg_sprite_end:		spr_bg_6_rural_sunflower_end
+	bg_y:				22
+}
+
+{
+	bg_name:			sunflower_7
+	bg_layer:			7
+	bg_env:				rural
+	bg_sprite_tag:		bg_7_sunflower
+	bg_sprite_begin:	spr_bg_7_rural_sunflower_start
+	bg_sprite_end:		spr_bg_7_rural_sunflower_end
+	bg_y:				36
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				CITY - CENTER
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+{	
+	bg_name:				"city_2"
+	bg_layer:				2
+	bg_biome:				"city"
+	bg_env:					"city"
+	bg_sprite:				spr_bg_2_urban_city_1a
+	bg_sprite_begin:		spr_bg_2_urban_hill_begin
+	bg_sprite_end:			spr_bg_2_urban_hill_end
+	bg_iis:					1
+	bg_y:					37
+}
+
+{	
+	bg_name:				"city_3"
+	bg_layer:				3
+	bg_biome:				"city"
+	bg_env:					"city"
+	bg_sprite:				spr_bg_3_city_big_center_1
+	bg_sprite:				spr_bg_3_city_big_center_2
+	bg_sprite_begin:		spr_bg_3_city_big_projects_1
+	bg_sprite_end:			spr_bg_3_city_big_projects_2
+	bg_iis:					1
+	bg_y:					260
+}
+
+{	
+	bg_name:				"industry_3"
+	bg_layer:				3
+	bg_biome:				"special"
+	bg_env:					"special"
+	bg_sprite:				spr_bg_3_industry_center_1
+	bg_sprite_begin:		spr_bg_3_industry_center_start
+	bg_sprite_end:			spr_bg_3_industry_center_end
+	bg_sprite_coast_end:	spr_bg_3_industry_coast_end
+	bg_sprite_coast_begin:	spr_bg_3_industry_coast_start
+	bg_iis:					1
+	bg_y:					116
+}
+
+{	
+	bg_name:				"industry_3_short_lived"
+	bg_layer:				3
+	bg_biome:				"special"
+	bg_env:					"special"
+	bg_sprite:				spr_bg_3_industry_center_1
+	bg_sprite_begin:		spr_bg_3_industry_center_start
+	bg_sprite_end:			spr_bg_3_industry_center_end
+	bg_sprite_coast_end:	spr_bg_3_industry_coast_end
+	bg_sprite_coast_begin:	spr_bg_3_industry_coast_start
+	bg_iis:					1
+	bg_y:					116
+	bg_short_lived:			4
+}
+
+{	
+	bg_name:				"city_projects_3"
+	bg_layer:				3
+	bg_biome:				"special"
+	bg_env:					"special"
+	bg_sprite:				spr_bg_3_city_big_projects_1
+	bg_sprite:				spr_bg_3_city_big_projects_2
+	bg_sprite_begin:		spr_bg_3_city_big_projects_begin
+	bg_sprite_end:			spr_bg_3_city_big_projects_end
+	bg_iis:					1
+	bg_y:					260
+}
+
+
+{	
+	bg_name:				"city_5"
+	bg_layer:				5
+	bg_biome:				"city"
+	bg_env:					"city"
+	bg_sprite_tag:			bg_5_city
+	bg_sprite_begin:		spr_bg_city_5_chunk_start
+	bg_sprite_end:			spr_bg_city_5_chunk_end
+	bg_iis:					1
+	bg_y:					351
+	
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				CITY - SUBURBS
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{	
+	bg_name:				"suburbs_3"
+	bg_layer:				3
+	bg_biome:				"suburbs"
+	bg_env:					"suburbs"
+	bg_sprite:				spr_bg_3_city_big_suburbs_1
+	bg_sprite:				spr_bg_3_city_big_suburbs_2
+	bg_sprite_begin:		spr_bg_3_city_big_suburbs_begin
+	bg_sprite_end:			spr_bg_3_city_big_suburbs_end
+	bg_iis:					1
+	bg_y:					242
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				FOREST - PINE - TEMP, REPLACE THIS WHEN CHUNKS ARE AVAILABLE, THIS IS IMPORTED FROM OLD SYSTEM
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{	
+	bg_name:				"forest_2"
+	bg_layer:				2
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_2_pine
+	bg_sprite_begin:		spr_bg_2_pine_hills_begin
+	bg_sprite_end:			spr_bg_2_pine_hills_end
+	bg_iis:					1
+	bg_y:					48
+}
+
+
+{	
+	bg_name:				"forest_3"
+	bg_layer:				3
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_3_forest_pine
+	bg_sprite_begin:		spr_bg_3_hill_pine_begin
+	bg_sprite_end:			spr_bg_3_hill_pine_end
+	bg_iis:					1
+	bg_y:					74
+
+}
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				FOREST - NEW
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{	
+	bg_name:				"forest_4"
+	bg_layer:				4
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_4_forest
+	bg_sprite_begin:		spr_bg_4_pine_start
+	bg_sprite_end:			spr_bg_4_pine_end
+	bg_iis:					1
+	bg_y:					88
+
+}
+
+
+
+{	
+	bg_name:				"forest_kalhugge_7"
+	bg_layer:				7
+	bg_biome:				"disabled"
+	bg_env:					"disabled"
+	bg_sprite_tag:			bg_7_forest_earth
+	bg_sprite_begin:		spr_bg_7_forestfloor_earthly_start
+	bg_sprite_end:			spr_bg_7_forestfloor_earthly_end
+	bg_iis:					1
+	bg_y:					70
+	
+	struct: forest_mushrooms
+	struct_sprite_tag: forest_moss
+	struct_wind: 0
+	struct_number: 8
+	struct_chance: 50
+	struct_y_min: 11
+	
+	
+	struct: bg_7_forest_stumps
+	struct_wind: 0
+	struct_number: 4
+	struct_chance: 80
+	struct_y_min: -11
+	struct_y_max: 14
+	
+}
+
+{	
+	bg_name:				"forest_grassy_6"
+	bg_layer:				6
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_6_forest_grassy
+	bg_sprite_begin:		spr_bg_6_forestfloor_grassy_start
+	bg_sprite_end:			spr_bg_6_forestfloor_grassy_end
+	bg_iis:					1
+	bg_y:					12
+	
+	struct: bg_6_pines
+	struct_wind: 1
+	struct_number: 20
+	struct_chance: 80
+	struct_y_min: 0
+	struct_y_max: 16
+}
+	
+{	
+	bg_name:				"forest_grassy_race_crowd_6"
+	bg_layer:				6
+	bg_biome:				"race"
+	bg_env:					"race"
+	bg_sprite:				spr_bg_6_ending_race_bleachers
+	bg_sprite_begin:		spr_bg_space_64
+	bg_sprite_end:			spr_bg_space_64
+	bg_iis:					1
+	bg_y:					124
+	bg_animate:				1
+	bg_short_lived:			3
+}
+	
+{	
+	bg_name:				"forest_grassy_7"
+	bg_layer:				7
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_7_forest_grassy
+	bg_sprite_begin:		spr_bg_7_forestfloor_grassy_start
+	bg_sprite_end:			spr_bg_7_forestfloor_grassy_end
+	bg_iis:					1
+	bg_y:					16
+	
+	struct: forest_mushrooms
+	struct_sprite_tag: forest_moss
+	struct_wind: 0
+	struct_number: 8
+	struct_chance: 50
+	struct_y_min: 11
+	
+	struct: forest_rocks
+	struct_wind: 0
+	struct_number: 4
+	struct_chance: 25	
+	struct_y_min: 32
+	struct_y_max: 0
+	
+	struct: bg_7_pines
+	struct_wind: 1
+	struct_number: 2
+	struct_chance: 80
+	struct_y_min: 11
+	struct_y_max: 14
+	
+	struct: forest_small_trees
+	struct_wind: 0
+	struct_number: 4
+	struct_chance: 25
+	struct_y_min: 11
+	struct_y_max: 14
+	
+}
+	
+{	
+	bg_name:				"forest_grassy_race_7"
+	bg_layer:				7
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_7_forest_grassy
+	bg_sprite_begin:		spr_bg_7_forestfloor_grassy_start
+	bg_sprite_end:			spr_bg_7_forestfloor_grassy_end
+	bg_iis:					1
+	bg_y:					16
+	
+	struct: forest_mushrooms
+	struct_sprite_tag: forest_moss
+	struct_wind: 0
+	struct_number: 8
+	struct_chance: 50
+	struct_y_min: 11
+	
+	struct: forest_rocks
+	struct_wind: 0
+	struct_number: 4
+	struct_chance: 25	
+	struct_y_min: 32
+	struct_y_max: 0
+	
+	struct: bg_7_pines
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 25
+	struct_y_min: 11
+	struct_y_max: 14
+	
+	struct: forest_small_trees
+	struct_wind: 0
+	struct_number: 2
+	struct_chance: 25
+	struct_y_min: 11
+	struct_y_max: 14
+	
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				FOREST - EARTHLY
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+{	
+	bg_name:				"forest_earthly_5"
+	bg_layer:				5
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_5_forest_earth
+	bg_sprite_begin:		spr_bg_5_forestfloor_earthy_start
+	bg_sprite_end:			spr_bg_5_forestfloor_earthy_end
+	bg_iis:					1
+	bg_y:					45
+	
+	
+	struct: bg_5_pines
+	struct_wind: 1
+	struct_number: 30
+	struct_chance: 80
+	struct_y_min: 0
+	struct_y_max: 32
+
+}
+
+{	
+	bg_name:				"forest_earthly_6"
+	bg_layer:				6
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_6_forest_earth
+	bg_sprite_begin:		spr_bg_6_forestfloor_earthly_start
+	bg_sprite_end:			spr_bg_6_forestfloor_earthly_end
+	bg_iis:					1
+	bg_y:					20
+	
+	
+	struct: bg_6_pines
+	struct_wind: 1
+	struct_number: 20
+	struct_chance: 80
+	struct_y_min: 0
+	struct_y_max: 16
+
+}
+
+
+{	
+	bg_name:				"forest_earthly_7"
+	bg_layer:				7
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_7_forest_earth
+	bg_sprite_begin:		spr_bg_7_forestfloor_earthly_start
+	bg_sprite_end:			spr_bg_7_forestfloor_earthly_end
+	bg_iis:					1
+	bg_y:					50
+	
+	struct: forest_mushrooms
+	struct_sprite_tag: forest_moss
+	struct_wind: 0
+	struct_number: 8
+	struct_chance: 50
+	struct_y_min: 11
+	
+	struct: forest_rocks
+	struct_wind: 0
+	struct_number: 4
+	struct_chance: 25	
+	struct_y_min: -11
+	struct_y_max: 0
+	
+	struct: bg_7_pines
+	struct_wind: 1
+	struct_number: 4
+	struct_chance: 80
+	struct_y_min: -11
+	struct_y_max: 22
+	
+	struct: forest_small_trees
+	struct_wind: 0
+	struct_number: 4
+	struct_chance: 25
+	struct_y_min: 11
+	struct_y_max: 14
+	
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				FOREST - MOSSY
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{	
+	bg_name:				"forest_mossy_5"
+	bg_layer:				5
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_5_forest_mossy
+	bg_sprite_begin:		spr_bg_5_forestfloor_mossy_start
+	bg_sprite_end:			spr_bg_5_forestfloor_mossy_end
+	bg_iis:					1
+	bg_y:					10
+	
+	
+	struct: bg_5_pines
+	struct_wind: 1
+	struct_number: 30
+	struct_chance: 80
+	struct_y_min: 2
+	struct_y_max: 20
+	
+	struct: forest_mushrooms
+	struct_sprite_tag: forest_moss
+	struct_wind: 0
+	struct_number: 8
+	struct_chance: 50
+	struct_y_min: 2
+	struct_y_max: 20
+	
+}
+
+{	
+	bg_name:				"forest_mossy_6"
+	bg_layer:				6
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_6_forest_mossy
+	bg_sprite_begin:		spr_bg_6_forestfloor_mossy_start
+	bg_sprite_end:			spr_bg_6_forestfloor_mossy_end
+	bg_iis:					1
+	bg_y:					10
+	
+	
+	struct: bg_6_pines_thin
+	struct_wind: 1
+	struct_number: 14
+	struct_chance: 80
+	struct_y_min: 10
+	struct_y_max: 14
+	
+	struct: forest_mushrooms
+	struct_sprite_tag: forest_moss
+	struct_wind: 0
+	struct_number: 8
+	struct_chance: 50
+	struct_y_min: 11
+	
+}
+
+
+{	
+	bg_name:				"forest_mossy_7"
+	bg_layer:				7
+	bg_biome:				"forest"
+	bg_env:					"forest"
+	bg_sprite_tag:			bg_7_forest_mossy
+	bg_sprite_begin:		spr_bg_7_forestfloor_mossy_start
+	bg_sprite_end:			spr_bg_7_forestfloor_mossy_end
+	bg_iis:					1
+	bg_y:					20
+	
+	
+	struct: bg_7_pines_thin
+	struct_wind: 1
+	struct_number: 8
+	struct_chance: 80
+	struct_y_min: 2
+	struct_y_max: 12
+	
+	struct: forest_mushrooms
+	struct_sprite_tag: forest_moss
+	struct_wind: 0
+	struct_number: 8
+	struct_chance: 50
+	struct_y_min: 11
+	
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				MOUNTAIN - ALL
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{	
+	bg_name:				"mountains_1"
+	bg_layer:				1
+	bg_biome:				"deleted"
+	bg_env:					"deleted"
+	bg_sprite_tag:			bg_3_mountains
+	bg_sprite_begin:		spr_bg_3_mountain_1_begin
+	bg_sprite_end:			spr_bg_3_mountain_1_end
+	bg_iis:					1
+	bg_y:					80
+
+}
+
+{	
+	bg_name:				"mountain_1_bottom"
+	bg_layer:				1
+	bg_biome:				"mountain"
+	bg_env:					"mountain"
+	bg_sprite_tag:			bg_1_mountain_bottom
+	bg_sprite_begin:		spr_bg_1_mountain_snowy_start
+	bg_sprite_end:			spr_bg_1_mountain_snowy_end
+	bg_iis:					1
+	bg_y:					86
+
+}
+
+{	
+	bg_name:				"mountain_2_bottom"
+	bg_layer:				2
+	bg_biome:				"mountain"
+	bg_env:					"mountain"
+	bg_sprite_tag:			bg_2_mountain_bottom
+	bg_sprite_begin:		spr_bg_2_mountain_low_snowy_start
+	bg_sprite_end:			spr_bg_2_mountain_low_snowy_end
+	bg_iis:					1
+	bg_y:					61
+
+}
+
+{	
+	bg_name:				"mountain_1_top"
+	bg_layer:				1
+	bg_biome:				"mountain"
+	bg_env:					"mountain"
+	bg_sprite_tag:			bg_1_mountain_top
+	bg_sprite_begin:		spr_bg_1_mountain_low_snowy_start
+	bg_sprite_end:			spr_bg_1_mountain_low_snowy_end
+	bg_iis:					1
+	bg_y:					86
+
+}
+
+{	
+	bg_name:				"mountain_2_top"
+	bg_layer:				2
+	bg_biome:				"mountain"
+	bg_env:					"mountain"
+	bg_sprite_tag:			bg_2_mountain_top
+	bg_sprite_begin:		spr_bg_2_mountain_snowy_start
+	bg_sprite_end:			spr_bg_2_mountain_snowy_end
+	bg_iis:					1
+	bg_y:					70
+
+}
+
+
+{	
+	bg_name:				"mountain_3"
+	bg_layer:				3
+	bg_biome:				"mountain"
+	bg_env:					"mountain"
+	bg_sprite_tag:			bg_3_mountain_steep
+	bg_sprite_begin:		spr_bg_3_mountain_steephill_start
+	bg_sprite_end:			spr_bg_3_mountain_steephill_end
+	bg_iis:					1
+	bg_y:					80
+
+}
+
+{	
+	bg_name:				"mountain_4"
+	bg_layer:				4
+	bg_biome:				"mountain"
+	bg_env:					"mountain"
+	bg_sprite_tag:			bg_4_mountain_steep
+	bg_sprite_begin:		spr_bg_4_mountain_steephill_start
+	bg_sprite_end:			spr_bg_4_mountain_steephill_end
+	bg_iis:					1
+	bg_y:					75
+
+}
+
+{	
+	bg_name:				"mountain_5"
+	bg_layer:				5
+	bg_biome:				"mountain"
+	bg_env:					"mountain"
+	bg_sprite_tag:			bg_4_mountain_steep
+	bg_sprite_begin:		spr_bg_4_mountain_steephill_start
+	bg_sprite_end:			spr_bg_4_mountain_steephill_end
+	bg_iis:					1
+	bg_y:					75
+
+}
+
+{	
+	bg_name:				"mountain_6"
+	bg_layer:				6
+	bg_biome:				"mountain"
+	bg_env:					"mountain"
+	bg_sprite_tag:			bg_6_forest_earth
+	bg_sprite_begin:		spr_bg_6_forestfloor_earthly_start
+	bg_sprite_end:			spr_bg_6_forestfloor_earthly_end
+	bg_iis:					1
+	bg_y:					-40
+	
+	
+	struct: bg_6_pines
+	struct_wind: 1
+	struct_number: 20
+	struct_chance: 80
+	struct_y_min: 80
+	struct_y_max: 16
+
+}
+
+
+
+{
+	bg_name:			mountain_7
+	bg_layer:			7
+	bg_env:				mountain
+	bg_sprite_tag:		bg_7_mountain
+	bg_sprite_begin:	spr_bg_7_mountain_roadside_start
+	bg_sprite_end:		spr_bg_7_mountain_roadside_end
+	bg_y:				6
+	bg_tag:				sidewalk
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				SIDEWALK - ALL
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+	bg_name:			sidewalk_7
+	bg_layer:			8
+	bg_env:				none
+	bg_sprite_tag:		bg_7_sidewalk
+	bg_sprite_begin:	spr_bg_dn_7_city_floor_start
+	bg_sprite_end:		spr_bg_dn_7_city_floor_end
+	bg_y:				8
+	bg_tag:				sidewalk
+}
+
+{
+	bg_name:			sidewalk_desert_7
+	bg_layer:			8
+	bg_env:				none
+	bg_sprite_tag:		bg_7_sidewalk_desert
+	bg_sprite_begin:	spr_7_dl_road_destinations_desert_pavement_start
+	bg_sprite_end:		spr_7_dl_road_destinations_desert_pavement_end
+	bg_y:				8
+	bg_tag:				sidewalk
+}
+
+{
+	bg_name:			sidewalk_dirt_7
+	bg_layer:			8
+	bg_env:				none
+	bg_sprite_tag:		bg_7_sidewalk_dirt
+	bg_sprite_begin:	spr_7_dl_road_sideroad_dirt_start
+	bg_sprite_end:		spr_7_dl_road_sideroad_dirt_end
+	bg_y:				11
+	bg_tag:				sidewalk
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				RAILINGS - ALL
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{	
+	bg_name:				"railing"
+	bg_layer:				8
+	bg_biome:				"highway"
+	bg_env:					"railing"
+	bg_sprite:				spr_7_dl_road_rails_guardrail
+	bg_sprite:				spr_7_dl_road_rails_guardrail_b
+	bg_sprite_begin:		spr_7_dl_road_rails_guardrail
+	bg_sprite_end:			spr_bg_space_64
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					21
+	bg_tag:					railing
+}
+
+{	
+	bg_name:				"railing_mountain"
+	bg_layer:				8
+	bg_biome:				"highway"
+	bg_env:					"railing"
+	bg_sprite:				spr_7_dl_road_rails_guardrail_tall
+	bg_sprite:				spr_7_dl_road_rails_guardrail_b_tall
+	bg_sprite_begin:		spr_7_dl_road_rails_guardrail_tall
+	bg_sprite_end:			spr_bg_space_64
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					30
+	bg_tag:					railing
+}
+
+{	
+	bg_name:				"railing_country"
+	bg_layer:				8
+	bg_biome:				"highway"
+	bg_env:					"railing"
+	bg_sprite:				spr_7_dl_road_rails_countryRail
+	bg_sprite:				spr_7_dl_road_rails_countryRail_2
+	bg_sprite:				spr_7_dl_road_rails_countryRail_3
+	bg_sprite_begin:		spr_7_dl_road_rails_countryRail
+	bg_sprite_end:			spr_bg_space_64
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					22
+	bg_tag:					railing
+}
+
+{	
+	bg_name:				"railing_desert"
+	bg_layer:				8
+	bg_biome:				"highway"
+	bg_env:					"railing"
+	bg_sprite:				spr_7_dl_road_rails_desertfence
+	bg_sprite:				spr_7_dl_road_rails_desertfence_2
+	bg_sprite_begin:		spr_7_dl_road_rails_desertfence_begin
+	bg_sprite_end:			spr_7_dl_road_rails_desertfence_end
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					31
+	bg_tag:					railing
+}
+
+{	
+	bg_name:				"railing_forest"
+	bg_layer:				8
+	bg_biome:				"highway"
+	bg_env:					"railing"
+	bg_sprite:				spr_7_dl_road_rails_forestfence
+	bg_sprite_begin:		spr_7_dl_road_rails_forestfence_start
+	bg_sprite_end:			spr_7_dl_road_rails_forestfence_end
+	bg_iis:					1
+	bg_y:					59
+	bg_tag:					railing
+}
+{	
+	bg_name:				"railing_city"
+	bg_layer:				8
+	bg_biome:				"highway"
+	bg_env:					"railing"
+	bg_sprite:				spr_7_dl_road_rails_guardwall
+	bg_sprite:				spr_7_dl_road_rails_guardwall_b
+	bg_sprite_begin:		spr_7_dl_road_rails_guardwall_b
+	bg_sprite_end:			spr_bg_space_64
+	bg_iis:					1
+	bg_y:					24
+	bg_tag:					railing
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				GRAVEYARD - MAIN
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{	
+	bg_name:				"graveyard_6"
+	bg_layer:				6
+	bg_biome:				"graveyard"
+	bg_env:					"graveyard"
+	bg_short_lived:			4
+	bg_sprite:				spr_destination_road_graveyard_loop
+	bg_sprite_begin:		spr_destination_road_graveyard_sides_start
+	bg_sprite_end:			spr_destination_road_graveyard_sides_end
+	bg_iis:					1
+	bg_y:					46
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				FESTIVAL - MAIN
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{	
+	bg_name:				"festival_3"
+	bg_layer:				3
+	bg_biome:				"festival"
+	bg_env:					"festival"
+	bg_sprite:				spr_bg_3_festival_background
+	bg_sprite_begin:		spr_bg_3_festival_background
+	bg_sprite_end:			spr_bg_3_festival_background
+	bg_iis:					1
+	bg_y:					64
+}
+
+{	
+	bg_name:				"festival_5"
+	bg_layer:				5
+	bg_biome:				"festival"
+	bg_env:					"festival"
+	bg_sprite:				spr_bg_5_festival_campers
+	bg_sprite_begin:		spr_bg_5_festival_campers
+	bg_sprite_end:			spr_bg_5_festival_campers
+	bg_iis:					1
+	bg_y:					45
+}
+
+{	
+	bg_name:				"festival_6_tents"
+	bg_layer:				6
+	bg_biome:				"festival"
+	bg_env:					"festival"
+	bg_sprite:				spr_bg_6_festival_camp_tents
+	bg_sprite_begin:		spr_bg_6_festival_camp_tents
+	bg_sprite_end:			spr_bg_6_festival_camp_tents
+	bg_iis:					1
+	bg_y:					28
+}
+{	
+	bg_name:				"festival_6_campers"
+	bg_layer:				6
+	bg_biome:				"festival"
+	bg_env:					"festival"
+	bg_sprite:				spr_bg_6_festival_rv_campers
+	bg_sprite_begin:		spr_bg_6_festival_rv_campers
+	bg_sprite_end:			spr_bg_6_festival_rv_campers
+	bg_iis:					1
+	bg_y:					28
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				DESERT - MAIN
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+{	
+	bg_name:				"desert_1"
+	bg_layer:				1
+	bg_biome:				"desert"
+	bg_env:					"desert"
+	bg_sprite:				spr_bg_1_mountain_flat_desert_loop_1
+	bg_sprite_begin:		spr_bg_1_mountain_flat_desert_begin
+	bg_sprite_end:			spr_bg_1_mountain_flat_desert_end
+	bg_iis:					1
+	bg_y:					67
+
+}
+
+{	
+	bg_name:				"desert_2"
+	bg_layer:				2
+	bg_biome:				"desert"
+	bg_env:					"desert"
+	bg_sprite_tag:			bg_2_desert
+	bg_sprite_begin:		spr_bg_2_desert_begin
+	bg_sprite_end:			spr_bg_2_desert_end
+	bg_iis:					1
+	bg_y:					29
+}
+
+{	
+	bg_name:				"desert_3"
+	bg_layer:				3
+	bg_biome:				"desert"
+	bg_env:					"desert"
+	bg_sprite_tag:			bg_3_desert
+	bg_sprite_begin:		spr_bg_3_flat_desert_begin
+	bg_sprite_end:			spr_bg_3_flat_desert_end
+	bg_iis:					1
+	bg_y:					38
+}
+
+{	
+	bg_name:				"desert_5"
+	bg_layer:				5
+	bg_biome:				"desert"
+	bg_env:					"desert"
+	bg_sprite_tag:			bg_5_desert_ground
+	bg_sprite_begin:		spr_bg_5_ground_desert_start
+	bg_sprite_end:			spr_bg_5_ground_desert_end
+	bg_iis:					1
+	bg_y:					16
+	
+	struct: desert_plants_5
+	struct_wind: 0
+	struct_number: 3
+	struct_chance: 50
+	struct_y_min: 2	
+
+	
+	struct: desert_cacti_5
+	struct_wind: 0
+	struct_number: 3
+	struct_chance: 20
+	struct_y_min: 3
+	
+	struct: desert_rocks_5
+	struct_wind: 0
+	struct_number: 3
+	struct_chance: 10
+	struct_y_min: 12	
+	
+	struct: bg_5_desert_houses
+	struct_wind: 0
+	struct_number: 3
+	struct_chance: 6
+	struct_y_min: 12	
+
+
+}
+
+{	
+	bg_name:				"desert_beach_5"
+	bg_layer:				5
+	bg_biome:				"desert"
+	bg_env:					"desert"
+	bg_sprite_tag:			bg_5_desert_ground
+	bg_sprite_begin:		spr_bg_5_ground_desert_start
+	bg_sprite_end:			spr_bg_5_ground_desert_end
+	bg_iis:					1
+	bg_y:					16
+
+
+}
+
+{	
+	bg_name:				"desert_6"
+	bg_layer:				6
+	bg_biome:				"desert"
+	bg_env:					"desert"
+	bg_sprite_tag:			bg_6_desert_ground
+	bg_sprite_begin:		spr_bg_6_desert_ground_loop_start
+	bg_sprite_end:			spr_bg_6_desert_ground_loop_end
+	bg_iis:					1
+	bg_y:					0
+	
+	struct: desert_plants_s_6
+	struct_wind: 0
+	struct_number: 2
+	struct_chance: 50
+	struct_y_min: 11	
+	
+	struct: desert_weeds_6
+	struct_wind: 0
+	struct_number: 2
+	struct_chance: 20
+	struct_y_min: 11
+		
+	struct: desert_plants_b_6
+	struct_wind: 1
+	struct_number: 2
+	struct_chance: 10
+	struct_y_min: 11
+	
+	struct: desert_cacti_6
+	struct_wind: 0
+	struct_number: 2
+	struct_chance: 20
+	struct_y_min: 11
+	
+	struct: desert_rocks_big_6
+	struct_wind: 0
+	struct_number: 2
+	struct_chance: 10
+	struct_y_min: 34	
+	
+	struct: desert_rocks_small_6
+	struct_wind: 0
+	struct_number: 2
+	struct_chance: 20
+	struct_y_min: 20
+	
+	struct: bg_6_desert_houses
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 4
+	struct_y_min: 20
+
+}
+
+
+{	
+	bg_name:				"desert_7_base"
+	bg_layer:				7
+	bg_biome:				"desert"
+	bg_env:					"desert"
+	bg_sprite_tag:			bg_7_desert_ground
+	bg_sprite_begin:		spr_bg_7_desert_ground_loop_start
+	bg_sprite_end:			spr_bg_7_desert_ground_loop_end
+	bg_iis:					1
+	bg_y:					-0
+	
+	struct: desert_plants_small
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 50
+	struct_y_min: 11	
+	
+	struct: desert_weeds
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 20
+	struct_y_min: 11
+		
+	struct: desert_plants_big
+	struct_wind: 1
+	struct_number: 1
+	struct_chance: 10
+	struct_y_min: 11
+	
+	struct: bg_7_cacti
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 20
+	struct_y_min: 11
+	
+	struct: desert_rocks_big
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 10
+	struct_y_min: 34	
+	
+	struct: desert_rocks_small
+	struct_wind: 0
+	struct_number: 1
+	struct_chance: 20
+	struct_y_min: 20
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//				FOREGROUND - ALL
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{	
+	bg_name:				"basic_fg"
+	bg_layer:				9
+	bg_biome:				"all"
+	bg_env:					"country,rural,suburbs,desert,city_small,suburbs"
+	bg_sprite:				spr_fg_floor_1
+	bg_sprite:				spr_fg_floor_2
+	bg_sprite_begin:		spr_fg_floor_1
+	bg_sprite_end:			spr_fg_floor_2
+	bg_iis:					1
+	bg_height:				0
+}
+
+
+
+{	
+	bg_name:				"city_fg"
+	bg_layer:				9
+	bg_biome:				"city"
+	bg_env:					"city,city_big"
+	bg_sprite:				spr_fg_floor_wide
+	bg_sprite:				spr_fg_floor_wide
+	bg_sprite_begin:		spr_fg_floor_1
+	bg_sprite_end:			spr_fg_floor_2
+	bg_iis:					1
+	bg_height:				0
+	
+	struct: fg_city_lamp
+	struct_number: 1
+	struct_chance: 100
+	struct_y_min: 70
+	struct_x_min:	.5
+	struct_x_max:	.5	
+	
+	struct: fg_telepoles
+	struct_number: 1
+	struct_chance: 50
+	struct_y_min: 100
+	struct_x_min:	0
+	struct_x_max:	0
+}
+
+
+{	
+	bg_name:				"forest_fg"
+	bg_layer:				9
+	bg_biome:				"forest_pine,forest_leaf"
+	bg_env:					"forest"
+	bg_sprite:				spr_fg_floor_1
+	bg_sprite:				spr_fg_floor_2
+	bg_sprite_begin:		spr_fg_floor_1
+	bg_sprite_end:			spr_fg_floor_2
+	bg_iis:					1
+	bg_height:				0
+	
+	struct: pines_fg
+	struct_number: 2
+	struct_chance: 20
+	struct_y_min: 27	
+	
+	struct: fg_tree_leaf
+	struct_number: 2
+	struct_chance: 20
+	struct_y_min: 27
+	
+	struct: forest_small_fg
+	struct_number: 4
+	struct_chance: 50	
+	struct_y_min: 27
+}
+
+{	
+	bg_name:				"festival_fg"
+	bg_layer:				9
+	bg_biome:				"festival"
+	bg_env:					"festival"
+	bg_sprite:				spr_fg_floor_1
+	bg_sprite:				spr_fg_floor_2
+	bg_sprite_begin:		spr_fg_floor_1
+	bg_sprite_end:			spr_fg_floor_2
+	bg_iis:					1
+	bg_height:				0
+	bg_y:					0
+	
+	struct: fg_festival
+	struct_number: 2
+	struct_chance: 20
+	struct_y_min: 40	
+	
+}

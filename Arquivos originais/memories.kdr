@@ -1,0 +1,338 @@
+
+
+{
+	memory_name: unemployed
+	memory_text: At this time I was unemployed...
+}
+
+{
+	memory_name: student
+	memory_text: I was studying. Living with my parents.
+}
+
+{
+	memory_name: car_enthusiast
+	memory_text: I was working at the local garage.
+}
+
+{
+	memory_name: rehab
+	memory_text: I had just finished my rehabilitation program.
+}
+
+{
+	memory_name: intern
+	memory_text: I had made some money, working as an intern.
+}
+
+{
+	memory_name: mourning
+	memory_text: I had been feeling down for a while.
+}
+
+{
+	memory_name: veteran
+	memory_text: This wasn't my first road trip.
+}
+
+{
+	memory_name: racer
+	memory_text: This was after I had won the Pine Race.
+}
+
+{
+	memory_name: alcoholic
+	memory_text: I was drinking a lot...
+}
+
+{
+	memory_name: gourmand
+	memory_text: My apetite was insane!
+}
+
+{
+	memory_name: happy_user
+	memory_text: It was a very fun summer!
+}
+{
+	memory_name: broke
+	memory_text: I was so poor!
+}
+
+{
+	memory_name: breakdown
+	memory_text: I had %t blackouts.
+}
+
+{
+	memory_name: help_kid
+	memory_text: Helped a little girl reunite with her parents.
+}
+
+{
+	memory_name: help_stranger
+	memory_text: Got in too deep with a gambler and his debt.
+}
+
+{
+	memory_name: help_convict
+	memory_text: Helped an escaped convict to cross the border.
+}
+
+{
+	memory_name: help_bride
+	memory_text: Met a runaway bride and helped her have fun!
+}
+
+{
+	memory_name: help_punk
+	memory_text: A punk left me his dog.
+}
+
+{
+	memory_name: help_suit
+	memory_text: Picked up a lonely salesman.
+}
+
+{
+	memory_name: max_songwriter
+	memory_text: Befriended a Songwriter.
+}
+
+
+{
+	memory_name: max_hippie_girl
+	memory_text: I ended up getting a bit annoyed by this girl.
+}
+
+
+{
+	memory_name: help_hiker
+	memory_text: An old hiker and I went to the mountain camp.
+}
+
+
+{
+	memory_name: kicked_stranger
+	memory_text: Kicked out a real creep from my car.
+}
+
+{
+	memory_name: vegetarian
+	memory_text: I decided to only eat vegetarian food. 
+}
+
+{
+	memory_name: bookworm
+	memory_text: I was reading A LOT
+}
+
+{
+	memory_name: heavy_smoker
+	memory_text: So many cigarettes smoked...
+}
+
+
+/////////////////////////NEW
+
+
+
+{
+	//middle
+	memory_name: heavy_smoker
+	memory_text: Sooo many cigarettes smoked...
+}
+
+{
+	//middle
+	memory_name: crafty
+	memory_text: I got really good at using what I got.
+}
+
+{
+	//middle
+	memory_name: workaholic
+	memory_text: I found myself taking a lot of odd jobs.
+}
+
+{
+	//middle
+	memory_name: mechanic_experience
+	memory_text: I learnt a lot about simple repairs.
+}
+
+{
+	//middle
+	memory_name: broke
+	memory_text: I was soo poor at one point!
+}
+
+{
+	//middle
+	memory_name: bad_driver
+	memory_text: I drove so badly the car actually broke!
+}
+
+{
+	//middle
+	memory_name: moody
+	memory_text: I had a hard time staying cool. Felt really moody.
+}
+
+{
+	//middle
+	memory_name: mastery taits
+	memory_text: could you write 1 for each mastery trait. I don't know what they're called.
+}
+
+{
+	//middle
+	memory_name: litterbug
+	memory_text: I couldn't give a shit about nature.
+}
+
+{
+	//middle
+	memory_name: city_kid
+	memory_text: Exploring the city became second nature to me.
+}
+
+{
+	//middle
+	memory_name: spartan
+	memory_text: I was trying to live without possessions.
+}
+
+{
+	//middle
+	memory_name: perfectionist
+	memory_text: I did my best to be precise on gravel roads.
+}
+
+{
+	//middle
+	memory_name: generous
+	memory_text: I gave some money to a guy who needed it.
+}
+
+{
+	//middle
+	memory_name: tent_rain
+	memory_text: I slept soundly in my tent while it rained.
+}
+
+{
+	//middle
+	memory_name: rider_on_the_storm
+	memory_text: I felt happy driving in the rain.
+}
+
+{
+	//middle
+	memory_name: comfortable
+	memory_text: I really looked forward to sleeping in my bed again.
+}
+
+
+{
+	//middle
+	memory_name: driving_mastery
+	memory_text: I felt like I really grew as a driver.
+}
+
+{
+	//middle
+	memory_name: hiking_mastery
+	memory_text: I really honed my hiking skills.
+}
+
+{
+	//middle
+	memory_name: thrifty_mastery
+	memory_text: I used my resources masterfully.
+}
+
+{
+	//middle
+	memory_name: gourmet_mastery
+	memory_text: I used my hunger as a strength.
+}
+
+{
+	//middle
+	memory_name: basic_mastery
+	memory_text: I grew as a person. It really inspired me.
+}
+
+{
+	//middle
+	memory_name: social_mastery
+	memory_text: I relied a lot on my travelling companions.
+}
+
+
+
+
+
+{
+	//end
+	memory_name: end_festival
+	memory_text: In the end, I met up with my friends at the festival.
+}
+
+{
+	//end
+	memory_name: end_inheritance
+	memory_text: But I had to cut my trip short because my grandma died.
+}
+
+{
+	//end
+	memory_name: end_hurricane_party
+	memory_text: I recall crashing this wild party in a cabin.
+}
+
+{
+	//end
+	memory_name: end_prison
+	memory_text: Eventually I fucked up, and ended up in jail.
+}
+
+{
+	//end
+	memory_name: end_mountain
+	memory_text: I don't remember much after driving up the peak.
+}
+
+{
+	//end
+	memory_name: end_rehab
+	memory_text: Then I checked myself into rehab.
+}
+
+
+{
+	//end
+	memory_name: end_party
+	memory_text: I recall crashing this wild party in a cabin.
+}
+
+
+{
+	//end
+	memory_name: end_work
+	memory_text: In the end all I remembered was working the rest of the summer. 
+}
+
+{
+	//end
+	memory_name: end_race
+	memory_text: Then, out of curiosity, I took part in a race and won! 
+}
+
+{
+	//end
+	memory_name: end_game_over
+	memory_text: stranded, I wound up calling my parents, who didn't answer. 
+}
+

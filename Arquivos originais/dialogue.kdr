@@ -1,0 +1,1611 @@
+
+////////////////////////////////////DEFAULT MESSAGES
+{
+	id: "test_dialogue_0"
+	text: "This is a test dialogue. It will be written out in many different separate pieces"
+}
+{
+	id: "default_done"
+	text: "CONVERSATION DONE (DEFAULT MESSAGE)"
+}
+
+{
+	id: "default_reject"
+	text: "Don't wanna talk to you(DEFAULT MESSAGE)"
+}
+{
+	id: "hh_greeting_default"
+	text: "Thanks for picking me up!"
+}
+////////////////////////////////////TEST DIALOGUE
+{
+	id: "test_dialogue_1"
+	text: "This is another test dialogue piece. When there are dots. there. will. be. interuptions"
+}
+
+////////////////////////////////////Fruit Seller
+{
+	id: "fruitseller_1"
+	text: "Hello, wanna buy some fruit?"
+}
+
+////////////////////////////////////Blonde guy 1
+{
+	id: "blonde_guy_1"
+	text: "Hello, are you a traveller?"
+}
+
+////////////////////////////////////DOOM DIVER
+{
+	id: "doom_diver_1"
+	text: "THE END IS NIGH"
+}
+
+////////////////////////////////////CRYING GIRL
+{
+	id: "crying_girl_1"
+	text: "*sniff* sniff*. I just lost my job. AND. My boyfriend just left me. I could use some company!"
+}
+
+{
+	id: "crying_girl_thank"
+	text: "Thanks so much for talking to me! It means a lot to me!"
+}
+
+{
+	id: "crying_girl_1_ignore"
+	text: "*sniff* *sniff*"
+}
+
+{
+	id: "cyring_girl_done"
+	text: "Thanks again!"
+}
+
+
+////////////////////////////////////TEMP DENNIS
+{
+	id: "dennis_greeting"
+	text: "Hello, you seem like you're far from home. Let me give you some tips"
+}
+
+{
+	id: "dennis_done"
+	text: "Remember what I've taught you!"
+}
+
+
+////////////////////////////////////SIGN GUY
+{
+	id: "sign_guy"
+	text: "Come and buy!  Come come and buy!"
+}
+////////////////////////////////////Shades Seller
+{
+	id: "street_peddler_greeting"
+	text: "Oh hi there.Wanna buy something?"
+}
+////////////////////////////////////HOBO
+{
+	id: "hobo_greeting_1"
+	text: "If you've got no money, you've got nothing to lose! For me, Losing money doesn't seem that threatening anymore!"
+}
+
+{
+	id: "hobo_ignore_1"
+	text: "*cough*"
+}
+{
+	id: "hobo_thank_1"
+	text: "Thank you!"
+}
+
+{
+	id: "hobo_done_1"
+	text: "Thanks again!"
+}
+//////////////////////////////////// STUDENT COFFEE
+
+{
+	id: "gourmet_greeting"
+	text: "I'm a gourmet. I only eat cheese and baguettes!"
+}
+
+}
+
+
+
+////////////////////////////////////BUSINESS MAN 1
+{
+	id: "business_man_1_greeting"
+	text: "I'm very busy, here have some change"
+}
+{
+	id: "business_man_1_reject"
+	text: "I don't have time to talk"
+}
+
+////////////////////////////////////LUMBERJACK
+{
+	id: "lumberjack_1_greeting"
+	text: "Hiyah! I got some hiking equipment for sale. If you're interested"
+}
+{
+	id: "lumberjack_1_thanks"
+	text: "Thanks a bunch kiddo!"
+}
+
+{
+	id: "lumberjack_1_done"
+	text: "Finally some well deserved rest!"
+}
+
+////////////////////////////////////DRUG DEALER 1
+{
+	id: "drug_dealer_1_greeting"
+	text: "Hey! wanna buy some nice stuff?"
+}
+{
+	id: "drug_dealer_1_reject"
+	text: "Bugger off!"
+}
+////////////////////////////////HITCHHIKERS
+//hh default skill
+{
+	id: "hh_default_gain_skill"
+	text: "This one time, this thing happened to me"
+}
+//hh default greeting at dest_OLD
+{
+	id: "hh_default_dest_greeting"
+	text: "[wheel]Ah, hello. Are we [shake]leaving[/shake] soon?"
+}
+
+//hh default pre level up
+{
+	id: "hh_default_pre_level_up"
+	text: "I wanted to talk to you about something."
+}
+
+//hh default kicked greeting
+{
+	id: "hh_default_kicked_greeting"
+	text: "I'll find another ride somehow"
+}
+
+
+
+//convict
+{
+	id: "hh_convict_greeting_a"
+	text: "Hey, we've gotta keep moving."
+}
+
+{
+	id: "hh_convict_greeting_b"
+	text: "Hey, finish what you need to do. Then we scram!"
+}
+
+{
+	id: "hh_convict_greeting_c"
+	text: "Hey. ... thanks for trusting me"
+}
+
+//girl
+{
+	id: "hh_girl_greeting_a"
+	text: "Sure. I'll go wherever you want. I don't really care"
+}
+
+{
+	id: "hh_girl_greeting_b"
+	text: "It's nice here. Where are we going next?"
+}
+
+{
+	id: "hh_girl_greeting_c"
+	text: "Your car isn't very comfy."
+}
+
+
+//BRIDE
+
+{
+	id: "hh_bride_greeting_a"
+	text: "Hiya! I feel like I can breathe again! Thanks for picking me up!"
+}
+
+{
+	id: "hh_bride_greeting_b"
+	text: "Hiya! don't know what I'd do if you hadn't picked me up!"
+}
+
+{
+	id: "hh_bride_greeting_c"
+	text: "Hiya! [wheel]where to next?"
+}
+
+
+//hiker
+{
+	id: "hh_hiker_greeting_a"
+	text: "[wobble]Ahh! Nothing beats being on the road!"
+}
+
+{
+	id: "hh_hiker_greeting_b"
+	text: "[wheel]Huff![wobble]Aah! Working on my walking stick, you see!"
+}
+
+{
+	id: "hh_hiker_greeting_c"
+	text: "[pulse]Huh?[wobble]Ahh! Just checking up on some stuff!"
+}
+
+//idiot
+{
+	id: "hh_idiot_greeting_a"
+	text: "Got these flowers. They smell nice."
+}
+
+{
+	id: "hh_idiot_greeting_b"
+	text: "Mmmm. They smell nice. The flowers"
+}
+
+{
+	id: "hh_idiot_greeting_c"
+	text: "Hmmm. Hmmm. So what do you think?"
+}
+
+//hurricane
+{
+	id: "hh_hurricane_greeting_a"
+	text: "[wheel]Hiii![/wheel] We got everything we need? [wheel]Nice[/wheel]!"
+}
+
+{
+	id: "hh_hurricane_greeting_b"
+	text: "[wheel]Hiii![/wheel] I'm so [shake]Excited[/shake]"
+}
+
+{
+	id: "hh_hurricane_greeting_c"
+	text: "Best. Roadtrip.[shake]EVER[/shake]"
+}
+
+//kid
+{
+	id: "hh_kid_greeting_a"
+	text: "Hee hee. I'm so far away from home. [pulse] Woo !"
+}
+
+{
+	id: "hh_kid_greeting_b"
+	text: "Where did I put my adventure hat? I'm pretty sure I packed it"
+}
+
+{
+	id: "hh_kid_greeting_c"
+	text: "[wheel]Roadtrip! [wheel]Road Trip! [shake]Oh [wheel]yeah!"
+}
+
+//Mechanic
+{
+	id: "hh_mechanic_greeting_a"
+	text: "Got any smokes?"
+}
+
+{
+	id: "hh_mechanic_greeting_b"
+	text: "Let's see what we can do about that chugging sound"
+}
+
+{
+	id: "hh_mechanic_greeting_c"
+	text: "Wanna bum one?"
+}
+
+//Punk
+{
+	id: "hh_punk_greeting_a"
+	text: "'Sup?"
+}
+
+{
+	id: "hh_punk_greeting_b"
+	text: "Who's a good boy? Oh, hey!"
+}
+
+{
+	id: "hh_punk_greeting_c"
+	text: "'Sup Friend?"
+}
+
+
+//Sleeper
+{
+	id: "hh_sleeper_greeting_a"
+	text: "[wheel]Zzz"
+}
+
+{
+	id: "hh_sleeper_greeting_b"
+	text: "[wheel]Zzz. Huh?"
+}
+
+{
+	id: "hh_sleeper_greeting_c"
+	text: "[wheel]Zzz. [wheel]Keep. [wheel]Driving. [wheel]Zzz."
+}
+
+//Songwriter
+{
+	id: "hh_songwriter_greeting_a"
+	text: "I feel like it was destiny. You picking me up that is."
+}
+
+{
+	id: "hh_songwriter_greeting_b"
+	text: "Working on some new stuff. This trip is inspiring!"
+}
+
+{
+	id: "hh_songwriter_greeting_c"
+	text: "[wheel][spr_text_music_note]Keeep Driiiving[spr_text_music_note]."
+}
+
+//Stranger
+{
+	id: "hh_stranger_greeting_a"
+	text: "Gimme some cash and I'll double it by tomorrow!"
+}
+
+{
+	id: "hh_stranger_greeting_b"
+	text: "I'm gonna stick around a while. Thanks by the way!"
+}
+
+{
+	id: "hh_stranger_greeting_c"
+	text: "There, um. Might be some guys following us. Thanks for sticking with me by the way."
+}
+
+//Suit
+{
+	id: "hh_suit_greeting_a"
+	text: "Oh, thanks for picking me up!"
+}
+
+{
+	id: "hh_suit_greeting_b"
+	text: "Huh? No! Yes? What? Uh huh."
+}
+
+{
+	id: "hh_suit_greeting_c"
+	text: "No, no, no! They're my kids too! Really?"
+}
+
+
+
+
+//SPECIFIC
+
+
+///////////////MECHANIC
+
+{
+	id: "hh_mechanic_skill_dialogue_cheap_repair"
+	text: "I used to work with repairing cars. I still know some people who work there. If you ever need a more thorough look at your vehicle, I can [wheel]probably[/wheel] get you a better price there."
+}
+
+
+//QUEST COMPLETE
+
+{
+	id: "quest_turn_in_greeting"
+	text: "Hello. Are you the one to deliver my stuff?"
+}
+
+{
+	id: "quest_turn_in_reject"
+	text: "Hello. I'm waiting for someone. They should be here by now"
+}
+
+{
+	id: "quest_turn_in_done"
+	text: "Thanks again!"
+}
+
+{
+	id: "quest_complete_general"
+	text: "Thank you so much!"
+}
+
+//SPECIFIC QUESTS
+
+//FESTIVAL
+
+{
+	id: "q_festival_turn_in_greeting"
+	text: "Welcome to the Way out East Festival. May I see your ticket? Perfect! Have a blast!"
+}
+
+{
+	id: "q_festival_turn_in_reject"
+	text: "Hello. I can't let you through without a ticket. Sorry."
+}
+
+{
+	id: "q_festival_turn_in_done"
+	text: "Enjoy your stay here!"
+}
+
+{
+	id: "q_festival_turn_in_complete"
+	text: "Enjoy your stay here!"
+}
+
+{
+	id: "q_festival_friends_complete"
+	text: "You made it! Park and let's set up your tent."
+}
+
+{
+	id: "festival_ticket_vendor_greeting"
+	text: "Hello, I got your ticket for the festival here!"
+}
+
+{
+	id: "give_zimmer_cd"
+	text: "Hiii! You're also going to the festival? You should totally check out this band that's playing there!"
+}
+{
+	id: "gave_zimmer_cd"
+	text: "I'm sooooo psyched for the festival!"
+}
+
+{
+	id: "festival_ticket_vendor_greeting_lost_ticket"
+	text: "Really? You lost your ticket? Well. Here's another one!"
+}
+
+{
+	id: "festival_ticket_vendor_done"
+	text: "Have fun at the festival!"
+}
+
+
+//HHs at festival
+
+{
+	id:	hh_suit_festival
+	text: Oh wow, I haven't been to a festival in ages. Can't deal with the tents anymore. or the hangovers. or noise. I don't even know the headliners!"
+}
+
+{
+	id:	hh_convict_festival
+	text: "I shouldn't be here. Waaay too many cops. Do you WANT me to get caught?"
+}
+
+{
+	id:	hh_songwriter_festival
+	text: "Everyone is so damn good. I mean, they sound so professional at least. I don't get it. One day, maybe, I'll get to play at a festival too."
+}
+
+{
+	id:	hh_kid_festival
+	text: "Look! Sooo many flags! Are we going dancing?"
+}
+
+{
+	id:	hh_bride_festival
+	text: "OOhh my darling. I loove festivals. Come lets get some whiskey sours!"
+}
+
+{
+	id:	hh_stranger_festival
+	text: "What?"
+}
+
+{
+	id:	hh_mechanic_festival
+	text: "I'll probably hitch a ride from some others here."
+
+}
+
+{
+	id:	hh_idiot_festival
+	text: "I wish I had ear plugs! My sister loved festivals. I'll try to enjoy it too."
+}
+
+{
+	id:	hh_hiker_festival
+	text: "Come here! Let me tell you. Back in the 70s we went to some totally outrageous festivals! Outrageous! You kids probably have the same don't you?"
+}
+
+{
+	id:	hh_hippie_girl_festival
+	text: "I bet I can get backstage "
+}
+
+{
+	id:	hh_hurricane_festival
+	text: ""I bet I can sneak in backstage, and get some beers from some band."
+}
+
+{
+	id:	hh_punk_festival
+	text: I recoginize. one. no two bands playing. They're gnarly though!"
+}
+
+
+//DEMO
+{
+	id: "q_demo_turn_in_greeting"
+	text: "Hey, what took you so long? Just park outside, I'll come down."
+}
+//MOUNTAIN
+{
+	id: "q_mountain_turn_in"
+	text: " "
+}
+
+//RACE
+{
+	id: "race_give_pamphlet"
+	text: "Nice ride kid! Heard about the great race down at the pine race way? You should check it out!"
+}
+
+{
+	id: "race_lost_pamphlet"
+	text: "Lost your pamphlet for the race? Take another one!"
+}
+
+{
+	id: "race_got_quest"
+	text: "Looking forward to see you at the race!"
+}
+
+{
+	id: "race_enter_fail"
+	text: "Wanna enter the great race? You're gonna need a ROLL CAGE installed. It's a safety thing"
+}
+
+{
+	id: "race_enter_accept"
+	text: "Wanna enter the great race? Looks like you're all set! Drive over to the start over there!"
+}
+
+{
+	id: "race_wowed"
+	text: "Yeeeehaaaw! THAT's what I call racing!"
+}
+
+{
+	id: "race_enter_done"
+	text: "What are you waiting for? Drive over to the start over there!"
+}
+
+{
+	id: "race_podium"
+	text: "Nice racing with you. I gotta say, you did well. It was close!"
+}
+
+
+//INHERITANCE
+{
+	id:"grandma_greeting"
+	text: Oh hi dear, I'm so happy you made it. You're looking well. How was the drive? *cough *cough! The doctors told me that I have an inflammation in my lungs. They said the lungs have begun filling up with liquid. *cough *cough! it's not looking good. *cough *cough! Anyway, I bought this land back in the 70s. My dream was for your parents to build a house there and live a good life. But I think it'll have to be you now. *cough *cough! It's a beautiful place. I want you to enjoy it. Have a family there. Give the land love. I wish you all the best, my dear. Give me a hug!
+}
+
+{
+	id:"grandma_done"
+	text: It's a beautiful place. I want you to enjoy it. Have a family there. Give the land love. I wish you all the best, my dear. Give me a hug!
+}
+
+//HHs at INHERITANCE
+
+{
+	id:	hh_suit_inheritance
+	text: You know,Your grandparents must have worked really hard to buy this. It's big!
+}
+
+{
+	id:	hh_songwriter_inheritance
+	text: "I've always wanted to live in a house. So I can play as loud as I want."
+}
+
+{
+	id:	hh_kid_inheritance
+	text: Is there a bus station here? I think my parents are really worried about me.
+}
+
+{
+	id:	hh_bride_inheritance
+	text: Oh! What's this darling? Are we gonna build a house and get a dog?  no no no,I don't think so. Not me. See ya around!
+}
+
+{
+	id:	hh_stranger_inheritance
+	text: Have you ever thought about selling the land? Could be worth a lot.
+}
+
+{
+	id:	hh_mechanic_inheritance
+	text: Hmm, I'll leave you my tools. Think you'll need 'em
+}
+
+{
+	id:	hh_idiot_inheritance
+	text: "You can see so much sky here!"
+}
+
+{
+	id:	hh_hiker_inheritance
+	text: Oi, looks nice and all but you're going to need a loan to fix it all up, And then you'll be stuck in their system!
+}
+
+{
+	id:	hh_hippie_girl_inheritance
+	text: Of course. I knew you'd just end up settling down, like everyone else
+}
+
+{
+	id:	hh_sleeper_inheritance
+	text: huh? oh. nice. you should make an artist collective here. Zzzz
+}
+
+{
+	id:	hh_punk_inheritance
+	text: Kinda looks like a place I squatted in one summer
+}
+
+{
+	id:	hh_hurricane_inheritance
+	text: What the fuuck! Your grandma left you this? Let's put up some windows and shit and come here every summer.
+}
+
+
+//JOURNAL GIRL
+{
+	id: "demo_journal_girl_done"
+	text: "Hey, Good luck out there!"
+}
+
+{
+	id: "demo_journal_girl_greeting"
+	text: "Hey, if you're going out on the road, you better be prepared! You've gotta have a journal, to write stuff down in. oh and a music player is NECESSARY"
+}
+//PILLOW MAN
+{
+	id: "demo_pillow_man_done"
+	text: "Good night!"
+}
+
+{
+	id: "demo_pillow_man_greeting"
+	text: "Oy! If you're ever feeling low on energy. All you need is a place to rest your head."
+}
+
+
+//RACE
+
+{
+	id: "race_quest_greeting"
+	text: "Hey did you know about the grand race?"
+}
+
+{
+	id: "race_quest_done"
+	text: "Are you gonna compete in the race?"
+}
+
+//PARTY
+
+
+{
+	id: "party_turn_in_reject"
+	text: "Hmm weren't we supposed to bring something?"
+}
+
+{
+	id: "party_turn_in_greeting"
+	text: "Look who it is! Hurricaane! Shit, we starting doubting you would come. Get them in here already, and close the door! It's coold!"
+}
+{
+	id: "party_turn_in_done"
+	text: "What are we waiting for?"
+}
+
+{
+	id: "party_puke_guy"
+	text: "urgh! Uuuurgh! Uaaaaagh!"
+}
+
+{
+	id: "party_hot_tub"
+	text: "Heey Hurricane, you brought a friend! Hope you like it hot! hahaha Come on, park and get in here! oh by the way. have you seen Adam? Tell him we don't mind."
+}
+{
+	id: "party_guys"
+	text: ">Fuuuck dude, April is so cool. Or like, hot! >Yeah, It's wild. We should get her to play strip poker! >This summer! man, this place is so sick!>Bro! I love you!Oh! Hey look who's here, you got more beer?"
+}
+
+//hhs at party_hot_tub
+
+{
+	id: hh_suit_party_cabin
+	text: Look, if I didn't really need this beer right now, I'd have called the cops. What is wrong with your generation?
+}
+
+{
+	id: hh_convict_party_cabin
+	text: Fun place, but I think I gotta keep moving. Good luck!
+}
+
+{
+	id: hh_songwriter_party_cabin
+	text: Thanks for taking me to this party, this is awesome!
+}
+
+{
+	id: hh_kid_party_cabin
+	text: Please, can we go? I don't like these people. I want to go home.
+}
+
+{
+	id: hh_bride_party_cabin
+	text: Are you going to the hot tub too? I'll see ya in there honey!
+}
+
+{
+	id: hh_stranger_party_cabin
+	text: We should rob these mother fuckers. Did you see how much coke they had on that table?
+}
+
+{
+	id: hh_mechanic_party_cabin
+	text: Cute girls. I guess. When are we heading out again?
+}
+
+{
+	id: hh_idiot_party_cabin
+	text: The trees here are really pretty. I wish they'd turn the music off.
+}
+
+{
+	id: hh_hiker_party_cabin
+	text: These kids sure are wild. hehe, lovely thing to see really. That's how it should be.
+}
+
+{
+	id: hh_girl_party_cabin
+	text: Cool party
+}
+
+{
+	id: hh_punk_party_cabin
+	text: Not my kind of music. Nice energy though!
+}
+
+
+//HH GET
+{
+	id: "hh_default_hitch"
+	text: "Hello, can I ride with you? I'm going somewhere"
+}
+
+//SUIT
+{
+	id: "hh_suit_hitch"
+	text: "Oh, um, Hi! Thanks for stopping! I was-I just quit my job. I missed the bus. Mind taking me to the next town with an employment office?
+}
+
+{
+	id: "hh_suit_complete_q1"
+	text: "If it's alright with you -you know, I really needed this -If it's alright, can I tag along with you a bit longer? Just for a week or so? I'll be out of your hair after that, I promise."
+}
+
+{
+	id: "hh_suit_begin_q2"
+	text: "I really appreciate you taking me with you. But, I've been thinking, um, I have to go back to my daughter. I can't do this anymore. Could you take me to the nearest town? I'll get a bus back home. I have to fix this."
+}
+
+{
+	id: "hh_suit_complete_q2"
+	text: "Thanks so much! I'll manage from here! I'll never forget what you've done for me!"
+}
+
+{
+	id: "hh_suit_hitch2"
+	text: "Oh! Hi again. So much for a second chance, huh?"
+}
+
+//hippie girl
+
+{
+	id:"hh_hippie_girl_hitch"
+	text: Hey! Wow! You're not an old trucker. Where're you going? You got room for me? I'm just sorta traveling around.
+}
+
+{
+	id:"hh_hippie_girl_second_hitch"
+	text: Oh. It's you again.
+}
+
+{
+	id:	"hh_hippie_girl_talk"
+	text: You don't talk much, and you're sort of a bore, but it's been nice having a place to stay I guess. I'll hang around, if it's all the same with you.
+}
+
+
+//Mechanic
+
+{
+	id:"hh_mechanic_hitch"
+	text: How're you doin'? Wait, is that a Redblock; B21? I used to work at a garage, but got so tired of repairing all those new heaps of junk. Needed to get away - you got space?
+}
+
+{
+	id:"hh_mechanic_hitch_non_volvo"
+	text: How're you doin'? Nice ride! I used to work at a garage, but got so tired of repairing all those new heaps of junk. Needed to get away - you got space?
+}
+
+{
+	id:	"hh_mechanic_talk1"
+	text: What kind of upgrade did you get there? Hmm. Not bad, but if you want I can help you pick out some better parts. I got some ideas for how we can make her a real beauty.
+}
+
+{
+	id:	"hh_mechanic_q_complete"
+	text: Of course there's a lot more we could do; but I hate to admit it, I'm jealous that she's not mine. Now we gotta race this thing.
+}
+
+{
+	id:	"hh_mechanic_talk_race"
+	text: Did you hear about the race happening at Pine Raceway? I think we should go. Here, check it out.
+}
+
+//HURRICANE
+
+{
+	id:"hh_hurricane_hitch"
+	text: Hellooo, I'm going towards the mountains or like a bit into the woods. but I'm not in a hurry. Waiting for some friends to write. Can I ride with you? I got weed.
+}
+
+{
+	id:"hh_hurricane_begin_q1"
+	text: We should get some beers! Or maybe some gin. Can't you drink with me? It's no fun drinking alone. You're a good driver, it'll be fine. Pleeease, just a little hehe.
+}
+
+{
+	id:"hh_hurricane_complete_q1"
+	text: You're kinda cool! I got the address from my friends now. You gotta come! Here's the postcard.
+}
+
+{
+	id:"hh_hurricane_party_complete"
+	text: I'm so psyched! Let's go!
+}
+
+{
+	id:"hh_hurricane_give_cd"
+	text: Hey! Take this CD. You should play this in the car sometimes. It's my favourite!
+}
+
+//punk
+
+{
+	id: "hh_punk_hitch"
+	text: "Shiiit-Good thing you came along. I was thinking I was gonna miss the show. I'm headed to the big fucking apple. Hey, do you have some food with you? I think she's hungry."
+}
+
+{
+	id: "hh_punk_city"
+	text: "So. I'm looking for this club called BCE, it's somewhere around here. Wanna help me find it? Oh! And can you take care of my dog? I don't think she'll like all that noise in there."
+}
+
+
+{
+	id:"hh_punk_give_cd"
+	text: Try playing this sometime! It's by this local band.
+}
+
+{
+	id:"hh_punk_fail_quest"
+	text: I can't believe I missed the show! Shit, I thought you said you'd take me there. Whatever, doesn't matter. but I doubt they'll ever play here again.
+}
+
+//THE KID
+{
+	id:"hh_kid_hitch"
+	text: "Hello! I am a little lost, I think. I maybe took the wrong bus to my dad's. The man at the station said take the 607 and I did! Or maybe it was the 705. Could you help me out, please? I don't think it's far."
+}
+
+{
+	id:"hh_kid_q1"
+	text: "You know, I really thought it was here. Dad moved recently and-and, I can't remember the address. I wrote it down somewhere, but I think I lost the paper when I was drawing."
+}
+
+{
+	id:"hh_kid_q2"
+	text: "Sorry sorry sorry. I got it this time! I'm sure of it! Bunny says it's fun being on the road with you. But I want to go home."
+}
+
+{
+	id:"hh_kid_q3"
+	text: "Ok. ok. Ok. Maybe I don't really know where he lives. I lied. But, could we keep looking, please? Please, bunny, oh bunny, show us the way."
+}
+
+{
+	id:"hh_kid_q4"
+	text: "Not here. Next town? [wheel]Hee hee"
+}
+
+{
+	id:"hh_kid_complete"
+	text: "We did it! Look! Mom AND Dad! Yiippie! Thank you thank you thank you! I hope we get to do more road trips together."
+}
+
+//stranger
+{
+	id: "hh_stranger_hitch"
+	text: "I'm headed to the desert. There's a casino there I need to get to. El Cobra. Heard of it? What do you say?"
+}
+
+{
+	id: "hh_stranger_q1_complete"
+	text: "I fucked up man! I borrowed too much from the wrong guys. You gotta help me. Let's get out of here. You packin'? I fucking hope so!"
+}
+
+{
+	id: "hh_stranger_q2_complete"
+	text: "God damn!I can't believe you raised that cash so quickly. Whatcha do? Rob a bank? Hmm, maybe we should rob a bank"
+}
+
+{
+	id: "hh_stranger_q2_begin"
+	text: "We need to find 300 bucks in cash. In cash! Ok? Soon! They'll be after us until they got every cent. Fuck!"
+}
+
+//idiot
+
+{
+	id: "hh_idiot_hitch"
+	text: "Hi! Look, I got her pretty flowers. I'm going to my sister. She is far away. Will you take me?"
+}
+
+{
+	id: "hh_idiot_q_complete"
+	text: "my sister is beautiful. like these flowers. she liked flowers. I really miss her. We always used to listen to this song."
+}
+
+{
+	id: "hh_idiot_q_complete_again"
+	text: "Thank for taking me here. I'd like to come with you, on your adventures. If it's ok. I don't get to go on many road trips."
+}
+
+//convict
+{
+	id:"hh_convict_hitch"
+	text: "Help me out brother. I've been running for 5 hours straight. My legs can't hold me up no more. I'm innocent! You gotta trust me."
+}
+
+{
+	id:"hh_convict_talk"
+	text: "I've been thinking. let's go to the sea. Ok? I know this guy, he's a lighthouse keeper. He's got a boat. I can get out of here at last. Can't go back to those fucking sadist cops. Anyways, let's keep moving."
+}
+
+{
+	id:"hh_convict_q_complete"
+	text: "We fuckin' did it! Thanks for trusting me. it's been good knowing you. Wish me luck! Arrivederci!"
+
+}
+//HIKER
+{
+	id: hh_hiker_hitch
+	text: Woudn'tcha know it! A young roadtripper -oh how lovely. Would you mind taking me to the base of the mountain? I got a big hike planned, but got a bit distracted. off course one might say.
+}
+
+{
+	id: hh_hiker_hitch2
+	text:*Huff*, *Phew*, Hello again buddy! What do you say? *Huff*, Wanna do this hike together?
+}
+
+{
+	id: hh_hiker_talk
+	text: Huh? oh! Just checking on some stuff. I can never really seem to get away from it all. No matter how much I try! [wheel]Huff! Are we going to the mountain or what? No bloody reception there!
+}
+
+{
+	id: hh_hiker_complete_quest
+	text: Have a good road trip buddy! Catch you on the other side - Cheers!
+}
+
+{
+	id: hh_hiker_mountain_top
+	text: Would you look at that! This view sure is majestic. Makes an old man tear up! I'm happy to share this moment with you.
+}
+
+{
+	id: hh_hiker_quest_fail
+	text: Seems like you're busy with other things. I'll have to find another way to the base camp. Sayonara kid!
+}
+
+
+//sleeper
+
+{
+	id:"hh_sleeper_hitch"
+	text: "Oh. hey. Can I get a ride with you?"
+}
+
+//bride
+
+{
+	id:"hh_bride_hitch"
+	text: "Hiya! As you can see, I am what you might call a runaway. Will ya help a gal out? I just need to get out on the road. Gotta get outta here and live a little!"
+}
+
+
+{
+	id:"hh_bride_complete_quest_1"
+	text: "Wow thanks for indulging my spirit! I don't know what I'd do if you hadn't picked me up! I've felt free for the first time in ages. But I think I need to go back to my family now, I miss them. Would you take me there?"
+}
+
+{
+	id:"hh_bride_complete_quest_2"
+	text: "Come here! I just wanna give you a big hug! Thank you, I'm free! Now that you know my address, don't be a stranger. Write to me some time!"
+}
+
+
+//songwriter
+{
+	id: "hh_songwriter_hitch"
+	text: "Hey man! You wouldn't mind driving me around or, you know, to my next gig? I'm on this tour, you see. and I don't have a car. never got a license."
+}
+
+{
+	id: "hh_songwriter_talk"
+	text: "I'm writing a new song. It's nothing special. Just about my girlfriend. We broke up so I could go on this tour. *sigh*, I know, I'll play a gig soon."
+}
+
+
+{
+	id: "hh_songwriter_complete_quest"
+	text: "Thanks for having me around. I know I can be a bit much. And packing my guitar and all too. Really nice of you. Hopefully I’ll be able to pay for gas soon."
+}
+
+{
+	id: "hh_songwriter_talk_max"
+	text: "[wheel][spr_text_music_note][spr_text_music_note][spr_text_music_note][/wheel]. Thanks for having me around."
+}
+
+
+
+
+//HH STANDARD QUEST COMPLETE
+{
+	id:"hh_default_turn_in_greeting"
+	text: "Thanks a bunch!"
+}
+
+//////////////////////////////////////SIDE QUESTS
+//FILM
+
+{
+	id: "sq_film_turn_in_greeting"
+	text: "Wow that is JUST the kind of car we need!"
+}
+
+{
+	id: "sq_film_turn_in_reject"
+	text: "Ummm. That color is NOT what we asked for"
+}
+
+{
+	id: "sq_film_turn_in_done"
+	text: "This movie will be so amazing"
+}
+
+{
+	id: "sq_film_turn_in_complete"
+	text: "This movie will be so great!"
+}
+
+//MOVING
+
+{
+	id: "sq_boxes_turn_in_greeting"
+	text: "Hello, you got my boxes?"
+}
+
+{
+	id: "sq_boxes_turn_in_reject"
+	text: "Huh?"
+}
+
+{
+	id: "sq_boxes_turn_in_done"
+	text: "*there is nobody here*"
+}
+
+{
+	id: "sq_boxes_turn_in_complete"
+	text: "*there is nobody here*"
+}
+
+//CAT
+
+{
+	id: "sq_cat_turn_in_greeting"
+	text: "Ooooh you found her!"
+}
+
+{
+	id: "sq_cat_turn_in_reject"
+	text: "Where's my cat?"
+}
+
+{
+	id: "sq_cat_turn_in_done"
+	text: "She's my best friend!"
+}
+
+{
+	id: "sq_cat_turn_in_complete"
+	text: "Thank you sooo much!"
+}
+//PIZZA
+
+{
+	id: "sq_pizza_turn_in_greeting"
+	text: "You got my pizza?"
+}
+
+{
+	id: "sq_pizza_turn_in_reject"
+	text: "No pizza?"
+}
+
+{
+	id: "sq_pizza_turn_in_done"
+	text: "Pizza is my passion in life!"
+}
+
+{
+	id: "sq_pizza_turn_in_complete"
+	text: "Oh yeah oh yeah oh yeah!"
+}
+
+//GAS
+
+{
+	id: "sq_gas_turn_in_greeting"
+	text: "We've been stuck here for some time. You've got some gas for us?"
+}
+
+{
+	id: "sq_gas_turn_in_reject"
+	text: "Hello! We're stuck here. You don't have any gas for us?"
+}
+
+{
+	id: "sq_gas_turn_in_done"
+	text: "Thanks so much! You're a life saver!"
+}
+
+{
+	id: "sq_gas_turn_in_complete"
+	text: "Thanks so much! You're a life saver!"
+}
+
+//INSTRUMENT
+
+{
+	id: "sq_instrument_turn_in_greeting"
+	text: "You got our gear?"
+}
+
+{
+	id: "sq_instrument_turn_in_reject"
+	text: "Hello! We're on a big tour you know!"
+}
+
+{
+	id: "sq_instrument_turn_in_done"
+	text: "Thanks so much! You're a life saver!"
+}
+
+{
+	id: "sq_instrument_turn_in_complete"
+	text: "Thanks so much! You're a life saver!"
+}
+
+{
+	id: "sq_band_girls_recognize"
+	text: "Oh! It's you again!"
+}
+//BEER
+
+{
+	id: "sq_beer_turn_in_greeting"
+	text: "Oh hey! You're the one who's delivering the beer?"
+}
+
+{
+	id: "sq_beer_turn_in_reject"
+	text: "Hmph!"
+}
+
+{
+	id: "sq_beer_turn_in_done"
+	text: "Oh yeah! Thanks again man!"
+}
+
+{
+	id: "sq_beer_turn_in_complete"
+	text: "Thanks a bunch!"
+}
+
+
+//REHAB
+
+{
+	id:	"rehab_doctor"
+	text:	"Hi. So what's bothering you? Oh, of course. How long have you been using? I see. Our public rehab center is totally overrun at the moment, but we'll check if there are any available places for you at Effectica. Hmm. You're in luck, looks like there is one left. If you can, try to go as soon as possible. They'll be waiting for you."
+}
+
+{
+	id:	"rehab_junkie"
+	text:	"What? Oh, sorry. I thought you were a cop or something. Man, they won't even let me have a smoke. Told them I'm clean. Heaven knows it. But I guess it's for the best."
+}
+
+{
+	id:	"rehab_junkie_start"
+	text:	"I'll  miss you! Hope I see you again when I'm clean!"
+}
+
+
+{
+	id: "rehab_ending"
+	text: "Hello there, I've been looking forward to meeting you. My name is Dr Williams. I'll be incharge of your recovery process these next few weeks. You can leave your car here. One of our staff will take it to the parking area. Let's get you checked in. Welcome"
+}
+
+{
+	id: "rehab_start"
+	text: "You should be proud! What you've achieved is a big deal. Don't forget that. Goodbye!"
+}
+
+
+//NPC//============================================================================================================================//
+//NPC//================================================| GRANDMA |=================================================================//
+{
+	id: old_lady_1
+	text: "You need to eat more! Get a little meat on your bones."
+	tag:old_lady
+}
+
+{
+	id:old_lady_2
+	text: "Hey kiddo, haven't you heard smoking is addictive?"
+	tag:old_lady
+}
+
+{
+	id: old_lady_3
+	text: "Back in the day we'd fix things instead of buying new ones. Eventually you get really good at fixing things up. You just got to keep at it."
+	tag:old_lady
+}
+
+{
+	id: old_lady_4
+	text: "My husband, God rest his soul, drove very well. He never got in an accident, not once. But that also led him to drive much too fast."
+	tag:old_lady
+}
+
+{
+	id: old_lady_5
+	text: "I, however, am far too scared to drive fast. I can't tell you how many things I bumped into with my old ‘55. The more I bumped into things the slower."
+	tag:old_lady
+}
+
+{
+	id:old_lady_6
+	text: "Make sure to keep up your car. It's all that stands between you and the road. Then again, maybe a breakdown could give you a good lesson."
+	tag:old_lady
+}
+
+{
+	id:old_lady_7
+	text: "I feel like I have a lot more energy since I became vegetarian. My favorite dish is spinach and salmon with potatoes."
+	tag:old_lady
+}
+
+{
+	id:old_lady_8
+	text: "Back in the 60s me and my hubby got ourselves a beautiful car. We did everything we could to keep it up to spec. Not a dent. Not a scratch! We might as well have wrapped it in armor.
+	tag:old_lady
+}
+
+{
+	id:old_lady_9
+	text: "Don't keep too much money on you. you never know if there are thieves around."
+	tag:old_lady
+}
+
+{
+	id:old_lady_10
+	text: "Make sure to use your tools! Don't just let them sit there in your trunk rusting."
+	tag:old_lady
+}
+
+{
+	id:old_lady_11
+	text: "My old Finnish friend told me: you must drive on dirt to really know your car. I'm not sure what he meant, but he was a lot of fun on those little twisty roads."
+	tag:old_lady
+}
+
+{
+	id:old_lady_12
+	text: "Honey, beggars can't be choosers. If you're low on money,you just gotta make the most of what you got, and eventually you'll see the world is full of useful treasures."
+	tag:old_lady
+}
+
+{
+	id:old_lady_13
+	text: "I grew up in the country, but I felt like I had become a true city dame after my third time visiting the capital."
+	tag:old_lady
+}
+
+{
+	id:old_lady_14
+	text: "It can be comforting to stay in one place,but it's so much more rewarding to explore every type of nature there is."
+	tag:old_lady
+}
+
+{
+	id:old_lady_15
+	text: "Be kind to your friends and don't kick them out if you don't have to."
+	tag:old_lady
+}
+
+{
+	id:old_lady_16
+	text: "It's amazing how adaptable humans are. If you only sleep on hard surfaces,you'll get used to it and eventually you'll start to love it."
+	tag:old_lady
+}
+
+{
+	id:old_lady_17
+	text: "Being sociable is something you can practice! And like all things in life, having good relationships requires work."
+	tag:old_lady
+}
+
+{
+	id:old_lady_18
+	text: "Staying playful at my age has kept me happy. Which is why I still keep all my dolls and toys from when I was a child."
+	tag:old_lady
+}
+
+{
+	id:old_lady_19
+	text: "Even if you think a book doesn't give you anything, it still might in the long run!"
+	tag:old_lady
+}
+
+{
+	id: old_lady_20
+	text: "Back when my husband used to work on cars, he'd always get a kick out of driving away from the cops. 'it's the only way to really know fearlessness' he'd say."
+	tag:old_lady
+}
+
+{
+	id:old_lady_21
+	text: "Before my eyes got real bad, I used to love driving at night. It got the true wanderlust out of me."
+	tag:old_lady
+}
+//NPC//============================================================================================================================//
+//NPC//================================================| OLD FRIENDS |=================================================================//
+
+{
+	id:old_friends_1
+	text:  "Ho ho, that WAS fun. Good times. Did you take any photos?"No! Didn't think about it. Wish I did. Shame! would have been fun to see Alex again.
+	tag:old_friends
+}
+
+{
+	id:old_friends_2
+	text:  "I think I'm starting to lose my memory, you know? Tell me about it! I remember all my old adventures but not how to get to the post office!	"Don't ask me to remember a map, let alone where the post office is.
+	tag:old_friends
+}
+
+{
+	id:old_friends_3
+	text: "I miss my old car. I wonder what's happened to it? Probably scrap in a junkyard. There's a lot of youngsters these days who're fond of old cars. Fixing them up and the like. Funny how it all goes around. sure. of course it does. Hmmm I vaguely remember YOU fixing up some old wreck back in the day. He he he! those were the days. Those P1900s were beautiful
+	tag:old_friends
+}
+
+{
+	id:old_friends_4
+	text: "Whatever happened to rock and roll? Nobody dances, they just hit each other now. Before the accident, we'd always drive across the country lookin' for a dance hall. It's sad. kids these days will never experience that joy.
+	tag:old_friends
+}
+
+{
+	id:old_friends_5
+	text: "I was trying to remember yesterday about the time we picked up that convict. Holy Moses, we were gutsy back then! Do you remember? Yess yess! What a time. You know, I don't really remember where we went though. You know what? me neither![wheel] Ha ha ha ha!
+	tag:old_friends
+}
+
+
+//NPC//================================================| HOBO |=================================================================//
+
+{
+	id:hobo_text_1a
+	text: "Hey buddy, could you spare some change?"
+	tag:hobo_greeting
+}
+
+{
+	id: hobo_text_1b
+	text: "Thanks. God Bless."
+	tag:hobo_thanks
+}
+	
+{
+	id: hobo_text_1c
+	text: "Anything would help."
+	tag:hobo_rejected
+}
+
+{
+	id:hobo_text_2a
+	text: "Oh, hey hey, sorry. You got some change?"
+	tag:hobo_greeting
+}
+
+{
+	id: hobo_text_2b
+	text: "Thank you, my friend."
+	tag:hobo_thanks
+}
+{
+	id:hobo_text_3a
+	text: "Got a buck?"
+	tag:hobo_greeting
+}
+	
+{
+	id: hobo_text_3b
+	text: "Thank you"
+	tag:hobo_thanks
+}
+
+
+{
+	id:hobo_text_3c
+	text: "Just one?"
+	tag:hobo_rejected
+}
+
+{
+	id:hobo_text_4a
+	text: "I just need some change for a bus."
+	tag:hobo_greeting
+}
+
+
+{
+	id: hobo_text_4b
+	text: "Cheers!"
+	tag:hobo_thanks
+}
+
+
+{
+	id:hobo_text_4b
+	text: "Mhmm"
+	tag:hobo_rejected
+}
+
+
+{
+	id:hobo_text_5a
+	text: "Hey pal, you got some change?"
+	tag:hobo_greeting
+}
+
+
+{
+	id: hobo_text_5b
+	text: "Appreciate it"
+	tag:hobo_thanks
+}
+
+{
+	id:hobo_text_5c
+	text: "next time eh?"
+	tag:hobo_rejected
+}
+
+
+{
+	id:hobo_poor
+	text: Wow, you're even worse off than me.
+}
+
+//NPC//================================================| DENNIS |=================================================================//
+
+{
+	id:dennis_intro
+	text: Hey! What's up dude? Glad to see another fellow roadtripper out here on the road. Where are you off to?
+	tag:dennis
+}
+
+{
+	id:dennis_festival
+	text:  "I'm getting a bit too old for festivals, camping one night stands and drinking myself into oblivion, but I'm so happy I did it in the past."
+	tag:dennis
+}
+
+{
+	id:dennis_race
+	text:  Nice seeing you again! How're you holding up? I've seen some badass dragsters driving by; not sure where they're going though. Would love to watch some races or maybe help out as a Mechanic.
+	tag:dennis
+}
+
+{
+	id:dennis_rehab
+	text:  Oh shit, Hey buddy! I just woke up from a nap. Gotta take breaks, remember that.I was on a tour once.I was doing all these uppers just to stay awake and, you know, you just can't keep that up. I had to get myself into a clinic. Rest
+	tag:dennis
+}
+
+{
+	id:dennis_party
+	text:  Heey! Good seein' ya! I drove past a really fucking crazy party up in the hills! So weird, it was dead quiet and then all of the sudden. BAM! Party! Naked dude climbing a tree and some girls doing coke in an outdoor jacuzzi. Fun stuff hahah
+	tag:dennis
+}
+
+{
+	id:dennis_inheritance
+	text:  Hey! How're things? It's been a while. I dunno, dude, I've been thinking about maybe settling down. My grandpa bought some land out by the coast and maybe I should just, like, build a house there or something. I dunno. 
+	tag:dennis
+}
+
+{
+	id:dennis_lose
+	text:  What's up! Always happy to see my fellow roadtripper. I hope you never end up on the straight and narrow. I mean sure, you'll have money and clean clothes. But like, fuck man, we need people like you.
+	tag:dennis
+}
+
+{
+	id:dennis_jail
+	text:  Heeey! Come here! Hope you're good. Looking a bit thin! Don't forget to stretch and eat well. I'll show you some exercises I learned in jail some time. Haha! Yeah I was arrested a while back for possession. Shit happens. You just gotta roll with it.
+	tag:dennis
+}
+
+{
+	id:dennis_phone
+	text:  Yesss! You're here too! I was actually stranded for a while after the van broke down. Had to call my Dad to come help me out. But it was kind of nice actually. We fixed her up, watched some hockey and I went back out on the road.
+	tag:dennis
+}
+
+{
+	id:dennis_mountain
+	text: Can't believe we keep bumping into each other like this! You're always welcome to chill with me. You know that right? I know, I know, you're busy. But don't forget to take it easy and enjoy the nature. Go to the peak of the mountain if you get a chance. It's beautiful.
+	tag:dennis
+}
+
+{
+	id:dennis_complete
+	text: Hey! You know, I've really enjoyed meeting you on the road. Whatever you end up doing now I want you to know you're gonna have a great life. I'm really proud of you for exploring and checking out what this world has to offer. Godspeed!
+	tag:dennis
+}
+
+{
+	id:dennis_done
+	text: Heading back on the road again soon!
+}

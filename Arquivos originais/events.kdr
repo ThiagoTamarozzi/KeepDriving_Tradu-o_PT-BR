@@ -1,0 +1,425 @@
+TEST EVENTS
+
+{
+	event_name: "default_event"
+	event_type: "normal"
+	event_title: "Oops!"
+	event_text: "The desired event was not found"
+	tags: "test"
+
+	option: "Close this message"
+	option_type: "close"
+}
+
+//-----------------------------------------------------------------------------------ROAD EVENTS
+
+//--GENERAL
+{
+	event_name: "road_1"
+	event_type: "road"
+	event_title: "Road Cameras"
+	event_text: "There are road cameras coming up ahead!"
+	tags: "general"
+	
+	option: "Drive fast!"
+	option_type: "choice" 
+	option_cost: money:40
+	option_reward: "ailment:inspired%75"
+	
+	option: "Slow down!"
+	option_type: "choice" 
+	option_cost: energy:1
+}
+
+
+{
+	event_name: "road_3"
+	event_type: "road"
+	event_title: "Fork in the road"
+	event_text: "Looks like there are two different routes you can take."
+	tags: "general"
+	
+	option: "Go left!"
+	option_type: "choice" 
+	option_cost: energy:2
+	
+	option: "go Right!"
+	option_type: "choice" 
+	option_cost: gas:1
+}
+
+{
+	event_name: "road_4"
+	event_type: "road"
+	event_title: "Fork in the road"
+	event_text: "Looks like there are two different routes you can take."
+	tags: "general"
+	
+	option: "Go left!"
+	option_type: "choice" 
+	option_cost: carhealth:1
+	
+	option: "go Right!"
+	option_type: "choice" 
+	option_cost: energy:2
+}
+
+//--------MOTORWAY
+{
+	event_name: "road_motor_1"
+	event_type: "road"
+	event_title: "Motorway event"
+	event_text: "It's hard to stay focused on your driving."
+	tags: "motorway"
+	
+	option: "Just keep going"
+	option_type: "choice"
+	option_cost: gas:1
+	
+	option: "Try to focus"
+	option_type: "choice"
+	option_cost: energy:2
+	option_reward: "ailment:zone%10"
+}
+//--------ROUGH
+{
+	event_name: "road_rough_1"
+	event_type: "road"
+	event_title: "Rough road event"
+	event_text: "The road is full of bumps and holes."
+	tags: "rough"
+	
+	option: "Nothing you can do about it"
+	option_type: "choice"
+	option_cost: "carhealth:1"
+	
+	option: "Slow down"
+	option_type: "choice"
+	option_cost: "gas:1,energy:1"
+}
+
+{
+	event_name: "road_bumpy"
+	event_type: "road"
+	event_title: "Bumpy road!"
+	event_text: "The road looks bumpy and uneven up ahead..."
+	tags: "rough"
+	
+	option: "Drive fast!"
+	option_type: "choice" 
+	option_cost: carhealth:1
+	
+	option: "Slow down!"
+	option_type: "choice" 
+	option_cost: energy:1
+}
+
+
+//--------COUNTRY
+{
+	event_name: "road_country_1"
+	event_type: "road"
+	event_title: "country roads (take me home)
+	event_text: "The scenery is beautiful."
+	tags: "country"
+	
+	option: "Take it in."
+	option_type: "choice"
+	option_cost: "energy:2"
+	option_reward:"ailment:inspired%15"
+	
+	option: "This reminds me of that time..."
+	option_type: "choice"
+	option_cost: "energy:2"
+	option_reward: "ailment:social%75"
+}
+//--------CITY
+{
+	event_name: "road_city_1"
+	event_type: "road"
+	event_title: "BIKES!"
+	event_text: "A kid on a bicycle suddenly decides to drive across the road."
+	tags: "city"
+	
+	option: "Step on the break!"
+	option_type: "choice"
+	option_cost: "carhealth:1,energy:1"
+	
+	option: "Do a quick turn!"
+	option_type: "choice"
+	option_cost: "gas:1,energy:1"
+	
+}
+//--------OTHER
+{
+	event_name: "road_sunlight"
+	event_type: "DISABLED"
+	event_title: "Bright light!"
+	event_text: "The sun is shining bright through the windows.
+	tags: "day"
+	
+	option: "Put on your sunglasses"
+	option_type: "choice"
+	option_req: "sunglasses:1"
+	
+	option: "Squint your eyes"
+	option_type: "choice"
+	option_cost: "energy:2"
+}
+
+
+//-------------------------------------------------------------------------------------------------
+{
+	event_name: "blonde_guy_1"
+	event_type: "person"
+	event_title: "Some guy"
+	event_text: "I'll sell it to you real cheap!"
+	
+	option: "Buy the thing"
+	option_type: "choice"
+	option_cost: money:10
+	option_reward: "item:rope%50,item:wine"
+}
+
+{
+	event_name: "lumberjack_work"
+	event_type: "person"
+	event_title: "Lumberjack"
+	event_text: "What do you say, kid? Help me out here? I'll pay you!"
+	
+	option: "Help the lumberjack"
+	option_type: "choice"
+	option_req: "strong:1"
+	option_cost: energy:6
+	option_reward: "money:100,item:wine"
+}
+
+{
+	event_name: "journal_girl_1"
+	event_type: "person"
+	event_title: "weirdo"
+	event_text: "Can you stay here and talk to me? I'll pay you!"
+	
+	option: "Stay with the guy"
+	option_type: "choice"
+	option_cost: energy: 2, money:-20
+}
+
+{
+	event_name: "doom_diver_1"
+	event_type: "person"
+	event_title: "DOOM DIVER"
+	event_text: "THE END IS NIGH!"
+	
+	option: "Be drunk with him"
+	option_type: "choice"
+	option_req: "drunk:1"
+	option_cost: energy:-2
+	
+}
+
+{
+	event_name: "crying_girl_1"
+	event_type: "person"
+	event_title: "Crying girl"
+	event_text: "Stay and comfort the girl?"
+	
+	option: "Comfort her"
+	option_type: "choice"
+	option_cost: "energy:4"
+	option_reward: "money:20"
+}
+
+{
+	event_name: "hobo_1"
+	event_type: "person"
+	event_title: "Homeless man"
+	event_text: "Give the homeless man some change?"
+	
+	option: "Give him some change"
+	option_type: "choice"
+	option_cost: money:1
+}
+
+{
+	event_name: "student_coffee"
+	event_type: "person"
+	event_title: "Stuttering student"
+	event_text: "This person talks on and on about upcoming exams and crazy parties."
+	
+	option: "Relate"
+	option_type: "choice"
+	option_req: "student:1,chameleon:1,social:1"
+	option_cost: "energy:2"
+	option_reward: "item:coffee"
+}
+
+
+{
+	event_name: "gas_test"
+	event_type: "normal"
+	event_title: "Gas Station"
+	event_text: "Fill up your car's tank?"
+	tags: "test","destination"
+
+	option: "buy gas"
+	option_type: "stats" money:-100, gas:100, energy:-1
+
+	option: "cancel"
+	option_type: "close"
+}
+
+
+{
+	event_name: "mechanic"
+	event_type: "normal"
+	event_title: "Mechanic"
+	event_text: "Repair your car?"
+	tags: "test","destination"
+
+	option: "Repair your car?" 
+	option_type: "choice" empty_event
+	option_cost: money:200, carhealth:-100, energy:1
+
+}
+
+
+
+
+{
+	event_name: "bar_test"
+	event_type: "normal"
+	event_title: "Cool bar"
+	event_text: "You enter the bar."
+	tags: "test","destination"
+
+	option: "Drink with the locals"
+	option_type: "stats" money:-5, social:1, confidence:1
+
+	option: "Arm wrestle"
+	option_type: "stats" energy:-1, strength:1
+
+	option: "leave the bar"
+	option_type: "close"
+}
+
+{
+	event_name: "no_energy"
+	event_type: "normal"
+	event_title: "Oops!"
+	event_text: "Not enough energy!"
+	tags: "debug"
+
+	option: "Close this message"
+	option_type: "close"
+}
+
+{
+	event_name: "no_stats"
+	event_type: "normal"
+	event_title: "Oops!"
+	event_text: "Not enough stats!"
+	tags: "debug"
+
+	option: "Close"
+	option_type: "close"
+}
+
+{
+	event_name: "no_money"
+	event_type: "normal"
+	event_title: "Oops!"
+	event_text: "Not enough money!"
+	tags: "debug"
+
+	option: "Close this message"
+	option_type: "close"
+}
+
+{
+	event_name: "not_enough"
+	event_type: "normal"
+	event_title: "Oops!"
+	event_text: "Could not afford"
+	tags: "debug"
+
+}
+
+
+{
+	event_name: "fine_100"
+	event_type: "normal"
+	event_title: "Damn!"
+	event_text: "You got a fine for $100!"
+	tags: "debug"
+
+	option: "continue"
+	option_type: "stats" money:-100
+}
+
+{
+	event_name: "no_gas"
+	event_type: "normal"
+	event_title: "Out of gas"
+	event_text: "You ran out of gas... Buy some more magically?"
+	tags: "test"
+	
+	option: "...sure!"
+	option_type: "stats" money:-100, gas:50
+}
+
+{
+	event_name: "no_energy_dest"
+	event_type: "normal"
+	event_title: "Out of energy"
+	event_text: "You don't have enough energy to do more things. Time to go to sleep!"
+	tags: "test"
+	
+	option: "ok!"
+	option_type: "close"
+}
+
+
+
+{
+	event_name: "lose"
+	event_type: "normal"
+	event_title: "YOU LOST!"
+	event_text: "It's very beautiful!"
+	tags: "lose","test"
+	
+	option: "Ok"
+	option_type: "close"
+}
+
+{
+	event_name: "car_full"
+	event_type: "normal"
+	event_title: "Car is full"
+	event_text: "no more room in your car"
+	tags: "hh","test"
+}
+
+{
+	event_name: "seats_occupied"
+	event_type: "normal"
+	event_title: "Occupied"
+	event_text: "No free seats to remove in your car"
+	tags: "hh","test"
+}
+
+
+{
+	event_name: "work_done"
+	event_type: "normal"
+	event_title: "No more work"
+	event_text: "There is no more work to be done!"
+	tags: "work","test"
+}
+{
+	event_name: "quest_got"
+	event_type: "normal"
+	event_title: "No quests"
+	event_text: "Nothing to find here"
+	tags: "quest","test"
+}

@@ -1,0 +1,247 @@
+/////////////////////////basic car upgrades
+
+////tier 0
+{
+	name: "base_car_social_1"
+	type: "stats"
+	stat: "social"
+	amount: 10
+	title: "Nice car"
+	text: "§stat increased by §amount%"
+	car: 0
+	tier: 0
+	pos: 0
+	reqs: "none"
+}
+
+{
+	name: "base_car_gas_1"
+	type: "stats"
+	stat: "gas_max"
+	amount: 4
+	title: "Gas tank 1"
+	text: "Increase §stat by §amount"
+	car: 0
+	tier: 0
+	pos: 2
+	reqs: "none"
+}
+
+{
+	name: "base_car_durability_1"
+	type: "stats"
+	stat: "carhealth_max"
+	amount: 4
+	title: "Durability 1"
+	text: "Increase §stat by §amount"
+	car: 0
+	tier: 0
+	pos: 4
+	reqs: "none"
+}
+////tier 1
+//social
+{
+	name: "base_car_hh_energy_on_level"
+	type: "special"
+	title: "HH energy level"
+	text: "Leveling up a hitchhiker fully restores your energy"
+	car: 0
+	tier: 1
+	pos: 0
+	reqs: "base_car_social_1"
+}
+
+{
+	name: "base_car_automatic_gear"
+	type: "module"
+	title: "Automatic gear"
+	text: "Replace your gear box with an automatic gear system"
+	car: 0
+	tier: 1
+	pos: 1
+	reqs: "base_car_social_1"
+}
+//gas
+
+{
+	name: "base_car_motorway_gas_saver"
+	type: "road"
+	road: "motorway"
+	stat: "gas_cost_mod"
+	amount: 25
+	title: "Speedy tank"
+	text: "§stats on §road road events decrease by §amount%"
+	car: 1
+	tier: 1
+	pos: 2
+	reqs: "base_car_gas_1"
+}
+
+
+{
+	name: "base_car_skill_towncar"
+	type: "skill"
+	skill: "towncar"
+	title: "Town Car"
+	text: "gain a new skill"
+	car: 0
+	tier: 1
+	pos: 2
+	reqs: "base_car_gas_1"
+}
+
+{
+	name: "base_car_motorway_energy_saver"
+	type: "road"
+	road: "motorway"
+	stat: "energy_cost_mod"
+	amount: -1
+	title: "Motorway wheels"
+	text: "§stats on §road road event decrease by §amount"
+	car: 1
+	tier: 1
+	pos: 3
+	reqs: "base_car_gas_1"
+}
+
+{
+	name: "base_car_skill_nice_seats"
+	type: "skill"
+	skill: "nice_seats"
+	title: "Nice seats!"
+	text: "gain a new skill"
+	car: 0
+	tier: 1
+	pos: 3
+	reqs: "base_car_gas_1"
+}
+
+//durability/item
+
+{
+	name: "base_car_seat_replace_1"
+	type: "seat"
+	title: "Item space 1"
+	text: "remove one passenger seat, gain 4 item slots"
+	car: 0
+	tier: 1
+	pos: 4
+	reqs: "base_car_durability_1"
+}
+
+{
+	name: "base_car_rough_road_1"
+	type: "road"
+	road: "rough"
+	stat: car_health_cost_mod
+	amount: 25
+	title: "Rough road spc"
+	text: "§stats on §roads decrease by §amount%"
+	car: 1
+	tier: 1
+	pos: 5
+	reqs: "base_car_durability_1"
+}
+
+{
+	name: "base_car_skill_gear_down"
+	type: "skill"
+	skill: "gear_down"
+	title: "Gear down!"
+	text: "gain a new skill"
+	car: 0
+	tier: 1
+	pos: 5
+	reqs: "base_car_durability_1"
+}
+
+////tier 2
+//social
+{
+	name: "base_car_sleep_comfort"
+	type: "special"
+	title: "Comfort"
+	text: "sleeping in your car fully restores energy"
+	car: 0
+	tier: 2
+	pos: 0
+	reqs: "base_car_automatic_gear,base_car_hh_energy_on_level"
+}
+
+{
+	name: "base_car_ac"
+	type: "module"
+	title: "A/C"
+	text: "Install an A/C to the car"
+	car: 0
+	tier: 2
+	pos: 1
+	reqs: "base_car_automatic_gear,base_car_hh_energy_on_level"
+}
+//gas/energy
+{
+	name: "base_car_gas_2"
+	type: "stats"
+	stat: "gas_max"
+	amount: 4
+	title: "Gas tank 2"
+	text: "increase §stat by §amount"
+	car: 0
+	tier: 2
+	pos: 2
+	//reqs: "base_car_motorway_gas_saver,base_car_motorway_energy_saver"
+	
+	reqs: "base_car_skill_nice_seats,base_car_skill_towncar"
+}
+//durability/item
+
+{
+	name: "base_car_seat_replace_2"
+	type: "seat"
+	title: "Item space 2"
+	text: "remove one passenger seat, gain 4 item slots"
+	car: 0
+	tier: 2
+	pos: 3
+	reqs: "base_car_skill_gear_down,base_car_seat_replace_1"
+}
+
+{
+	name: "base_car_cheap_repair"
+	type: "special"
+	title: "Easy repair"
+	text: "Cost of repairing car at a garage is decreased by 50%"
+	car: 0
+	tier: 2
+	pos: 4
+	reqs: "base_car_skill_gear_down,base_car_seat_replace_1"
+	
+}
+////tier 3
+//social
+{
+	name: "base_car_hh_auto_level"
+	type: "special"
+	title: "What a car!"
+	text: "Instantly level up a hitchhiker once when you pick one up"
+	car: 0
+	tier: 3
+	pos: 1
+	reqs: "base_car_ac,base_car_sleep_comfort"
+}
+
+{
+	name: "base_car_item_inspired"
+	type: "special"
+	title: "Great trunk"
+	text: "Using an item to clear a road event has a 50% chance to grant the INSPIRED ailment"
+	car: 0
+	tier: 3
+	pos: 3
+	reqs: "base_car_cheap_repair,base_car_seat_replace_2,base_car_gas_2"
+}
+
+
+
+

@@ -1,0 +1,137 @@
+////////////////SKILL TREES
+//WHEN ADDING NEW SKILL TREES, ALWAYS ADD IN THE END (didn't bother to make them save/load with strings)
+{
+	name: basic
+	title: Basic
+	letter: Ba
+	icon: spr_player_menu_journal_tab_icon_basic
+	icon_big: spr_skill_tree_icon_basic_big
+	
+	skill: normal,have_a_go,0,1,none
+	
+	skill: normal,relax,1,0,have_a_go
+	
+	skill: normal,early_durability,1,2,have_a_go
+	
+	skill: normal, patience,2,2,early_durability
+	
+	skill: normal, spend_to_gain,3,1,relax
+	
+	//skill: normal, improvise,1,1,none
+	
+	mastery_trait: basic_mastery
+	
+}
+
+
+{
+	name: driving
+	title: Driving
+	letter: Dr
+	icon: spr_player_menu_journal_tab_icon_driving
+	icon_big: spr_skill_tree_icon_drive_big
+	
+	skill: normal,sixth_gear,1,0,drive_safe
+	
+	skill: normal,power_break,3,0,sixth_gear
+	
+	skill: normal,drive_safe,0,1,none
+	
+	skill: normal,eco_driving,1,2,none
+	
+	skill: normal,step_on_it,2,2,eco_driving
+	
+	skill: normal,running_on_fumes,3,2,step_on_it
+	
+	mastery_trait: driving_mastery
+	
+}
+
+{
+	name: gourmet
+	title: Gourmet
+	letter: Go
+	icon: spr_player_menu_journal_tab_icon_gourmet
+	icon_big: spr_skill_tree_icon_gourmet_big
+	
+	skill: normal,apetite,0,1,none
+	
+	skill: normal,hunger_rage,1,2,none
+	
+	skill: normal,gourmet,2,0,apetite
+	
+	skill: normal,cravings,2,2,hunger_rage
+	
+	skill: normal,fine_dining,3,1,gourmet
+	
+	mastery_trait: gourmet_mastery
+
+}
+
+{
+	name: social
+	title: Social
+	letter: So
+	icon: spr_player_menu_journal_tab_icon_social
+	icon_big: spr_skill_tree_icon_social_big
+	
+	skill: normal,hh_restore,0,1,none
+	
+	skill: normal,sing_along,1,0,hh_restore
+	
+	skill: normal,road_trip_2,1,2,hh_restore
+	
+	skill: normal,rowdy_bunch,2,1,sing_along
+	
+	skill: normal,social_free,3,1,rowdy_bunch
+	
+	mastery_trait: social_mastery
+}
+
+
+
+{
+	name: thrifty
+	title: Thrifty
+	letter: Th
+	icon: spr_player_menu_journal_tab_icon_mechanic
+	icon_big: spr_skill_tree_icon_thrifty_big
+	
+	skill: normal,shady_deals,1,0,resourceful
+	
+	skill: normal,crafting,3,0,shady_deals
+	
+	skill: normal,resourceful,0,1,none
+	
+	skill: normal,cower,1,2,none
+	
+	skill: normal,escape_plan,2,2,cower
+	
+	skill: normal,on_the_edge,3,2,escape_plan
+	
+	mastery_trait: thrifty_mastery
+	
+	//add skill that gets pattern from all glovebox items
+	
+}
+
+
+{
+	name: hiking
+	title: Hiking
+	letter: Hk
+	icon: spr_player_menu_journal_tab_icon_hiking
+	icon_big: spr_skill_tree_icon_hiking_big
+	
+	skill: normal,safety_first,0,1,none
+	
+	skill: normal,adapt,1,0,none
+	
+	skill: normal,piercer,2,2,adapt
+	
+	skill: normal,fixer,3,1,adapt
+	
+	skill: normal,armor_shatter,1,2,safety_first
+
+	mastery_trait: hiking_mastery
+}

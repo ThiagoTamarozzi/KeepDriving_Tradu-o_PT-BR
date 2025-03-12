@@ -1,0 +1,2778 @@
+
+
+
+{
+	name: "hh_suit_banter_1"
+	req: newly_added
+	text: "Great car, haven't been in one of these in a while."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_2"
+	req: weather_clear
+	
+	text: "Nice day..."
+	text_hh: suit
+	
+	text: "...very nice day..."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_3"
+
+	text: "Does your car lighter work?"
+	text_hh: suit
+	
+	text: "Sure."
+	text_hh:none
+	
+	text: "Mind if I smoke in here?"
+	text_hh: suit
+	
+	text: "Go for it. Open a window."
+	text_hh:none
+}
+
+{
+	name: "hh_suit_banter_4"
+
+
+	text: "My kids used to love going on road trips."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_5"
+
+	text: "How do you make your money?"
+	text_hh: suit
+	
+	text: "oh you know: work, here and there."
+	
+	text: "You gotta make sure to fill out your Y30 before your personal taxes...
+	text_hh: suit
+	
+	text: ...after you've sent in your D7 in the second last quarter of the fiscal year."
+	text_hh: suit
+	
+	text: "Umm, cool. I'll do that."
+}
+
+
+{
+	name: "hh_suit_banter_6"
+	req: rain
+	
+	text: "I hope the rain stops soon."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_7"
+
+	
+	text: "Hey kiddo, you like games do you?"
+	text_hh: suit
+	
+	text: "Yea! My favorite is teddy."
+	text_hh: kid
+	
+	text: "Teddy isn't a game, sweetie. He's a toy."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_8"
+	text: "Hey, I can't talk right now, I'm in the car. Sorry bye."
+	text_hh: suit
+	
+	text: "Who was that?"
+	
+	text: "My wife... I should call back. One sec, sorry."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_9"
+	
+	text: "First summer in a while that I'm not working."
+	text_hh: suit
+	
+	text: "What did you use to do?"
+	
+	text: "I used to work in the sales department of a sma-
+	text_hh: suit
+	
+	text: Big Refrigerator company."
+	text_hh: suit
+	
+}
+
+{
+	name: "hh_suit_banter_10"
+
+	text: "You should keep your cash in a bank, let it make money for you. you know?"
+	text_hh: suit
+	
+	text: "Shut the fuck up old man! Mind your own business."
+	text_hh: stranger
+}
+
+{
+	name: "hh_suit_banter_11"
+
+
+	text: "You know, I was married for 15 years."
+	text_hh: suit
+	
+	text: "Aww, what happened? Are you divorced now?"
+	text_hh: bride
+	
+	text: "Not yet..."
+	text_hh: suit
+	
+	text: "no, not yet."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_12"
+
+	text: "Don't I know you from somewhere?"
+	text_hh: suit
+	
+	text: "No, mate, I don't think so."
+	text_hh: hiker
+	
+	text: "Strange, I think I saw you on the cover of a magazine."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_13"
+	
+	text: "You remind me a bit of my kid when she was your age."
+	text_hh: suit
+	
+	text: "What grade is she?"
+	text_hh: kid
+	
+	text: "Third, no fourth, no wait I think she started sixth actually."
+	text_hh: suit
+	
+	text: "Time flies."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_14"
+	req: energy_low
+	
+	text: "Hey, if you're tired we can stop. I don't mind getting a coffee anyway."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_15"
+	req: city
+	
+	text: "Have you noticed people are wearing less ties?"
+	text_hh: suit
+	
+	text: "No."
+	
+	text: "I think the business world wants to look casual. ridiculous."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_16"
+
+	text: "I know a great lawyer, my cousin's husband, if you ever need one."
+	text_hh: suit
+	
+	text: "I hope not."
+	text_hh: convict
+	
+	text: "Well if you do: I got one for you. He's great, really very professional."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_17"
+	req: suburbs
+	
+	text: "It's strange...
+	text_hh: suit
+	
+	text: ...that we are encouraged to invest our wages into savings,
+	text_hh: suit
+	
+	text: take loans,
+	text_hh: suit
+	
+	text: go into debt and buy a house we'll never own."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_18"
+	req: ailment_drunk
+	
+	text: "Wait, are you drinking?
+	text_hh: suit
+	
+	text: I mean, Not to be a buzzkill or anything,
+	text_hh: suit
+	
+	text: but maybe we should stop?"
+	text_hh: suit
+	
+	text: "I didn't have much. It's ok."
+}
+
+{
+	name: "hh_suit_banter_19"
+
+	text: "I don't think I'll ever understand people like you."
+	text_hh: suit
+	
+	text: "People like me?"
+	text_hh: sleeper
+	
+	text: "Yeah, no morals. Really. Lazy drifter."
+	text_hh: suit
+	
+	text: "yeah, yeah, what do you know."
+	text_hh: sleeper
+}
+
+//HIPPIE GIRL
+
+{
+	name: "hh_girl_banter_1"
+	
+	req: newly_added
+	
+	text: "Where are you headed anyway?"
+	text_hh: hippie_girl
+	
+	text: "Gonna meet some friends.."
+	
+	text: "Cool! Me too."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_2"
+	
+	text: "You have pretty hair! Can I braid it?"
+	text_hh: hippie_girl
+	
+	text: "No. Not right now."
+	
+	text: "God, you really are no fun."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_3"
+	req: weather_clear
+	
+	text: "Clouds are so pretty. Just floating around."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_4"
+
+	text: "What are you thinking about?"
+	text_hh: hippie_girl
+	
+	text: "Not much I guess; things."
+	
+	text: "Well, you never look at me."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_5"
+	req: country
+	
+	text: "I'm bored, we should go skinny dipping."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_6"
+	req: desert
+	text: "God, I love the desert.
+	text_hh: hippie_girl
+	
+	text: Only dry dusty earth as far as the eye can see
+	text_hh: hippie_girl
+	
+	text:and still there are these huge plump cacti thriving."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_6"
+	req: forest
+	
+	text: "I've seen fairies in the woods."
+	text_hh: hippie_girl
+	
+	text: "oh yeah?"
+	
+	text: "They had wispy white hair and rode on frogs."
+	text_hh: hippie_girl
+}
+
+{	
+	name: "hh_girl_banter_7"
+
+	text: "What kind of music do you like?"
+	text_hh: hippie_girl
+	
+	text: "pretty much anything."
+	
+	text: "Let me see what you have... oh cool, this is groovy."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_8"
+	
+	text: "You wanna leave together at the next stop?"
+	text_hh: hippie_girl
+	
+	text: "You wouldn't want that."
+	text_hh: sleeper
+	
+	text: "Well, sure I do!"
+	text_hh: hippie_girl
+	
+	text: "Trust me."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_girl_banter_9"
+
+	text: "You look like shit in that suit."
+	text_hh: hippie_girl
+	
+	text: "Oh, well you too. I mean, sorry, I suppose I do."
+	text_hh: suit
+}
+
+{
+	name: "hh_girl_banter_10"
+
+	text: "I love your style."
+	text_hh: hippie_girl
+	
+	text: "Thanks love. Where are you going then?"
+	text_hh: hiker
+	
+	text: "Oh you know, just headed east or whatever."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_11"
+
+
+	text: "You have a cute dog."
+	text_hh: hippie_girl
+	
+	hh_punk: "Thanks, I guess."
+	text_hh: punk
+	
+	text: "She likes me."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_12"
+
+	text: "Is it easy to make a quick buck playing on the street?"
+	text_hh: hippie_girl
+	
+	text: "Not really, some days are good, some days are bad."
+	text_hh: songwriter
+	
+	text: "Maybe you're just not that good."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_13"
+
+	text: "Can you teach me to mosh some time?"
+	text_hh: hippie_girl
+	
+	hh_punk: "It's easy. Just crash onto everyone around you."
+	text_hh: punk
+	
+	text: "I dunno, doesn't sound so fun..."
+	text_hh: hippie_girl
+	
+}
+
+{
+	name: "hh_girl_banter_14"
+
+	text: "Do you have some weed?"
+	text_hh: hippie_girl
+	
+	text: "..."
+	
+	text: "Fine, whatever."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_15"
+	
+	text: "It's good to keep moving."
+	text_hh: hippie_girl
+	
+	text: "Otherwise you might get lost."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_16"
+	
+	text: "Your dress was really pretty."
+	text_hh: hippie_girl
+	
+	text: "Thanks babe. I'm happy to be out of it."
+	text_hh: bride
+	
+	text: "Looks like fun being a runaway bride."
+	text_hh: hippie_girl
+	
+	text: "Oh yeah, it's a hoot!"
+	text_hh: bride
+}
+
+{
+	name: "hh_girl_banter_17"
+	req: ailment_hot
+	text: "Phew - it's so hot! Can we stop for ice-cream?"
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_18"
+	req: trait_optimist
+	
+	text: "Why do you keep thinking things will go well?"
+	text_hh: hippie_girl
+	
+	text: "Nothing tells me otherwise."
+	
+	text: "So you've never been down and out?"
+	text_hh: hippie_girl
+	
+	text: "Sure I have, but all things pass even the bad."
+}
+
+{
+	name: "hh_girl_banter_19"
+
+	text: "Do you ever think about anything else than cars?"
+	text_hh: hippie_girl
+	
+	text: "..."
+	text_hh: mechanic
+	
+	text: "Pfft."
+	text_hh: hippie_girl
+}
+//MEHCANIC
+
+{
+	name: "hh_mechanic_banter_1"
+	req: newly_added
+	text: "Your car needs work."
+	text_hh: mechanic
+	
+}
+
+{
+	name: "hh_mechanic_banter_2"
+
+	text: "Let her run a bit before you accelerate."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_3"
+	req: rain
+	
+	text: "Have you checked your distributor cap seal recently?"
+	text_hh: mechanic
+	
+	text: "No? I dunno."
+}
+
+{
+	name: "hh_mechanic_banter_4"
+	text: "Sounds like she's running a bit dry. I'll check the carb later."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_5"
+	req: gas_low
+	
+	text: "We should stop for some gas when we can."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_6"
+	req: durability_low
+	text: "Take it easy. Not long til the next stop now."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_7"
+	req: durability_low
+	
+	text: "I'll have to spend some time fixing her up."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_8"
+
+	text: "Weren't you the mechanic at Sanny's Turbo Shop?"
+	text_hh: mechanic
+	
+	text: "Yup. How do you know them?"
+	text_hh: convict
+	
+	text: "Raced 'em, a while back."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_9"
+
+	text: "Do you want an egg?"
+	text_hh: hippie_girl
+	
+	text: "Sure."
+}
+
+
+{
+	name: "hh_mechanic_banter_10"
+	req: item_toolbox
+	
+	text: "Are these your tools?"
+	text_hh: mechanic
+	
+	text: "Yeah"
+	
+	text: "Better than nothing."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_11"
+	
+	text: "There are some races coming up."
+	text_hh: mechanic
+	
+	text: "This car can't race."
+	
+	text: "Not yet."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_12"
+	
+	text: "We should stop by a junkyard."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_13"
+	req: item_cigarettes
+	text: "Can I bum a cig?"
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_14"
+	req: trait_bad_driver
+	
+	text: "Maybe I should drive?"
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_15"
+	req: ailment_drunk
+	
+	text: "Should I drive... if you're gonna drink?"
+	text_hh: mechanic
+	
+	text: "Nah, I'm good."
+}
+
+//HURRICANE
+
+{
+	name: "hh_hurricane_banter_1"
+	req: newly_added
+	req: car_truck
+	
+	text: "I've always wanted to have a truck like this."
+	text_hh: hurricane
+	
+	text: "Where are you headed?"
+	
+	text: "Nowhere, just looking for a good time."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_2"
+
+	text: "I did like 2 acid tabs last week and went to a masquerade."
+	text_hh: hurricane
+	
+	text: "oh yeah? was it fun."
+	
+	text: "No shit! It was wild! I got lost in a kiddie pool!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_3"
+	req: music_playing
+	
+	text: "Dude! This is a great song!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_4"
+
+	text: "Omg I'm so happy that I found you. I love this."
+	text_hh: hurricane
+	
+	text: "No worries."
+}
+
+{
+	name: "hh_hurricane_banter_5"
+
+	text: "I want to mooovee. I hate my place. I want to see the ocean. Like all the time. And have friends over!"
+	text_hh: hurricane
+	
+	text: "Where do you live now?"
+	
+	text: "With my parents... but it's just temporary till I get something more stable."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_6"
+
+	text: "What's your deal?"
+	text_hh: hurricane
+	
+	text: "Wanna find out tonight?"
+	text_hh: stranger
+	
+	text: "Wow, fuck off."
+	text_hh: hurricane
+}
+
+{
+name: "hh_hurricane_banter_7"
+
+	text: "I wish I could fall asleep as easily as you."
+	text_hh: hurricane
+	
+	text: "No you dont."
+	text_hh: sleeper
+	
+	text: "I was awake for like 3 days after Halloween."
+	text_hh: hurricane
+	
+	text: "But that's your choice, kind of."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_hurricane_banter_8"
+	req: item_tag_alcohol
+	
+	text: "I feel so lucky. Let's celebrate! You got stuff to drink right?"
+	text_hh: hurricane
+	
+	text: "Yeah, but maybe for tonight not now."
+	
+	text: "It'll be fine dude!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_9"
+
+	text: "Cheers!"
+	text_hh: hurricane
+	
+	text: "Cheers, love. You are a fine beauty aren't ya."
+	text_hh: hiker
+	
+	text: "I do my best hehe."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_10"
+	
+	text: "Best thing about being a musician must be traveling around,
+	text_hh: hurricane
+	
+	text: meeting weird people and playing them your songs."
+	text_hh: hurricane
+	
+	text: "Yeah, if you can afford it. This is my first time."
+	text_hh: songwriter
+	
+	text: "Holy shit, really? Good luck buddy."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_11"
+
+	text: "I found the best miniskirt! Perfect to seduce some old guy and take his money."
+	text_hh: hurricane
+		
+	text: "Where are you gonna find this guy?"
+	
+	text: "Dude! They're everywhere."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_12"
+	req: forest
+	
+	text: "I hope we pass my friends' cabin. They're fun!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_13"
+	req: hh_kid
+	
+	text: "Who's the kid?"
+	text_hh: hurricane
+	
+	text: "She's sort of lost."
+	
+	text: "Shouldn't we take her home?"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_14"
+	req: ailment_cold
+	text: "Holy shit, it's cold here! I'm dying."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_15"
+	req: ailment_drunk
+	
+	text: "You want another one?"
+	text_hh: hurricane
+	
+	text: "Huh?"
+	
+	text: "Here, I had an extra can in my bag."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_16"
+
+	text: "Anyone want to take acid go to the casino?"
+	text_hh: hurricane
+	
+	text: "I'm up for anything."
+	text_hh: hippie_girl
+	
+	text: "We can win some joy!"
+	text_hh: hurricane
+}
+
+
+{
+	name: "hh_hurricane_banter_17"
+	
+	text: "Do you know any jokes?"
+	text_hh: hurricane
+	
+	text: "Hmmm... Knock knock."
+	
+	text: "Who's there?"
+	
+	text: "Interrupting cow."
+	text_hh: hurricane
+	
+	text: "Interrupting c..."
+	
+	text: "MOOO!"
+	text_hh: hurricane
+}
+
+
+{
+	name: "hh_hurricane_banter_18"
+	
+	req: night
+	text: "Look at all those stars. When were you born?
+	text_hh: hurricane
+	text: Let me guess you're capricorn, or no a leo! Don't tell me."
+	text_hh: hurricane
+}
+
+//PUNK
+
+{
+	name: "hh_punk_banter_1"
+	req: newly_added
+	
+	text: "No one would pick me up with my dog. Appreciate it."
+	text_hh: punk
+}
+
+
+{
+	name: "hh_punk_banter_2"
+	req: punk_music
+	
+	text: "Shit, I love this band."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_3"
+	req: forest
+	
+	text: "The forest line looks like a bunch of teeth."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_4"
+
+	text: "oh, umm, sorry about the smell."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_5"
+	req: city
+	
+	text: "I fucking hate all these people sipping their lattes,
+	text_hh: punk
+	
+	text:Laughing at their friends' stupid stories about how they just bought a nice new carpet."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_6"
+	req: desert
+	req: day
+	text: "God damn the sun. It's too bright!"
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_7"
+	
+	text: "I was reading an interesting book. It was about a Gorilla explaining the woes of humanity. 
+	text_hh: punk
+	
+	text: Or at least civilized humanity and how we just don't know how to live."
+	text_hh: punk
+	
+	text: "How should we live?"
+	
+	text: "I dunno haven't finished it.
+	text_hh: punk
+	
+	text: But I think we're supposed to live more primitively or something."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_8"
+	
+	text: "I bet you play a nylon stringed guitar."
+	text_hh: punk
+	
+	text: "no, steel string."
+	text_hh: songwriter
+	
+	text: "I sold my guitar for a synth, but I had to sell that too for a tattoo."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_9"
+
+	text: "So, what kind of music do you listen to?"
+	text_hh: punk
+	
+	text: "I have no idea, I hate that question,"
+	text_hh: hurricane
+	
+	text: "but I like pretty much anything. Been into more gothy stuff recently."
+	text_hh: hurricane
+	
+	text: "Yeah same actually."
+	text_hh: punk
+	
+	text: "But, ye, that's cool. I like some goth stuff too."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_10"
+	
+	text: "What's up with this guy?"
+	text_hh: punk
+	
+	text: "Your jacket is scary, but I like your dog."
+	text_hh: idiot
+	
+	text: "Are you also coming to see my sister?"
+	text_hh: idiot
+	
+	text: "Your sister? Hell yeah. Wait, is he kidding?"
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_11"
+	req: city
+	
+	text: "Fucking trippy to be in the city."
+	text_hh: punk
+	
+	text: "Yeah, it's weird after being in the country for so long."
+	
+	text: "It's awesome, but it's gotta suck living here man."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_12"
+	
+	
+	text: "What are you gonna do with the veil? Could I have it?"
+	text_hh: punk
+	
+	text: "Yeah sure. What are you going to do with it?"
+	text_hh: bride
+	
+	text: "I don't know, could be fun to wear at a show."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_13"
+
+	text: "Woof!"
+	text_hh: dog
+	
+	text: "Good girl. Yeah, that's a good girl. Here you go. Take it.."
+	text_hh: punk
+	
+	text: "Woof! Woof!"
+	text_hh: dog
+	
+}
+
+{
+	name: "hh_punk_banter_14"
+
+	
+	text: "You're not gonna kill us in our sleep are you?"
+	text_hh: punk
+	
+	text: "Watch out. You're first on my list, punk."
+	text_hh: convict
+	
+	text: "Oooo, I'm terrified."
+	text_hh: punk
+	
+}
+
+{
+	name: "hh_punk_banter_15"
+	req: punk_music
+	
+	text: "I knew some guys that played in a band that sounded a bit like this.
+	text_hh: punk
+	
+	text: Their biggest gig was to their moms."
+	text_hh: punk
+	
+}
+
+{
+	name: "hh_punk_banter_16"
+	req: trait_careful_car_owner
+	
+	text: "Don't scratch the car with your studs.
+	text: And try to clean her paws off before you let her in next time."
+	
+	text: "Aye, Aye Captain."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_17"
+	req: trait_vegetarian
+	
+	text: "So you don't eat meat either?"
+	text_hh: punk
+	
+	text: "No, not really."
+	
+	text: "Cool, same - since I was like thirteen."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_18"
+	req: ailment_drunk
+	
+	text: "You shouldn't drink and drive. Can we stop, please?"
+	text_hh: punk
+	
+	text: "What kind of punk are you?"
+	
+	text: "One that doesn't want us all dead because you're an idiot."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_19"
+	req: ailment_hot
+	
+	text: "I think it's a bit too hot for my dog."
+	text_hh: punk
+	
+	text: "Could we get an AC or get some shade or something?"
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_20"
+
+	text: "Oh no! Do you smell that? She dropped the bomb!
+	text_hh: punk
+	
+	text:BD! Open all windows!"
+	text_hh: punk
+}
+
+//KID
+{
+	name: "hh_kid_banter_1"
+	
+	req: newly_added
+	
+	text: "Wow this car is so crappy! I will call it...
+	text_hh: kid
+	
+	text:Ducky!"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_2"
+	
+	text: "I have a friend who lives on the hills.
+	text_hh: kid
+	
+	text: They have a small dog.
+	text_hh: kid
+	
+	text:Did you know,
+	text_hh: kid
+	
+	text:whiskers are like little fingers for a dog's nose."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_3"
+	
+	text: "Are we there yet?"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_4"
+	text: "I have to peeee."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_5"
+	
+	text: "My mom has a ball she uses to sit on.
+	text_hh: kid
+	text: I filled it up with water once. She wasn't happy."
+	text_hh: kid
+	
+}
+
+{
+	name: "hh_kid_banter_6"
+	req: night
+	
+	text: "It's so dark. What time is it?"
+	text_hh: kid
+	
+	text: "go back to sleep."
+	
+}
+
+{
+	name: "hh_kid_banter_7"
+
+	text: "Why do you sing?"
+	text_hh: kid
+	
+	text: "Because I'm a pretty bird and must sing."
+	text_hh: bride
+	
+	text: "hihi, I sing too, but only for mom."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_8"
+
+	text: "Why does your dog smell?"
+	text_hh: kid
+	
+	text: "Yo! Don't let her hear that. You'll hurt her feelings."
+	text_hh: punk
+	
+	text: "Oh no! Sorry doggy."
+	text_hh: kid
+	
+	text: "You smell like good poop."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_9"
+	
+	text: "Why do you have such a big beard?"
+	text_hh: kid
+	
+	text: "It's because I'm santa! Santa on summer vacation."
+	text_hh: hiker
+	
+	text: "No you're not! hehe He lives on the north pole."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_10"
+	req:hh_suit
+	
+	text: "My dad told me that people in suits are ghosts.
+	text_hh: kid
+	
+	text: Once you put on a suit you become invisible and can haunt people.
+	text_hh: kid
+	text:But I can see you."
+	text_hh: kid
+	
+	hh_suit: "ha ...Your dad's not wrong."
+}
+
+{
+	name: "hh_kid_banter_11"
+	req: trait_good_driver
+	text: "Weee! Faster Faster Faster!"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_12"
+
+	text: "What's your favorite game?"
+	text_hh: kid
+	
+	text: "I used to love playing dodgeball."
+	
+	text: "What!"
+	text_hh: kid
+	
+	text: "Noo! I hate dodgeball, it's so scary."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_13"
+	
+	text: "Look, look, look, look!"
+	text_hh: kid
+	
+	text: "What?"
+	
+	text: "A really cute dog."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_14"
+
+	text: "You want to play a game or something?"
+	
+	text: "I'm ok right now. Maybe later!"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_15"
+	req: trait_careful_car_owner
+	
+	text: "Hey, could you watch it. Keep your shoes off the seats."
+	
+	text: "Okay. Sorry."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_16"
+	req: energy_low
+	
+	text: "There is a giraffe in the zoo that I love...
+	text_hh: kid
+	
+	text:I call him Jerry...
+	text_hh: kid
+	
+	text:oh, once on the swings I swung..."
+	text_hh: kid
+	
+	text: "Could we please play the silent game."
+}
+
+{
+	name: "hh_kid_banter_17"
+	req: trait_macgyver
+	
+	text: "Can you fix my suitcase? I think I broke it."
+	text_hh: kid
+	
+	text: "Yeah, a little duct tape can fix anything."
+}
+
+//songwriter
+
+{
+	name: "hh_songwriter_banter_1"
+	req: newly_added
+	text: "Right on, thanks again! Stoked to see you had space for my guitar."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_2"
+
+	text: "Silence is death; if you remain silent you die
+	text_hh: songwriter
+	
+	text:and if you speak you die. so speak and die."
+	text_hh: songwriter
+	
+	text: "Huh? What is that?"
+	
+	text: "I'm just reading... Would've been a good lyric though, right?"
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_3"
+
+	text: "Geez, I can't get enough of that fresh air."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_4"
+
+	text: "Have you ever been with someone you loved?"
+	text_hh: songwriter
+	
+	text: "I don't think so."
+	
+	text: "When you know, you'll know.
+	text_hh: songwriter
+	
+	text:Better loved and lost, than never loved at all right?"
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_5"
+	text: "I love it when he purrs on my lap like this.
+	text_hh: songwriter
+	
+	text: Do you hear it?"
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_6"
+	req: rain
+	
+	text: "There's something about the rain,
+	text_hh: songwriter
+	
+	text: maybe it's like a cat's purring,
+	text_hh: songwriter
+	
+	text: it just seems to calm me down."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_7"
+	req: ailment_dirty
+	
+	text: "I doubt I smell very good...
+	text_hh: songwriter
+	
+	text: But, damn man, you gotta get cleaned up."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_8"
+
+	text: "I've written like 200 songs, you know? Some are like Dylan-good
+	text_hh: songwriter
+	
+	text: I mean, not really, but kind of!"
+	text_hh: songwriter
+	
+	text: "Recorded anything?"
+	
+	text: "It's never as good recorded. I don't know why."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_9"
+	req: music_playing
+	
+	text: "You have good taste!
+	text_hh: songwriter
+	
+	text:Not normally my thing, but this is pretty good."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_10"
+	req: ailment_inspired
+	
+	text: "That look in your eyes..."
+	text_hh: songwriter
+	
+	text: "...you feel it too, right?"
+	text_hh: songwriter
+	
+	text: "...inspiration!"
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_11"
+
+	text: "Are you headed anywhere specific?"
+	text_hh: songwriter
+	
+	text: "I was thinking of going to a music festival on the East coast. You?"
+	
+	text: "I'm on tour! I just needed a ride for a bit."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_12"
+
+	text: "Are you some kind of damsel in a disaster dress?"
+	text_hh: songwriter
+	
+	text: "Yeah. Are you some kind of hopeless lover-poet
+	text_hh: bride
+	
+	text: "Something like that."
+	text_hh: songwriter
+}
+
+//STRANGER
+
+{
+	name: "hh_stranger_banter_1"
+	req: newly_added
+	req: car_volvo
+	text: "God damn... what a shit car."
+	text_hh: stranger
+}	
+
+{
+	name: "hh_stranger_banter_2"
+
+	text: "Fuck man, what are you driving so slow for...
+	text_hh: stranger
+	
+	text: Who are you waiting for? Go!
+	text_hh: stranger
+	
+	text:...Why do you keep breaking."
+	text_hh: stranger
+	
+	text: "Shut up, chill out!"
+	
+	text: "'Ey! Don't tell me to shut up. Just drive better!"
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_3"
+	req: trait_good_driver
+	
+	text: "Why are you driving so fast? Take it easy.
+	text_hh: stranger
+	
+	text: This piece of shit car will fall apart."
+	text_hh: stranger
+	
+}
+
+{
+	name: "hh_stranger_banter_4"
+	
+	text: "Yo! Could I borrow 10 bucks?"
+	text_hh: stranger
+	
+	text: "Why? No... what's it for?
+	
+	text: "Come on, man. Why the interrogation? I just need it.
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_5"
+
+	text: "I don't know why people are so fuckin' stuck up about frozen food
+	text_hh: stranger
+	text:Sometimes I just want to microwave my food and not do the dishes."
+	text_hh: stranger
+	
+	text: "I don't think anyone is stuck up about frozen food...
+	
+	text: "Uh-uh. People are idiots."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_6"
+	req:hh_idiot
+
+	text: "You got a sister?"
+	text_hh: stranger
+	
+	text: "Yeah, older sister."
+	text_hh: idiot
+	
+	text: "Oh yeah? Is she cute?"
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_7"
+
+	text: "I hate people who bike."
+	text_hh: stranger
+	
+	text: "mhm..."
+	
+	text: "I had a bike once. Sold it. Invested it."
+	text_hh: stranger
+	
+	text: "And doubled it at the tables..!"
+	text_hh: stranger
+	
+	driver: "okay..."
+}
+
+{
+	name: "hh_stranger_banter_8"
+	req: ailment_sad
+	
+	text: "Cheer up, you little brat."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_9"
+	req:hh_hurricane
+
+	text: "Who's your friend? Is she single?"
+	text_hh: stranger
+	
+	text: "I'm right here, just ask me."
+	text_hh: hurricane
+	
+	text: "So, you single?"
+	text_hh: stranger
+	
+	text: "None of your business."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_stranger_banter_10"
+	req:hh_hippie_girl
+
+	text: "Yo. You wanna go south with me, chick? I got a plan to get rich."
+	text_hh: stranger
+	
+	text: "You, rich?"
+	text_hh: hippie_girl
+	
+	text: "Fuck you. I got a plan, you'll see. Come with."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_11"
+	req:hh_punk
+	
+	text: "You think you're hard with that jacket, and boots?"
+	text_hh: stranger
+	
+	hh_punk: "Uh? No?"
+	text_hh: punk
+	
+	text: "Yeah, you're not. Just a pussy punk who thinks he's got ideas."
+	text_hh: stranger
+	
+	hh_punk: "Who hurt you?"
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_12"
+	text: "If you got spray paint, I'll show you some art."
+	text_hh: stranger
+	
+}
+
+{
+	name: "hh_stranger_banter_13"
+	req: trait_broke
+	text: "Prices are getting out of hand. Have you seen the price of milk?"
+	text_hh: stranger
+	
+	text: "Yeah, it's wild. What's happening?"
+	
+	text: "Man, I can't even buy a brew and a kielbasa sausage without going broke."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_14"
+	req: trait_smoker
+	
+	text: "You got a smoke?"
+	text_hh: stranger
+	
+	text: "Yeah, here."
+	
+	text: "You're alright, roadie. You're alright."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_15"
+	req: ailment_social
+	
+	text: "My grandpa drove trucks back in the old country.
+	text_hh: stranger
+	
+	text:I tried it once. Fuckin' hard.
+	text_hh: stranger
+	
+	text:He took painkillers for his spine.
+	text_hh: stranger
+	
+	text:just fell asleep for good one day."
+	text_hh: stranger
+	
+	text: "Oh, I'm sorry."
+	
+	text: "Nah, don't be, man... never told anyone that."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_16"
+	req: hh_convict
+	
+	text: "So what did you get caught for?"
+	text_hh: stranger
+	
+	text: "..."
+	text_hh: convict
+	
+	text: "Whatever."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_17"
+	req: city
+	
+	text: "Don't go exploring 26th street alone."
+	text_hh: stranger
+	
+	text: "Yeah, why?"
+	
+	text: "Dangerous, man."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_18"
+	req: durability_low
+	text: "This horrorshow car sounds like it'll shit itself any time now."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_19"
+	req: coast
+	text: "You ever fucked on the beach?"
+	text_hh: stranger
+	
+	text: "umm, no?"
+	
+	text: "Don't, it sucks. You'll shit sand for days."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_18"
+	req: night
+	
+	text: "We should see if there are any bars open at the next stop."
+	text_hh: stranger
+}
+
+///IDIOT
+
+{
+	name: "hh_idiot_banter_1"
+	
+	text: "..."
+	text_hh: idiot
+	text:Did you know that the oldest discovered flower is 125 million years old?"
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_2"
+	req: rain
+	text: "There has been a period in Earth's history where it rained for 200 million years."
+	text_hh: idiot
+	
+	text: "Oh, that's a long time."
+}
+
+{
+	name: "hh_idiot_banter_3"
+	req: city
+	
+	text: "Hmm... There are so many people.
+	text_hh: idiot
+	
+	text:pretty people, kind people
+	text_hh: idiot
+	
+	text:so much life behind closed doors, so much joy."
+	text_hh: idiot
+	
+	text: "... and sorrow."
+	
+	text: "mhmm... so much joy and sorrow."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_4"
+	
+	
+	text: "It's a good start to start small. Look at the dew on a leaf.
+	text_hh: idiot
+	
+	text: The shine in an eye. The feelers of an ant.
+	text_hh: idiot
+	
+	text: Then see how they interact with their surroundings;
+	text_hh: idiot
+	
+	text: how the dew drops off the leaf, how the eyes cry,
+	text_hh: idiot
+	
+	text: how the feelers move with the body of a searching ant."
+	text_hh: idiot
+	
+	text: "What's making you think of this?"
+	
+	text: "... nothing."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_5"
+	
+	text: "My house is filled with memories from my past.
+	text_hh: idiot
+	text:Never from my future.
+	text_hh: idiot
+	text:Your car feels like a home filled only with the future."
+	text_hh: idiot
+}
+
+
+{
+	name: "hh_idiot_banter_6"
+
+	text: "Hmm... Would you squint if we were to crash?
+	text_hh: idiot
+	Even if you knew you would not feel pain, but die instantly."
+	text_hh: idiot
+	
+	text: "I guess so."
+	
+	text: "I would fear death too, and squint."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_7"
+	req: ailment_dirty
+	text: "You smell bad. I would shower if I were you."
+	text_hh: idiot
+}
+
+{
+		name: "hh_idiot_banter_8"
+		req: ailment_sad
+		
+		text: "Look out, look at all the beautiful flowers
+		text_hh: idiot
+		
+		text: and swaying trees and funny clouds.
+		text_hh: idiot
+		
+		text: There is majesty in just the act of life.
+		text_hh: idiot
+		
+		text: You don't need to do more than to just live,
+		text_hh: idiot
+		
+		text: to be a part of it.
+		text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_9"
+	req: forest
+	
+	text: "Have you ever wondered how those big trees pull water up those tall trunks?"
+	text_hh: idiot
+	
+	text: "I guess not, weird."
+	
+	text: "They seem to defy gravity don't they?"
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_10"
+	req: country
+	text: "Roadkill... Is death the end? Or do we go to heaven?
+	text_hh: idiot
+	text:If we do, roadkill must too. Right?"
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_11"
+	req:hh_sleeper
+
+	text: "I like your red jacket. You look like a tulip."
+	text_hh: idiot
+	
+	text: "Thanks, but aren't they a bit too fresh-like?"
+	text_hh: sleeper
+	
+	text: "Yes, maybe you're more a poppy, actually."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_12"
+	
+	text: "Does the sun ever wish it could see the night?"
+	text_hh: kid
+	
+	text: "I don't think the sun knows about the beauty of the night. And therefore, doesn't wish for it."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_13"
+	req: newly_added
+	text: "Thank you for the ride. My sister isn't in a hurry."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_14"
+	req: city 
+	text: "I've never been in the city before. It's very noisy."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_15"
+	req: trait_ocd
+	
+	text: "I like how you have organized your trunk. Looks a lot like how I would have done it."
+	text_hh: idiot
+	
+	text: "Yeah, I have to. And it's kind of like tetris when you have a lot of stuff."
+}
+
+{
+	name: "hh_idiot_banter_16"
+	req:hh_suit
+
+	text: "Did you dress up today as well?"
+	text_hh: idiot
+	
+	text: "Oh, uh, no."
+	text_hh: suit
+}
+
+//CONVICT
+
+{
+	name: "hh_convict_banter_1"
+	req: newly_added
+	req: car_volvo
+	
+	text: "Right! Thanks for picking me up, trooper. Let's go!"
+	text_hh: convict
+}
+	
+{
+	name: "hh_convict_banter_2"
+	req: newly_added
+	req: car_muscle
+	
+	text: "Fast and beautiful, Thank Christ! I couldn't be luckier."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_3"
+	req:hh_songwriter
+
+	text: "You ever sang at a prison?"
+	text_hh: convict
+	
+	text: "No, I wouldn't dare to be honest."
+	text_hh: songwriter
+	
+	text: "I'm with ya. Bunch'a bastards, wouldn't listen anyway. Only Cash can pull that shit off."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_4"
+	req:hh_mechanic
+
+	text: "Next stop, you show me how you do your welds ok?"
+	text_hh: convict
+	
+	text: "Yup."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_convict_banter_5"
+	req:hh_hippie_girl
+
+	text: "I was stuck in solitary for 2 weeks because I threw a basketball at the guard."
+	text_hh: convict
+	
+	text: "I mean, you can't be that stupid can you?"
+	text_hh: hippie_girl
+	
+	text: "He asked for it. Said 'pass me the rock' and I did.
+	text_hh: convict
+	text: Didn't think he'd be so clumsy - hit him straight in the face."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_6"
+	req:hh_mechanic
+
+	text: "Been to any races recently?"
+	text_hh: convict
+	
+	text: "Yeah, a couple. Won some bread and a pink slip."
+	text_hh: mechanic
+	
+	text: "Yeah? what happened to'em?"
+	text_hh: convict
+	
+	text: "Lost'em."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_convict_banter_7"
+	text: "You can't imagine how sweet the smell of freedom smells right now."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_8"
+	req: desert
+	text: "We was working here - not too far from here - on a ditch when I split."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_9"
+	req:hh_hurricane
+
+	text: "Ey, skirt, you got some nose candy on ya?"
+	text_hh: convict
+	
+	text: "Yeah, barely. Can you pay?"
+	text_hh: hurricane
+	
+	text: "Of course, let me just write you a check..."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_10"
+
+
+	text: "Christ, my back hurts. You got a pillow?"
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_11"
+	req: coast
+	
+	text: "There's gotta be some ship out there I can hop. Gotta split from this place.
+	text_hh: convict
+	text: God damn - can't run forever."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_12"
+	req: trait_good_driver
+	
+	text: "Impressive driving. And you just got your license?"
+	text_hh: convict
+	
+	text: "I guess. I dunno, it's fun."
+	
+}
+
+{
+	name: "hh_convict_banter_13"
+	req:hh_bride
+	
+	text: "Haven't seen anyone as beautiful as you in a long time."
+	text_hh: convict
+	
+	text: "A shave and a wash, and you wouldn't be so bad yourself."
+	text_hh: bride
+}
+
+{
+	name: "hh_convict_banter_14"
+	req: gas_low
+	
+	text: "We gotta fill up - Can't risk it."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_15"
+	req: trait_jawa
+	text: "Look, if you're gonna steal shit. Let me help you next time."
+	text_hh: convict
+	
+	text: "Oh, yeah, of course."
+}
+
+{
+	name: "hh_convict_banter_16"
+	req: night
+	text: "Shit, I think I saw a cop car behind that tree. Keep cool."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_17"
+	req: item_tag_food
+	
+	text: "Lets see, so what kind of food do you have? I'm starving."
+	text_hh: convict
+	
+}
+
+//SLEEPER
+
+{
+	name: "hh_sleeper_banter_1"
+	req: newly_added
+	text: "Hey! Great timing. I just woke up."
+	text_hh: sleeper
+	
+}
+
+{
+	name: "hh_sleeper_banter_2"
+	req: night
+	text: "ZzZz..."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_3"
+
+	text: "Sorry, but do you by any chance have some snacks?"
+	text_hh: sleeper
+	text: "Maybe in the glovebox?"
+}
+
+{
+	name: "hh_sleeper_banter_4"
+	req: ailment_tired
+	text: "I'd love a coffee right now."
+	text_hh: sleeper
+	
+	text: "Same!"
+}
+
+{
+	name: "hh_sleeper_banter_5"
+	
+	text: "Just curious, do you know Angie?"
+	text_hh: sleeper
+	
+	text: "Yeah! I actually dated her daughter one summer."
+	text_hh: songwriter
+	
+	text: "Small world. I feel like I've seen you at one of her clubs."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_6"
+
+	text: "If it's not too much trouble, maybe I can hang around a while?"
+	text_hh: sleeper
+	
+	text: "No problem."
+}
+
+{
+	name: "hh_sleeper_banter_7"
+	req:hh_kid
+
+	text: "What do you dream about when you sleep?"
+	text_hh: kid
+	
+	text: "Weirdly I just dream of an open road. With no cars, and no people.
+	text_hh: sleeper
+	text:Just a straight open road."
+	text_hh: sleeper
+	
+	text: "Hmm that's a bit strange. I dreamt I had a cat!"
+	text_hh: kid
+}
+
+{
+	name: "hh_sleeper_banter_8a"
+	req:hh_hiker
+
+	text: "I love your hat. Where did you get it?"
+	text_hh: sleeper
+	
+	text: "Lets see, I believe I got it from a couple of birds
+	text_hh: hiker
+	
+	text:- a long time ago -
+	text_hh: hiker
+	
+	text: they had a farm. They made the leather and formed it for my head."
+	text_hh: hiker
+	
+	text: "Far out. Not enough hats these days."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_8b"
+	req:hh_hurricane
+	
+	text: "I used to know a girl that looked a lot like you."
+	text_hh: sleeper
+	
+	text: "What happened to her?"
+	text_hh: hurricane
+	
+	text: "I don't really know. Some rivers can grow too wide to cross. 
+	text_hh: sleeper
+	text: I only hope she's happy."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_9"
+	
+	text: "It's funny, you look out the window...
+	text_hh: sleeper
+	text:...and sometimes all you see is the future going by."
+	text_hh: sleeper
+	
+	text: "I mostly see it coming."
+	
+	text: "Heh, yeah, I'm envious."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_10"
+	req: city
+	
+	text: "I slept on a grate once because I thought it would be warm,
+	text_hh: sleeper
+	text: but I woke up all wet from sewer steam. Fucking gross."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_11"
+
+	text: "Let me know if I snore ok? Just give me a shove."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_12"
+	
+	text: "I once left my best friend at an abusive customer's place.
+	text_hh: sleeper
+	
+	text: I felt so bad, I just ran for the road. Now you know, I guess."
+	text_hh: sleeper
+}		
+
+{
+	name: "hh_sleeper_banter_13"
+
+	text: "So, where did you get your clothes from? They're cool."
+
+	text: "Not sure, I think an old lady gave them to me. Her dead husband's stuff."
+	text_hh: sleeper
+}
+
+{
+		name: "hh_sleeper_banter_14"
+
+		text: "You got plans after the summer?"
+		text_hh: sleeper
+		
+		text: "Not really, maybe find work, maybe keep traveling. Yeah, not sure."
+		
+		text: "Yeah, keep it free I say."
+		text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_15"
+	
+	text: "How, I mean, what, I mean, when, did you start having your issues?"
+	
+	text: "About the time my parents divorced. I was very young,
+	text_hh: sleeper
+	
+	text:I kept getting panic attacks,
+	text_hh: sleeper
+	
+	text: and I guess my body found a way to deal with them."
+	text_hh: sleeper
+	
+	text: "Shit, that sucks. At least you get your beauty sleep. right?"
+	
+	text:heh
+}
+
+{
+	name: "hh_sleeper_banter_16"
+	req: rain
+	text: "Please don't kick me out while it's raining. 
+	text_hh:sleeper
+	text:I don't wanna fall asleep in a puddle."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_17"
+	
+	req: no_music
+	text: "You got any CDs? I'm tired of listening to the wind."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_18"
+	req:hh_bride
+	text: "Anyone want a snack?"
+	text_hh: sleeper
+	
+	text: "Me! I'm craving some sugar right now."
+	text_hh: bride
+}
+
+
+//HIKER
+
+{
+	name: "hh_hiker_banter_1"
+	req: newly_added
+	text: "Cheers! Didn't think anyone would pick up this old codger."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_2"
+	req: car_volvo
+	text: "I used to have one of these cars back when they were new.
+	text_hh: hiker
+	text:Ran like shite but always started. Bless 'em."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_3"
+
+	text: "You know if you shift a bit later she'll run smoother?"
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_4"
+	req: mountain
+	
+	text: "Oh, won'tcha look at that, those hills are beautiful."
+	text_hh: hiker
+	
+	text: "Yeah, really pretty. Have you been up there?"
+	
+	text: "I don't believe I have, but I would love to."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_5"
+	req: rough_road
+	text: "Lovely, road this is. Don'tcha think?"
+	text_hh: hiker
+	
+	text: "oh sure, it's great."
+}
+
+{
+	name: "hh_hiker_banter_6"
+	req: trait_good_driver
+	
+	text: "Have you been driving for a long time?"
+	text_hh: hiker
+	
+	text: "I suppose. Well, not long, but a lot recently."
+	
+	text: "You're doing brilliantly. Must be a fast learner."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_7"
+	req: trait_bad_driver
+	
+	text: "Hey kid, go. go! You accelerate too slow.
+	text_hh: hiker
+	text: You gotta keep it moving.
+	text_hh: hiker
+	text: And I think you're drifting a bit too far right.
+	text_hh: hiker
+	text: Stay straight."
+	text_hh: hiker
+	
+	text: "Ok. ok! This isn't helping."
+	
+	text: "Oouphf. I might just close my eyes and hope for the best."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_8"
+	
+	text: "Love, do you ever sit and listen to the rain?"
+	text_hh: hiker
+	
+	text: "Well, hmm, I love listening to the rain. Do you?
+	text_hh: hippie_girl
+	
+	text: "Everytime. It tells me of the coming blossom."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_9"
+	req:hh_punk
+	
+	text: "I'm glad you're here with your friend. I don't smell so bad comparatively."
+	text_hh: hiker
+	
+	text: "ha! ha! She's cleaner than you."
+	text_hh: punk
+	
+	text: "Oh, I wasn't talking to you."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_10"
+	req:hh_songwriter
+	
+	text: "Could I borrow your guitar some time?"
+	text_hh: hiker
+	
+	text: "I don't think so. What would you play?"
+	text_hh: songwriter
+	
+	text: "Nothing in particular. Just jam. Groove!"
+	text_hh: hiker
+	
+	text: "Groove? No, definitely not."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_hiker_banter_11"
+	req: ailment_hungry
+	
+	text: "What beautiful country!
+	text_hh: hiker
+	
+	text: I would love to make a fire tonight, grill some sausages.
+	text_hh: hiker
+	
+	text: Oh tasty sausages."
+	text_hh: hiker
+	
+	text: "Don't talk about a bbq right now. I'm so hungry."
+}
+
+{
+	name: "hh_hiker_banter_12"
+	
+	text: "...So that's my story, up until now I suppose."
+	text_hh: bride
+	
+	text: "Ahh! Marvelous! You are quite the woman!"
+	text_hh: hiker
+	
+	text: "Ohh, you'll make me blush."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_13"
+	req: night
+	
+	text: "Oh, bloody hell, I almost fell asleep there.
+	text_hh: hiker
+	text: I heard there was going to be a meteor shower tonight. "
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_14"
+	req:hh_mechanic
+
+	text: "If you want to stick out. Don't drive a car, mate.
+	text_hh: hiker
+	text: Get a motorbike. That's freedom!"
+	text_hh: hiker
+	
+	text: "Ppff, yeah right."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_hiker_banter_15"
+	req:hh_stranger
+	text: "Have you been out to the lakes around the city? They're quite beautiful."
+	text_hh: hiker
+	
+	text: "Man, fuck lakes! They're gross.
+	text_hh: stranger
+	
+	text: I only left the city because I had to."
+	text_hh: stranger
+}
+
+{
+	name: "hh_hiker_banter_16"
+
+	text: "Cherish it, ey. Nature is something you can't forget."
+	text_hh: hiker
+	
+	text: "I don't. It's beautiful."
+	
+	text: "Of course, but you see sometimes life gets in the way...
+	text_hh: hiker
+	text:...and you end up forgetting it."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_17"
+	req: money_low
+	text: "If you need some tips on making money let me know."
+	text_hh: hiker
+	
+	text: "No offense; you don't seem like you'd know much about that."
+	
+	text: "Oh, money isn't everything, was something I had to learn"
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_18"
+	req: ailment_drunk
+	
+	text: "You old goose, don't you know how many people die on the road drunk?"
+	text_hh: hiker
+	
+	text: "Yeah yeah, I'm fine."
+	
+	text: "I don't like this, mate."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_19"
+	req:hh_suit
+
+	text: "Bloody hell, I used to wear a suit back in the day.
+	text_hh: hiker
+	
+	text: Can't imagine having a noose around my neck all day anymore."
+	text_hh: hiker
+	
+	hh_suit: "Oh, I kind of like ties. Better than casual fridays."
+	text_hh: suit
+}
+
+//BRIDE
+
+{
+	name: "hh_bride_banter_1"
+	req: newly_added
+	req: !car_muscle
+	
+	text: "Hiya! I hope you don't mind a lady in white riding with you?"
+	text_hh: bride
+	
+	text: "Not at all. Where you off to?
+	
+	text: "Anywhere but a church."
+	text_hh: bride
+	
+}
+
+{
+	name: "hh_bride_banter_1"
+	
+	req: newly_added
+	req: car_muscle
+	
+	text: "Hiya! This isn't a bad ride to hitch."
+	text_hh: bride
+	
+	text: "Only if you wanna go slow."
+	
+	text: "Not today!"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_2"
+
+	text: "God, I'm so tired of being controlled by men my whole life.
+	text_hh: bride
+	text: My father, my teachers, my boyfriend.
+	text_hh: bride
+	text: I just want to be free."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_3"
+	req: ailment_hungry
+	
+	text: "Wanna get some pizza?"
+	text_hh: bride
+	
+	text: "You read my mind."
+}
+
+{
+	name: "hh_bride_banter_4"
+
+	text: "Is it ok if I put my feet up here?
+	text_hh: bride
+	text:I was running in a pair of terribly uncomfortable heels."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_5"
+	req: music_playing
+	
+	text: "Do you listen to any classical music? I miss playing the violin so much."
+	text_hh: bride
+	
+	text: "Not often. Kind of sleepy for driving."
+	
+	text: "Maybe an irish jig would be more up your alley.
+	text_hh: bride
+	text: With a good fiddle."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_6"
+	req: ailment_dirty
+	text: "If you don't have any other clothes... you can borrow my dress if you want!"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_7"
+	req: ailment_cold
+	text: "Holy smokes! It's freezing! Maybe we can go back down south."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_8"
+	req: ailment_hot
+	
+	text: "Holy hell! It's boiling in here! Can we make this into a convertible somehow?"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_9"
+	req: ailment_happy
+	
+	text: "Aww, I'm happy to see you smiling. You're a real cutie!"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_10"
+	req: ailment_happy
+	
+	text: "You're really doing well on the road. I can see the joy in your eyes."
+	text_hh: bride
+	
+	text: "Hehe, yea, I like being out on the road."
+	
+}
+
+{
+	name: "hh_bride_banter_11"
+	
+	text: "So you found yourself a bard, I see. Fun! What do you play?"
+	text_hh: bride
+	
+	text: "Mostly my own songs. Some covers, but, yeah, mostly my own."
+	text_hh: songwriter
+	
+	text: "Are they good?"
+	text_hh: bride
+	
+	text: "I'll have to play something for you."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_bride_banter_12"
+
+	text: "You can show me a good time?
+	text_hh: bride
+	text: I feel like I gotta get a bit crazy. I'm free!"
+	text_hh: bride
+	
+	text: "Don't you worry about that. We'll sort you out."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_bride_banter_13"
+
+	text: "What's this little doll doing here?"
+	text_hh: bride
+	
+	text: "I'm getting a ride home. It's fun!"
+	text_hh: kid
+	
+	text: "Well, I'm glad to hear that."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_14"
+
+	text: "What's your favorite flower, honey?"
+	text_hh: bride
+	
+	text: "Hhmmm... the sunflower I think."
+	text_hh: idiot
+	
+	text: "That's a beautiful one. I love sunflower fields too."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_15"
+
+	text: "Could you make the car go a bit faster?"
+	text_hh: bride
+	
+	text: "Yup, if we get the parts."
+	text_hh: mechanic
+	
+	text: "Oh! That'd be fun. I think we should."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_16"
+	
+	
+	text: "So you picked up two little uncaged birdies."
+	text_hh: bride
+	
+	text: "Our cages are still not far from us."
+	text_hh: convict
+	
+	text: "But we're free right now!"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_17"
+	req: trait_good_driver
+	
+	text: "I don't think I should say this, but you're kind of hot driving like that."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_18"
+	req: ailment_inspired
+	text: "I'm so excited for a bit of adventure. I've been cooped up for too long now."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_19"
+
+	text: "Next time we find a good trail. Could I please come with?"
+	text_hh: bride
+	
+	text: "Of course, love. You're always welcome."
+	text_hh: hiker
+}		
+
+{
+	name: "hh_bride_banter_20"
+	req: durability_low
+	
+	text: "Anyway we can fix the car up a bit?"
+	text_hh: bride
+	
+	text: Maybe we add something better than duct tape to keep it together?"
+	text_hh: bride
+	
+	text: "Yeah, we should probably look into giving her a shine."
+}

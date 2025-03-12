@@ -1,0 +1,1107 @@
+///////////QUESTS
+
+{
+	quest_name: festival
+	quest_title: Way out Festival
+	quest_desc: Get a Tent and a festival ticket, then go to the Way out Festival in time!
+	quest_pc_desc:Heey!¤Are you coming to the Festival this year?¤I heard you got a new car. FUN!¤You can buy a ticket in any big city¤It's kind of a long ways away, but you'll make it.¤Don't forget to sleep and fill up when you're low on gas!¤I was stranded once or twice.It's not too bad if you have some money.¤¤See ya in 4 weeks!¤xo
+	quest_type: main
+	quest_start_month: 5
+	quest_start_day: 27
+	quest_end_month: 5
+	quest_end_day: 30
+	quest_pc_sprite: spr_main_quest_bg_festival
+	
+	quest_ending:	festival
+	
+	obj: ticket
+	obj_type: item
+	obj_item: festival_ticket
+	obj_dest: any_city
+	obj_title: Get a ticket
+	obj_desc: Buy a ticket at any of the big cities.
+	
+	obj: tent
+	obj_type: item
+	obj_item: tent
+	obj_dest: none
+	obj_title: (Optional) Get a tent
+	obj_desc: get a tent. Can be bought or found.
+	
+	obj: festival
+	obj_type: dest
+	obj_dest: hidden
+	obj_new_dest_id: festival
+	obj_title: Get to the festival
+	obj_desc: reach the festival before it ends
+	
+	reward: goal
+	
+	custom_person: 1
+	custom_person_name: "Ticket Guy"
+	custom_person_sprite: spr_journal_girl_talk
+	dialogue_turn_in_greeting: 	q_festival_friends_complete
+	dialogue_turn_in_reject: 	q_festival_turn_in_reject
+	dialogue_turn_in_done: 		q_festival_turn_in_done
+	dialogue_turn_in_complete: 	q_festival_turn_in_complete
+}
+
+
+{
+	quest_name: demo_main
+	quest_title: Video games
+	quest_desc: Get to your friend's house in the south to play some games.
+	quest_pc_desc:TEST
+	
+	quest_skip_turn_in:1
+
+
+	quest_type: main
+	quest_start_month: 4
+	quest_start_day: 1
+	quest_end_month: 4
+	quest_end_day: 7
+	quest_pc_sprite: spr_main_quest_bg_rehab
+	
+	quest_ending:	demo_ending
+	
+	obj: get_to_friend
+	obj_type: dest
+	obj_dest: hidden
+	obj_new_dest_id: friends_home
+	obj_new_dest_x: 27
+
+	obj_title: Get to your friend's house
+	obj_desc: Get to your friend's house in the south.
+	
+	dialogue_turn_in_greeting: 	q_demo_turn_in_greeting
+	
+
+}
+
+
+{
+	quest_name: race
+	quest_title: The Great Race
+	quest_desc: Have a roll cage installed and enter the race
+	quest_pc_desc:WARM WELCOME TO THE ANNUAL¤WEEKEND LONG DRIVING¤COMPETITION AT PINE RACEWAY*¤¤Bring your car and if it passes our qualified service check you are good to race. Simple as that!¤¤BIG 1st Place Prize!¤¤Godspeed,¤PINE RACEWAY¤* new location, check map.
+	quest_type: main
+	quest_start_month: 5
+	quest_start_day: 29
+	quest_end_month: 6
+	quest_end_day: 2
+	quest_pc_sprite: spr_main_quest_bg_race
+	quest_days: 12
+	
+	quest_ending:	race
+	
+	obj: upgrade
+	obj_type: special
+	obj_dest: none
+	obj_title: Install a Roll Cage
+	obj_desc: Have a Roll Cage installed
+	
+	obj: race_dest
+	obj_type: dest
+	obj_dest: hidden
+	obj_new_dest_id: race_track
+	obj_title: Get to the race
+	obj_desc: Enter the race
+	
+	obj: race
+	obj_type: special
+	obj_dest: none
+	obj_title: Enter the race!
+	obj_desc: Enter the race
+	
+	reward: goal
+	
+}
+
+
+
+
+{
+	quest_name: rehab
+	quest_title: Getting Clean
+	quest_desc: Get to the Rehab Facility!
+	quest_pc_desc:Hi,¤This is Dr.Williams from Effectica.¤I am contacting you to confirm¤your stay with us.¤¤We are very happy to hear you¤are taking your first steps¤to sobriety.¤¤We have a lot of requests¤to stay with us this summer¤so we cannot secure your¤space indefinitely. Please,¤arrive at your reserved time.¤¤Welcome to,¤EFFECTICA REHAB
+
+	quest_type: main
+	quest_start_month: 5
+	quest_start_day: 1
+	quest_end_month: 7
+	quest_end_day: 26
+	quest_pc_sprite: spr_main_quest_bg_rehab
+	quest_days: 6
+	
+	quest_ending:	rehab
+	
+	
+		
+	obj: no_drugs
+	obj_type: special
+	obj_dest: none
+	obj_title: Don't use any drugs
+	obj_desc: Don't use any drugs
+
+	
+	
+	obj: get_to_rehab
+	obj_type: dest
+	obj_dest: hidden
+	obj_new_dest_id: rehab
+	obj_new_dest_x: 27
+	obj_new_dest_y: 17
+	obj_new_dest_name:	Rehab Facility
+	obj_title: Get to the Facility
+	obj_desc: Get to the Rehab Facility
+
+
+}
+
+{
+	quest_name: rehab_first
+	quest_title: Getting Clean
+	quest_desc: Contact a physician about your addiction
+	quest_pc_desc: Dear Reader,¤If you, or somebody you know,¤is suffering from addiction¤please come by our rebab¤center EFFECTICA.¤¤Sometimes just getting out of¤your loop and into a safe place¤for a few days is all you need.¤¤Every step towards EFFECTICA¤is a step towards wellness.¤¤Visit your local hospital¤for more information on¤EFFECTICA REHAB.
+
+
+
+	quest_type: main
+	quest_start_month: 5
+	quest_start_day: 1
+	quest_end_month: 7
+	quest_end_day: 26
+	quest_pc_sprite: spr_main_quest_bg_rehab
+	quest_days: 10
+	
+	quest_ending:	rehab
+
+	
+	obj: get_to_hospital
+	obj_type: dest
+	obj_dest: hidden
+	obj_new_dest_id: city_north
+	obj_title: Get to a Hospital
+	obj_desc: Get to a Hospital
+
+}
+
+
+{
+	quest_name: mountain
+	quest_title: The Mountain
+	quest_desc: Get to the top of the Mountain
+	quest_pc_desc:Greetings Nature Lovers,¤¤Is it the calling of freedom?¤The fresh chilled air¤high above the clouds?¤Or simply, a moment of peace¤with the great mountains and ¤boundless lands of vast forests that call you to an unforgettable hike?¤¤Whatever the reason may be,¤we have what you are looking for.¤Stay with us at the base camp¤accommodation; get yourself¤ready for an adventure¤like no other!
+
+
+	quest_skip_turn_in:1
+	
+	quest_type: main
+	quest_start_month: 5
+	quest_start_day: 1
+	quest_end_month: 7
+	quest_end_day: 30
+	quest_pc_sprite: spr_main_quest_bg_mountain
+	
+	quest_ending:	mountain
+	
+	obj: gas_tank_big
+	obj_type: item
+	obj_item: gas_tank_big
+	obj_dest: none
+	obj_title: (Opt.) Get a jerrycan
+	obj_desc: Get a jerrycan. Actually you might need more than one.
+	
+	obj: toolbox
+	obj_type: item
+	obj_item: toolbox
+	obj_dest: none
+	obj_title: (Opt.) Get a toolbox
+	obj_desc: Get a toolbox. At least one.
+	
+	
+	
+	obj: get_to_mountain
+	obj_type: dest
+	obj_dest: hidden
+	obj_new_dest_id: mountain_top
+	obj_new_dest_name:	Mountain Top
+	obj_title: Scale the mountain
+	obj_desc: Get to the top of the mountain
+	
+	dialogue_turn_in_greeting:	q_mountain_turn_in
+
+}
+
+{
+	quest_name: settle_down
+	quest_title: Settle Down
+	quest_desc: Go back to where you used to work and try to find a permanent position.
+	quest_pc_desc:Good day!¤¤We're writing to you from the¤Employment Office. we have¤taken notice of your diligence¤in finding work recently.¤¤If you'd like, we can offer¤You a permanent position.¤¤The pay is great, but you'll¤be required to relocate¤immedietly.¤¤Come by the §location Employment¤Office if you're interested.
+
+
+	quest_type: main
+	quest_start_month: 5
+	quest_start_day: 1
+	quest_end_month: 7
+	quest_end_day: 20
+	quest_pc_sprite: spr_main_quest_bg_work
+	quest_days: 6
+	
+	
+	
+	quest_ending:	work
+	
+	
+	obj: get_back
+	obj_type: dest
+	obj_dest: work
+	obj_title: Get back
+	obj_desc: Go back to where you applied for several jobs.	
+	
+	obj: get_the_job
+	obj_type: special
+	obj_dest: none
+	obj_title: Apply for the Job
+	obj_desc: Use the Employment Office to apply for the position.
+
+	reward: goal
+
+	
+	reward: goal
+	
+
+}
+
+{
+	quest_name: party
+	quest_title: Party Invitation
+	quest_desc: Bring The Hurricane and some beer and go to the part cabin.
+	quest_pc_desc:hey!¤you're with the hurricane right?¤¤come to the party at the cabin. it's gonna be great! it's kinda in the woods so could be hard to get here without some good tires.¤¤bring whoever you want.¤¤byob¤¤take care, see you soon!
+
+	quest_type: main
+	quest_start_month: 6
+	quest_start_day: 5
+	quest_end_month: 6
+	quest_end_day: 8
+	quest_pc_sprite: spr_main_quest_bg_party
+	quest_days: 6
+	
+	
+	
+	quest_ending:	party
+	
+	obj: hurricane
+	obj_type: hitchhiker
+	obj_dest: none
+	obj_title: Bring The Hurricane
+	obj_desc: Have the Hurricane in your car
+	
+	obj: get_beer
+	obj_type: item
+	obj_item: beer_case_green
+	obj_dest: none
+	obj_title: Bring beer
+	obj_desc: Bring beer for the party
+	
+	obj: get_to_cabin
+	obj_type: dest
+	obj_dest: hidden
+	obj_new_dest_x: 20
+	obj_new_dest_y: 17
+	obj_new_dest_id: party
+	obj_new_dest_name:	Party Cabin
+	obj_title: Get to the Cabin
+	obj_desc: Get to the Cabin
+	
+	
+	dialogue_turn_in_greeting: 	party_turn_in_greeting
+	dialogue_turn_in_reject: 	party_turn_in_reject
+	dialogue_turn_in_done: 		party_turn_in_done
+	dialogue_turn_in_complete: 	party_turn_in_complete
+	
+	reward: goal
+	
+
+}
+
+{
+	quest_name: inheritance
+	quest_title: Inheritance
+	quest_desc: Visit your grandmother in the hospital
+	
+	quest_pc_desc:This is your grandmother's¤Physician. There's no easy way to say this:¤She's dying.¤As of now, the cancer has¤completely metastasized and¤she is left with only a couple ¤days left before total body failure.¤¤Come by the treatment center¤as soon as you can!¤My condolences,¤Dr. Vaswani
+
+
+	quest_type: main
+	quest_start_month: 6
+	quest_start_day: 5
+	quest_end_month: 6
+	quest_end_day: 8
+	quest_pc_sprite: spr_main_quest_bg_inheritance
+	quest_days: 5
+	
+	quest_ending:	inheritance
+	
+	obj: visit_grandmother
+	obj_type: special
+	obj_dest: hidden
+	obj_new_dest_id: city_north
+	obj_title: Visit grandma
+	obj_desc: Visit your grandmother in the hospital
+
+	
+	reward: none
+	
+
+}
+
+{
+	quest_name: inheritance_2
+	quest_title: Inheritance
+	quest_desc: Go to your inherited land
+	quest_pc_desc: Hi Dear,¤Thank you for coming by the hospital.¤I'm always so happy to see you.¤I love you with all my life.¤¤The land is out in the country:¤Take the country roads, then the dirt path until you see,¤just beyond the heath,¤a patch of land with a little cottage.¤That's it, it's yours now.¤¤Lots of love, forever,¤Grandma.
+
+	quest_type: main
+	quest_start_month: 6
+	quest_start_day: 5
+	quest_end_month: 6
+	quest_end_day: 30
+	quest_pc_sprite: spr_main_quest_bg_inheritance
+	
+	quest_ending:	inheritance
+	
+	obj: visit_grandmother
+	obj_type: special
+	obj_dest: hidden
+	obj_new_dest_id: inherited_land
+	obj_title: Go to your land
+	obj_desc: Go to your inherited land
+	
+	
+	reward: goal
+
+}
+
+{
+	quest_name: inheritance_3
+	quest_title: Inheritance
+	quest_desc: Go to your inherited land
+	quest_pc_desc: Hi, I hope this reaches you¤as I do not know if you¤saw the last letter we sent.¤¤I write now to regretfully ¤inform you that your¤grandmother passed away ¤last night at 5:21PM.¤There was nothing we¤could do as the cancer¤had damaged so much¤internal tissue.¤¤She left you a message¤concerning your inheritance.¤The address is attached.¤Dr. Vaswani
+
+	quest_type: main
+	quest_start_month: 6
+	quest_start_day: 5
+	quest_end_month: 6
+	quest_end_day: 30
+	quest_pc_sprite: spr_main_quest_bg_inheritance
+	
+	quest_ending:	inheritance
+	
+	obj: visit_grandmother
+	obj_type: special
+	obj_dest: hidden
+	obj_new_dest_id: inherited_land
+	obj_title: Go to your land
+	obj_desc: Go to your inherited land
+	
+	
+	reward: goal
+	
+
+}
+
+
+////////////////// SIDE QUESTS
+
+{
+	quest_name: box_delivery
+	quest_title: Moving Help
+	quest_desc: Deliver some boxes to my new apartment. Need it there soon!
+	quest_type: side
+	quest_start_month: 5
+	quest_start_day: 22
+	quest_end_month: 5
+	quest_end_day: 28
+	quest_days: 5
+	
+	quest_sprite: spr_quest_notice_move
+	
+	obj: box
+	obj_type: delivery
+	obj_item: random_box,random_box,random_box
+	obj_dest: pick_up_generate
+	obj_title: Deliver the boxes
+	obj_desc: Bring the items to §dest.
+	
+	
+	custom_person: 1
+	custom_person_name: "Moving Man"
+	custom_person_sprite: spr_sidequest_movingboxes
+	custom_person_sprite_done: spr_sidequest_movingboxes_delivered
+	custom_person_interact_x: 8
+	
+	dialogue_turn_in_greeting: 	sq_boxes_turn_in_greeting
+	dialogue_turn_in_reject: 	sq_boxes_turn_in_reject
+	dialogue_turn_in_done: 		sq_boxes_turn_in_done
+	dialogue_turn_in_complete: 	sq_boxes_turn_in_complete
+	
+	reward: money:60,skill_point:1
+
+}
+
+{
+	quest_name: gas_delivery
+	quest_title: Gas Delivery
+	quest_desc: My favourite band got stranded without money or gas! Please bring them some gas! It's urgent!
+	quest_type: side
+	quest_start_month: 5
+	quest_start_day: 22
+	quest_end_month: 5
+	quest_end_day: 28
+	quest_days: 2
+	
+	quest_sprite: spr_quest_notice_gas
+	
+	obj: box
+	obj_type: item_tag
+	obj_item_tag: gas
+	obj_title: Get some gas
+	obj_desc: Bring the item to §dest.
+	obj_dest: none
+	
+	obj: return
+	obj_type: dest
+	obj_dest: pick_up_generate
+	obj_title: Get to the friend
+	obj_desc: Bring the item to §dest.
+	
+	custom_person: 1
+	custom_person_name: "Friend in need"
+	custom_person_sprite: spr_sidequest_bandvan_girls
+	custom_person_sprite_done: spr_sidequest_bandvan_girls_delivered_gas
+	custom_person_interact_x: 64
+	
+	dialogue_turn_in_greeting: 	sq_gas_turn_in_greeting
+	dialogue_turn_in_reject: 	sq_gas_turn_in_reject
+	dialogue_turn_in_done: 		sq_gas_turn_in_done
+	dialogue_turn_in_complete: 	sq_gas_turn_in_complete
+	
+	reward: skill_point:1,item:tent
+
+}
+
+{
+	quest_name: beer_delivery
+	quest_title: Beer Delivery
+	quest_desc: We need beer for a party! It's in four days!
+	quest_type: side
+	quest_start_month: 5
+	quest_start_day: 22
+	quest_end_month: 5
+	quest_end_day: 28
+	quest_days: 4
+	
+	quest_sprite: spr_quest_notice_beer
+	
+	custom_person: 1
+	custom_person_name: "beer_delivery_guy"
+	custom_person_sprite: spr_sidequest_beer
+	custom_person_sprite_done: spr_sidequest_beer_delivered
+	custom_person_interact_x: 4
+	
+	dialogue_turn_in_greeting: 	sq_beer_turn_in_greeting
+	dialogue_turn_in_reject: 	sq_beer_turn_in_reject
+	dialogue_turn_in_done: 		sq_beer_turn_in_done
+	dialogue_turn_in_complete: 	sq_beer_turn_in_complete
+	
+	
+	obj: box
+	obj_type: delivery
+	obj_item: beer_case_green,beer_case_green
+	obj_dest: pick_up_generate
+	obj_title: Deliver the beer
+	obj_desc: Bring the item to §dest.
+	
+	reward: money:60,skill_point:1
+
+}
+
+{
+	quest_name: instrument_delivery
+	quest_title: Band needs help
+	quest_desc: Help a band in need! We need to get our gear to the show!
+	quest_type: side
+	quest_start_month: 5
+	quest_start_day: 22
+	quest_end_month: 5
+	quest_end_day: 28
+	quest_days: 3
+	quest_auto_complete:0
+	
+	custom_person: 1
+	custom_person_name: "band_girls_instrument_delivery"
+	custom_person_sprite: spr_sidequest_bandvan_girls
+	custom_person_sprite_done: spr_sidequest_bandvan_girls_delivered_instruments
+	custom_person_interact_x: 64
+	
+	dialogue_turn_in_greeting: 	sq_instrument_turn_in_greeting
+	dialogue_turn_in_reject: 	sq_instrument_turn_in_reject
+	dialogue_turn_in_done: 		sq_instrument_turn_in_done
+	dialogue_turn_in_complete: 	sq_instrument_turn_in_complete
+	
+	
+	
+	quest_sprite: spr_quest_notice_music
+	
+	obj: box
+	obj_type: delivery
+	obj_item: random_music_equipment,random_music_equipment,random_music_equipment,random_music_equipment,random_music_equipment
+	obj_dest: pick_up_generate
+	obj_title: Deliver the instruments
+	obj_desc: Bring the item to §dest.
+	
+	reward: money:70,skill_point:1
+}
+
+{
+	quest_name: pizza_delivery
+	quest_title: Pizza Delivery
+	quest_desc: We're short on staff and we need someone to deliver pizzas!
+	quest_type: side
+	quest_start_month: 5
+	quest_start_day: 22
+	quest_end_month: 5
+	quest_end_day: 28
+	quest_days: 1
+	quest_auto_complete:0
+	
+	quest_sprite: spr_quest_notice_pizza
+	
+	obj: pizza
+	obj_type: delivery
+	obj_item: pizza_veg
+	obj_dest: pick_up_generate
+	obj_title: Deliver the pizza
+	obj_desc: Bring the item to §dest.
+	
+	custom_person: 1
+	custom_person_name: "pizza_karl"
+	custom_person_sprite: spr_sidequest_pizzakarl
+	custom_person_sprite_done: spr_sidequest_pizzakarl_delivered
+	custom_person_interact_x: 0
+	
+	dialogue_turn_in_greeting: 	sq_pizza_turn_in_greeting
+	dialogue_turn_in_reject: 	sq_pizza_turn_in_reject
+	dialogue_turn_in_done: 		sq_pizza_turn_in_done
+	dialogue_turn_in_complete: 	sq_pizza_turn_in_complete
+	
+	reward: money:50,skill_point:2
+}
+
+{
+	quest_name: missing_cat
+	quest_title: Missing Cat
+	quest_desc: Our cat, Cookie, is missing! Has anyone seen her?
+	quest_type: side
+	quest_start_month: 5
+	quest_start_day: 22
+	quest_end_month: 5
+	quest_end_day: 28
+	quest_days: 9
+	quest_auto_complete:0
+	
+	quest_sprite: spr_quest_notice_cat
+	
+	obj: cat
+	obj_type: item
+	obj_dest: none
+	obj_item: cat
+	obj_title: Find the cat
+	obj_desc: It could be anywhere.	
+	
+	obj: return
+	obj_type: dest
+	obj_dest: pick_up_same
+	obj_title: Return the cat
+	obj_desc: Bring the item to §dest.
+	
+	custom_person: 1
+	custom_person_name: "cat_girl"
+	custom_person_sprite: spr_sidequest_catgirl
+	custom_person_sprite_done: spr_sidequest_catgirl_delivered
+	
+	dialogue_turn_in_greeting: 	sq_cat_turn_in_greeting
+	dialogue_turn_in_reject: 	sq_cat_turn_in_reject
+	dialogue_turn_in_done: 		sq_cat_turn_in_done
+	dialogue_turn_in_complete: 	sq_cat_turn_in_complete
+	
+	reward: money:100,skill_point:2
+}
+
+{
+	quest_name: film_extra
+	quest_title: Film Extra
+	quest_desc: Need a black car for shooting a movie. Got one?
+	quest_type: side
+	quest_start_month: 5
+	quest_start_day: 3
+	quest_end_month: 5
+	quest_end_day: 5
+	quest_days: 6
+	
+	obj: black_car
+	obj_type: special
+	obj_dest: none
+	obj_title: have a black car
+	obj_desc: Have a black car
+	
+	quest_sprite: spr_quest_notice_film
+	
+	obj: location
+	obj_type: dest
+	obj_title: Get to the set
+	obj_desc: Get to the film set
+	obj_dest: pick_up_generate
+	
+	custom_person: 1
+	custom_person_name: "film_director"
+	custom_person_sprite: spr_sidequest_filmcrew
+	custom_person_sprite_done: spr_sidequest_filmcrew_delivered
+	custom_person_interact_x: 100
+	
+	dialogue_turn_in_greeting: 	sq_film_turn_in_greeting
+	dialogue_turn_in_reject: 	sq_film_turn_in_reject
+	dialogue_turn_in_done: 		sq_film_turn_in_done
+	dialogue_turn_in_complete: 	sq_film_turn_in_complete
+	
+	reward: money:60
+}
+
+{
+	quest_name: advert
+	quest_title: Advertisement
+	quest_desc: We need you to drive around with our advert for WARRIOR ENERGY
+	quest_type: side
+	quest_start_month: 5
+	quest_start_day: 3
+	quest_end_month: 5
+	quest_end_day: 5
+	quest_days: 7
+	quest_auto_complete: 1
+	
+	quest_sprite: spr_quest_notice_commercial
+	
+	obj: advert
+	obj_type: inc
+	obj_inc_goal: 5
+	obj_dest: none
+	obj_title: Advertise!
+	obj_desc: Drive around with the advertisement on your car
+	
+	
+	reward: money:60
+}
+
+{
+	quest_name: test2
+	quest_title: Another quest
+	quest_desc: Unimportant side-quest. Skip it!
+	quest_type: test
+	quest_start_month: 5
+	quest_start_day: 3
+	quest_end_month: 5
+	quest_end_day: 5
+	quest_days: 6
+	
+	reward: none
+}
+
+//HH
+{
+	quest_name: hh_test
+	quest_title: Hitcher
+	quest_desc: Take §hh to the destination.
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drive the Hitchhiker
+	obj_desc: Get them to where they want to go.
+	obj_dest: pick_up_generate
+	
+	reward: money:100
+}
+
+{
+	quest_name: songwriter_sing
+	quest_title: Songwriting
+	quest_desc: Use the Songwriter's skills 8 times
+	quest_type: hh
+	quest_days: 10
+	
+	obj: songwriter_use_skills
+	obj_type: inc
+	obj_inc_goal: 8
+	obj_title: Use Songwriter skills
+	obj_desc: Inspire the songwriter
+	
+	dialogue_turn_in_complete: hh_songwriter_complete_quest
+	
+	reward: ailment:inspired,item:harmonica
+}
+
+{
+	quest_name: hurricane_drunk_driving
+	quest_title: Drunk Driving
+	quest_desc: The hurricane wants to see you drive wasted.
+	quest_type: hh
+	quest_days: 5
+	
+	obj: hurricane_road_drunk
+	obj_type: special
+	obj_title: Complete a road while drunk
+	obj_desc: Complete a road start-finish while drunk
+	
+	dialogue_turn_in_complete: hh_hurricane_complete_q1
+	
+	reward:skill_point:1,ailment:inspired,ailment:happy
+}
+
+{
+	quest_name: mechanic_upgrades
+	quest_title: Highway Star
+	quest_desc: The Mechanic wants to build the perfect car. Gather and install the parts that he wants.
+	quest_type: hh
+	quest_days: 20
+	
+	obj: upgrade
+	obj_type: upgrade
+	obj_upgrade:rally_wheels
+	obj_dest: none
+	obj_title: Install a Rally Wheels
+	obj_desc: Have Rally Wheels installed
+	
+	obj: upgrade
+	obj_type: upgrade
+	obj_upgrade:spoiler_2
+	obj_dest: none
+	obj_title: Install a Rally Spoiler
+	obj_desc: Have Rally Spoiler installed	
+	
+	obj: upgrade
+	obj_type: upgrade
+	obj_upgrade:roll_cage
+	obj_dest: none
+	obj_title: Install a Roll Cage
+	obj_desc: Have a Roll Cage installed	
+	
+	obj: upgrade
+	obj_type: upgrade
+	obj_upgrade:servo
+	obj_dest: none
+	obj_title: Install a Servo
+	obj_desc: Have a Servo installed
+	
+	dialogue_turn_in_complete: hh_mechanic_q_complete
+	
+	reward: item:toolbox,skill_point:1,item:upg_cartoon_mechanic
+}
+
+
+{
+	quest_name: hiker_go_mountain
+	quest_title: Mountain trail
+	quest_desc: The Hiker wants to see the great mountain. I should start by going to the mountain base!
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: dest
+	obj_title: Go to Mt.Base
+	obj_desc: Get them to where they want to go.
+	obj_dest: mountain_base
+	
+	dialogue_turn_in_complete:hh_hiker_complete_quest
+	
+	reward: item:upg_super_wide_tires,item:gas_tank_big
+}
+
+{
+	quest_name: punk_city_club
+	quest_title: Punk Club
+	quest_desc: The Punk wants to go to a punk club in a big city to the east.
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go_punk_city
+	obj_type: dest
+	obj_title: Go to the Eastern City
+	obj_desc: Get them to where they want to go.
+	obj_dest: hidden
+	obj_new_dest_id: city_east
+
+	
+	obj: find_club
+	obj_type: special
+	obj_title: Find the club
+	obj_desc: Find the punk club
+	obj_dest: none
+	
+	reward: none
+}
+
+
+{
+	quest_name: suit_get_to_work
+	quest_title: Job Opportunities
+	quest_desc: The Suit wants to visit an employment office. He says it's a great way to earn some extra cash!
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: special
+	obj_title: Visit an employment office
+	obj_desc: Get them to where they want to go.
+	obj_dest: employment_office
+	
+	dialogue_turn_in_complete: 	hh_suit_complete_q1
+	
+	reward: money:5,ailment:inspired
+}
+
+{
+	quest_name: suit_get_to_family
+	quest_title: I miss my family
+	quest_desc: The Suit wants to visit his family. Drop him off where he wants to go.
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drop off The Suit
+	obj_desc: Get them to where they want to go.
+	obj_dest: pick_up_generate
+	
+	dialogue_turn_in_complete: 	hh_suit_complete_q2
+	
+	reward: money:5,ailment:happy
+}
+
+{
+	quest_name: stranger_casino
+	quest_title: El Cobra
+	quest_desc: Take The Stranger to El Cobra
+	quest_type: hh
+	quest_days: 12
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drive The Stranger
+	obj_desc: Get them to where they want to go.
+	obj_dest: hidden
+	obj_new_dest_id: casino
+	
+	dialogue_turn_in_complete:hh_stranger_q1_complete
+	
+	reward: money:10,item:knife_small
+}
+
+{
+	quest_name: stranger_debt
+	quest_title: The Stranger's Debt
+	quest_desc: You need to get money to pay off the Stranger's debt. 300 bucks he said.
+	quest_type: hh
+	quest_days: 8
+	
+	obj: debt
+	obj_type: special
+	obj_title: Gather 300 cash
+	obj_desc: Pay the stranger
+
+	
+	dialogue_turn_in_complete:hh_stranger_q2_complete
+	
+	reward: item:knife_small_golden
+}
+
+{
+	quest_name: kid_dad_1
+	quest_title: Help the Kid
+	quest_desc: The Kid is looking for her dad. She told you where he lives.
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drive The Kid
+	obj_desc: Get them to where they want to go.
+	obj_dest: pick_up_generate
+	
+	dialogue_turn_in_complete: 	hh_kid_q1
+	
+	reward: item:skittles
+}
+
+{
+	quest_name: kid_dad_2
+	quest_title: Help the Kid
+	quest_desc: The Kid is looking for her dad. She told you where he lives. This time it's the right address.
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drive The Kid
+	obj_desc: Get them to where they want to go.
+	obj_dest: pick_up_generate
+	
+	dialogue_turn_in_complete: 	hh_kid_q2
+	
+	reward: item:skittles
+}
+
+{
+	quest_name: kid_dad_3
+	quest_title: Help the Kid
+	quest_desc: The Kid is looking for her dad. She told you where he lives. This time it's the right address. For real!
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drive The Kid
+	obj_desc: Get them to where they want to go.
+	obj_dest: pick_up_generate
+	
+	dialogue_turn_in_complete: 	hh_kid_q3
+	
+	reward: item:skittles
+}
+
+{
+	quest_name: kid_dad_4
+	quest_title: Help the Kid
+	quest_desc: You're basically aimlessly looking for this Kid's dad now.
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drive The Kid
+	obj_desc: Get them to where they want to go.
+	obj_dest: pick_up_generate
+	
+	dialogue_turn_in_complete: 	hh_kid_q4
+	
+	reward: item:skittles
+}
+
+{
+	quest_name: kid_auth
+	quest_title: Missing Child
+	quest_desc: Have you Seen this kid? If you see her -please bring her to this address!
+	quest_type: hh
+	quest_days: 20
+	
+	quest_sprite: spr_quest_notice_kid
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drive The Kid
+	obj_desc: Get them to where they need to go.
+	obj_dest: pick_up_generate
+	
+	dialogue_turn_in_complete: hh_kid_complete
+	
+	reward: money:100,item:teddy_bunny
+}
+
+{
+	quest_name: idiot_mission
+	quest_title: Visit Sis
+	quest_desc: Take The Idiot to his sister.
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drive The Idiot
+	obj_desc: Get them to where they want to go.
+	obj_dest: hidden
+	obj_new_dest_id: graveyard
+	
+	dialogue_turn_in_complete:hh_idiot_q_complete
+	
+	reward: skill_point:1,music:dorena
+}
+
+{
+	quest_name: convict_escape
+	quest_title: The Great Escape
+	quest_desc: Help the convict escape. He says he knows a light house keeper that can help him.
+	quest_type: hh
+	quest_days: 8
+	
+	obj: go
+	obj_type: dest
+	obj_title: Drive to the light house
+	obj_desc: Get them to where they want to go.
+	obj_dest: light_house
+	
+	dialogue_turn_in_complete:hh_convict_q_complete
+	
+	reward: skill_point:1,item:gun
+}
+
+
+{
+	quest_name: bride_fun_stuff
+	quest_title: Good times
+	quest_desc: The Bride needs to cool off, relax and have a good time!
+	quest_type: hh
+	quest_days: 20
+	
+	obj: consume_alcohol
+	obj_type: inc
+	obj_inc_goal: 1
+	obj_title: Share a drink
+	obj_desc: Drink alcohol		
+	
+	obj: relax
+	obj_type: inc
+	obj_inc_goal: 1
+	obj_title: Relax
+	obj_desc: Relax in any way you see fit
+	
+	obj: escape_from_event
+	obj_type: inc
+	obj_inc_goal: 1
+	obj_title: Escape from Road event
+	obj_desc: become happy
+	
+	dialogue_turn_in_complete:hh_bride_complete_quest_1
+	
+	reward: ailment:happy,skill_point:1
+}
+
+{
+	quest_name: bride_go_home
+	quest_title: Go back home
+	quest_desc: The Bride wants to go to her parents.
+	quest_type: hh
+	quest_days: 20
+	
+	obj: get_to_brides_home
+	obj_type: dest
+	obj_title: Drive the Bride
+	obj_desc: Get them to where they want to go.
+	obj_dest: pick_up_generate
+	
+	dialogue_turn_in_complete:hh_bride_complete_quest_2
+	
+	reward: ailment:happy,skill_point:1,item:pipe
+}

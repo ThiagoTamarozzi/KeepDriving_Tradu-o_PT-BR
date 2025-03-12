@@ -1,0 +1,872 @@
+
+//////////////////////////////////CAR MENU
+{
+	dev_name: car_menu_sleep_option
+	name: Rest
+}
+
+{
+	dev_name: car_menu_sleep_desc
+	name: Rest in your car. Refresh skill uses. energy+%t Durability-%t
+}
+
+{
+	dev_name: car_menu_sleep_desc_tent
+	name: Rest in your tent. Refresh skill uses. energy+%t Durability-%t
+}
+
+{
+	dev_name: car_menu_sleep_desc_tent_rack
+	name: Rest in your car-top-tent. Refresh skill uses. energy+%t Durability-%t
+}
+
+{
+	dev_name: car_menu_journal_option
+	name: Journal
+}
+
+{
+	dev_name: car_menu_journal_desc
+	name: Learn and equip skills. View traits
+}
+{
+	dev_name: car_menu_calendar_option
+	name: Calendar
+}
+
+{
+	dev_name: car_menu_calendar_desc
+	name: Look at your calendar and task log.
+}
+
+//TOP CLOSE
+
+{
+	dev_name: top_close_button_title
+	name: Close
+}
+{
+	dev_name: top_close_button_desc
+	name: Closes active menu
+}
+
+
+//SKILL DEFINITION STUFF
+
+{
+	dev_name: threat_desc_title
+	name: Threat
+}
+
+{
+	dev_name: threat_desc
+	name: Each threat represent one of your resources and will damage that resource when attacking. Remove all threat to complete a road event. 
+}
+{
+	dev_name: armor_desc_title
+	name: Armor
+}
+
+{
+	dev_name: armor_desc
+	name: Protects you from one attack during a road event. Disappears after the event.
+}
+
+{
+	dev_name: exhausted_desc_title
+	name: Exhausted
+}
+
+{
+	dev_name: exhausted_desc
+	name: A skill with no uses left.
+}
+
+{
+	dev_name:locked_skill_hover
+	name: [#E4ACF1]Right-click to see details.[/color] This skill is locked and costs % skill points to unlock. Click and hold to unlock.
+}
+
+{
+	dev_name:owned_skill_hover
+	name: [#E4ACF1]Right-click to see details.[/color] Drag skill to the skill bar in the top to equip this skill. 
+}
+
+{
+	dev_name:unavailable_skill_hover
+	name: [#E4ACF1]Right-click to see details.[/color] This skill is locked. Unlock skills connected to this one to access it. 
+}
+
+
+//during events
+{
+	dev_name: "re_targeting_title"
+	name: "Targeting"
+}
+{
+	dev_name: "re_targeting"
+	name: "Align your threat targets with the threat in the road event display"
+}
+
+//threat status
+
+//ATTACK
+{
+	dev_name: "threat_attacking_title"
+	name: "Warning"
+}
+
+{
+	dev_name: "threat_attacking"
+	name: "This threat will damage you by one unit."
+}
+//DEBUFF
+{
+	dev_name: "threat_debuff_title"
+	name: "Debuff"
+}
+{
+	dev_name: "threat_debuff"
+	name: "This threat will give you one random negative status effect"
+}
+//SHIELD
+{
+	dev_name: "threat_shield_title"
+	name: "Shield"
+}
+{
+	dev_name: "threat_shield"
+	name: "When you hit this threat, remove the shield instead of the threat. Will damage you by one unit."
+}
+//CRIT
+{
+	dev_name: "threat_crit_title"
+	name: "DANGER"
+}
+{
+	dev_name: "threat_crit"
+	name: "This threat will damage you by two units"
+}
+//BOMB
+{
+	dev_name: "threat_bomb_title"
+	name: "Note"
+}
+{
+	dev_name: "threat_bomb"
+	name: "When you hit this threat, also remove adjacent threat"
+}
+
+//THREAT TARGET DESCS
+//ENERGY
+{
+	dev_name:target_energy_desc_title
+	name: Energy
+	ignore_def:1
+}
+{
+	dev_name:target_energy_desc
+	name: Align with a threat of the same type to remove it.
+}
+
+//GAS
+{
+	dev_name:target_gas_desc_title
+	name: Gas
+	ignore_def:1
+}
+{
+	dev_name:target_gas_desc
+	name: Align with a threat of the same type to remove it.
+}
+
+//MONEY
+{
+	dev_name:target_money_desc_title
+	name: Cash
+	ignore_def:1
+}
+{
+	dev_name:target_money_desc
+	name: Align with a threat of the same type to remove it.
+}
+
+//DURABILITY
+{
+	dev_name:target_durability_desc_title
+	name: Durability
+	ignore_def:1
+}
+{
+	dev_name:target_durability_desc
+	name: Align with a threat of the same type to remove it.
+}
+
+//NONE
+{
+	dev_name:target_none_desc_title
+	name: Space
+}
+{
+	dev_name:target_none_desc
+	name: Won't destroy any threat.
+}
+
+//ALL
+{
+	dev_name:target_all_desc_title
+	name: All
+}
+{
+	dev_name:target_all_desc
+	name: Align with ANY threat to remove it.
+}
+////////////////////////////////////GAS PEDAL
+
+{
+	dev_name: gp_title
+	name: Gas Pedal
+}
+//event
+{
+	dev_name: gp_event
+	name: Press once to skip your turn. Hold to escape current event, taking remaining threat damage.
+}
+
+//event
+{
+	dev_name: gp_normal
+	name: Use during events to escape or skip the player phase.
+}
+////////////////////////////////////BREAK
+
+{
+	dev_name: bp_title
+	name: Brake Pedal
+}
+//event
+{
+	dev_name: bp_desc
+	name: Press to close any open menu and pause the game.
+}
+
+
+///////////////////////////////////////////////////////////////////////Journal
+{
+	dev_name: journal_learn_skill_title
+	name: Learn Skill
+}
+
+{
+	dev_name: journal_learn_skill_text
+	name: Spend one skill pont to learn §skill?
+}
+
+{
+	dev_name: journal_not_enough_skill_points
+	name: Not enough skill points
+}
+
+
+
+/////////////////////////////DEST OPTIONS
+//WORK
+{
+	dev_name: dest_option_work_title
+	name: Work
+}
+{
+	dev_name: dest_option_work_desc
+	name: Work to earn cash
+}
+//SHOP
+{
+	dev_name: dest_option_shop_title
+	name: Shop
+}
+
+{
+	dev_name: dest_option_shop_desc
+	name: Buy and sell goods
+}
+
+{
+	dev_name: dest_option_part_shop_title
+	name: Car Part Shop
+}
+{
+	dev_name: dest_option_part_shop_desc
+	name: Buy car parts here
+}
+
+{
+	dev_name: dest_option_thrift_shop_title
+	name: Thrift Store
+}
+{
+	dev_name: dest_option_thrift_shop_desc
+	name: Buy antiques. Sell items for more cash here.
+}
+
+
+{
+	dev_name: shop_buy_title
+	name: Buy item
+}
+
+{
+	dev_name: shop_buy_desc
+	name: Drag item to your trunk to buy it.
+}
+
+//PLAYER HOME
+{
+	dev_name: dest_option_home_title
+	name: Home
+}
+{
+	dev_name: dest_option_home_desc
+	name: Your home
+}
+//CULTURE
+{
+	dev_name: dest_option_culture_title
+	name: Culture
+}
+{
+	dev_name: dest_option_culture_desc
+	name: Point of interest
+}
+
+
+//BAR
+{
+	dev_name: dest_option_bar_title
+	name: Bar
+}
+{
+	dev_name: dest_option_bar_desc
+	name: Pick up quests to gain cash and skill points
+}
+
+//CAFE
+{
+	dev_name: dest_option_cafe_title
+	name: Cafe/Pub
+}
+{
+	dev_name: dest_option_cafe_desc
+	name: Pick up quests to gain cash and skill points
+}
+//CAFE & BAR
+{
+	dev_name: dest_option_cafe_bar_title
+	name: Cafe/Pub
+}
+{
+	dev_name: dest_option_cafe_bar_desc
+	name: Pick up quests to gain cash and skill points
+}
+//GARAGE
+{
+	dev_name: dest_option_garage_title
+	name: Garage
+}
+{
+	dev_name: dest_option_garage_desc
+	name: Install and buy upgrades for your car. Repair car.
+}
+
+{
+	dev_name: garage_extra_space_fail_title
+	name: Empty space!
+}
+
+{
+	dev_name: garage_extra_space_fail
+	name: Remove items in extra space before removing this upgrade
+}
+
+
+
+//GAS
+{
+	dev_name: dest_option_gas_title
+	name: Gas Station
+}
+{
+	dev_name: dest_option_gas_desc
+	name: Refuel your car
+}
+//HOSTEL
+{
+	dev_name: dest_option_hostel_title
+	name: Hostel
+}
+{
+	dev_name: dest_option_hostel_desc
+	name: Pay to rest in a comfortable bed.
+}
+
+//EXPLORE
+{
+	dev_name: dest_option_explore_title
+	name: Explore
+}
+{
+	dev_name: dest_option_explore_desc
+	name: Explore to find rare items.
+}
+
+
+//PHONE
+{
+	dev_name: car_menu_phone_option
+	name: Call Parents
+}
+
+{
+	dev_name: car_menu_phone_desc
+	name: Call your parents for help.
+}
+
+{
+	dev_name: car_menu_phone_desc_warning
+	name: [#FF4535]%t% chance of success. If you fail, lose the game.[/color]
+}
+//TOW
+{
+	dev_name: car_menu_tow_option
+	name: Call Tow Truck
+}
+
+{
+	dev_name: car_menu_tow_desc
+	name: Call a tow truck to get back to last destination and repair car. money-50
+}
+//WALK
+{
+	dev_name: car_menu_walk_option
+	name: Walk
+}
+
+{
+	dev_name: car_menu_walk_desc
+	name: Walk to get gas for your car. energy-5 money-30 gas+7
+}
+
+//FUEL
+{
+	dev_name: fuel_pump_title
+	name: Gas Pump
+}
+
+{
+	dev_name: fuel_pump_desc
+	name: Hold to fuel your car.
+}
+
+{
+	dev_name: fuel_accept_title
+	name: Accept
+}
+
+{
+	dev_name: fuel_accept_desc
+	name: Accept gas amount and pay.
+}
+{
+	dev_name: fuel_reset_title
+	name: Reset
+}
+
+{
+	dev_name: fuel_reset_desc
+	name: Reset gas amount.
+}
+
+
+//KEEP DRIVING
+
+{
+	dev_name: car_menu_black_ou_keep_driving_title
+	name: Keep Driving
+}
+
+{
+	dev_name: car_menu_black_ou_keep_driving_desc
+	name: Get back on the road!
+}
+
+{
+	dev_name: car_menu_black_ou_keep_driving_dest_title
+	name: Shape up!
+}
+
+{
+	dev_name: car_menu_black_ou_keep_driving_dest_desc
+	name: Everything is under control!
+}
+
+{
+	dev_name: cant_drive_title
+	name: Can't drive
+}
+
+{
+	dev_name: cant_drive_desc
+	name: You/Your car is not in shape for the road
+}
+
+/////////////////////////////////////////////////////////INVENTORY
+{
+	dev_name: inventory_seat_hover
+	name: Empty seat
+}
+
+{
+	dev_name: inventory_seat_hover_desc
+	name: Right click to lower seat
+}
+{
+	dev_name: inventory_seat_hover_lowered
+	name: Lowered seat
+}
+
+{
+	dev_name: inventory_seat_hover_desc_lowered
+	name: Right click to raise
+}
+
+{
+	dev_name: hh_inv_drag_desc
+	name: Click and drag to move around passengers in your car.
+}
+
+//ROAD TYPES DESCS
+
+{
+	dev_name: road_type_desc_motorway
+	name: Tends to be draining on both your energy and gas. Threat on motorways can give you negative status effects.
+}
+
+{
+	dev_name: road_type_desc_country
+	name: Calm and quiet road. Tends to be more taxing on your energy.
+}
+
+{
+	dev_name: road_type_desc_rough
+	name: The durability of your car will surely take a hit or two. Some threat will be shielded and extra tough to remove.
+}
+
+{
+	dev_name: road_type_desc_city
+	name: Both your money and energy will be in danger here. Chance of encountering danger-threat (deals double damage)
+}
+
+//HOSTEL
+{
+	dev_name: hostel_12_title
+	name: 12 Hour room
+}
+
+{
+	dev_name: hostel_6_title
+	name: 6 Hour room
+}
+
+{
+	dev_name: hostel_morning_title
+	name: Stay until Morning
+}
+
+{
+	dev_name: hostel_general_desc
+	name: Fully restore energy, cure hunger, and become happy.
+}
+
+{
+	dev_name: hostel_night_title
+	name: Stay until Nightfall
+}
+
+{
+	dev_name: hostel_12_desc
+	name: Rest for 12 hours. Restore all energy and get 1 extra energy. Cure hunger.
+}
+{
+	dev_name: hostel_6_desc
+	name: Rest for 6 hours. Restore all energy.
+}
+
+//ROAD SUMMARY
+
+{
+	dev_name: road_summary_graph_text
+	name: Road Resource Changes
+}
+
+
+//GARAGE
+
+{
+	dev_name: garage_drag_tooltip
+	name: Drag an upgrade here to install it.
+}
+{
+	dev_name: garage_view_tooltip
+	name: Visit a garage to install an upgrade here.
+}
+
+//INTROSPECTIONS
+{
+	dev_name: "introspection_close_text"
+	name: "Press anywhere to close"
+}
+
+
+///////////////////GENERAL
+
+//ENERGY
+{
+	dev_name: "not_enough_energy_title"
+	name: "Too tired"
+}
+
+{
+	dev_name: "not_enough_energy_desc"
+	name: "Not enough energy"
+	ignore_def:1
+}
+//MONEY
+{
+	dev_name: "not_enough_money_title"
+	name: "Too poor"
+}
+
+{
+	dev_name: "not_enough_money_desc"
+	name: "Not enough cash"
+	ignore_def:1
+}
+//DURABILITY
+{
+	dev_name: "not_enough_durability_title"
+	name: "Car shape bad"
+}
+
+{
+	dev_name: "not_enough_durability_desc"
+	name: "Not enough durability"
+	ignore_def:1
+}
+
+//DURABILITY
+{
+	dev_name: "not_enough_gas_title"
+	name: "Gas low"
+}
+
+{
+	dev_name: "not_enough_gas_desc"
+	name: "Not enough gas"
+	ignore_def:1
+}
+
+//WORK
+
+{
+	dev_name: "work_title"
+	name: "WORK.EXE"
+}
+
+{
+	dev_name: "work_cost"
+	name: "!Energy"
+}
+
+{
+	dev_name: "work_inspired"
+	name: "!Inspired"
+}
+
+{
+	dev_name: "work_pay"
+	name: "!Pay"
+}
+{
+	dev_name: "work_none"
+	name: "ERROR: Service unavailable"
+}
+
+//SPECIC
+{
+	dev_name: no_wheels_leave_title
+	name: No wheels
+}
+
+//SPECIC
+{
+	dev_name: no_wheels_leave_desc
+	name: You can't drive because you have no wheels equipped.
+}
+
+//LEAVE DEST OPEN MAP
+{
+	dev_name: leave_dest_map_title
+	name: Leave
+}
+
+{
+	dev_name: leave_dest_map_desc
+	name: You need to select a destination before leaving. Open map?
+}
+///////////////////////////////////MAP
+{
+	dev_name: map_eye_icon_title
+	name: Toggle map visibliity
+}
+{
+	dev_name: map_eye_icon_text
+	name: Press to toggle visibilty of map icon
+}
+
+
+///////////////////////////////////MUSIC MENU
+//PLAY
+{
+	dev_name: mm_play_title
+	name: Play
+}
+{
+	dev_name: mm_play
+	name: Play current track
+}
+//PAUSE
+{
+	dev_name: mm_pause_title
+	name: Pause
+}
+{
+	dev_name: mm_pause
+	name: Pause current track
+}
+//STOP
+{
+	dev_name: mm_stop_title
+	name: Stop
+}
+{
+	dev_name: mm_stop
+	name: Stop playing music
+}
+//NEXT
+{
+	dev_name: mm_next_title
+	name: Next
+}
+{
+	dev_name: mm_next
+	name: Play next track
+}
+//BACK
+{
+	dev_name: mm_back_title
+	name: Back
+}
+{
+	dev_name: mm_back
+	name: Play previous track.
+}
+//EJECT
+{
+	dev_name: mm_eject_title
+	name: Eject
+}
+{
+	dev_name: mm_eject
+	name: Stop playing music and go to edit mode.
+}
+//DRAG SONG
+{
+	dev_name: mm_drag_song_title
+	name: Move track
+}
+{
+	dev_name: mm_drag_song
+	name: Press and hold to drag the track
+}
+//TOPUP TRACK
+{
+	dev_name: mm_topup_title
+	name: Move to top
+}
+{
+	dev_name: mm_topup
+	name: Move track to the top of the playlist
+}
+//EDIT MODE
+{
+	dev_name: mm_edit_mode_title
+	name: Edit Playlist
+}
+{
+	dev_name: mm_edit_mode
+	name: Click a track to add it to the playlist. Push the CD to finish editing
+}
+//CD
+{
+	dev_name: mm_cd_title
+	name: Finalize CD
+}
+{
+	dev_name: mm_cd
+	name: Push CD to finish editing your playlist.
+}
+
+
+//STAT DESCRIPTIONS
+//ENERGY
+{
+	dev_name: stat_energy_title
+	name: Energy
+	ignore_def:1
+}
+{
+	dev_name: stat_energy_desc
+	name: Can be restored by resting or through items.
+}
+
+//GAS
+{
+	dev_name: stat_gas_title
+	name: Gas
+	ignore_def:1
+}
+{
+	dev_name: stat_gas_desc
+	name: Passively drains while driving. Restore at gas stations.
+}
+
+//MONEY
+{
+	dev_name: stat_money_title
+	name: Cash
+	ignore_def:1
+}
+{
+	dev_name: stat_money_desc
+	name: Used to buy things. You can earn cash by working at an employment office or by selling items.
+}
+
+//durability
+{
+	dev_name: stat_durability_title
+	name: Durability
+	ignore_def:1
+}
+{
+	dev_name: stat_durability_desc
+	name: Represents the state of your vehicle. You can repair durability at garages.
+}

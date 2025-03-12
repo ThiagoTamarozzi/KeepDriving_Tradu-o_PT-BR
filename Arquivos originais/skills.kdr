@@ -1,0 +1,1308 @@
+///////////SKILLS
+///PLAYER
+
+{
+	dev_name: "have_a_go"
+	title:"Have a go"
+	tribe: "player"
+	type: "basic"
+	cost_string: "energy:1"
+	threat: 3
+	target: all
+	swift: 0
+	uses: 999
+	pattern: A
+	text: none
+	sprite: "spr_skill_bg_polaroid_have_a_go"
+}
+
+{
+	dev_name: "improvise"
+	title:"Improvise"
+	tribe: "player"
+	type: "special"
+	condition: "energy_half"
+	cost_string: "none"
+	threat: 2
+	target: energy
+	uses: 999
+	text: "Remove one threat randomly. Only usable when at 5 or less energy"
+	sprite: "spr_skill_background_patch_improvise"
+}
+
+{
+	dev_name: "relax"
+	title:"Relax"
+	tribe: "player"
+	type: "basic"
+	cost_string: "none"
+	threat: 2
+	target: energy
+	pattern: EXG
+	uses: 4
+	text: none
+	sprite: spr_skill_background_sitting_window
+}
+
+{
+	dev_name: "early_durability"
+	title:"New Driver"
+	tribe: "player"
+	type: "basic"
+	cost_string: "energy:0"
+	threat: 2
+	target: energy
+	pattern: D
+	uses: 4
+	text: none
+	sprite: spr_skill_bg_polaroid_instruct
+}
+
+{
+	dev_name: "spend_to_gain"
+	title:"Spend to Gain"
+	tribe: "player"
+	type: "basic"
+	cost_string: money:1
+
+	pattern: EAE
+	uses: 5
+	text: If you get a perfect with this skill, restore one use to ALL skills and gain 10 cash
+	sprite: "spr_skill_bg_polaroid_generous"
+}
+
+{
+	dev_name: "resourceful"
+	title:"Resourceful"
+	tribe: "player"
+	type: "basic"
+	cost_string: none
+	threat: 2
+	target: money
+	pattern: "XX"
+	swift: 1
+	uses: 5
+	text: Remove warnings and SWAP the position of threat targeted with this
+	sprite: "spr_skill_bg_polaroid_resourceful"
+}
+
+
+{
+	dev_name: "eco_driving"
+	title:"Eco-driving"
+	tribe: "player"
+	type: "basic"
+	cost_string: energy:1
+	threat: 2
+	target: gas
+	pattern: GGG
+	uses: 3
+	text: If you get a perfect with this skill, gain 1 gas
+	swift: 1
+	sprite: "spr_skill_bg_polaroid_eco_driving"
+}
+
+{
+	dev_name: "drive_safe"
+	title:"Drive Fast"
+	tribe: "player"
+	type: "basic"
+	cost_string: gas:1
+	threat: 2
+	target: durability
+	pattern: AA
+	uses: 3
+	text: none
+	sprite: "spr_skill_bg_polaroid_drive_safe"
+}
+
+
+{
+	dev_name: "patience"
+	title:"Patience"
+	tribe: "player"
+	type: "special"
+	cost_string: "energy:1"
+	threat: 0
+	target: all
+	uses: 5
+	text: Remove 1 threat for each skill used this event. (§skills_used)
+	sprite: spr_skill_background_patch_mountain_1
+}
+
+{
+	dev_name: "cheap"
+	title:"Cheap"
+	tribe: "player"
+	type: "basic"
+	cost_string: "durability:1"
+	threat: 3
+	target: gas
+	target_extra: money
+	pattern: MGM
+	uses: 6
+	text: none
+}
+
+{
+	dev_name: "ambitious_plan"
+	title:"Ambitious Plan"
+	tribe: "player"
+	type: "special"
+	cost_string: "money:1"
+	threat: 0
+	target: all
+	uses: 4
+	text: make one random attacking threat into a note
+}
+
+{
+	dev_name: "confidence"
+	title:"Confidence"
+	tribe: "player"
+	type: "basic"
+	cost_string: "none"
+	condition: "energy_full"
+	threat: 1
+	target: all
+	uses: 3
+	pattern: EAE
+	text: "Can only be used when at max energy"
+	sprite: "spr_skill_bg_polaroid_step_on_it"
+}
+
+{
+	dev_name: "suicide"
+	title:"Suicide"
+	tribe: "player"
+	type: "basic"
+	cost_string: "energy:4"
+	threat: 1
+	target: all
+	uses: 99999
+	pattern: A
+	text: "uses a lot of energy"
+	sprite: "spr_skill_img_confidence"
+}
+
+//FOOD SKILLS
+
+{
+	dev_name: "apetite"
+	title:"Appetite"
+	tribe: "player"
+	type: "basic"
+	cost_string: "energy:0"
+
+	uses: 5
+	pattern: AXA
+	text: "Become hungry"
+	sprite: "spr_skill_background_polaroid_tomato"
+}
+
+{
+	dev_name: "hunger_rage"
+	title:"Irritated"
+	tribe: "player"
+	type: "special"
+	cost_string: "energy:0"
+
+	uses: 4
+	text: "Become tired. Destroy one random threat. Repeat for each stack of tired"
+	sprite: spr_skill_background_patch_raccoon"
+}
+
+{
+	dev_name: "gourmet"
+	title:"Gourmet"
+	tribe: "player"
+	type: "special"
+	cost_string: "none"
+	
+	condition: food_item
+	
+	uses: 3
+	swift: 1
+	
+	text: "Consume a food item in your trunk. Cure all hunger. Gain energy relative to price of item consumed"
+	sprite: spr_skill_background_kebab
+}
+
+{
+	dev_name: "cravings"
+	title:"Cravings"
+	tribe: "player"
+	type: "basic"
+	cost_string: "none"
+	condition: "hungry"
+
+	uses: 4
+	pattern: EA
+	
+	text: "Only usable while hungry"
+	sprite: "spr_skill_background_polaroid_37"
+}
+
+{
+	dev_name: "fine_dining"
+	title:"Stomach Growl"
+	tribe: "player"
+	type: "basic"
+	cost_string: "none"
+	
+	uses: 3
+	pattern:AXEXA
+	swift: 0
+	
+	text: "If hungry: gain one armor. If drunk: become Satisfied"
+	sprite: spr_skill_background_polaroid_39
+}
+
+
+///SOCIAL SKILLS
+
+{
+	dev_name: "social_free"
+	title:"Encourage"
+	tribe: "player"
+	type: "basic"
+	cost_string: "energy:4"
+	pattern: AA
+
+	uses: 3
+	text: "If you're social, this costs nothing"
+	sprite: "spr_skill_background_polaroid_encourage"
+}
+
+{
+	dev_name: "road_trip_2"
+	title:"Road Trip!"
+	tribe: "player"
+	type: "basic"
+	cost_string: "energy:0"
+	pattern: EE
+
+	uses: 3
+	text: "Getting perfect with this gives you the social status"
+	sprite: "spr_skill_background_roadtrip"
+}
+
+{
+	dev_name: "rowdy_bunch"
+	title:"Rowdy bunch"
+	tribe: "player"
+	type: "special"
+	cost_string: "none"
+
+	uses: 2
+	text: "Destroy one random threat. Repeat for each hitchhiker in your car
+	sprite: "spr_skill_background_patch_improvise"
+}
+
+{
+	dev_name: "hh_restore"
+	title:"Cheer"
+	tribe: "player"
+	type: "special"
+	cost_string: "energy:0"
+	swift: 1
+	uses: 3
+	text: "Restore one use to each hitchhiker skill"
+	sprite: "spr_skill_background_patch_walking"
+}
+
+{
+	dev_name: "sing_along"
+	title:"Team-Work"
+	tribe: "player"
+	type: "special"
+	cost_string: "none"
+	swift:1
+
+	uses: 5
+	text: "Become Happy. Whenever you use a hitchhiker skill this event: Restore one energy"
+	sprite: "spr_skill_background_baum"
+}
+
+///CAR
+{
+	dev_name: "overdrive"
+	title:"Overdrive"
+	tribe: "car"
+	type: "basic"
+	cost_string: "durability:1"
+	threat: 3
+	target: all
+	pattern: GAG
+	uses: 999
+	text: none
+}
+{
+	dev_name: "sixth_gear"
+	title:"Slip Shifting!"
+	tribe: "car"
+	type: "basic"
+	cost_string: "durability:1"
+	threat: 3
+	target: gas
+	pattern: AG
+	uses: 5
+	text: none
+	sprite: spr_skill_bg_polaroid_gear_down
+}
+
+
+{
+	dev_name: "step_on_it"
+	title: "Step on it!"
+	tribe: "car"
+	type: "basic"
+	cost_string: none
+	threat: 2
+	target: energy
+	target_extra: money
+	pattern: DGD
+	uses: 3
+	text: If you escape after using this skill, gain 3 armor
+	sprite: spr_skill_bg_polaroid_step_on_it
+}
+{
+	dev_name: "nice_seats"
+	title:"Nice seats!"
+	tribe: "car"
+	type: "basic"
+	cost_string: "durability:1"
+	threat: 3
+	target: energy
+	uses: 999
+	pattern: EEGEE
+	text: none
+	sprite: "spr_skill_img_nice_seats"
+}
+
+{
+	dev_name: "pull_through"
+	title:"Pull through!"
+	tribe: "car"
+	type: "basic"
+	cost_string: "gas:1"
+	threat: 4
+	target: durability
+	pattern: EGGE
+	uses: 4
+	text: none
+}
+{
+	dev_name: "nice_wheels"
+	title:"Nice Wheels"
+	tribe: "car"
+	type: "special"
+	cost_string: "durability:1"
+	condition: wheel_equipped
+
+	uses: 4
+	text: Trigger the effect of your wheels
+	sprite: spr_skill_background_patch_nice_wheels
+}
+
+{
+	dev_name: "power_break"
+	title:"Random Knowledge"
+	tribe: "car"
+	type: "special"
+	cost_string: "durability:2"
+
+	uses: 3
+	text: Destroy 1-6 random threat
+	sprite: spr_skill_background_vitriol
+}
+
+{
+	dev_name: "nice_seats"
+	title:"Nice seats!"
+	tribe: "car"
+	type: "basic"
+	cost_string: "durability:1"
+	threat: 3
+	target: energy
+	uses: 4
+	text: none
+}
+
+{
+	dev_name: "running_on_fumes"
+	title:"Running on fumes"
+	tribe: "car"
+	type: "basic"
+	cost_string: "gas:3"
+	threat: 3
+	target: all
+	uses: 4
+	pattern: AAA
+	text: "Costs 1 less for each exhausted skill"
+	sprite: "spr_skill_background_polaroid_fumes"
+}
+
+////HH SKILLS
+
+{
+	dev_name: "instruct"
+	title:"Instruct"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+	threat: 2
+	target: durability
+	pattern: DD
+	uses: 4
+	text: none
+	sprite: "spr_ui_skill_mechanic_polaroid_troubleshoot_b"
+}
+{
+	dev_name: "eco_reminder"
+	title:"Eco-reminder"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "energy:1"
+	threat: 2
+	target: gas
+	pattern:GG
+	swift: 1
+	uses: 3
+	text: none
+}
+{
+	dev_name: "excuse"
+	title:"Excuse"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+	threat: 5
+	target: money
+	target_extra: energy
+	pattern: EM
+	swift: 1
+	uses: 4
+	text: none
+	sprite: "spr_ui_skill_suit_polaroid_excuse"
+}
+{
+	dev_name: "backrubber"
+	title:"Flirt"
+	tribe: "hh"
+	type: "special"
+	cost_string: "none"
+	threat: 0
+	discount: 2
+	target: energy
+	swift: 1
+	uses: 3
+	//text: reduce the §target cost of next skill by 2
+	text: Become ail_inspired and tired
+	sprite: "spr_ui_skill_girl_active_backrub"
+}
+
+{
+	dev_name: "lose_status"
+	title:"Mindfulness"
+	tribe: "hh"
+	type: "special"
+	cost_string: "none"
+	threat: 0
+	swift: 1
+	uses: 4
+	text: Remove ALL status effects
+	sprite: "spr_ui_skill_girl_active_nirvana"
+}
+
+{
+	dev_name: "knowitall"
+	title:"Mr. know-it-all"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "energy:4"
+	threat: 4
+	target: all
+	pattern: AA
+	uses: 2
+	text: none
+}
+
+{
+	dev_name: "super_cheer"
+	title:"Back Rub"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+	threat: 3
+	target: energy
+	pattern: EEEE
+	uses: 2
+	text: none
+	sprite: spr_ui_skill_girl_polaroid_supercheer
+}
+
+
+{
+	dev_name: "refreshing_thoughts"
+	title:"Refreshing thoughts"
+	tribe: "hh"
+	type: "special"
+	cost_string: "none"
+	threat: 3
+	target: energy
+	uses: 2
+	text: "Restore 3 energy"
+	sprite: "spr_skill_background_walkin"
+}
+
+
+{
+	dev_name: "smoke_break"
+	title:"Smoke break"
+	tribe: "hh"
+	type: "special"
+	cost_string: "none"
+	threat: 0
+	target: all
+	uses: 2
+	swift: 1
+	text: "Change all durability threat to energy and gain a cigarette"
+	sprite: "spr_skill_background_baum"
+}
+
+{
+	dev_name: "whack"
+	title:"Whack!"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "durability:1"
+	threat: 0
+	target: all
+	uses: 3
+	swift: 1
+	pattern: A
+	text: none
+}
+
+{
+	dev_name: "peptalk"
+	title:"Pep-talk"
+	tribe: "hh"
+	type: "resource"
+	cost_string: "none"
+	threat: 0
+	resource: "energy:2"
+	target: all
+	uses: 1
+	text: Gain 2 energy
+}
+
+{
+	dev_name: "fast_repair"
+	title:"Fast-Repair"
+	tribe: "hh"
+	type: "resource"
+	cost_string: "none"
+	threat: 0
+	resource: "durability:2"
+	target: all
+	uses: 3
+	text: Gain 2 durability
+	sprite: spr_ui_skill_mechanic_active_quickfix
+}
+
+{
+	dev_name: "pocket_change"
+	title:"Pocket change"
+	tribe: "hh"
+	type: "resource"
+	cost_string: "energy:1"
+	threat: 0
+	resource: "money:1"
+	target: all
+	uses: 1
+	text: Gain $10
+	sprite: "spr_skill_img_pocket_change"
+}
+
+{
+	dev_name: "dealmaker"
+	title:"Making Deals"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "money:2"
+	threat: 5
+	target: money
+	target_extra: energy
+	pattern: AA
+	uses: 4
+	text: none
+	sprite: spr_skill_background_deal_maker
+}
+
+
+
+
+//THRIFTY
+
+{
+	dev_name: "scavenge"
+	title: "Scavenge"
+	tribe: player
+	type: special
+	cost_string: "none"
+	threat: 0
+	target: none
+	uses: 2
+	swift: 1
+	text: "Add a random small item to your glovebox"
+	sprite: "spr_skill_background_patch_raccoon"
+}
+
+{
+	dev_name: "on_the_edge"
+	title: "Living on the edge"
+	tribe: player
+	type: special
+	cost_string: "energy:0"
+	threat: 0
+	target: none
+	uses: 2
+	text: "Destroy one random threat for each active status"
+	sprite: "spr_skill_background_camp"
+}
+
+
+{
+	dev_name: "time_out"
+	title:"Time Out!"
+	tribe: "player"
+	type: "basic"
+	cost_string: "energy:0"
+	target_extra: energy
+	pattern: XXXXX
+	uses: 3
+	text: Remove all threat warnings in target area
+	sprite: spr_skill_background_sitting_window
+}
+
+{
+	dev_name: "shady_deals"
+	title:"Shady Deals"
+	tribe: "player"
+	type: "basic"
+	cost_string: "money:2"
+	pattern: AEA
+	uses: 4
+	text: Costs nothing at night
+	sprite: spr_skill_background_deal_maker
+}
+
+{
+	dev_name: "crafting"
+	title:"Crafting"
+	tribe: "player"
+	type: "basic"
+	cost_string: "none"
+	pattern: X
+	uses: 4
+	text: Gains threat pattern from all items in your glovebox
+	sprite: spr_skill_bg_polaroid_crafting
+}
+
+{
+	dev_name: "escape_plan"
+	title: "Escape plan!"
+	tribe: player
+	type: special
+	cost_string: "energy:1"
+	threat: 0
+	target: none
+	uses: 4
+	swift: 1
+	text: "Change all attacking threat to gas"
+	sprite: "spr_skill_background_gulp"
+}
+
+{
+	dev_name: "cower"
+	title: "Cower"
+	tribe: player
+	type: special
+	cost_string: "energy:0"
+	threat: 0
+	target: none
+	uses: 3
+	swift: 0
+	text: "Change all threat warnings to debuff"
+	sprite: "spr_skill_background_patch_test2"
+}
+
+
+///HIKING
+
+{
+	dev_name: "adapt"
+	title:"Adapt"
+	tribe: "player"
+	type: "basic"
+	cost_string: "energy:0"
+	pattern: XX
+	uses: 999
+	text: Changes targets with current road type
+	sprite: spr_skill_bg_polaroid_archie
+}
+
+{
+	dev_name: "piercer"
+	title:"Cunning"
+	tribe: "player"
+	type: "basic"
+	cost_string: "durability:1"
+	pattern: DA
+	uses: 4
+	text: Ignores Shields
+	pierce:1
+	sprite: spr_skill_background_polaroid_35b
+}
+
+{
+	dev_name: "safety_first"
+	title: "Safety First!"
+	tribe: player
+	type: special
+	cost_string: "none"
+	uses: 2
+	swift: 1
+	amount: 2
+	text: "Gain 2 armor"
+	sprite: "spr_skill_background_patch_test4"
+}
+
+{
+	dev_name: "armor_shatter"
+	title: "Hold my beer"
+	tribe: player
+	type: special
+	cost_string: "durability:1"
+	uses: 2
+	swift: 0
+	amount: 2
+	condition: armor
+	text: "Remove all armor, destroy 1 threat for each armor lost"
+	sprite: "spr_skill_background_patch_test1"
+}
+
+{
+	dev_name: "fixer"
+	title:"Cub Scout"
+	tribe: "player"
+	type: "basic"
+	cost_string: "energy:0"
+	pattern: ADXDA
+	uses: 4
+	text: Gain 1 armor for each threat removed with this
+	sprite: spr_skill_background_polaroid_44
+}
+
+//SUIT
+
+{
+	dev_name: "exploit"
+	title:"Exploit"
+	tribe: "hh"
+	type: "special"
+	cost_string: "energy:1"
+	pattern: EDMG
+	uses: 2
+	text: add 2 money threat and gain 20 cash. Reset all attacking threat warnings
+	sprite: spr_ui_skill_suit_active_exploit
+}
+
+{
+	dev_name: "going_home"
+	title:"Going Home"
+	tribe: "hh"
+	type: "special"
+	cost_string: "gas:2"
+	pattern: EDMG
+	uses: 1
+	text: Escape the event without taking any damage
+	sprite: spr_ui_skill_suit_active_goinghome
+}
+
+
+//HURRICANE
+
+
+{
+	dev_name: "dont_worry"
+	title:"Don't Worry!"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "energy:0"
+	pattern: EDMG
+	uses: 2
+	text: 
+	sprite: spr_ui_skill_hurricane_active_dontworry
+}
+
+{
+	dev_name: "dont_worry_2"
+	title:"Don't Worry!"
+	tribe: "hh"
+	type: "special"
+	cost_string: "energy:0"
+	pattern: EDMG
+	uses: 2
+	text: Remove one of each threat
+	sprite: spr_ui_skill_hurricane_active_dontworry
+}
+
+{
+	dev_name: "drunk_master"
+	title:"You're Fun!"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+	condition: "drunk_or_high"
+
+	uses: 3
+	pattern: AAA
+	
+	text: "Only usable while drunk or high"
+	sprite: "spr_ui_skill_hurricane_polaroid_yourefun"
+}
+
+
+//PUNK
+{
+	dev_name: "poison_heart"
+	title:"Poison Heart"
+	tribe: "hh"
+	type: "special"
+	cost_string: "gas:1"
+	pattern: 
+	uses: 2
+	text: Remove 3 random threat
+	sprite: spr_ui_skill_punk_active_adhd
+}
+
+{
+	dev_name: "bastards_of_young"
+	title:"Bastards of young"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "energy:2"
+
+	uses: 4
+	pattern: DAG
+	
+	text: "Costs nothing if you're listening to punk"
+	sprite: "spr_ui_skill_punk_active_bastardsofyoung"
+}
+
+
+{
+	dev_name: "songwriter_soothe"
+	title:"Bastards of Young"
+	tribe: "hh"
+	type: "special"
+	cost_string: "energy:1"
+	target_extra: energy
+	pattern: X
+	uses: 3
+	text: Remove left and rightmost threat and cure a random negative status
+	sprite: spr_ui_skill_punk_active_greenhell
+}
+
+
+{
+	dev_name: "motor_breath"
+	title:"Motor Breath"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "gas:0"
+	swift:1
+	uses: 4
+	pattern: GGG
+	
+	text: ""
+	sprite: "spr_ui_skill_punk_active_bastardsofyoung"
+}
+
+
+//DOG
+
+{
+	dev_name: "bark"
+	title:"Bark!"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+
+	uses: 2
+	pattern: E
+	
+	text: ""
+	sprite: "spr_ui_skill_dog_polaroid_bark"
+}
+
+{
+	dev_name: "pet"
+	title:"Pet"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+
+	uses: 2
+	pattern: D
+	
+	text: ""
+	sprite: "spr_ui_skill_dog_polaroid_pet"
+}
+
+{
+	dev_name: "fetch"
+	title:"Fetch!"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+
+	uses: 3
+	pattern: G
+	
+	text: ""
+	sprite: "spr_ui_skill_dog_polaroid_fetch"
+}
+
+
+//KID
+
+{
+	dev_name: "innocence"
+	title:"Innocence"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+	condition: "energy_full"
+	threat: 1
+	target: all
+	uses: 2
+	pattern: AEAD
+	text: "Can only be used when at max energy"
+	sprite: "spr_ui_skill_kid_polaroid_innocence"
+}
+
+{
+	dev_name: "kid_game_1"
+	title:"I Spy..."
+	tribe: "hh"
+	type: "basic"
+	cost_string: "energy:0"
+
+	uses: 999
+	pattern: EA
+	text: "Change this skill to another game"
+	sprite: "spr_ui_skill_kid_polaroid_kidgame_1"
+}
+
+{
+	dev_name: "kid_game_2"
+	title:"Punch Buggy!"
+	tribe: "hh"
+	type: "special"
+	cost_string: "energy:1"
+
+	uses: 999
+	text: "Remove 3 threat. Change this skill to another game"
+	sprite: "spr_ui_skill_kid_active_kidgame_2"
+}
+
+{
+	dev_name: "kid_game_3"
+	title:"The Quiet Game"
+	tribe: "hh"
+	type: "special"
+	cost_string: "none"
+
+	uses: 999
+	text: "Gain 3 energy and 3 armor. Change this skill to another game"
+	sprite: "spr_ui_skill_kid_active_kidgame_3"
+}
+
+//SONGWRITER
+
+{
+	dev_name: "songwriter_setup"
+	title:"Mood for Music"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "energy:1"
+	target_extra: energy
+	pattern: X
+	uses: 4
+	swift:1
+	text: Change target threat's warning into a note
+	sprite: spr_ui_skill_songwriter_polaroid_moodymelody
+}
+
+{
+	dev_name: "power_chord"
+	title:"Power Chord"
+	tribe: "hh"
+	type: "special"
+	cost_string: "energy:1"
+	target_extra: energy
+	pattern: X
+	uses: 3
+	text: Remove all threat with the note warning
+	sprite: spr_ui_skill_songwriter_active_soothingblues
+}
+
+
+
+//STRANGER
+
+{
+	dev_name: "gambler_1"
+	title:"Problem Solving"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "durability:1"
+
+	uses: 4
+	pattern: AMA
+	
+	text: ""
+	sprite: "spr_ui_skill_stranger_polaroid_problemsolving"
+}
+
+
+{
+	dev_name: "bribe"
+	title:"Bribe"
+	tribe: "hh"
+	type: "special"
+	cost_string: "none"
+	threat: 2
+	target: energy
+	uses: 5
+	swift: 1
+	text: "Change all attacking threat to money"
+	sprite: "spr_ui_skill_stranger_active_bribe"
+}
+
+
+{
+	dev_name: "big_gamble"
+	title:"Big gamble"
+	tribe: "hh"
+	type: "special"
+	cost_string: "money:1"
+	threat: 2
+	target: energy
+	uses: 5
+	text: "Destroy one random threat, if it's a cash threat, repeat this"
+	sprite: "spr_ui_skill_stranger_active_biggamble"
+}
+
+
+//IDIOT
+
+{
+	dev_name: "idiotic_1"
+	title:"What?"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+
+	uses: 3
+	pattern: XXX
+	
+	swift:1
+	
+	text: "If this ability removes 0 threat, gain happy"
+	sprite: "spr_ui_skill_idiot_polaroid_what"
+}
+
+{
+	dev_name: "idiot_think"
+	title:"Hmm..."
+	tribe: "hh"
+	type: "special"
+	cost_string: "none"
+
+	uses: 4
+	pattern: XXX
+	
+	
+	text: "Think about a random resource, then destroy one threat of that type"
+	sprite: spr_ui_skill_idiot_active_hmm
+}
+
+//convict
+
+{
+	dev_name: "convict_1"
+	title:"Pay up"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "money:1"
+
+	uses: 3
+	pattern: AA
+	
+	swift:0
+	
+	text: ""
+	sprite: "spr_ui_skill_convict_polaroid_getitdone"
+}
+
+{
+	dev_name: "convict_2"
+	title:"Go go go!"
+	tribe: "hh"
+	type: "special"
+	cost_string: "none"
+
+	uses: 3
+	pattern: AA
+	
+	swift:0
+	
+	text: "Destroy 2 threat. If this skill clears the event, increase car speed!"
+	sprite: "spr_ui_skill_convict_skill_increasespeed"
+}
+
+
+//SLEEPER
+
+
+{
+	dev_name: "sleeper_armor"
+	title: "Slack off"
+	tribe: hh
+	type: special
+	cost_string: "none"
+	uses: 5
+	swift: 1
+	amount: 4
+	text: "Gain §amnt armor. fall asleep"
+	sprite: "spr_ui_skill_sleeper_active_bolster"
+}
+
+
+{
+	dev_name: "tired_eyes"
+	title:"Tired Eyes"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "energy:1"
+
+	uses: 5
+	pattern: AXA
+	
+	
+	text: "If used on a country road, gain 1 armor"
+	sprite: "spr_ui_skill_sleeper_polaroid_tiredtry"
+}
+
+{
+	dev_name: "snore"
+	title: "Snore
+	tribe: hh
+	type: special
+	cost_string: "gas:1"
+	uses: 4
+	swift: 0
+	condition: asleep
+	text: "Destroy one random threat for each armor. Only usable when asleep"
+	sprite: "spr_ui_skill_sleeper_active_alwaystired"
+}
+
+//HIKER
+
+{
+	dev_name: "hiker_resource"
+	title: "Fresh air!"
+	tribe: hh
+	type: special
+	cost_string: "none"
+	uses: 2
+	swift: 0
+	amount: 2
+	text: "Gain 1 of each resource and 1 armor. If not in an urban area, change amount to 2"
+	sprite: "spr_ui_skill_hiker_active_freshair"
+}
+
+{
+	dev_name: "take_in_nature"
+	title:"Take in the Nature"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+	pierce: 1
+
+	uses: 4
+	pattern: EAD
+	
+	
+	text: "Ignores Shields"
+	sprite: "spr_ui_skill_hiker_polaroid_takeitin"
+}
+
+
+
+
+//BRIDE
+
+{
+	dev_name: "bride_happy"
+	title:"Adventure!"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "energy:1"
+
+	uses: 3
+	pattern: EG
+	
+	
+	text: "If you get a perfect with this, become happy"
+	sprite: "spr_ui_skill_bride_polaroid_adventure"
+}
+
+{
+	dev_name: "bride_basic"
+	title:"Old routines"
+	tribe: "hh"
+	type: "basic"
+	cost_string: "none"
+
+	uses: 4
+	pattern: GMG
+	
+	
+	text: ""
+	sprite: "spr_ui_skill_bride_polaroid_oldroutines"
+}
+
+
+
+
+
+
+//--------------------------------DEBUG
+{
+	dev_name: "god_hand"
+	title:"Touch of God"
+	tribe: "car"
+	type: "basic"
+	cost_string: "none"
+	threat: 4
+	target: durability
+	uses: 999
+	pattern: AAAA
+	text: none
+}

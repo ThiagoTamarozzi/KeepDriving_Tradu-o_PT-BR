@@ -1,0 +1,1477 @@
+/////////////////////////basic car upgrades
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--  always keep basic wheels as 0  --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//WHEELS
+
+{
+	name: basic_wheels
+	slot: wheels
+	title: Basic Wheels
+	desc: Needed to be able to drive
+	car_sprite: spr_player_car_volvo240_wheel_normal
+	car_sprite1: spr_cars_player_pickup_wheel_normal
+	car_sprite2: spr_player_car_muscle_wheel_normal_1
+	item_sprite: spr_item_wheels_normal
+	item_tags: wheels
+	upg_price: 0
+}
+
+
+{
+	name: rally_wheels
+	slot: wheels
+	title: Rally Wheels
+	desc: event_start: on rough roads: Remove 1 Durability threat
+	car_sprite: spr_car_240_upgrade_wheel_rally
+	car_sprite1: spr_cars_truck_ford_wheel_rally
+	car_sprite2: spr_player_car_muscle_wheel_black
+	item_sprite: spr_item_wheels_rally
+	item_tags: wheels,car_part_shop
+	upg_price:20
+}
+
+{
+	name: rim_wheels
+	slot: wheels
+	title: Rimmed Wheels
+	desc: event_start: remove 1 money threat
+	car_sprite: spr_player_car_volvo240_wheel_rimmed
+	car_sprite1: spr_cars_truck_ford_wheel_rimmed
+	car_sprite2: spr_player_car_muscle_wheel_pontiac
+	item_sprite: spr_item_wheels_rims
+	item_tags: wheels,car_part_shop
+	upg_price:20
+}
+
+{
+	name: super_wide_tires
+	slot: wheels
+	title: Super Wide Tires
+	desc: event_start: gain 1 armor
+	car_sprite: spr_car_240_upgrade_wheel_big
+	car_sprite1: spr_cars_truck_ford_wheel_superwide
+	item_sprite: spr_item_wheels_super
+	item_tags: wheels,car_part_shop
+	upg_price:20
+}
+
+{
+	name: sport_tires
+	slot: wheels
+	title: Sport Tires
+	desc: event_start: on motorways: remove 1 gas threat
+	car_sprite: spr_player_car_volvo240_wheel_cool_1
+	car_sprite1: spr_cars_truck_ford_wheel_sport
+	car_sprite2: spr_player_car_muscle_wheel_sport
+	item_sprite: spr_item_wheels_sport
+	item_tags: wheels,car_part_shop
+	upg_price:20
+}
+
+{
+	name: winter_tires
+	slot: wheels
+	title: Winter Tires
+	desc: event_start: replace 2 durability threat with gas threat.
+	car_sprite: spr_car_240_upgrade_wheel_winter
+	car_sprite1: spr_cars_player_pickup_wheel_winter
+	car_sprite2: spr_player_car_muscle_wheel_winter
+	item_sprite: spr_item_wheels_winter
+	item_tags: wheels,car_part_shop
+	upg_price:20
+}
+
+
+//ENGINE
+
+{
+	name: improved_brakes
+	slot: engine
+	title: Improved Brakes
+	desc: Increase Max Durability by 4. When you pass your turn, destroy one random threat.
+	car_sprite: spr_car_240_upgrade_engine_improvedbreaks
+	car_sprite1: spr_cars_player_pickup_upgrade_breaks
+	car_sprite2: spr_cars_player_muscle_upgrade_engine_breaks
+	item_sprite: spr_item_engine_breaks
+	item_tags: engine,car_part_shop
+	//boring
+	upg_price:35
+}
+
+{
+	name: sport_brakes
+	slot: engine
+	title: Sport Brakes
+	desc: Max durability +8. Whenever you use a swift skill, lose 1 durability.
+	car_sprite: spr_car_240_upgrade_engine_improvedbreaks
+	car_sprite1: spr_cars_player_pickup_upgrade_breaks
+	car_sprite2: spr_cars_player_muscle_upgrade_engine_breaks
+	item_sprite: spr_item_engine_sport_breaks
+	item_tags: engine,car_part_shop
+	//boring
+	upg_price:45
+	
+}
+
+{
+	name: carburetor
+	slot: engine
+	title: Carburetor
+
+	desc: Whenever you remove a random amount of threat. Remove one more.
+	car_sprite: -1
+	item_sprite: spr_item_engine_carburetor
+	item_tags: engine,car_part_shop
+	upg_price:45
+	
+}
+
+
+{
+	name: compressor
+	slot: engine
+	title: Compressor
+	desc: Whenever you lose durability during a road event, destroy one threat
+
+	car_sprite: spr_car_240_upgrade_engine_compressor
+	car_sprite1: spr_cars_player_pickup_upgrade_engine_compressor
+	car_sprite2: spr_cars_player_muscle_upgrade_engine_compressor
+	item_sprite: spr_item_engine_compressor
+	item_tags: engine,car_part_shop
+
+	upg_price:35
+}
+
+{
+	name: fuel_injection
+	slot: engine
+	title: Fuel Injection
+	desc: Decrease all gas costs of skills by 1
+	car_sprite: -1
+	item_sprite: spr_item_engine_fuel_injection
+	item_tags: engine,car_part_shop
+	//good
+	upg_price:55
+}
+
+{
+	name: exhaust_manifold
+	slot: engine
+	title: Exhaust Manifold
+	desc: Decrease all durability costs of skills by 1
+	car_sprite: -1
+	item_sprite: spr_item_engine_exhaust_manifold
+	item_tags: engine,car_part_shop
+	//good
+	upg_price:55
+}
+
+{
+	name: sport_intake
+	slot: engine
+	title: Sport Intake System
+	desc: Increases drive speed and car noise.
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_upgrade_engine_sportintake
+	item_sprite: spr_item_engine_sport_intake
+	item_tags: engine,car_part_shop
+	
+	//boring, but noise increase is fun
+	upg_price:35
+}
+
+{
+	name:servo
+	slot: engine
+	title: Servo
+	desc: Whenever you lose 2 or more energy during a road event, trigger the effect of your wheels.
+	car_sprite: -1
+	item_sprite: spr_item_engine_servo
+	item_tags: engine,car_part_shop
+	//good
+	//change to DO WHEEL ABILITY WHEN -something-
+	//when using ENERGY from skill, trigger effects of wheels
+	upg_price:40
+}
+
+
+{
+	name: turbo
+	slot: engine
+	title: Turbo
+	desc: When you play a skill from the DRIVING skill tree, Change a random threat's warning to a note.
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_upgrade_engine_turbo
+	item_sprite: spr_item_engine_turbo
+	item_tags: engine,car_part_shop
+	upg_price:40
+}
+
+
+
+
+
+
+//ROOF
+
+{
+	name: cheap_rack
+	slot: roof
+	title: Cheap Roof Rack
+	desc: Adds some extra inventory space! (5x3)
+	car_sprite: spr_car_240_upgrade_roof_cheaprack
+	item_sprite: spr_item_roof_cheap_rack
+	upg_lock:1
+	upg_lock:2
+	item_tags: weird_upgrade,thrift,car_part_shop
+	upg_price:10
+}
+
+{
+	name: classic_rack
+	slot: roof
+	title: Classic Roof Rack
+	desc: Adds extra inventory space! (7x4)
+	car_sprite: spr_car_240_upgrade_roof_classicrack
+	car_sprite2: spr_cars_player_muscle_upgrade_roof_rack2
+	item_sprite: spr_item_roof_classic_rack
+	item_tags:car_part_shop
+	upg_lock:1
+	upg_price:18
+}
+
+{
+	name: good_rack
+	slot: roof
+	title: Good Roof Rack
+	desc: Adds extra inventory space! (6x4)
+	car_sprite: spr_car_240_upgrade_roof_goodrack
+	car_sprite2: spr_cars_player_muscle_upgrade_roof_rack1
+	item_sprite: spr_item_roof_good_rack
+	item_tags:car_part_shop
+	upg_lock:1
+	upg_price:24
+}
+
+{
+	name: tent_rack
+	slot: roof
+	title: Tent Roof Rack
+	desc: Fully restore energy when resting in car.
+	car_sprite: spr_car_240_upgrade_roof_tentrack
+	item_sprite: spr_item_roof_tent_rack
+	upg_lock:1
+	upg_lock:2
+	item_tags: camping,thrift,car_part_shop
+	upg_price: 70
+}
+
+
+{
+	name: roof_lights
+	slot: roof
+	title: Roof Headlights
+	desc: At night, make a random threat in road events gain the note warning
+	car_sprite: spr_cars_player_pickup_upgrade_roof_extralights1
+	upg_lock:0
+	upg_lock:2
+	item_sprite: spr_item_roof_lights
+	item_tags: car_part_shop
+	upg_price:25
+}
+
+
+{
+	name: roof_wrap_1
+	slot: roof
+	title: Roof Wrap
+	desc: Whenever you gain armor, 50% chance to gain one energy!
+	car_sprite: spr_car_240_upgrade_roof_wrap1
+	car_sprite1: spr_cars_player_pickup_upgrade_roof_tbedcover_2
+	item_sprite: spr_item_roof_wrap_1
+	upg_lock:2
+	item_tags:car_part_shop
+	upg_price:30
+}
+
+{
+	name: roof_wrap_2
+	slot: roof
+	title: Roof Wrap
+	desc: Whenever you gain armor, 50% chance to gain one energy!
+	car_sprite: spr_car_240_upgrade_roof_wrap2
+	car_sprite1: spr_cars_player_pickup_upgrade_roof_tbedcover_1
+	item_sprite: spr_item_roof_wrap_2
+	upg_lock:2
+	item_tags:car_part_shop
+	upg_price:30
+}
+
+{
+	name: roof_hardcover
+	slot: roof
+	title: Roof Hardcover
+	desc: Increase max gas by 3. Start each road event with 1 armor.
+	car_sprite: spr_cars_player_pickup_upgrade_roof_hardcover
+	item_sprite: spr_cars_player_pickup_upgrade_roof_hardcover_ITEM
+	upg_lock:0
+	upg_lock:2
+	item_tags:car_part_shop
+	upg_price:45
+}
+
+
+//INTERIOR
+
+{
+	name: dimmed_windows
+	slot: interior
+	title: Louver
+	desc: +2 max durability and protects against sunlight!
+	car_sprite: spr_car_240_upgrade_interior_louver
+	car_sprite1: spr_cars_player_pickup_upgrade_dimmedwindow
+	car_sprite2: spr_cars_player_muscle_upgrade_back_halusin
+	item_sprite: spr_item_interior_louver
+	item_tags: gas_station,car_part_shop,upgrade_find
+	upg_price: 15
+}
+
+
+{
+	name: rattmuff_1
+	slot: interior
+	title: Steering wheel sleeve
+	desc: Makes you immmune to the Stressed status
+	car_sprite: spr_car_240_upgrade_interior_rattmuff1
+	car_sprite1: spr_cars_player_pickup_upgrade_rattmuff1
+	item_sprite: spr_item_interior_steering_wheel_sleeve_1
+	upg_lock:2
+	item_tags: gas_station,car_part_shop
+	upg_price: 15
+}
+
+{
+	name: rattmuff_2
+	slot: interior
+	title: Steering wheel sleeve
+	desc: Makes you immmune to the Stressed status
+	car_sprite: spr_car_240_upgrade_interior_rattmuff2
+	car_sprite1: spr_cars_player_pickup_upgrade_rattmuff2
+	item_sprite: spr_item_interior_steering_wheel_sleeve_2
+	upg_lock:2
+	item_tags: gas_station,car_part_shop
+	upg_price: 15
+}
+
+{
+	name: heater
+	slot: interior
+	title: Heater
+	desc: Makes you immmune to the Cold status
+	car_sprite: -1
+	item_sprite: spr_item_interior_heater
+	item_tags:upgrade_find,car_part_shop
+	upg_price:20
+}
+
+{
+	name: ac
+	slot: interior
+	title: A/C
+	desc: Makes you immmune to both the Cold and Hot status
+	car_sprite: -1
+	item_sprite: spr_item_interior_ac
+	item_tags:car_part_shop
+	upg_price:35
+}
+
+{
+	name: roll_cage
+	slot: interior
+	title: Roll cage
+	desc: Increase max Durability by 4
+	car_sprite: spr_car_240_upgrade_interior_rollcage
+	car_sprite1: spr_cars_player_pickup_upgrade_rollcage
+	car_sprite2: -1
+	item_sprite: spr_item_interior_roll_cage
+	item_tags: rally,car_part_shop
+	upg_price:25
+}
+
+{
+	name: idiot_flowers
+	slot: interior
+	title: Flowery Interior
+	desc: Pretty flowers. Smells nice.
+	car_sprite: spr_car_240_upgrade_interior_idiot_flowers
+	car_sprite1: spr_cars_player_pickup_upgrade_flowers
+	car_sprite2: spr_cars_player_muscle_upgrade_interior_flowers
+	item_sprite: spr_item_interior_idiot_flowers
+	upg_price:0
+}
+
+{
+	name: seat_beads
+	slot: interior
+	title: Seat Beads
+	desc: Gain 3 energy when leaving a destination
+	car_sprite: -1
+	item_sprite: spr_item_interior_seat_beads
+	item_tags:car_part_shop
+	upg_price:14
+}
+
+{
+	name: seat_sport
+	slot: interior
+	title: Sport Seats
+	desc: Always start every event with 1 armor
+	car_sprite: -1
+	item_sprite: spr_item_interior_seat_sport
+	item_tags:car_part_shop
+	upg_price:20
+}
+
+{
+	name: seat_comfy
+	slot: interior
+	title: Comfy Seats
+	desc: All hitchhikers get one extra use to each skill
+	car_sprite: -1
+	item_sprite: spr_item_interior_seat_comfy
+	item_tags:car_part_shop
+	upg_price:20
+}
+
+
+{
+	name: speakers
+	slot: interior
+	title: Speakers
+	desc: Increases music playlist size by 2
+	car_sprite: spr_car_240_upgrade_interior_speakersystem
+	car_sprite1: -1
+	car_sprite2: spr_cars_player_muscle_upgrade_interior_radio
+	item_sprite: spr_item_interior_speakers
+	item_tags: thrift,car_part_shop,non_shop
+	upg_price:15
+}
+
+{
+	name: subwoofer
+	slot: interior
+	title: Subwoofer
+	desc: boosts the bass frequencies of music
+	car_sprite: spr_car_240_upgrade_interior_subwoofer
+	car_sprite1: spr_cars_player_pickup_upgrade_interior_antenna
+	car_sprite2: spr_cars_player_muscle_upgrade_interior_radio
+	item_sprite: spr_item_interior_subwoofer
+	item_tags: thrift,car_part_shop
+	upg_price:15
+}
+
+///////////////////FRONT
+
+{
+	name: radiator
+	slot: front
+	title: Radiator
+	desc: Negates the Hot status
+	car_sprite: spr_car_240_upgrade_front_externalradiator
+	car_sprite1: spr_cars_player_pickup_upgrade_front_externalcooler
+	car_sprite2: spr_cars_player_muscle_upgrade_front_externalcooler
+	item_sprite: spr_item_upg_radiator
+	item_tags: upgrade_find,car_part_shop
+	upg_price:18
+}
+
+{
+	name: flag_gas
+	slot: front
+	title: Flag
+	desc: Get a discount at Gas Stations
+	car_sprite: spr_car_240_upgrade_front_flag1
+	car_sprite1: spr_upgrade_item_utilityfront_flag1_TRUCK
+	item_sprite: spr_item_upg_flag_1
+	item_tags: gas_station,non_shop
+	upg_price:15
+}
+
+{
+	name: flag_supermarket
+	slot: front
+	title: Flag
+	desc: Get a discount at Super Markets
+	car_sprite: spr_car_240_upgrade_front_flag2
+	car_sprite1: spr_upgrade_item_utilityfront_flag2_TRUCK
+	item_sprite: spr_item_upg_flag_2
+	item_tags: super_market,non_shop
+	upg_price:15
+}
+
+{
+	name: flag_garage
+	slot: front
+	title: Flag
+	desc: Get a discount at garages
+	car_sprite: spr_car_240_upgrade_front_flag3
+	car_sprite1: spr_upgrade_item_utilityfront_flag3_TRUCK
+	item_sprite: spr_item_upg_flag_3
+	item_tags: garage,car_part_shop,non_shop
+	upg_price:15
+}
+
+{
+	name: dog_head
+	slot: front
+	title: Dog Head
+	desc: When picking up a hitchhiker they instantly gain 80 exp.
+	car_sprite: spr_car_240_upgrade_front_dog_head
+	item_sprite: spr_item_upg_galjon
+	upg_lock:1
+	upg_lock:2
+	item_tags: non_shop
+}
+
+{
+	name: kofangare_1
+	slot: front
+	title: Fender
+	desc: Increase Durability by 2
+	car_sprite: spr_car_240_upgrade_front_fender_1
+	car_sprite1: spr_cars_player_pickup_upgrade_front_kofongare_1
+	car_sprite2: spr_cars_player_muscle_upgrade_front_kofongare_2
+	item_sprite: spr_item_upg_kofangare_1
+	item_tags: upgrade_find,car_part_shop
+	upg_price:20
+}
+
+{
+	name: kofangare_2
+	slot: front
+	title: Fender
+	desc: Increase Durability by 2
+	car_sprite: spr_car_240_upgrade_front_fender_2
+	car_sprite1: spr_cars_player_pickup_upgrade_front_kofongare_2
+	car_sprite2: spr_cars_player_muscle_upgrade_front_kofongare_1
+	item_sprite: spr_item_upg_kofangare_2
+	item_tags: upgrade_find,car_part_shop
+	upg_price:20
+}
+
+{
+	name: headlights_1
+	slot: front
+	title: Headlights
+	desc: At night, make a random threat in road events gain the note warning
+	car_sprite: spr_car_240_upgrade_front_lights1
+	car_sprite1: spr_cars_player_pickup_upgrade_front_extralights_1
+	car_sprite2: spr_cars_player_muscle_upgrade_front_lights1
+	item_sprite: spr_item_front_lights
+	item_tags: upgrade_find,car_part_shop
+	upg_price:20
+}
+
+{
+	name: headlights_2
+	slot: front
+	title: Headlights
+	desc: At night, make a random threat in road events gain the note warning
+	car_sprite: spr_car_240_upgrade_front_lights2
+	car_sprite1: spr_cars_player_pickup_upgrade_front_extralights_2
+	car_sprite2: spr_cars_player_muscle_upgrade_front_lights1
+	item_sprite: spr_item_front_lights_2
+	item_tags: upgrade_find,car_part_shop
+	upg_price:20
+}
+
+
+{
+	name: undershield
+	slot: front
+	title: Undershield
+	desc: Increase max durability by 2
+	car_sprite: spr_car_240_upgrade_front_undershield
+	car_sprite1: spr_cars_player_pickup_upgrade_front_back_underprotection
+	car_sprite2: spr_cars_player_muscle_upgrade_front_protectiveplates
+	item_sprite: spr_item_front_under_shield
+	item_tags: upgrade_find,car_part_shop
+	upg_price:25
+}
+
+{
+	name: skirts
+	slot: front
+	title: Skirts
+	desc: Increase max durability by 2 and max gas by 2
+	car_sprite: spr_car_240_upgrade_front_skirts
+	car_sprite1: spr_cars_player_pickup_upgrade_back_front_skirt
+	item_sprite: spr_item_front_skirts
+	upg_lock:2
+	item_tags: upgrade_find,car_part_shop
+	upg_price: 38
+}
+
+{
+	name: winch
+	slot: front
+	title: Winch
+	desc: If you black out while driving, don't lose any durability
+	car_sprite: spr_car_240_upgrade_front_winch
+	car_sprite1: spr_cars_player_pickup_upgrade_front_winch
+	car_sprite2: spr_cars_player_muscle_upgrade_front_winch
+	item_sprite: spr_item_front_under_winch
+	item_tags: camping,car_part_shop
+	upg_price:25
+}
+
+///////////////////BACK
+
+{
+	name: exhaustpipe
+	slot: back
+	title: Exhaustpipe
+	desc: Reduce gas drained on motorways by 1. But not lower than one.
+	car_sprite: spr_car_240_upgrade_back_exhaustpipe
+	car_sprite1: spr_cars_player_pickup_upgrade_back_exhust
+	car_sprite2: spr_cars_player_muscle_upgrade_back_exhaust
+	item_sprite: spr_item_back_exhaust_pipe
+	item_tags:upgrade_find,car_part_shop
+	upg_price:28
+}
+
+{
+	name: muffler
+	slot: back
+	title: C-Converter
+	desc: reduce gas drained on country roads by 1. But not lower than one.
+	car_sprite: -1
+	item_sprite: spr_item_back_muffler
+	item_tags:upgrade_find,car_part_shop
+	upg_price:28
+}
+
+{
+	name: tire_holder
+	slot: back
+	title: Tire Holder
+	desc: a tireholder for the back of your car
+	car_sprite: spr_car_240_upgrade_back_extratireholder
+	car_sprite1: spr_cars_player_pickup_upgrade_back_wheelcarrier
+	car_sprite2: spr_cars_player_muscle_upgrade_back_extrawheel
+	item_sprite: spr_item_back_tire_holder
+	item_tags:upgrade_find,car_part_shop
+	upg_price:19
+}
+
+{
+	name: spoiler_1
+	slot: back
+	title: Standard Spoiler
+	desc: skills cost 1 less durability on motorways
+	car_sprite: spr_car_240_upgrade_back_spoiler1
+	car_sprite1: spr_cars_player_pickup_upgrade_back_spoiler_1
+	car_sprite2: spr_cars_player_muscle_upgrade_back_spoiler1
+	item_sprite: spr_item_back_spoiler_1
+	item_tags:upgrade_find,car_part_shop
+	upg_price:20
+}
+
+{
+	name: spoiler_2
+	slot: back
+	title: Rally Spoiler
+	desc: skills cost 1 less durability on Rough Roads
+	car_sprite: spr_car_240_upgrade_back_spoiler2
+	car_sprite1: spr_cars_player_pickup_upgrade_back_spoiler_1
+	car_sprite2: spr_cars_player_muscle_upgrade_back_spoiler2
+	item_sprite: spr_item_back_spoiler_2
+	item_tags:upgrade_find,car_part_shop
+	upg_price:20
+}
+
+{
+	name: suspension
+	slot: back
+	title: Suspension
+	desc: Double the effect of your equipped wheels
+	car_sprite: spr_car_240_upgrade_back_suspension
+	car_sprite1: spr_cars_player_pickup_upgrade_suspension
+	item_sprite: spr_item_back_suspension
+	upg_lock:2
+	item_tags:upgrade_find,car_part_shop
+	upg_price:30
+}
+
+{
+	name: tow_hook_1
+	slot: back
+	title: Tow Hook
+	desc: Does nothing.
+	car_sprite: spr_car_240_upgrade_back_towhook1
+	car_sprite1: spr_cars_player_pickup_upgrade_back_dragkrok
+	car_sprite2: spr_cars_player_muscle_upgrade_back_dragkrok
+	item_sprite: spr_item_back_tow_hook_1
+	item_tags:car_part_shop,non_shop
+	upg_price:20
+}
+
+{
+	name: tow_hook_2
+	slot: back
+	title: Tow Hook
+	desc: Does nothing.
+	car_sprite: spr_car_240_upgrade_back_towhook2
+	car_sprite1: spr_cars_player_pickup_upgrade_back_dragkrok
+	item_sprite: spr_item_back_tow_hook_2
+	upg_lock:1
+	upg_lock:2
+	item_tags:car_part_shop
+	upg_price:20
+}
+
+
+///IDOLS
+
+{
+	name: hula_girl
+	slot: idol
+	title: Hula Dancer
+	desc: Dashboard figurine. A Classic
+	car_sprite:-1
+	item_sprite:spr_dashboard_bobble_hulagirl_dance
+	upg_price: 9
+	item_tags: gas_station
+}
+
+{
+	name: aqua_dog
+	slot: idol
+	title: Aqua Dof
+	desc: Dashboard figurine. A Legend.
+	car_sprite:-1
+	item_sprite:spr_dashboard_bobble_archie_bob
+	upg_price: 9
+}
+
+{
+	name: buddha
+	slot: idol
+	title: Buddha Bouncer
+	desc: Dashboard figurine. Very Spiritual.
+	car_sprite:-1
+	item_sprite:spr_dashboard_bobble_buddha_bounce
+	upg_price: 9
+	item_tags: thrift
+}
+
+{
+	name: hotline
+	slot: idol
+	title: Rooster with Jacket
+	desc: Dashboard figurine. Do you like hurting people?
+	car_sprite:-1
+	item_sprite:spr_dashboard_bobble_hotline_bob
+	upg_price: 9
+	item_tags: thrift
+}
+
+{
+	name: jesus_bouncer
+	slot: idol
+	title: Groovy Jesus
+	desc: Dashboard figurine. He's handsome.
+	car_sprite:-1
+	item_sprite:spr_dashboard_bobble_jesus_bob
+	upg_price: 9
+	item_tags:upgrade_find
+}
+
+{
+	name: lucky_cat
+	slot: idol
+	title: Lucky Cat
+	desc: Dashboard figurine. Increases luck.
+	car_sprite:-1
+	item_sprite:spr_dashboard_bobble_luckycat_arm
+	upg_price: 9
+	item_tags: thrift
+}
+
+{
+	name: cartoon_mechanic
+	slot: idol
+	title: Mechanic Bobblehead
+	desc: Dashboard figurine. Very Nostalgic.
+	car_sprite:-1
+	item_sprite:spr_dashboard_bobble_mulle_bob
+	upg_price: 9
+	item_tags: car_part_shop
+}
+
+{
+	name: post_void_bobble
+	slot: idol
+	title: Stressed Man
+	desc: Dashboard figurine. 10/10.
+	car_sprite:-1
+	item_sprite:spr_dashboard_bobble_postvoid_bob
+	upg_price: 9
+}
+
+
+
+
+//SPRAY
+
+{
+	name: black_spray
+	slot: color
+	title: Black spray
+	desc: Cool black color for your car.
+	car_sprite: spr_player_car_volvo240_body_black
+	car_sprite1: spr_cars_player_pickup_body_black
+	car_sprite2: spr_cars_player_muscle_body_black
+	item_sprite: spr_item_spray_black
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: red_spray
+	slot: color
+	title: Red spray
+	desc: Flashy red color for your car.
+	car_sprite: spr_player_car_volvo240_body_red
+	car_sprite1: spr_cars_player_pickup_body_red
+	car_sprite2: spr_cars_player_muscle_body_red
+	item_sprite: spr_item_spray_red
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: blue_spray
+	slot: color
+	title: Blue spray
+	desc: Cool blue color for your car.
+	car_sprite: spr_player_car_volvo240_body_blue
+	car_sprite1: spr_cars_player_pickup_body_lightblue
+	car_sprite2: spr_cars_player_muscle_body_bluelight
+	item_sprite: spr_item_spray_blue
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: brown_spray
+	slot: color
+	title: Brown spray
+	desc: Cozy brown color for your car.
+	car_sprite: spr_player_car_volvo240_body_brown
+	car_sprite1: spr_cars_player_pickup_body_brown
+	car_sprite2: spr_cars_player_muscle_body_brown
+	item_sprite: spr_item_spray_brown
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: dark_blue_spray
+	slot: color
+	title: Dark Blue spray
+	desc: Cool dark blue color for your car.
+	car_sprite: spr_player_car_volvo240_body_bluedark
+	car_sprite1: spr_cars_player_pickup_body_darkblue
+	car_sprite2: spr_cars_player_muscle_body_bluegray
+	item_sprite: spr_item_spray_dark_blue
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: dark_gray_spray
+	slot: color
+	title: Dark Gray Spray
+	desc: Nice dark gray color for your car.
+	car_sprite: spr_player_car_volvo240_body_gray
+	car_sprite1: spr_cars_player_pickup_body_gray
+	car_sprite2: spr_cars_player_muscle_body_gray
+	item_sprite: spr_item_spray_dark_gray
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: green_spray
+	slot: color
+	title: Green spray
+	desc: Nice green color for your car.
+	car_sprite: spr_player_car_volvo240_body_green
+	car_sprite1: spr_cars_player_pickup_body_green
+	car_sprite2: spr_cars_player_muscle_body_green
+	item_sprite: spr_item_spray_green
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: orange_spray
+	slot: color
+	title: Orange Spray
+	desc: Sassy orange color for your car.
+	car_sprite: spr_player_car_volvo240_body_orange
+	car_sprite1: spr_cars_player_pickup_body_orange
+	car_sprite2: spr_cars_player_muscle_body_orange
+	item_sprite: spr_item_spray_orange
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: police_spray
+	slot: color
+	title: Police spray
+	desc: Police themed color for your car.
+	car_sprite: spr_player_car_volvo240_body_police
+	item_sprite: spr_item_spray_police
+	upg_price: 4
+	upg_lock:1
+	upg_lock:2
+	item_tags: spray
+}
+
+{
+	name: silver_spray
+	slot: color
+	title: Silver spray
+	desc: Fancy silver color for your car.
+	car_sprite: spr_player_car_volvo240_body_silver
+	car_sprite1: spr_cars_player_pickup_body_silver
+	car_sprite2: spr_cars_player_muscle_body_silver
+	item_sprite: spr_item_spray_silver
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: teal_spray
+	slot: color
+	title: Teal spray
+	desc: Nice teal color for your car.
+	car_sprite: spr_player_car_volvo240_body_teal
+	item_sprite: spr_item_spray_teal
+	upg_price: 4
+	upg_lock:1
+	upg_lock:2
+	item_tags: spray
+}
+{
+	name: yellow_spray
+	slot: color
+	title: Yellow spray
+	desc: Cool yellow color for your car.
+	car_sprite: spr_player_car_volvo240_body_yellow
+	car_sprite1: spr_cars_player_pickup_body_yellow
+	car_sprite2: spr_cars_player_muscle_body_yellow
+	item_sprite: spr_item_spray_yellow
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: beige_spray
+	slot: color
+	title: Beige spray
+	desc: Cool beige color for your car.
+	car_sprite: spr_player_car_volvo240_body_beige
+	car_sprite1: spr_cars_player_pickup_body_beige
+	car_sprite2: spr_cars_player_muscle_body_cream
+	item_sprite: spr_item_spray_beige
+	upg_price: 4
+	item_tags: spray
+}
+
+{
+	name: white_spray
+	slot: color
+	title: White spray
+	desc: Cool white color for your car.
+	car_sprite: -1
+	car_sprite1: spr_cars_player_pickup_body_white
+	car_sprite2: spr_cars_player_muscle_body_white
+	item_sprite: spr_item_spray_white
+	upg_price: 4
+	upg_lock:0
+	item_tags: spray
+}
+
+{
+	name: pink_spray
+	slot: color
+	title: Pink spray
+	desc: Cool pink color for your car.
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_body_pink
+	item_sprite: spr_item_spray_pink
+	upg_price: 4
+	upg_lock:0
+	upg_lock:1
+	item_tags: spray
+}
+
+{
+	name: pontiac_spray
+	slot: color
+	title: Pont spray
+	desc: Cool color for your car.
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_body_pontiac
+	item_sprite: spr_item_spray_pontiac
+	upg_price: 4
+	upg_lock:0
+	upg_lock:1
+	item_tags: spray
+}
+
+{
+	name: sunset_spray
+	slot: color
+	title: Sunset spray
+	desc: Cool color for your car.
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_body_sunset
+	item_sprite: spr_item_spray_sunset
+	upg_price: 4
+	upg_lock:0
+	upg_lock:1
+	item_tags: spray
+}
+
+{
+	name: rootbeer_spray
+	slot: color
+	title: Root Beer spray
+	desc: Cool color for your car.
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_body_rootbeer
+	item_sprite: spr_item_spray_rootbeer
+	upg_price: 4
+	upg_lock:0
+	upg_lock:1
+	item_tags: spray
+}
+
+//COSMETICS
+
+{
+	name: vandalism
+	slot: cosmetic
+	title: Grafitti
+	desc: cosmetic grafitti
+	car_sprite: spr_car_240_upgrade_cosmetic_vandalism
+	car_sprite1: spr_cars_player_pickup_cosmetic_vandal_dickline
+	car_sprite2: spr_cars_player_muscle_cosmetic_vand_dickline
+	item_sprite: spr_item_cosmetic_vandalism
+	upg_price: 2
+	item_tags: cosmetic,grafitti
+}
+
+
+{
+	name: bulletholes
+	slot: cosmetic
+	title: Bulletholes
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_decal_bulletholes_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_bullets
+	car_sprite2: spr_cars_player_muscle_cosmetic_bullets
+	item_sprite: spr_cosmetic_decal_bulletholes_ICON
+	upg_price: 5
+	item_tags: cosmetic,car_part_shop
+}
+
+{
+	name: flames
+	slot: cosmetic
+	title: Flames
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_decal_flames_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_flames
+	car_sprite2: spr_cars_player_muscle_cosmetic_fire
+	item_sprite: spr_cosmetic_decal_flames_ICON
+	upg_price: 5
+	item_tags: cosmetic,car_part_shop
+}
+
+{
+	name: gti
+	slot: cosmetic
+	title: GTI decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_decal_gti_VOLVO
+	item_sprite: spr_cosmetic_decal_gti_ICON
+	upg_lock:1
+	upg_lock:2
+	upg_price: 5
+	item_tags: cosmetic,car_part_shop
+}
+
+{
+	name: kd_sticker
+	slot: cosmetic
+	title: Keep Driving Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_decal_keepdriving_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_keepdriving
+	car_sprite2: spr_cars_player_muscle_cosmetic_keepdriving
+	item_sprite: spr_cosmetic_decal_keepdriving_ICON
+	upg_price: 5
+	item_tags: cosmetic,car_stickers,car_part_shop
+}
+
+{
+	name: decal_martini
+	slot: cosmetic
+	title: Liquor Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_decal_martini_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_martini
+	car_sprite2: spr_cars_player_muscle_cosmetic_martini
+	item_sprite: spr_cosmetic_decal_martini_ICON
+	upg_price: 5
+	item_tags: cosmetic, decal,car_part_shop
+}
+
+{
+	name: decal_nordica
+	slot: cosmetic
+	title: Nordica Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_decal_nordica_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_nordica
+	car_sprite2: spr_cars_player_muscle_cosmetic_nordica
+	item_sprite: spr_cosmetic_decal_nordica_ICON
+	upg_price: 5
+	item_tags: cosmetic, decal,car_part_shop
+}
+
+{
+	name: decal_police_1
+	slot: cosmetic
+	title: Police Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_decal_police1_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_police
+	car_sprite2: spr_cars_player_muscle_cosmetic_police
+	item_sprite: spr_cosmetic_decal_police1_ICON
+	upg_price: 5
+	item_tags: cosmetic, decal,car_part_shop
+}
+
+{
+	name: decal_stars
+	slot: cosmetic
+	title: Stars Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_decal_stars_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_stars
+	car_sprite2: spr_cars_player_muscle_cosmetic_stars
+	item_sprite: spr_cosmetic_decal_stars_ICON
+	upg_price: 5
+	item_tags: cosmetic, decal,car_part_shop
+}
+
+{
+	name: decal_taxi
+	slot: cosmetic
+	title: Taxi Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_decal_taxi_VOLVO
+	item_sprite: spr_cosmetic_decal_taxi_ICON
+	upg_price: 5
+	upg_lock:1
+	upg_lock:2
+	item_tags: cosmetic, decal,car_part_shop
+}
+
+{
+	name: vandalism_2
+	slot: cosmetic
+	title: Graffiti Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_extra_vandalism2_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_vandal_cuntcar
+	car_sprite2: spr_cars_player_muscle_cosmetic_vand_cunt
+	item_sprite: spr_cosmetic_extra_vandalism2_ICON
+	upg_price: 2
+	item_tags: cosmetic,grafitti,drug_dealer
+}
+
+{
+	name: vandalism_3
+	slot: cosmetic
+	title: Graffiti Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_extra_vandalism3_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_vandal_soso
+	car_sprite2: spr_cars_player_muscle_cosmetic_vand_soso
+	item_sprite: spr_cosmetic_extra_vandalism3_ICON
+	upg_price: 2
+	item_tags: cosmetic,grafitti
+}
+
+
+{
+	name: vandalism_4
+	slot: cosmetic
+	title: Graffiti Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_extra_vandalism4_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_vandal_machinekills
+	car_sprite2: spr_cars_player_muscle_cosmetic_vand_killmachine
+	item_sprite: spr_cosmetic_extra_vandalism4_ICON
+	upg_price: 2
+	item_tags: cosmetic,grafitti
+}
+
+
+{
+	name: vandalism_5
+	slot: cosmetic
+	title: Graffiti Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_extra_vandalism5_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_vandal_blueline
+	car_sprite2: spr_cars_player_muscle_cosmetic_vand_line
+	item_sprite: spr_cosmetic_extra_vandalism5_ICON
+	upg_price: 2
+	item_tags: cosmetic,grafitti
+}
+
+{
+	name: vandalism_6
+	slot: cosmetic
+	title: Graffiti Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_extra_vandalism6_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_vandal_circle
+	car_sprite2: spr_cars_player_muscle_cosmetic_vand_circle
+	item_sprite: spr_cosmetic_extra_vandalism6_ICON
+	upg_price: 2
+	item_tags: cosmetic,grafitti
+}
+	
+{
+	name: vandalism_7
+	slot: cosmetic
+	title: Graffiti Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_extra_vandalism7_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_vandal_hell
+	car_sprite2: spr_cars_player_muscle_cosmetic_vand_hell
+	item_sprite: spr_cosmetic_extra_vandalism7_ICON
+	upg_price: 2
+	item_tags: cosmetic,grafitti
+}
+	
+{
+	name: stickers_1
+	slot: cosmetic
+	title: Car Stickers
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_stickers1_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_stickers1
+	car_sprite2: spr_cars_player_muscle_cosmetic_stickers1
+	item_sprite: spr_cosmetic_stickers1_ICON
+	upg_price: 3
+	item_tags: cosmetic,car_stickers,car_part_shop
+}	
+{
+	name: stickers_2
+	slot: cosmetic
+	title: Car Stickers
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: spr_cosmetic_stickers2_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_stickers2
+	car_sprite2: spr_cars_player_muscle_cosmetic_stickers2
+	item_sprite: spr_cosmetic_stickers2_ICON
+	upg_price: 3
+	item_tags: cosmetic,car_stickers,car_part_shop
+}
+//TRUCK COSMETIC
+
+{
+	name: mz1
+	slot: cosmetic
+	title: M1 Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: -1
+	car_sprite1: spr_cars_player_pickup_cosmetic_mazda_1
+	item_sprite: spr_cars_player_pickup_cosmetic_mazda_1_ICON
+	upg_price: 3
+	upg_lock:0
+	upg_lock:2
+	item_tags: cosmetic,car_part_shop
+}
+
+{
+	name: mz2
+	slot: cosmetic
+	title: M2 Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: -1
+	car_sprite1: spr_cars_player_pickup_cosmetic_mazda_2
+	item_sprite: spr_cars_player_pickup_cosmetic_mazda_2_ICON
+	upg_price: 3
+	upg_lock:0
+	upg_lock:2
+	item_tags: cosmetic,car_part_shop
+}
+
+
+{
+	name: ty1
+	slot: cosmetic
+	title: T1 Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: -1
+	car_sprite1: spr_cars_player_pickup_cosmetic_toyota_1
+	item_sprite: spr_cars_player_pickup_cosmetic_toyota_1_ICON
+	upg_price: 3
+	upg_lock:0
+	upg_lock:2
+	item_tags: cosmetic,car_part_shop
+}
+//MUSCLE COSMETICS
+
+{
+	name: kawaii
+	slot: cosmetic
+	title: Kawaii Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_cosmetic_kawaii
+	item_sprite: spr_cars_player_muscle_cosmetic_kawaii_ICON
+	upg_price: 3
+	upg_lock:0
+	upg_lock:1
+	item_tags: cosmetic,car_stickers,car_part_shop
+}
+
+{
+	name: boss_mach_1
+	slot: cosmetic
+	title: Boss Mach Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_cosmetic_bossmach_1
+	item_sprite: spr_cars_player_muscle_cosmetic_bossmach_1_ICON
+	upg_price: 3
+	upg_lock:0
+	upg_lock:1
+	item_tags: cosmetic,car_part_shop
+}
+
+{
+	name: boss_mach_2
+	slot: cosmetic
+	title: Boss Mach Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_cosmetic_bossmach_2
+	item_sprite: spr_cars_player_muscle_cosmetic_bossmach_2_ICON
+	upg_price: 3
+	upg_lock:0
+	upg_lock:1
+	item_tags: cosmetic,car_part_shop
+}
+
+{
+	name: celica
+	slot: cosmetic
+	title: Celica Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_cosmetic_celica
+	item_sprite: spr_cars_player_muscle_cosmetic_celica_ICON
+	upg_price: 3
+	upg_lock:0
+	upg_lock:1
+	item_tags: cosmetic,car_part_shop
+}
+
+{
+	name: spitfire
+	slot: cosmetic
+	title: Spit Fire Decal
+	desc: purely Cosmetic upgrade for your car
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_cosmetic_spitfire
+	item_sprite: spr_cars_player_muscle_cosmetic_spitfire_ICON
+	upg_price: 3
+	upg_lock:0
+	upg_lock:1
+	item_tags: cosmetic,car_part_shop
+}
+
+{
+	name: white_door
+	slot: cosmetic
+	title: White Door
+	desc: Purely Cosmetic upgrade for your car
+	car_sprite: -1
+	car_sprite2: spr_cars_player_muscle_cosmetic_whitedoor
+	item_sprite: spr_cars_player_muscle_cosmetic_whitedoor_ICON
+	upg_price: 3
+	upg_lock:0
+	upg_lock:1
+	item_tags: cosmetic,car_part_shop
+}
+
+//SPECIAL CONSMETICS
+
+
+{
+	name: warrior_energy
+	slot: cosmetic
+	title: Warrior Energy Decal
+	desc: advertisement for an energy drink
+	car_sprite: spr_cosmetic_decal_warriorenergy_VOLVO
+	car_sprite1: spr_cars_player_pickup_cosmetic_warriorenergy
+	car_sprite2: spr_cars_player_muscle_cosmetic_warriorenergy
+	item_sprite: spr_cosmetic_decal_warriorenergy
+	upg_price: 2
+	item_tags: cosmetic,non_shop
+}
+
+
+//NEW COSMETICS
+
+
+
+{
+	name: hearts
+	slot: cosmetic
+	title: Valentine's Spray
+	desc: Love is in the air.
+	car_sprite: spr_cosmetic_decal_hearts
+	car_sprite1: spr_cars_player_pickup_cosmetic_hearts
+	car_sprite2: spr_cars_player_muscle_cosmetic_hearts
+	item_sprite: spr_cosmetic_extra_hearts_ICON
+	upg_price: 1
+	item_tags: cosmetic,car_part_shop
+}
+
+{
+	name: cheater
+	slot: cosmetic
+	title: Cheater's Tag
+	desc: Love is in the air.
+	car_sprite: spr_cosmetic_decal_cheater
+	car_sprite1: spr_cars_player_pickup_cosmetic_cheater
+	car_sprite2: spr_cars_player_muscle_cosmetic_cheater
+	item_sprite: spr_cosmetic_decal_cheater_ICON
+	upg_price: 1
+	item_tags: cosmetic,car_part_shop
+}

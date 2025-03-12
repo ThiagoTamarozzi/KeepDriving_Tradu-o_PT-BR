@@ -1,0 +1,193 @@
+//ambience
+
+
+
+{
+	name: game_over
+	title: Failure
+	text:	Is this it?
+	text:	You can't continue...
+	text:	The journey is over.
+	//Yasuko Onuki
+	//hungry and alone
+	music:mdy_04
+}
+
+{
+	name: demo_game_over
+	title: Demo Failure
+	text:	Is this it?
+	text:	The weekend sure blew over fast
+	text:	You didn't make it in time...
+	demo: 1
+	unlock:	test
+}
+
+{
+	name: demo_game_over_video_game
+	title: Stupidity
+	text:	You threw away the game?!
+	text:	Why?
+	text:	What are you gonna do now instead?
+	demo: 1
+}
+
+{
+	name: demo_game_over_video_game_sell
+	title: Greed
+	text:	You decided that some extra cash
+	text:	was more important than a weekend of fun
+	text:	So you sold the game...
+	demo: 1
+}
+
+{
+	name: festival
+	title: The Festival
+	text:	The hours pass;
+	text:	you drink, sing, dance and enjoy the few bands you were excited to see.
+	text:	You are whirled from one scene to another, unaware of the passage of time
+	text:	as you suddenly find yourself packing up your camp again.
+	text:	 
+	text:	The memories, not yet formed, last you a lifetime,
+	text:	develop into a kaleidoscope of sunshine, warm beer and constant noise.
+	//jonna
+	//Please dont talk to me
+	music:mdy_m_02
+	unlock:music_lover
+}
+
+{
+	name: prison
+	title: Jail
+	text:	The hearing took 10 hours.
+	text:	You were bored out of your mind. You pleaded not guilty.
+	text:	The late summer sun cast brownish shadows as the jury stared at you equally bored.
+	text:	You end up spending 3 months in prison before making bail.
+	text:	Your parents are ashamed, but happy you are home again. 
+	text:	Life goes on.
+	unlock:	prison
+	//everything allright
+	music:mdy_m_03
+}
+
+{
+	name: mountain
+	title: Top of the World
+	text:	It's incredible how majestic this world can be
+	text:	A grandeur too great to not invoke reverence.
+	text:	There were many moments in life where you stopped to take it all in,
+	text:	but none of them had the same impact...
+	text:	...as the first time you saw a mountain range stretched so far...
+	text:	...that the white tips became but hands clasped in a 100 million year long prayer.
+	unlock:	camping_gear
+	//please dont talk
+}
+
+{
+	name: work
+	title: Hard Worker
+	text:	You find yourself getting up at 7am and back at home at 5pm.
+	text:	You have a beer with your co-workers on Fridays, but nothing fun really seems to happen.
+	text:	Your parents are happy that you have an income,
+	text:	you are too, you suppose...
+	//Friday
+	music:mdy_m_05
+	unlock:worker
+}
+
+{
+	name: race
+	title: The Great Race
+	text:	You couldn't believe it
+	text:	You won!
+	text:	It took some grit and a bit of skill,
+	text:	but mostly just guts.
+	text:	Enjoy it while you can.
+	text:	The chance might never come again.
+	//werewolf song for actual race, other song for ending?
+	music:mdy_02
+	
+	unlock: racer
+}
+
+{
+	name: rehab
+	title: Rehab
+	text:	You begin your stay reluctantly, but start enjoying the food schedule and the aimless walks.
+	text:	The first few days feel like shit, withdrawals haunt you, and you want to leave.
+	text:	As the end of the second week approaches you begin to feel calm and in control.
+	text:	You don't know how long it'll last, but you're clean for now
+	unlock: rehab
+	//cigarettes peoplesbeer
+	music:mdy_m_04
+}
+
+{
+	name: inheritance
+	title: Inheritance
+	text:	You end up building a small house on the plot of land that your grandmother left you.
+	text:	The pride of having made it yourself and honoring her memory...
+	text:	...fades eventually and you grow tired of the repairs and being so isolated.
+	text:	You think, one day, when I'm old
+	text:	I'll move back out to the country.
+	//jonna?
+	//last4ever
+	music:mdy_05
+	unlock:mourning
+}
+
+
+{
+	name: party
+	title: The Cabin
+	text:	You and The Hurricane dance into the decadent party in the woods.
+	text:	Living for a week in your own little bubble of drugs, drinks and sex-
+	text:	- surrounded by tall swaying pine trees -
+	text:	- that seem to have little interest in your hedonistic vacation.
+	//midsummer party
+	music:mdy_01
+	unlock:art_stuff
+}
+
+
+
+{
+	name: demo_ending
+	title: Video Games
+	text:	You sit on a pile of pillows and blankets with your friend,
+	text:	completely enveloped by the game and its hypnotic light.
+	text:	Of course you choose "legendary"; 
+	text:	dying 1000 times is frivolous when you're young.
+	text:	One more time, you say as the evening yawns into morning. 
+	text:	One more time; it's the weekend after all.
+	demo: 1
+
+}
+
+//these ending is only used for the texts
+
+{
+	name: game_over_time
+	title: Failure
+	text:	The steering wheel of your car feels worn.
+	text:	Your ass hurts and your right leg is a bit sore.
+	text:	The car looks like it needs a deep rest and a long shower.
+	text:	However, you're not satisfied.
+	//Yasuko Onuki
+	//hungry and alone
+	music:mdy_04
+	demo: 1
+}
+
+{
+	name: inheritance_bad
+	title: Inheritance
+	text:	A walk around the property confirms your initial feeling
+	text:	that the land looks dead and ugly.
+	text:	The dilapidated house gives you a headache as you wonder: 
+	text:	what was she thinking? there's too much to fix
+	text:	I'll never live here. You get back into your car
+	text:	...and keep driving.
+	demo:1
+}

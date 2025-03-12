@@ -1,0 +1,594 @@
+
+
+
+
+
+{
+	dev_name: westkust01
+	title: Swirl
+	artist: Westkust
+	track: music_WESTKUST___LAST_FOREVER___01_Swirl
+	start:1
+	streamer_ban: 1
+}
+
+{
+	dev_name: westkust02
+	title: Dishwasher
+	artist: Westkust
+	track: music_WESTKUST___LAST_FOREVER___02_Dishwasher
+	start:1
+	streamer_ban: 1
+}
+
+{
+	dev_name: westkust03
+	title: Drown
+	artist: Westkust
+	track: music_WESTKUST___LAST_FOREVER___03_Drown
+	start:1
+	streamer_ban: 1
+}
+
+{
+	dev_name: westkust04
+	title: 0700
+	artist: Westkust
+	track: music_WESTKUST___LAST_FOREVER___04_0700
+	start:1
+	streamer_ban: 1
+}
+
+{
+	dev_name: westkust05
+	title: Weekends
+	artist: Westkust
+	track: music_WESTKUST___LAST_FOREVER___05_Weekends
+	start:1
+	streamer_ban: 1
+}
+
+{
+	dev_name: westkust06
+	title: Easy
+	artist: Westkust
+	track: music_WESTKUST___LAST_FOREVER___06_Easy
+	start:1
+	streamer_ban: 1
+}
+
+{
+	dev_name: westkust07
+	title: Jonna
+	artist: Westkust
+	track: music_WESTKUST___LAST_FOREVER___07_Jonna
+	start:1
+	streamer_ban: 1
+}
+
+{
+	dev_name: westkust08
+	title: Summer 3D
+	artist: Westkust
+	track: music_WESTKUST___LAST_FOREVER___08_Summer_3D
+	start:1
+	streamer_ban: 1
+}
+{
+	dev_name: westkust09
+	title: Another Day
+	artist: Westkust
+	track: music_WESTKUST___LAST_FOREVER___09_Another_day
+	start:1
+	streamer_ban: 1
+}
+
+
+{
+	dev_name: holynow1
+	title: Wake Up
+	artist: Holy Now
+	track: music_Wake_Up___Holy_Now
+	start:0
+	streamer_ban: 1
+}
+
+
+{
+	dev_name: zimmer01
+	title: Famous Chinese Short Stories
+	artist: Zimmer Grandioso
+	track: music_01_famous_chinese_short_stories
+	start:0
+	streamer_ban: 0
+}
+
+
+
+{
+	dev_name: zimmer02
+	title: Dog in the Sun
+	artist: Zimmer Grandioso
+	track: music_02_dog_in_the_sun
+	start:0
+}
+
+
+{
+	dev_name: zimmer03
+	title: Cowboy Pills
+	artist: Zimmer Grandioso
+	track: music_03_cowboy_pills
+	start:0
+}
+
+{
+	dev_name: zimmer04
+	title: Ive Been Wasting All My Good Years
+	artist: Zimmer Grandioso
+	track: music_04_i_ve_been_wasting_all_my_good_years_away
+	start:0
+}
+
+{
+	dev_name: zimmer05
+	title: Hometowns
+	artist: Zimmer Grandioso
+	track: music_05_hometowns
+	start:0
+}
+
+
+{
+	dev_name: zimmer06
+	title: Let Me Down
+	artist: Zimmer Grandioso
+	track: music_06_let_me_down
+	start:0
+}
+
+{
+	dev_name: mundane01
+	title: Riff Raff
+	artist: Mundane
+	track: music_01_Mundane___Riff_Raff_Main_Master__2496__240315
+	start:0
+}
+
+{
+	dev_name: mundane02
+	title: Fast but Lazy
+	artist: Mundane
+	track: music_02_Mundane___Fast_but_Lazy_Main_Master__2496__240315
+	start:0
+}
+
+{
+	dev_name: mundane03
+	title: Never Change
+	artist: Mundane
+	track: music_03_Mundane___Never_Change_Main_Master__2496__240315
+	start:0
+}
+
+{
+	dev_name: mundane04
+	title: New Friends
+	artist: Mundane
+	track: music_04_Mundane___New_Friends_Main_Master__2496__240315
+	start:0
+}
+
+{
+	dev_name: mundane05
+	title: Summer Day
+	artist: Mundane
+	track: music_05_Mundane___Summer_Day_Main_Master__2496__240315
+	start:0
+}
+
+{
+	dev_name: crystal_boys01
+	title: Nightlife
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___01_Nightlife
+	start:1
+}
+
+{
+	dev_name: crystal_boys02
+	title: Gold
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___02_Gold
+	start:1
+}
+
+{
+	dev_name: crystal_boys03
+	title: Tigers
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___03_Tigers
+	start:1
+}
+
+{
+	dev_name: crystal_boys04
+	title: Break Away
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___04_Break_Away
+	start:1
+}
+
+{
+	dev_name: crystal_boys05
+	title: Heat Waves
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___05_Heat_Waves
+	start:1
+}
+
+{
+	dev_name: crystal_boys06
+	title: Color of Snow
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___06_Color_of_Snow
+	start:1
+}
+
+{
+	dev_name: crystal_boys07
+	title: Lost Times
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___07_Lost_Times
+	start:1
+}
+
+{
+	dev_name: crystal_boys08
+	title: End and Begin
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___08_End_and_Begin
+	start:1
+}
+
+{
+	dev_name: crystal_boys09
+	title: Endless Ocean
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___09_Endless_Ocean
+	start:1
+}
+{
+	dev_name: crystal_boys10
+	title: Close Your Eyes
+	artist: Crystal Boys
+	track: music_Crystal_Boys___Let_it_slip___10_Close_Your_Eyes
+	start:1
+}
+
+{
+	dev_name: werewolf01
+	title: The Tito Beltran Massacre
+	artist: FUCKING WEREWOLF ASSO
+	track: music_FWA_03_A3_THE_TITO_BELTR_N_MASSACRE
+	start:0
+}
+
+{
+	dev_name: werewolf02
+	title: Boy Makes Wolf
+	artist: FUCKING WEREWOLF ASSO
+	track: music_FWA_09_B4_BOY_MAKES_WOLF
+	start:0
+}
+
+{
+	dev_name: werewolf03
+	title: Your Ex Doesn't Mark Treasures
+	artist: FUCKING WEREWOLF ASSO
+	track: music_FWA_10_B5_YOUR_EX_DOESN_T_MARK_TREASURES
+	start:0
+}
+
+{
+	dev_name: werewolf_single_1
+	title: Eva Spence
+	artist: FUCKING WEREWOLF ASSO
+	track: music_FUCKING_WEREWOLF_ASSO___S_T_7_INCH___01_EVA_SPENCE
+	start:0
+
+}
+
+{
+	dev_name: werewolf_single_2
+	title: Helen Tiger
+	artist: FUCKING WEREWOLF ASSO
+	track: music_FUCKING_WEREWOLF_ASSO___S_T_7_INCH___02_HELEN_TIGER
+	start:0
+}
+
+{
+	dev_name: werewolf_single_3
+	title: Yasuko Onuki
+	artist: FUCKING WEREWOLF ASSO
+	track: music_FUCKING_WEREWOLF_ASSO___S_T_7_INCH___03_YASUKO_ONUKI
+	start:0
+}
+
+{
+	dev_name: werewolf_single_4
+	title: Jemina Pearl
+	artist: FUCKING WEREWOLF ASSO
+	track: music_FUCKING_WEREWOLF_ASSO___S_T_7_INCH___04_JEMINA_PEARL
+	start:0
+}
+
+{
+	dev_name: makthaverskan01
+	title: Leda
+	artist: Makthaverskan
+	track: music_makthaverskan___Ill___02_Leda
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: makthaverskan02
+	title: Witness
+	artist: Makthaverskan
+	track: music_makthaverskan___Ill___04_Witness
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: makthaverskan03
+	title: Antabus
+	artist: Makthaverskan
+	track: music_makthaverskan___Makthaverskan_II___01_Antabus
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: makthaverskan04
+	title: Asleep
+	artist: Makthaverskan
+	track: music_makthaverskan___Makthaverskan_II___02_Asleep
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: makthaverskan05
+	title: Outshine
+	artist: Makthaverskan
+	track: music_makthaverskan___Makthaverskan_II___05_Outshine
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: makthaverskan06
+	title: Distance
+	artist: Makthaverskan
+	track: music_makthaverskan___Makthaverskan_II___08_Distance
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: honeydrips01
+	title: Fatima Says
+	artist: The Honeydrips
+	track: music_The_Honeydrips___In_the_city___06_Fatima_Says
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: honeydrips02
+	title: Bright
+	artist: The Honeydrips
+	track: music_The_Honeydrips___In_the_city___07_Bright
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: honeydrips03
+	title: Fire We Light
+	artist: The Honeydrips
+	track: music_The_Honeydrips___In_the_city___08_Fire_We_Light
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: honeydrips04
+	title: In The City
+	artist: The Honeydrips
+	track: music_The_Honeydrips___In_the_city___09_In_The_City
+	start:0
+	streamer_ban: 1
+}
+{
+	dev_name: honeydrips05
+	title: There Comes A Time
+	artist: The Honeydrips
+	track: music_The_Honeydrips___In_the_city___12_There_Comes_a_Time
+	start:0
+	streamer_ban: 1
+}
+
+
+{
+	dev_name: dorena01
+	title: Dandelion
+	artist: Dorena
+	track: music_Dorena_Dandelion
+	start:0
+	streamer_ban:1
+}
+
+{
+	dev_name: kid_feral01
+	title: Arkenbuzzsaw
+	artist: Kid Feral
+	track: music__5___Arkenbuzzsaw_2024_09_13
+	start:0
+}
+
+
+{
+	dev_name: mdy_01
+	title: Midsummer Party
+	artist: My Darling YOU!
+	track: music_mdy_1_Midsummer_Party
+	start:0
+}
+
+{
+	dev_name: mdy_02
+	title: It's Not Nice To Be Alone In The Fall
+	artist: My Darling YOU!
+	track: music_mdy_2_It_s_Not_Nice_To_Be_Alone_In_The_Fall
+	start:0
+}
+{
+	dev_name: mdy_03
+	title: This Weather Pisses Me Off
+	artist: My Darling YOU!
+	track: music_mdy_3_This_Weather_Pisses_Me_Off
+	start:0
+}
+
+{
+	dev_name: mdy_04
+	title: Hungry & Alone
+	artist: My Darling YOU!
+	track: music_mdy_4_Hungry___Alone
+	start:0
+}
+
+{
+	dev_name: mdy_05
+	title: Last4ever
+	artist: My Darling YOU!
+	track: music_mdy_5_LAST4EVER
+	start:0
+}
+
+{
+	dev_name: mdy_m_01
+	title: We Break Up On Friday
+	artist: My Darling YOU!
+	track: music_mdy_m_1_We_Break_Up_On_Friday
+	start:0
+}
+
+{
+	dev_name: mdy_m_02
+	title: Please Don't Talk To Me I Fall In Love So Easily
+	artist: My Darling YOU!
+	track: music_mdy_m_2_Please_Don_t_Talk_To_Me_I_Fall_In_Love_So_Easily
+	start:0
+}
+
+{
+	dev_name: mdy_m_03
+	title: Everything, Alright?!
+	artist: My Darling YOU!
+	track: music_mdy_m_3_Everything__Allright__
+	start:0
+}
+
+{
+	dev_name: mdy_m_04
+	title: Cigarettes & Peoplesbeer
+	artist: My Darling YOU!
+	track: music_mdy_m_4_Cigarettes___Peoplesbeer
+	start:0
+}
+
+{
+	dev_name: mdy_m_05
+	title: Friday
+	artist: My Darling YOU!
+	track: music_mdy_m_5_Friday
+	start:0
+}
+
+{
+	dev_name: aasma_0
+	title: Going Nowhere
+	artist: Aasma
+	track: music_03_Aasma_Going_Nowhere
+	start:0
+	streamer_ban: 1
+}
+
+{
+	dev_name: holy_now_d_1
+	title: Ballad
+	artist: Holy Now
+	track: music_Holy_Now___Dream_of_Me___01_Ballad
+	start:0
+
+}
+
+{
+	dev_name: holy_now_d_2
+	title: Places
+	artist: Holy Now
+	track: music_Holy_Now___Dream_of_Me___02_Places
+	start:0
+}
+
+{
+	dev_name: holy_now_d_3
+	title: Dream of Me
+	artist: Holy Now
+	track: music_Holy_Now___Dream_of_Me___04_Dream_of_Me
+	start:0
+}
+
+{
+	dev_name: sw_01
+	title: How Many Nights
+	artist: The Songwriter
+	track: music_sw_01___how_many_nights
+	start:0
+}
+
+{
+	dev_name: sw_02
+	title: Lord
+	artist: The Songwriter
+	track: music_sw_02___lord
+	start:0
+}
+
+{
+	dev_name: sw_03
+	title: You Won You Won You Won You Won
+	artist: The Songwriter
+	track: music_sw_03___you_won_you_won_you_won_you_won
+	start:0
+}
+
+{
+	dev_name: el_huervo_five
+	title: FIVE
+	artist: El Huervo
+	track: music_El_Huervo___FIVE
+	start:0
+}
+
+{
+	dev_name: el_huervo_recluse
+	title: Recluse
+	artist: El Huervo
+	track: music_El_Huervo___Recluse
+	start:0
+}

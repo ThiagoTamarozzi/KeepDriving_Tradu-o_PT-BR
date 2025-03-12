@@ -1,0 +1,384 @@
+
+{
+	devname: wanderlust
+	name: Wanderlust
+	desc: When clearing a road event during the day, gain 1 energy.
+	unlock: innate
+}
+
+{
+	devname: carefree
+	name: Carefree
+	desc: Wanderlust restores one additional energy.
+	unlock: innate
+}
+
+{
+	devname: car_savvy
+	name: Car Savvy
+	desc: Whenever you restore durability, restore one more.
+	unlock: innate
+}
+
+{
+	devname: student
+	name: Fast Learner
+	desc: Start with one skill point. Gain a skill point when you read.
+	unlock: innate
+}
+
+{
+	devname: smoker
+	name: Smoker
+	desc: when using cigarettes, consume 2 cigarettes instead of 1.
+	unlock: smoke 14 cigarettes
+}
+
+{
+	devname: heavy_smoker
+	name: Heavy Smoker
+	desc: when using cigarettes, consume 3 cigarettes instead of 1.
+	unlock: smoke 36 cigarettes
+}
+
+{
+	devname: loner
+	name: Loner
+	desc: When driving alone: gain 1 energy at the start of each turn during events.
+	unlock: Skip picking up hitchhikers
+}
+
+{
+	devname: workaholic
+	name: Workaholic
+	desc: Aren't you on a Road Trip?
+	unlock: work at the same place 3 times
+}
+
+{
+	devname: mechanic
+	name: Mechanic
+	desc: You get better prices at garages.
+	unlock: use mechanic-related items
+}
+
+{
+	devname: broke
+	name: Broke
+	desc: Start of player phase: remove one cash threat
+	unlock: lose 0 cash when taking cash threat damage
+}
+
+{
+	devname: inspired_worker
+	name: Inspired Worker
+	desc: It costs less energy to work.
+	unlock: Work when inspired.
+}
+
+{
+	devname: city_kid
+	name: City Kid
+	desc: Get Inspired when entering a city
+	unlock: Clear obstacles while exploring the city
+}
+
+{
+	devname: runaway
+	name: Impatient
+	desc: Get In the zone when escaping an event
+	unlock: Escape events
+}
+
+{
+	devname: rain_lover
+	name: Rain Lover
+	desc: Sleeping in the tent while it's raining restores energy fully and inspires you.
+	unlock: introspection
+}
+
+{
+	devname: comfortable
+	name: Comfortable
+	desc: Staying in a hostel has a chance of giving you a skill point.
+	unlock: Stay in a hostel three times
+	
+	//add -1 energy to sleeping in car
+	
+}
+
+{
+	devname: moody
+	name: Moody
+	desc: gain 1 energy when rotating out a status effect.
+	unlock: Rotate out a status effect 5 times
+}
+
+{
+	devname: happy_user
+	name: Optimist
+	desc: Happy lasts twice as long!
+	unlock: Use happy turns
+}
+
+
+{
+	devname: junkie
+	name: Junkie 
+	desc: You're in constant withdrawal
+	unlock: Use drugs excessively
+}
+
+{
+	devname: good_driver
+	name: Good driver 
+	desc: Drive faster
+	unlock: Don't take any durability or gas damage for 6 complete roads
+}
+
+{
+	devname: bad_driver
+	name: Bad driver 
+	desc: Start of road event: get one armor
+	unlock: Black out from taking durability damage (lose all durability)
+}
+
+{
+	devname: gourmand
+	name: Glutton
+	desc: Become hungry more often
+	unlock: Eat large amounts of junk food
+}
+
+{
+	devname: macgyver
+	name: Crafty
+	desc: Items are considered SWIFT
+	unlock: Use crafty items
+}
+
+{
+	devname: vegetarian
+	name: Vegetarian
+	desc: Consuming vegetarian food gives you 1 energy
+	unlock: Introspection
+}
+
+{
+	devname: drunk_meat_eater
+	name: Drunk Meat Eater
+	desc: Consuming vegetarian food gives you 1 energy. You can still eat meat, but only when you're drunk.
+	unlock: Eat meat while drunk and vegetarian.
+}
+
+{
+	devname: careful_car_owner
+	name: Careful Car Owner
+	desc: You are VERY careful with your car. Durability threat are always attacking
+	unlock: Don't let your durability drop below 80%
+	
+	//add threat effect
+	
+}
+
+{
+	devname: pinch_purse
+	name: Pinch-Purse
+	desc: You are more likely to get robbed
+	unlock: Don't spend money
+	
+	//can't unlock yet
+}
+
+{
+	devname: social_drinker
+	name: Social Drinker
+	desc: Turning in quests while drunk earns you more skill points
+	unlock: Be drunk while talking to people
+}
+
+{
+	devname: alcoholic
+	name: Alcoholic
+	desc: When you're no longer drunk, become sad.
+	unlock: Drink. Alot. While already drunk.
+	
+	//add event card tag while sober
+	
+}
+
+
+{
+	devname: untrustworthy
+	name: Untrustworthy
+	desc: Find less quests.
+	unlock: Fail enough quests
+}
+
+{
+	devname: precision
+	name: Perfectionist
+	desc: All skills/items that only target ONE threat ignores shields
+	unlock: Use skills and items that ignore SHIELDS.
+}
+
+{
+	devname: rehabilitated
+	name: Rehabilitated
+	desc: Start from the REHAB Facility
+	unlock: Complete the rehab ending
+}
+
+{
+	devname: racer
+	name: Racer
+	desc: Adds special events during road events
+	unlock: Complete the race ending
+}
+
+{
+	devname: veteran
+	name: Veteran
+	desc: No perks. Harder events earlier.
+	unlock: Unlock 7 endings
+}
+
+
+{
+	devname: social_mastery
+	name: Social Master
+	desc: All Hitchhiker skills have one additional use
+	unlock: Aquire all social skills
+}
+
+{
+	devname: basic_mastery
+	name: Working Class Hero
+	desc: When you use a basic skill you have a 50% chance to become inspired
+	unlock: Aquire all basic skills
+	//its in
+	
+}
+
+
+{
+	devname: driving_mastery
+	name: King of the Road
+	desc: skills that are exhausted can still be used, but lose 1 durability and 1 gas when you do so
+	unlock: Aquire all driving skills
+	//note maybe 2 random threat. works with running on fumes, make another skill in driver tree work with exhausting skills
+	//skills that are exhausted can still be used, but lose 1 durability and 1 gas when you do so
+	//Whenever a skill is exhausted, destroy one random threat
+	
+}
+
+{
+	devname: hiking_mastery
+	name: True Hiker
+	desc: Whenever threat destroys armor, destroy the attacking threat.
+	unlock: Aquire all hiking skills
+	//its in
+	// basically a "thorns"-effect. may word it differently
+	
+}
+
+{
+	devname: thrifty_mastery
+	name: Scavenger
+	desc: Whenever you use a thrifty skill, add a small item to your glovebox with one use
+	unlock: Aquire all thrifty skills
+	
+	//and remove the skill "scavenge"
+	// both useful for the items during combat but can also be exploited to earn some money
+	
+}
+
+{
+	devname: gourmet_mastery
+	name: Ultimate Gourmet
+	desc: Whenever you consume food from the glovebox, destroy 1-2 random threat
+	unlock: Aquire all gourmet skills
+	//its in
+	
+}
+
+{
+	devname: bookworm
+	name: Book worm
+	desc: read faster
+	unlock: finish 3 books
+}
+
+{
+	devname: spartan
+	name: Spartan
+	desc: If you have no items in your trunk, you're constantly satisfied
+	unlock: Introspection
+}
+
+{
+	devname: hoarder
+	name: Hoarder
+	desc: If you have no empty space in your trunk, gain 2 energy after each road event
+	unlock: Fill your entire trunk
+}
+
+{
+	devname: sugar_addict
+	name: Sugar Addict
+	desc: When you consume products with sugar, gain 1 extra energy but also become more tired
+	unlock: Consume sugary items
+}
+
+
+{
+	devname: have_a_go_nerf
+	name: Experienced
+	desc: Have-a-go now has 5 maximum uses.
+	unlock: Use have-a-go 30 times.
+}
+
+
+
+{
+	devname: lottery_winner
+	name: Lucky Bastard
+	desc: You're rich!
+	unlock: Win the lottery
+}
+
+
+{
+	devname: allergic
+	name: Allergic
+	desc: Lose one energy when driving on a country road
+	unlock: Introspection
+}
+
+{
+	devname: junkie_2
+	name: In Denial
+	desc: You're in constant withdrawal
+	unlock: Refuse aid
+}
+
+{
+	devname: worker
+	name: Worker
+	desc: Your start with more cash
+	unlock: innate
+}
+
+{
+	devname: downer
+	name: Downer
+	desc: When you become sad, also become satisfied. It rains more often.
+	unlock: innate
+}
+
+{
+	devname: litterbug
+	name: Litterbug
+	desc: In forest and mountain areas, add one gas threat to events.
+	unlock: Throw away trash outside the car.
+}

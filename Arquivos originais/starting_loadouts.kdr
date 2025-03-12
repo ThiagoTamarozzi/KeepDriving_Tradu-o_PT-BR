@@ -1,0 +1,90 @@
+
+
+{
+	loadout_name: basic
+	loadout_title: Mom's care package
+	loadout_short: Mom's
+	loadout_desc: yes
+	loadout_start: 1
+	
+	loadout_items: item:chocolate, item:gas_tank_big, item:bandage, item:banana, item:aspirin
+}
+
+{
+	loadout_name: tools
+	loadout_title: My tools
+	loadout_short: Tools
+	loadout_desc: yes
+	loadout_start: 1
+	
+	loadout_items: item:toolbox, item:gas_tank_big, item:duct_tape, item:apple
+}
+
+
+{
+	loadout_name: guitar
+	loadout_title: Guitar and beer
+	loadout_short: Guitar
+	loadout_desc: yes
+	loadout_start: 1
+	
+	loadout_items: item:electric_guitar, item:cigarettes, item:beer_case_green
+}
+
+
+{
+	loadout_name: camping
+	loadout_title: Camping gear
+	loadout_short: Gear
+	loadout_desc: yes
+	loadout_start: 0
+	
+	loadout_items: item:tent, item:flash_light, item:gas_tank_big, item:canned_beans, item: knife
+}
+
+{
+	loadout_name: prison_stuff
+	loadout_title: Shady things
+	loadout_short: Shady
+	loadout_desc: yes
+	loadout_start: 0
+	
+	loadout_items: item:knife_small, item:cocaine, item:crowbar, item:tuna_can, item:cigarettes
+}
+
+//from party
+
+{
+	loadout_name: art_stuff
+	loadout_title: Art Supplies
+	loadout_short: Art
+	loadout_desc: yes
+	loadout_start: 0
+	
+	loadout_items: item:joint, item:upg_red_spray, item:upg_black_spray, item:upg_vandalism_4, item:gum2, item:coffee
+}
+
+//from festival
+
+{
+	loadout_name: music_lover
+	loadout_title: Festival Kit
+	loadout_short: Music
+	loadout_desc: yes
+	loadout_start: 0
+	
+	loadout_items: item:beer_can_1, item:upg_speakers, item:gum, item:sunglasses, item:beer_can_2, item:camera
+}
+
+
+
+{
+	loadout_name: return
+	loadout_title: Return
+	loadout_short: Return
+	loadout_desc: yes
+	loadout_start: 0
+	
+	loadout_items: item:sandwich
+}
+

@@ -1,0 +1,134 @@
+///////////////////////HITCHHIKERS
+
+//---------------------------------THE SUIT
+{
+	dev_name: "suit"
+	hh_name: "Peter Hornsby"
+	desc: "This is a hitchhiker"
+	
+	start_skill: "smooth_talker"
+	
+	perk_id: "dealmaker"
+	perk_name: "Hustling"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "bribe"
+	perk_name: "Money solves everything"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "scavenge"
+	perk_name: "Finding stuff"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	sprite_portrait: spr_hh_portrait_suit
+	sprite_rw_big: spr_hh_suit_rw_big
+	sprite_rw_small: spr_hh_suit_rw_small
+	sprite_menu_portrait: spr_hitchhiker_suit_portrait_hitchermenu
+	
+	sprite_button: spr_hh_suit_button
+	
+	sprite_idle: spr_hitchhiker_suit_idle
+	sprite_idle: spr_hitchhiker_suit_idle_2
+	
+	sprite_hitch: spr_hitchhiker_suit_hitch
+	
+	sprite_kicked: spr_hitchhiker_suit_sitting_loop
+	
+}
+//---------------------------------THE HIPPIE GIRL
+{
+	dev_name: "hippie_girl"
+	hh_name: "Judee Bird"
+	desc: "This is a hitchhikerette"
+	
+	start_skill: "backrubber"
+	
+	perk_id: "super_cheer"
+	perk_name: "When I was a cheerleader"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "refreshing_thoughts"
+	perk_name: "Get through anything"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "cure_negative_ailment_arrive"
+	perk_name: "Massage skills"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	sprite_portrait: spr_hh_portrait_hippiegirl
+	sprite_rw_big: spr_hh_girl_rw_big
+	sprite_rw_small: spr_hh_girl_rw_small
+	sprite_menu_portrait: spr_hitchhiker_girl_portrait_hitchermenu
+	
+	sprite_button: spr_hh_girl_button
+	
+	sprite_idle: spr_hitchhiker_girl_idle_1
+	sprite_idle: spr_hitchhiker_girl_idle_1b
+	
+	sprite_hitch: spr_hitchhiker_girl_hitch
+	
+	sprite_kicked: spr_hitchhiker_girl_sitting
+	
+}
+//---------------------------------THE MECHANIC
+{
+	dev_name: "mechanic"
+	hh_name: "Brian Taylor"
+	desc: "Doesn't talk much."
+	
+	start_skill: "instruct"
+	
+	perk_id: "whack"
+	perk_name: "The right whack!"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "auto_repair"
+	perk_name: "Fixing things"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end	
+	
+	perk_id: "cheap_repair"
+	perk_name: "Contacts"
+	perk_type: "passive"
+	perk_dia: "hh_mechanic_skill_dialogue_cheap_repair"
+	perk_end	
+	
+	perk_id: "perfectionist"
+	perk_name: "Getting things right"
+	perk_type: "passive"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	perk_id: "smoke_break"
+	perk_name: "Taking breaks"
+	perk_type: "skill"
+	perk_dia: "hh_default_gain_skill"
+	perk_end
+	
+	sprite_portrait: spr_hh_portrait_mechanic
+	sprite_rw_big: spr_hh_mechanic_rw_big
+	sprite_rw_small: spr_hh_mechanic_rw_small
+	sprite_menu_portrait: spr_hitchhiker_mechanic_portrait_hitchermenu
+	
+	sprite_button: spr_hh_mechanic_button
+	
+	sprite_idle: spr_hitchhiker_mechanic_idle
+	
+	sprite_hitch: spr_hitchhiker_mechanic_hitch
+	
+}

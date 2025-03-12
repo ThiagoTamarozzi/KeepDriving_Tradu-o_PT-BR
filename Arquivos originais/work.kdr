@@ -1,0 +1,135 @@
+{
+	id: "janitor_work"
+	title: "Janitor work"
+	desc: "Cleaning and stuff in a school or something"
+	env: "city_small,city,country"
+	cost: 5
+	pay: 40
+	normal_req: "janitor,mechanic,student"
+	bonus_req: "strong:1"
+	bonus: "energy:3"
+	time: 12
+}
+
+{
+	id: "cafe_work"
+	title: "Cafe staff needed"
+	desc: "Need someone who can jump in as assistant barista!"
+	env: "city,country"
+	cost: 5
+	pay: 45
+	normal_req: "none"
+	time: 16
+}
+
+{
+	id: "toilet_cleaner"
+	title: "Toilet cleaner"
+	desc: "Looking for help with cleaning of toilets"
+	env: "city_small,city"
+	cost: 6
+	pay: 60
+	normal_req: "none"
+	time: 14
+}
+
+{
+	id: "game_tester"
+	title: "Game tester"
+	desc: "We at YCJY Games need testers for our upcoming game!"
+	env: "city_small,city"
+	cost: 4
+	pay: 25
+	normal_req: "none"
+	time: 6
+}
+
+{
+	id: "forest_watcher"
+	title: "Forest watcher"
+	desc: "Watch over the forest."
+	env: "forest"
+	cost: 3
+	pay: 40
+	normal_req: "none"
+	time: 24
+}
+
+{
+	id: "camping_work"
+	title: "Cabin cleaner"
+	desc: "Need help cleaning cabins at the camping resort"
+	env: "forest"
+	cost: 5
+	pay: 35
+	normal_req: "none"
+	time: 8
+}
+
+{
+	id: "bartender_work"
+	title: "Bartender"
+	desc: "Need someone that can pour beers for a night"
+	env: "city_small,city"
+	cost: 2
+	pay: 30
+	normal_req: "none"
+	time: 10
+}
+
+{
+	id: "manual_labor"
+	title: "Construction"
+	desc: "Need workers in construction"
+	env: "city"
+	cost: 10
+	pay: 60
+	normal_req: "none"
+	time: 16
+}
+
+
+{
+	id: "lawyers_office"
+	title: "Reception work"
+	desc: "Need someone who can work in our small law office."
+	env: "desert"
+	cost: 4
+	pay: 66
+	normal_req: "none"
+	time: 14
+}
+
+{
+	id: "nail_salon"
+	title: "Cleaner"
+	desc: "We're in need of a cleaner in our Nail Salon."
+	env: "desert"
+	cost: 2
+	pay: 44
+	normal_req: "none"
+	time: 8
+}
+
+{
+	id: "farm_work"
+	title: "Farm Work"
+	desc: "Need a steady hand at our ranch. We'll pay well!"
+	env: "rural,country"
+	cost: 8
+	pay: 75
+	normal_req: "none"
+	time: 24
+}
+
+
+{
+	id: "permanent_position"
+	title: "Permanent Job"
+	desc: "Has great benefits"
+	env: "special"
+	cost: 6
+	pay: 100
+	normal_req: "none"
+	time: 72
+}

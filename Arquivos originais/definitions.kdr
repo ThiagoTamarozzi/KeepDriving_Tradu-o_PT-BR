@@ -1,0 +1,235 @@
+//////////DEFINITIONS
+////BASE STATS
+
+{
+	dev_name: "gas_short"
+	name:	"[#FF9557]GAS[/color]"
+}
+
+{
+	dev_name: "gas"
+	name:	"[#FF9557]Gas[/color]"
+}
+
+
+{
+	dev_name: "gas_max"
+	name:	"max Gas capacity"
+}
+
+
+
+{
+	dev_name: "durability_short"
+	name:	"[#00AEF0]DRB[/color]"
+}
+{
+	dev_name: "car_health_short"
+	name:	"[#00AEF0]DRB[/color]"
+}
+{
+	dev_name: "carhealth_short"
+	name:	"[#00AEF0]DRB[/color]"
+}
+
+{
+	dev_name: "durability"
+	name:	"[#00AEF0]Durability[/color]"
+}
+
+
+
+{
+	dev_name: "car_health"
+	name:	"[#00AEF0]Durability[/color]"
+}
+{
+	dev_name: "carhealth"
+	name:	"[#00AEF0]Durability[/color]"
+}
+
+{
+	dev_name: "Durability"
+	name:	"[#00AEF0]Durability[/color]"
+}
+
+{
+	dev_name: "car_health_max"
+	name:	"Max Durability"
+}
+{
+	dev_name: "carhealth_max"
+	name:	"Max Durability"
+}
+
+{
+	dev_name: "energy_short"
+	name:	"[#60BA49]EN[/color]"
+}
+
+{
+	dev_name: "energy"
+	name:	"[#60BA49]Energy[/color]"
+}
+
+
+{
+	dev_name: "energy_max"
+	name:	"Max Energy"
+}
+
+
+{
+	dev_name: "money_short"
+	name:	"[#FFBD00]CSH[/color]"
+}
+
+{
+	dev_name: "money"
+	name:	"[#FFBD00]Cash[/color]"
+}
+
+//SKILL
+{
+	dev_name: "basic_skill_text"
+	name:	"Basic targeting skill"
+}
+
+
+///DAY AND TIME
+
+{
+	dev_name: "monday"
+	name:	"MON"
+}
+{
+	dev_name: "tuesday"
+	name:	"TUE"
+}
+{
+	dev_name: "wednesday"
+	name:	"WED"
+}
+{
+	dev_name: "thursday"
+	name:	"THU"
+}
+{
+	dev_name: "friday"
+	name:	"FRI"
+}
+{
+	dev_name: "saturday"
+	name:	"SAT"
+}
+{
+	dev_name: "sunday"
+	name:	"SUN"
+}
+
+{
+	dev_name: "monday_full"
+	name:	"Monday"
+}
+{
+	dev_name: "tuesday_full"
+	name:	"Tuesday"
+}
+{
+	dev_name: "wednesday_full"
+	name:	"Wednesday"
+}
+{
+	dev_name: "thursday_full"
+	name:	"Thursday"
+}
+{
+	dev_name: "friday_full"
+	name:	"Friday"
+}
+{
+	dev_name: "saturday_full"
+	name:	"Saturday"
+}
+{
+	dev_name: "sunday_full"
+	name:	"Sunday"
+}
+
+
+
+//////////////////////////////SKILL TERMS
+{
+	dev_name: "threat_test"
+	name:	"[region,threat][fnt_dashboard_mid_bold]Threat[fnt_dashboard_mid][/region]"
+}
+{
+	dev_name: "threat_old"
+	name:	"[region,threat][#B23C36]Threat[/color][/region]"
+}
+{
+	dev_name: "SWIFT:"
+	name:	"[region,swift][#E4ACF1]SWIFT:[/color][/region]"
+}
+
+
+{
+	dev_name: "threat"
+	name:	"[region,threat][#46B283]Threat[/color][/region]"
+}
+
+{
+	dev_name: "armor"
+	name:	"[region,armor][#46B283]Armor[/color][/region]"
+}
+
+{
+	dev_name: "note"
+	name:	"[region,bomb][#46B283]Note[/color][/region]"
+}
+{
+	dev_name: "debuff"
+	name:	"[region,debuff][#46B283]Debuff[/color][/region]"
+}
+{
+	dev_name: "shield"
+	name:	"[region,shield][#46B283]Shield[/color][/region]"
+}
+{
+	dev_name: "Shields"
+	name:	"[region,shield][#46B283]Shields[/color][/region]"
+}
+
+{
+	dev_name: "event_start:"
+	name:	"[#46B283]Event Start:[/color]"
+}
+{
+	dev_name: "exhausted"
+	name:	"[region,exhausted][#46B283]exhausted[/color][/region]"
+}
+
+
+
+//////////////////////////ROAD TYPES
+
+////////////////////////COST MODS
+{
+	dev_name: "energy_cost_mod"
+	name:	"Energy Cost"
+}
+{
+	dev_name: "gas_cost_mod"
+	name:	"Gas Cost"
+}
+{
+	dev_name: "car_health_cost_mod"
+	name:	"Durability Cost"
+}
+////////////////////////AILMENTS?
+
+{
+	dev_name: "ail_inspired"
+	name:	"[#E4ACF1]Inspired[/color]"
+}
+
