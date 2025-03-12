@@ -1,0 +1,2767 @@
+{
+	name: "hh_suit_banter_1"
+	req: newly_added
+	text: "otimo carro, faz tempo que nao ando em um desses."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_2"
+	req: weather_clear
+	
+	text: "Dia bonito..."
+	text_hh: suit
+	
+	text: "...dia muito bonito..."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_3"
+
+	text: "O isqueiro do seu carro funciona?"
+	text_hh: suit
+	
+	text: "Claro."
+	text_hh:none
+	
+	text: "Se importa se eu fumar aqui?"
+	text_hh: suit
+	
+	text: "Vai em frente. Abra uma janela."
+	text_hh:none
+}
+
+{
+	name: "hh_suit_banter_4"
+
+	text: "Meus filhos adoravam fazer viagens de carro."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_5"
+
+	text: "Como voce ganha dinheiro?"
+	text_hh: suit
+	
+	text: "Ah, voce sabe: trabalho aqui e ali."
+	
+	text: "Voce precisa garantir que preencha seu Y30 antes de declarar seus impostos pessoais..."
+	text_hh: suit
+	
+	text: "...depois de enviar seu D7 no penúltimo trimestre do ano fiscal."
+	text_hh: suit
+	
+	text: "Umm, legal. Vou fazer isso."
+}
+
+{
+	name: "hh_suit_banter_6"
+	req: rain
+	
+	text: "Espero que a chuva pare logo."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_7"
+
+	text: "Ei, garotinho, voce gosta de jogos?"
+	text_hh: suit
+	
+	text: "Sim! Meu favorito e o Teddy."
+	text_hh: kid
+	
+	text: "Teddy nao e um jogo, querido. Ele e um brinquedo."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_8"
+	text: "Ei, nao posso falar agora, estou no carro. Desculpa, tchau."
+	text_hh: suit
+	
+	text: "Quem era?"
+	
+	text: "Minha esposa... Acho que devo ligar de volta. Um segundo, desculpa."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_9"
+
+	text: "Primeiro verao em anos que nao estou trabalhando."
+	text_hh: suit
+	
+	text: "O que voce fazia antes?"
+	
+	text: "Eu trabalhava no departamento de vendas de uma pe-"
+	text_hh: suit
+	
+	text: "Grande empresa de refrigeradores."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_10"
+
+	text: "Voce deveria guardar seu dinheiro no banco, deixar ele render para voce, sabe?"
+	text_hh: suit
+	
+	text: "Cala a boca, velho! Cuida da sua vida."
+	text_hh: stranger
+}
+
+{
+	name: "hh_suit_banter_11"
+
+	text: "Sabe, fui casado por 15 anos."
+	text_hh: suit
+	
+	text: "Aww, o que aconteceu? Voces se divorciaram?"
+	text_hh: bride
+	
+	text: "Ainda nao..."
+	text_hh: suit
+	
+	text: "Nao, ainda nao."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_12"
+
+	text: "Eu te conheço de algum lugar?"
+	text_hh: suit
+	
+	text: "Nao, amigo, acho que nao."
+	text_hh: hiker
+	
+	text: "Que estranho, acho que vi voce na capa de uma revista."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_13"
+
+	text: "Voce me lembra um pouco minha filha quando tinha sua idade."
+	text_hh: suit
+	
+	text: "Em que serie ela esta?"
+	text_hh: kid
+	
+	text: "Terceira, nao, quarta, espera, acho que ela começou a sexta, na verdade."
+	text_hh: suit
+	
+	text: "O tempo voa."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_14"
+	req: energy_low
+	
+	text: "Ei, se voce estiver cansado, podemos parar. Nao me importo de pegar um cafe."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_15"
+	req: city
+	
+	text: "Voce reparou que as pessoas estao usando menos gravatas?"
+	text_hh: suit
+	
+	text: "Nao."
+	
+	text: "Acho que o mundo dos negocios quer parecer mais casual. Ridículo."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_16"
+
+	text: "Conheço um otimo advogado, o marido da minha prima, se voce precisar."
+	text_hh: suit
+	
+	text: "Espero que nao."
+	text_hh: convict
+	
+	text: "Bom, se precisar, tenho um para voce. Ele e otimo, muito profissional."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_17"
+	req: suburbs
+	
+	text: "e estranho..."
+	text_hh: suit
+	
+	text: "...que somos incentivados a investir nossos salarios em poupança,"
+	text_hh: suit
+	
+	text: "pegar emprestimos,"
+	text_hh: suit
+	
+	text: "entrar em dívidas e comprar uma casa que nunca sera realmente nossa."
+	text_hh: suit
+}
+
+{
+	name: "hh_suit_banter_18"
+	req: ailment_drunk
+	
+	text: "Espera, voce esta bebendo?"
+	text_hh: suit
+	
+	text: "Quero dizer, nao para ser chato nem nada,"
+	text_hh: suit
+	
+	text: "mas talvez devessemos parar?"
+	text_hh: suit
+	
+	text: "Nao bebi muito. Ta tudo bem."
+}
+
+{
+	name: "hh_suit_banter_19"
+
+	text: "Acho que nunca vou entender pessoas como voce."
+	text_hh: suit
+	
+	text: "Pessoas como eu?"
+	text_hh: sleeper
+	
+	text: "Sim, sem moral. Serio. Um vagabundo preguiçoso."
+	text_hh: suit
+	
+	text: "e, e, o que voce sabe."
+	text_hh: sleeper
+}
+
+//GAROTA HIPPIE
+
+{
+	name: "hh_girl_banter_1"
+	
+	req: newly_added
+	
+	text: "Para onde voce esta indo, afinal?"
+	text_hh: hippie_girl
+	
+	text: "Vou encontrar alguns amigos..."
+	
+	text: "Legal! Eu tambem."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_2"
+	
+	text: "Seu cabelo e bonito! Posso trança-lo?"
+	text_hh: hippie_girl
+	
+	text: "Nao. Agora nao."
+	
+	text: "Nossa, voce realmente nao tem graça."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_3"
+	req: weather_clear
+	
+	text: "As nuvens sao tao bonitas. So flutuando por aí."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_4"
+
+	text: "No que voce esta pensando?"
+	text_hh: hippie_girl
+	
+	text: "Nao muita coisa, acho; so pensando na vida."
+	
+	text: "Bom, voce nunca olha para mim."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_5"
+	req: country
+	
+	text: "Estou entediada, deveríamos nadar pelados."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_6"
+	req: desert
+	text: "Nossa, eu amo o deserto."
+	text_hh: hippie_girl
+	
+	text: "Apenas terra seca e empoeirada ate onde os olhos podem ver."
+	text_hh: hippie_girl
+	
+	text: "E ainda assim ha esses enormes cactos rechonchudos prosperando."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_6"
+	req: forest
+	
+	text: "Eu ja vi fadas na floresta."
+	text_hh: hippie_girl
+	
+	text: "Ah e?"
+	
+	text: "Elas tinham cabelos brancos finos e montavam em sapos."
+	text_hh: hippie_girl
+}
+
+{	
+	name: "hh_girl_banter_7"
+
+	text: "Que tipo de música voce gosta?"
+	text_hh: hippie_girl
+	
+	text: "Praticamente qualquer coisa."
+	
+	text: "Deixa eu ver o que voce tem... Oh, que legal, isso e maneiro."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_8"
+	
+	text: "Quer sair junto na proxima parada?"
+	text_hh: hippie_girl
+	
+	text: "Voce nao iria querer isso."
+	text_hh: sleeper
+	
+	text: "Claro que quero!"
+	text_hh: hippie_girl
+	
+	text: "Confia em mim."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_girl_banter_9"
+
+	text: "Voce fica ridículo com esse terno."
+	text_hh: hippie_girl
+	
+	text: "Ah, bom, voce tambem. Quer dizer, desculpa, acho que eu fico mesmo."
+	text_hh: suit
+}
+
+{
+	name: "hh_girl_banter_10"
+
+	text: "Adoro seu estilo."
+	text_hh: hippie_girl
+	
+	text: "Valeu, querida. Para onde voce esta indo, entao?"
+	text_hh: hiker
+	
+	text: "Ah, sei la, so indo para o leste ou algo assim."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_11"
+
+	text: "Seu cachorro e fofo."
+	text_hh: hippie_girl
+	
+	hh_punk: "Valeu, eu acho."
+	text_hh: punk
+	
+	text: "Ela gosta de mim."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_12"
+
+	text: "e facil ganhar um dinheiro rapido tocando na rua?"
+	text_hh: hippie_girl
+	
+	text: "Na verdade, nao, alguns dias sao bons, outros sao ruins."
+	text_hh: songwriter
+	
+	text: "Talvez voce so nao seja tao bom."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_13"
+
+	text: "Voce pode me ensinar a fazer mosh alguma hora?"
+	text_hh: hippie_girl
+	
+	hh_punk: "e facil. Apenas se jogue em todo mundo ao seu redor."
+	text_hh: punk
+	
+	text: "Nao sei, nao parece tao divertido..."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_14"
+
+	text: "Voce tem um pouco de erva?"
+	text_hh: hippie_girl
+	
+	text: "..."
+	
+	text: "Ta bom, tanto faz."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_15"
+	
+	text: "e bom continuar em movimento."
+	text_hh: hippie_girl
+	
+	text: "Senao voce pode se perder."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_16"
+	
+	text: "Seu vestido era muito bonito."
+	text_hh: hippie_girl
+	
+	text: "Obrigada, querida. Estou feliz por estar fora dele."
+	text_hh: bride
+	
+	text: "Parece divertido ser uma noiva fugitiva."
+	text_hh: hippie_girl
+	
+	text: "Ah, sim, e uma festa!"
+	text_hh: bride
+}
+
+{
+	name: "hh_girl_banter_17"
+	req: ailment_hot
+	text: "Ufa - esta tao quente! Podemos parar para um sorvete?"
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_girl_banter_18"
+	req: trait_optimist
+	
+	text: "Por que voce continua achando que as coisas vao dar certo?"
+	text_hh: hippie_girl
+	
+	text: "Nada me diz o contrario."
+	
+	text: "Entao voce nunca esteve na pior?"
+	text_hh: hippie_girl
+	
+	text: "Ja estive, mas tudo passa, ate as coisas ruins."
+}
+
+{
+	name: "hh_girl_banter_19"
+
+	text: "Voce ja pensa em outra coisa alem de carros?"
+	text_hh: hippie_girl
+	
+	text: "..."
+	text_hh: mechanic
+	
+	text: "Pfft."
+	text_hh: hippie_girl
+}
+
+{
+	name: "hh_mechanic_banter_1"
+	req: newly_added
+	text: "Seu carro precisa de reparos."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_2"
+
+	text: "Deixe ela rodar um pouco antes de acelerar."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_3"
+	req: rain
+	
+	text: "Voce verificou a vedaçao da tampa do distribuidor recentemente?"
+	text_hh: mechanic
+	
+	text: "Nao? Sei la."
+}
+
+{
+	name: "hh_mechanic_banter_4"
+	text: "Parece que ela esta rodando um pouco seca. Vou verificar o carburador depois."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_5"
+	req: gas_low
+	
+	text: "Devemos parar para abastecer quando pudermos."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_6"
+	req: durability_low
+	text: "Va com calma. Falta pouco para a proxima parada."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_7"
+	req: durability_low
+	
+	text: "Vou ter que gastar um tempo consertando ela."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_8"
+
+	text: "Voce nao era o mecânico da Sanny’s Turbo Shop?"
+	text_hh: mechanic
+	
+	text: "Sim. Como voce os conhece?"
+	text_hh: convict
+	
+	text: "Corri contra eles, ha um tempo atras."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_9"
+
+	text: "Quer um ovo?"
+	text_hh: hippie_girl
+	
+	text: "Claro."
+}
+
+{
+	name: "hh_mechanic_banter_10"
+	req: item_toolbox
+	
+	text: "Essas sao suas ferramentas?"
+	text_hh: mechanic
+	
+	text: "Sim."
+	
+	text: "Melhor que nada."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_11"
+	
+	text: "Tem algumas corridas chegando."
+	text_hh: mechanic
+	
+	text: "Esse carro nao pode correr."
+	
+	text: "Ainda nao."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_12"
+	
+	text: "Devíamos parar em um ferro-velho."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_13"
+	req: item_cigarettes
+	text: "Me arruma um cigarro?"
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_14"
+	req: trait_bad_driver
+	
+	text: "Talvez eu devesse dirigir?"
+	text_hh: mechanic
+}
+
+{
+	name: "hh_mechanic_banter_15"
+	req: ailment_drunk
+	
+	text: "Eu deveria dirigir... se voce vai beber?"
+	text_hh: mechanic
+	
+	text: "Nao, estou de boa."
+}
+
+//HURRICANE
+
+{
+	name: "hh_hurricane_banter_1"
+	req: newly_added
+	req: car_truck
+	
+	text: "Sempre quis ter um caminhao como esse."
+	text_hh: hurricane
+	
+	text: "Para onde voce esta indo?"
+	
+	text: "Pra lugar nenhum, so procurando por diversao."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_2"
+
+	text: "Tomei tipo dois comprimidos de acido na semana passada e fui para um baile de mascaras."
+	text_hh: hurricane
+	
+	text: "Serio? Foi divertido?"
+	
+	text: "Com certeza! Foi uma loucura! Me perdi numa piscina infantil!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_3"
+	req: music_playing
+	
+	text: "Cara! Essa música e otima!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_4"
+
+	text: "Meu Deus, estou tao feliz de ter te encontrado. Eu amo isso."
+	text_hh: hurricane
+	
+	text: "Sem problemas."
+}
+
+{
+	name: "hh_hurricane_banter_5"
+
+	text: "Eu quero me mudar! Odeio meu lugar. Quero ver o oceano o tempo todo e ter amigos por perto!"
+	text_hh: hurricane
+	
+	text: "Onde voce mora agora?"
+	
+	text: "Com meus pais... mas e so temporario ate eu conseguir algo mais estavel."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_6"
+
+	text: "Qual e a sua?"
+	text_hh: hurricane
+	
+	text: "Quer descobrir hoje à noite?"
+	text_hh: stranger
+	
+	text: "Nossa, cai fora."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_7"
+
+	text: "Eu queria conseguir dormir tao facil quanto voce."
+	text_hh: hurricane
+	
+	text: "Nao, voce nao quer."
+	text_hh: sleeper
+	
+	text: "Fiquei acordado por tipo tres dias depois do Halloween."
+	text_hh: hurricane
+	
+	text: "Mas isso foi escolha sua, de certa forma."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_hurricane_banter_8"
+	req: item_tag_alcohol
+	
+	text: "Me sinto tao sortudo. Vamos comemorar! Voce tem algo para beber, certo?"
+	text_hh: hurricane
+	
+	text: "Sim, mas talvez nao agora, so mais tarde."
+	
+	text: "Vai ficar tudo bem, cara!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_9"
+
+	text: "Saúde!"
+	text_hh: hurricane
+	
+	text: "Saúde, querida. Voce e uma verdadeira beleza, nao e?"
+	text_hh: hiker
+	
+	text: "Faço o meu melhor hehe."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_10"
+	
+	text: "A melhor coisa de ser músico deve ser viajar por aí,"
+	text_hh: hurricane
+	
+	text: "conhecer gente estranha e tocar suas músicas para eles."
+	text_hh: hurricane
+	
+	text: "Sim, se voce puder bancar isso. Essa e minha primeira vez."
+	text_hh: songwriter
+	
+	text: "Serio? Boa sorte, cara."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_11"
+
+	text: "Encontrei a melhor minissaia! Perfeita para seduzir um velho e pegar o dinheiro dele."
+	text_hh: hurricane
+	
+	text: "Onde voce vai encontrar esse cara?"
+	
+	text: "Cara! Eles estao em todo lugar."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_12"
+	req: forest
+	
+	text: "Espero que passemos pela cabana dos meus amigos. Eles sao divertidos!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_13"
+	req: hh_kid
+	
+	text: "Quem e a criança?"
+	text_hh: hurricane
+	
+	text: "Ela esta meio perdida."
+	
+	text: "Nao devíamos leva-la para casa?"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_14"
+	req: ailment_cold
+	text: "Caramba, esta muito frio aqui! Estou congelando."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_15"
+	req: ailment_drunk
+	
+	text: "Quer mais uma?"
+	text_hh: hurricane
+	
+	text: "Ha?"
+	
+	text: "Aqui, eu tinha uma lata extra na minha bolsa."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_16"
+
+	text: "Alguem quer tomar acido e ir ao cassino?"
+	text_hh: hurricane
+	
+	text: "Topo qualquer coisa."
+	text_hh: hippie_girl
+	
+	text: "Podemos ganhar um pouco de alegria!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_17"
+
+	text: "Voce sabe alguma piada?"
+	text_hh: hurricane
+	
+	text: "Hmmm... Toc, toc."
+	
+	text: "Quem e?"
+	
+	text: "Vaca interrompendo."
+	text_hh: hurricane
+	
+	text: "Vaca interr..."
+	
+	text: "MUUU!"
+	text_hh: hurricane
+}
+
+{
+	name: "hh_hurricane_banter_18"
+	req: night
+	text: "Olha todas essas estrelas. Quando voce nasceu?"
+	text_hh: hurricane
+	text: "Deixa eu adivinhar, voce e capricornio, ou nao, um leao! Nao me diga."
+	text_hh: hurricane
+}
+
+//PUNK
+
+{
+	name: "hh_punk_banter_1"
+	req: newly_added
+	
+	text: "Ninguem queria me pegar por causa do meu cachorro. Valeu."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_2"
+	req: punk_music
+	
+	text: "Porra, eu amo essa banda."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_3"
+	req: forest
+	
+	text: "A linha da floresta parece um monte de dentes."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_4"
+
+	text: "Ah, hum, desculpa pelo cheiro."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_5"
+	req: city
+	
+	text: "Eu odeio todas essas pessoas bebendo seus lattes,"
+	text_hh: punk
+	
+	text: "Rindo das historias idiotas dos amigos sobre como acabaram de comprar um tapete novo."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_6"
+	req: desert
+	req: day
+	text: "Maldita seja essa luz do sol. Ta muito forte!"
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_7"
+
+	text: "Eu estava lendo um livro interessante. Era sobre um gorila explicando as desgraças da humanidade."
+	text_hh: punk
+	
+	text: "Ou pelo menos da humanidade civilizada e como simplesmente nao sabemos viver."
+	text_hh: punk
+	
+	text: "Como deveríamos viver?"
+	
+	text: "Nao sei, ainda nao terminei."
+	text_hh: punk
+	
+	text: "Mas acho que deveríamos viver de forma mais primitiva ou algo assim."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_8"
+
+	text: "Aposto que voce toca um violao de nylon."
+	text_hh: punk
+	
+	text: "Nao, de aço."
+	text_hh: songwriter
+	
+	text: "Vendi meu violao por um sintetizador, mas tive que vender ele tambem por uma tatuagem."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_9"
+
+	text: "Entao, que tipo de música voce escuta?"
+	text_hh: punk
+	
+	text: "Nao faço ideia, odeio essa pergunta."
+	text_hh: hurricane
+	
+	text: "Mas eu gosto de quase tudo. Ultimamente tenho curtido umas paradas mais goticas."
+	text_hh: hurricane
+	
+	text: "e, eu tambem, na real."
+	text_hh: punk
+	
+	text: "Mas, e, isso e legal. Eu curto umas coisas goticas tambem."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_10"
+
+	text: "Qual e a desse cara?"
+	text_hh: punk
+	
+	text: "Sua jaqueta e assustadora, mas eu gosto do seu cachorro."
+	text_hh: idiot
+	
+	text: "Voce tambem esta indo ver minha irma?"
+	text_hh: idiot
+	
+	text: "Sua irma? Com certeza. Espera, ele ta zoando?"
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_11"
+	req: city
+	
+	text: "Muito louco estar na cidade."
+	text_hh: punk
+	
+	text: "Sim, e estranho depois de tanto tempo no interior."
+	
+	text: "e incrível, mas deve ser uma merda morar aqui, cara."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_12"
+
+	text: "O que voce vai fazer com o veu? Posso ficar com ele?"
+	text_hh: punk
+	
+	text: "Claro. O que voce vai fazer com ele?"
+	text_hh: bride
+	
+	text: "Nao sei, pode ser divertido usar num show."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_13"
+
+	text: "Au au!"
+	text_hh: dog
+	
+	text: "Boa garota. Isso mesmo, boa garota. Aqui esta. Pegue..."
+	text_hh: punk
+	
+	text: "Au au! Au au!"
+	text_hh: dog
+}
+
+{
+	name: "hh_punk_banter_14"
+
+	text: "Voce nao vai nos matar enquanto dormimos, vai?"
+	text_hh: punk
+	
+	text: "Cuidado. Voce e o primeiro da minha lista, punk."
+	text_hh: convict
+	
+	text: "Oooo, estou apavorado."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_15"
+	req: punk_music
+	
+	text: "Conhecia uns caras que tocavam em uma banda que soava mais ou menos assim."
+	text_hh: punk
+	
+	text: "O maior show deles foi para suas maes."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_16"
+	req: trait_careful_car_owner
+	
+	text: "Nao arranhe o carro com seus spikes."
+	text: "E tente limpar as patas dela antes de deixa-la entrar da proxima vez."
+	
+	text: "Sim, senhor capitao."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_17"
+	req: trait_vegetarian
+	
+	text: "Entao voce tambem nao come carne?"
+	text_hh: punk
+	
+	text: "Nao, nao como."
+	
+	text: "Legal, igual a mim - desde que eu tinha uns treze anos."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_18"
+	req: ailment_drunk
+	
+	text: "Voce nao deveria beber e dirigir. Podemos parar, por favor?"
+	text_hh: punk
+	
+	text: "Que tipo de punk voce e?"
+	
+	text: "Um que nao quer que todos nos morramos porque voce e um idiota."
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_19"
+	req: ailment_hot
+	
+	text: "Acho que esta muito quente para o meu cachorro."
+	text_hh: punk
+	
+	text: "Podemos ligar o ar-condicionado ou achar uma sombra ou algo assim?"
+	text_hh: punk
+}
+
+{
+	name: "hh_punk_banter_20"
+
+	text: "Ah nao! Voce sente esse cheiro? Ela soltou a bomba!"
+	text_hh: punk
+	
+	text: "BD! Abram todas as janelas!"
+	text_hh: punk
+}
+
+//KID
+{
+	name: "hh_kid_banter_1"
+	req: newly_added
+	
+	text: "Uau, esse carro e tao ruim! Vou chama-lo de..."
+	text_hh: kid
+	
+	text: "Patinho!"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_2"
+
+	text: "Tenho um amigo que mora nas colinas."
+	text_hh: kid
+	
+	text: "Ele tem um cachorro pequeno."
+	text_hh: kid
+	
+	text: "Voce sabia..."
+	text_hh: kid
+	
+	text: "Que os bigodes sao como dedinhos para o nariz de um cachorro?"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_3"
+
+	text: "Ja chegamos?"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_4"
+
+	text: "Preciso fazer xixi!"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_5"
+
+	text: "Minha mae tem uma bola que usa para sentar."
+	text_hh: kid
+	
+	text: "Eu enchi de agua uma vez. Ela nao ficou feliz."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_6"
+	req: night
+	
+	text: "Esta tao escuro. Que horas sao?"
+	text_hh: kid
+	
+	text: "Volte a dormir."
+}
+
+{
+	name: "hh_kid_banter_7"
+
+	text: "Por que voce canta?"
+	text_hh: kid
+	
+	text: "Porque sou um passarinho bonito e preciso cantar."
+	text_hh: bride
+	
+	text: "Hihi, eu tambem canto, mas so para a mamae."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_8"
+
+	text: "Por que seu cachorro cheira mal?"
+	text_hh: kid
+	
+	text: "Ei! Nao deixe ela ouvir isso. Voce vai magoar os sentimentos dela."
+	text_hh: punk
+	
+	text: "Ah nao! Desculpa, cachorrinho."
+	text_hh: kid
+	
+	text: "Voce cheira a cocô bom."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_9"
+
+	text: "Por que voce tem uma barba tao grande?"
+	text_hh: kid
+	
+	text: "Porque sou o Papai Noel! Papai Noel de ferias de verao."
+	text_hh: hiker
+	
+	text: "Nao e nao! Hehe. Ele mora no Polo Norte."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_10"
+	req: hh_suit
+	
+	text: "Meu pai me disse que pessoas de terno sao fantasmas."
+	text_hh: kid
+	
+	text: "Uma vez que voce veste um terno, voce se torna invisível e pode assombrar as pessoas."
+	text_hh: kid
+	
+	text: "Mas eu consigo te ver."
+	text_hh: kid
+	
+	hh_suit: "Ha... Seu pai nao esta errado."
+}
+
+{
+	name: "hh_kid_banter_11"
+	req: trait_good_driver
+	text: "Weee! Mais rapido, mais rapido, mais rapido!"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_12"
+
+	text: "Qual e o seu jogo favorito?"
+	text_hh: kid
+	
+	text: "Eu costumava amar jogar queimada."
+	
+	text: "O que!?"
+	text_hh: kid
+	
+	text: "Naooo! Eu odeio queimada, e muito assustador."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_13"
+	
+	text: "Olha, olha, olha, olha!"
+	text_hh: kid
+	
+	text: "O que?"
+	
+	text: "Um cachorro muito fofo."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_14"
+
+	text: "Quer jogar alguma coisa?"
+	
+	text: "Estou bem agora. Talvez mais tarde!"
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_15"
+	req: trait_careful_car_owner
+	
+	text: "Ei, pode tomar cuidado? Tire os pes dos bancos."
+	
+	text: "Ok. Desculpa."
+	text_hh: kid
+}
+
+{
+	name: "hh_kid_banter_16"
+	req: energy_low
+	
+	text: "Tem uma girafa no zoologico que eu amo..."
+	text_hh: kid
+	
+	text: "Eu chamo ele de Jerry..."
+	text_hh: kid
+	
+	text: "Ah, uma vez no balanço eu balancei..."
+	text_hh: kid
+	
+	text: "Podemos jogar o jogo do silencio, por favor?"
+}
+
+{
+	name: "hh_kid_banter_17"
+	req: trait_macgyver
+	
+	text: "Voce pode consertar minha mala? Acho que quebrei."
+	text_hh: kid
+	
+	text: "Sim, um pouco de fita adesiva resolve qualquer coisa."
+}
+
+//SONGWRITER
+
+{
+	name: "hh_songwriter_banter_1"
+	req: newly_added
+	text: "Isso aí, valeu de novo! Muito animado por ver que tinha espaço para meu violao."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_2"
+
+	text: "O silencio e morte; se voce fica em silencio, morre."
+	text_hh: songwriter
+	
+	text: "E se voce fala, morre. Entao fale e morra."
+	text_hh: songwriter
+	
+	text: "Ha? O que e isso?"
+	
+	text: "So estou lendo... Mas teria sido uma boa letra, ne?"
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_3"
+
+	text: "Nossa, nao me canso desse ar fresco."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_4"
+
+	text: "Voce ja esteve com alguem que amava?"
+	text_hh: songwriter
+	
+	text: "Acho que nao."
+	
+	text: "Quando voce souber, voce sabera."
+	text_hh: songwriter
+	
+	text: "Melhor ter amado e perdido do que nunca ter amado, ne?"
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_5"
+	text: "Eu amo quando ele ronrona no meu colo assim."
+	text_hh: songwriter
+	
+	text: "Voce ouve isso?"
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_6"
+	req: rain
+	
+	text: "Tem algo sobre a chuva..."
+	text_hh: songwriter
+	
+	text: "Talvez seja como o ronronar de um gato..."
+	text_hh: songwriter
+	
+	text: "Parece que me acalma."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_7"
+	req: ailment_dirty
+	
+	text: "Duvido que eu esteja cheirando bem..."
+	text_hh: songwriter
+	
+	text: "Mas, cara, voce precisa se limpar."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_8"
+
+	text: "Ja escrevi tipo 200 músicas, sabia? Algumas sao nível Dylan."
+	text_hh: songwriter
+	
+	text: "Quer dizer, nao exatamente, mas quase!"
+	text_hh: songwriter
+	
+	text: "Ja gravou alguma coisa?"
+	
+	text: "Nunca fica tao bom gravado. Nao sei por que."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_9"
+	req: music_playing
+	
+	text: "Voce tem bom gosto!"
+	text_hh: songwriter
+	
+	text: "Normalmente nao e minha vibe, mas isso e bem bom."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_10"
+	req: ailment_inspired
+	
+	text: "Esse olhar nos seus olhos..."
+	text_hh: songwriter
+	
+	text: "...voce sente isso tambem, ne?"
+	text_hh: songwriter
+	
+	text: "...inspiraçao!"
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_11"
+
+	text: "Voce esta indo para algum lugar específico?"
+	text_hh: songwriter
+	
+	text: "Eu estava pensando em ir para um festival de música na costa leste. E voce?"
+	
+	text: "Estou em turne! So precisava de uma carona por um tempo."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_songwriter_banter_12"
+
+	text: "Voce e algum tipo de donzela em um vestido de desastre?"
+	text_hh: songwriter
+	
+	text: "Sim. E voce e algum tipo de poeta romântico sem esperança?"
+	text_hh: bride
+	
+	text: "Algo assim."
+	text_hh: songwriter
+}
+
+//STRANGER
+
+{
+	name: "hh_stranger_banter_1"
+	req: newly_added
+	req: car_volvo
+	text: "Puta merda... que carro horrível."
+	text_hh: stranger
+} 
+
+{
+	name: "hh_stranger_banter_2"
+
+	text: "Porra, cara, por que voce esta dirigindo tao devagar..."
+	text_hh: stranger
+	
+	text: "Quem voce esta esperando? Anda logo!"
+	text_hh: stranger
+	
+	text: "...Por que voce continua freando?"
+	text_hh: stranger
+	
+	text: "Cala a boca, relaxa!"
+	
+	text: "Ei! Nao me manda calar a boca. So dirige melhor!"
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_3"
+	req: trait_good_driver
+	
+	text: "Por que voce esta dirigindo tao rapido? Vai com calma."
+	text_hh: stranger
+	
+	text: "Esse carro lixo vai desmontar."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_4"
+
+	text: "Ei! Posso te pedir 10 dolares emprestados?"
+	text_hh: stranger
+	
+	text: "Por que? Nao... para que?"
+	
+	text: "Ah, cara. Por que o interrogatorio? So preciso."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_5"
+
+	text: "Nao sei por que as pessoas sao tao frescas com comida congelada."
+	text_hh: stranger
+	
+	text: "Às vezes so quero esquentar minha comida no micro-ondas e nao lavar louça."
+	text_hh: stranger
+	
+	text: "Nao acho que ninguem liga para comida congelada..."
+	
+	text: "Ah, ah. As pessoas sao idiotas."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_6"
+	req: hh_idiot
+
+	text: "Voce tem uma irma?"
+	text_hh: stranger
+	
+	text: "Sim, irma mais velha."
+	text_hh: idiot
+	
+	text: "Ah e? Ela e bonita?"
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_7"
+
+	text: "Eu odeio gente que anda de bicicleta."
+	text_hh: stranger
+	
+	text: "Mhm..."
+	
+	text: "Eu tinha uma bike uma vez. Vendi. Investi."
+	text_hh: stranger
+	
+	text: "E dobrei o dinheiro na mesa de apostas..!"
+	text_hh: stranger
+	
+	driver: "Ok..."
+}
+
+{
+	name: "hh_stranger_banter_8"
+	req: ailment_sad
+	
+	text: "Anima aí, moleque."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_9"
+	req: hh_hurricane
+
+	text: "Quem e sua amiga? Ela e solteira?"
+	text_hh: stranger
+	
+	text: "Estou bem aqui, so perguntar para mim."
+	text_hh: hurricane
+	
+	text: "Entao, voce e solteira?"
+	text_hh: stranger
+	
+	text: "Isso nao e da sua conta."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_stranger_banter_10"
+	req: hh_hippie_girl
+
+	text: "Ei. Quer ir para o sul comigo, gata? Tenho um plano para ficar rico."
+	text_hh: stranger
+	
+	text: "Voce, rico?"
+	text_hh: hippie_girl
+	
+	text: "Vai se foder. Tenho um plano, voce vai ver. Vem comigo."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_11"
+	req: hh_punk
+	
+	text: "Voce acha que e durao com essa jaqueta e essas botas?"
+	text_hh: stranger
+	
+	hh_punk: "Ha? Nao?"
+	text_hh: punk
+	
+	text: "e, voce nao e. So um punk idiota que acha que tem ideias."
+	text_hh: stranger
+	
+	hh_punk: "Quem te machucou?"
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_12"
+	text: "Se voce tiver spray, eu te mostro um pouco de arte."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_13"
+	req: trait_broke
+	text: "Os preços estao saindo do controle. Voce viu o preço do leite?"
+	text_hh: stranger
+	
+	text: "Sim, e uma loucura. O que esta acontecendo?"
+	
+	text: "Cara, eu nem consigo comprar uma cerveja e uma linguiça sem ficar falido."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_14"
+	req: trait_smoker
+	
+	text: "Tem um cigarro?"
+	text_hh: stranger
+	
+	text: "Sim, aqui."
+	
+	text: "Voce e gente boa, roadie. Voce e gente boa."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_15"
+	req: ailment_social
+	
+	text: "Meu avô dirigia caminhões no velho país."
+	text_hh: stranger
+	
+	text: "Eu tentei uma vez. e foda."
+	text_hh: stranger
+	
+	text: "Ele tomava analgesicos para a coluna."
+	text_hh: stranger
+	
+	text: "So dormiu um dia e nunca mais acordou."
+	text_hh: stranger
+	
+	text: "Oh, sinto muito."
+	
+	text: "Nao, nao precisa, cara... nunca contei isso para ninguem."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_16"
+	req: hh_convict
+	
+	text: "Entao, pelo que voce foi pego?"
+	text_hh: stranger
+	
+	text: "..."
+	text_hh: convict
+	
+	text: "Tanto faz."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_17"
+	req: city
+	
+	text: "Nao va explorar a 26ª rua sozinho."
+	text_hh: stranger
+	
+	text: "e? Por que?"
+	
+	text: "Perigoso, cara."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_18"
+	req: durability_low
+	text: "Esse carro horrível parece que vai se desmontar a qualquer momento."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_19"
+	req: coast
+	text: "Voce ja transou na praia?"
+	text_hh: stranger
+	
+	text: "Humm, nao?"
+	
+	text: "Nao faça isso, e horrível. Voce vai cagar areia por dias."
+	text_hh: stranger
+}
+
+{
+	name: "hh_stranger_banter_20"
+	req: night
+	text: "Devíamos ver se ha algum bar aberto na proxima parada."
+	text_hh: stranger
+}
+
+///IDIOT
+
+{
+	name: "hh_idiot_banter_1"
+	
+	text: "..."
+	text_hh: idiot
+	
+	text: "Voce sabia que a flor mais antiga ja descoberta tem 125 milhões de anos?"
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_2"
+	req: rain
+	text: "Houve um período na historia da Terra em que choveu por 200 milhões de anos."
+	text_hh: idiot
+	
+	text: "Nossa, isso e muito tempo."
+}
+
+{
+	name: "hh_idiot_banter_3"
+	req: city
+	
+	text: "Hmm... Tem tanta gente aqui."
+	text_hh: idiot
+	
+	text: "Pessoas bonitas, pessoas gentis."
+	text_hh: idiot
+	
+	text: "Tanta vida por tras de portas fechadas, tanta alegria."
+	text_hh: idiot
+	
+	text: "... e tanta tristeza."
+	
+	text: "Mhm... tanta alegria e tristeza."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_4"
+	
+	text: "e bom começar pequeno. Olhe o orvalho numa folha."
+	text_hh: idiot
+	
+	text: "O brilho nos olhos. As antenas de uma formiga."
+	text_hh: idiot
+	
+	text: "Entao veja como interagem com o ambiente;"
+	text_hh: idiot
+	
+	text: "como o orvalho cai da folha, como os olhos choram,"
+	text_hh: idiot
+	
+	text: "como as antenas se movem junto ao corpo de uma formiga em busca."
+	text_hh: idiot
+	
+	text: "O que te fez pensar nisso?"
+	
+	text: "... nada."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_5"
+	
+	text: "Minha casa esta cheia de memorias do meu passado."
+	text_hh: idiot
+	
+	text: "Nunca do meu futuro."
+	text_hh: idiot
+	
+	text: "Seu carro parece uma casa cheia apenas do futuro."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_6"
+	
+	text: "Hmm... Voce fecharia os olhos se fôssemos bater?"
+	text_hh: idiot
+	
+	text: "Mesmo se soubesse que nao sentiria dor, apenas morreria instantaneamente."
+	text_hh: idiot
+	
+	text: "Acho que sim."
+	
+	text: "Eu tambem temeria a morte e fecharia os olhos."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_7"
+	req: ailment_dirty
+	text: "Voce esta fedendo. Se eu fosse voce, tomaria um banho."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_8"
+	req: ailment_sad
+	
+	text: "Olhe, olhe todas as flores lindas."
+	text_hh: idiot
+	
+	text: "E as arvores balançando e as nuvens engraçadas."
+	text_hh: idiot
+	
+	text: "Ha majestade no simples ato de viver."
+	text_hh: idiot
+	
+	text: "Voce nao precisa fazer mais do que simplesmente viver."
+	text_hh: idiot
+	
+	text: "Ser parte disso ja e suficiente."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_9"
+	req: forest
+	
+	text: "Voce ja se perguntou como essas arvores enormes puxam agua por troncos tao altos?"
+	text_hh: idiot
+	
+	text: "Acho que nao, estranho."
+	
+	text: "Elas parecem desafiar a gravidade, nao parecem?"
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_10"
+	req: country
+	text: "Animal atropelado... A morte e o fim? Ou vamos para o ceu?"
+	text_hh: idiot
+	
+	text: "Se formos, os animais atropelados tambem vao, ne?"
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_11"
+	req: hh_sleeper
+
+	text: "Eu gosto da sua jaqueta vermelha. Voce parece uma tulipa."
+	text_hh: idiot
+	
+	text: "Obrigado, mas elas nao sao um pouco frescas demais?"
+	text_hh: sleeper
+	
+	text: "Sim, talvez voce seja mais uma papoula, na verdade."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_12"
+
+	text: "O sol alguma vez deseja ver a noite?"
+	text_hh: kid
+	
+	text: "Nao acho que o sol saiba sobre a beleza da noite. E, portanto, nao deseja por ela."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_13"
+	req: newly_added
+	text: "Obrigado pela carona. Minha irma nao esta com pressa."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_14"
+	req: city 
+	text: "Nunca estive na cidade antes. e muito barulhento."
+	text_hh: idiot
+}
+
+{
+	name: "hh_idiot_banter_15"
+	req: trait_ocd
+	
+	text: "Gosto de como voce organizou seu porta-malas. Parece muito com o jeito que eu faria."
+	text_hh: idiot
+	
+	text: "Sim, eu preciso. E e meio como Tetris quando voce tem muitas coisas."
+}
+
+{
+	name: "hh_idiot_banter_16"
+	req: hh_suit
+
+	text: "Voce se arrumou hoje tambem?"
+	text_hh: idiot
+	
+	text: "Ah, uh, nao."
+	text_hh: suit
+}
+
+//CONVICT
+
+{
+	name: "hh_convict_banter_1"
+	req: newly_added
+	req: car_volvo
+	
+	text: "Isso aí! Valeu por me pegar, policial. Vamos nessa!"
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_2"
+	req: newly_added
+	req: car_muscle
+	
+	text: "Rapido e lindo, graças a Deus! Nao poderia ter mais sorte."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_3"
+	req: hh_songwriter
+
+	text: "Voce ja cantou em uma prisao?"
+	text_hh: convict
+	
+	text: "Nao, para ser honesto, nao teria coragem."
+	text_hh: songwriter
+	
+	text: "Tô contigo. Um bando de bastardos, nem escutariam mesmo. So o Cash consegue fazer isso."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_4"
+	req: hh_mechanic
+
+	text: "Na proxima parada, me mostra como voce faz suas soldas, beleza?"
+	text_hh: convict
+	
+	text: "Beleza."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_convict_banter_5"
+	req: hh_hippie_girl
+
+	text: "Fiquei preso em solitaria por 2 semanas porque joguei uma bola de basquete no guarda."
+	text_hh: convict
+	
+	text: "Serio, voce nao pode ser tao burro assim, ne?"
+	text_hh: hippie_girl
+	
+	text: "Ele pediu. Disse 'me passa a bola' e eu passei."
+	text_hh: convict
+	
+	text: "Nao achei que ele fosse tao desastrado - acertei bem na cara dele."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_6"
+	req: hh_mechanic
+
+	text: "Foi a alguma corrida recentemente?"
+	text_hh: convict
+	
+	text: "Sim, algumas. Ganhei uma grana e um documento rosa."
+	text_hh: mechanic
+	
+	text: "e mesmo? O que aconteceu com eles?"
+	text_hh: convict
+	
+	text: "Perdi tudo."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_convict_banter_7"
+	text: "Voce nao faz ideia de como o cheiro da liberdade e doce agora."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_8"
+	req: desert
+	text: "A gente trabalhava aqui - nao muito longe daqui - em uma vala quando eu fugi."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_9"
+	req: hh_hurricane
+
+	text: "Ei, garota, voce tem um pozinho aí?"
+	text_hh: convict
+	
+	text: "Sim, um pouco. Voce pode pagar?"
+	text_hh: hurricane
+	
+	text: "Claro, deixa so eu te passar um cheque..."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_10"
+
+	text: "Cristo, minhas costas doem. Voce tem um travesseiro?"
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_11"
+	req: coast
+	
+	text: "Tem que haver algum navio por aí em que eu possa embarcar. Preciso dar o fora desse lugar."
+	text_hh: convict
+	
+	text: "Maldiçao - nao da pra fugir para sempre."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_12"
+	req: trait_good_driver
+	
+	text: "Direçao impressionante. E voce acabou de tirar a carteira?"
+	text_hh: convict
+	
+	text: "Acho que sim. Sei la, e divertido."
+}
+
+{
+	name: "hh_convict_banter_13"
+	req: hh_bride
+	
+	text: "Nao vejo alguem tao bonita quanto voce ha muito tempo."
+	text_hh: convict
+	
+	text: "Um barbear e um banho, e voce nao seria tao ruim assim."
+	text_hh: bride
+}
+
+{
+	name: "hh_convict_banter_14"
+	req: gas_low
+	
+	text: "Precisamos abastecer - nao da pra arriscar."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_15"
+	req: trait_jawa
+	text: "Olha, se voce vai roubar coisas, me deixe ajudar da proxima vez."
+	text_hh: convict
+	
+	text: "Ah, sim, claro."
+}
+
+{
+	name: "hh_convict_banter_16"
+	req: night
+	text: "Droga, acho que vi um carro de polícia atras daquela arvore. Fica tranquilo."
+	text_hh: convict
+}
+
+{
+	name: "hh_convict_banter_17"
+	req: item_tag_food
+	
+	text: "Vamos ver, que tipo de comida voce tem? Estou morrendo de fome."
+	text_hh: convict
+}
+
+//SLEEPER
+
+{
+	name: "hh_sleeper_banter_1"
+	req: newly_added
+	text: "Ei! otimo timing. Acabei de acordar."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_2"
+	req: night
+	text: "ZzZz..."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_3"
+
+	text: "Desculpa, mas por acaso voce tem algum lanche?"
+	text_hh: sleeper
+	
+	text: "Talvez no porta-luvas?"
+}
+
+{
+	name: "hh_sleeper_banter_4"
+	req: ailment_tired
+	text: "Eu adoraria um cafe agora."
+	text_hh: sleeper
+	
+	text: "Mesma coisa!"
+}
+
+{
+	name: "hh_sleeper_banter_5"
+
+	text: "So por curiosidade, voce conhece a Angie?"
+	text_hh: sleeper
+	
+	text: "Sim! Eu namorei a filha dela um verao."
+	text_hh: songwriter
+	
+	text: "Pequeno mundo. Sinto que ja te vi em um dos clubes dela."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_6"
+
+	text: "Se nao for incômodo, posso ficar por um tempo?"
+	text_hh: sleeper
+	
+	text: "Sem problemas."
+}
+
+{
+	name: "hh_sleeper_banter_7"
+	req: hh_kid
+
+	text: "Sobre o que voce sonha quando dorme?"
+	text_hh: kid
+	
+	text: "Estranhamente, eu so sonho com uma estrada aberta. Sem carros, sem pessoas."
+	text_hh: sleeper
+	
+	text: "Apenas uma estrada longa e reta."
+	text_hh: sleeper
+	
+	text: "Hmm, isso e meio estranho. Eu sonhei que tinha um gato!"
+	text_hh: kid
+}
+
+{
+	name: "hh_sleeper_banter_8a"
+	req: hh_hiker
+
+	text: "Adoro seu chapeu. Onde voce conseguiu?"
+	text_hh: sleeper
+	
+	text: "Deixa eu ver, acho que consegui com um casal de passaros."
+	text_hh: hiker
+	
+	text: "- ha muito tempo -"
+	text_hh: hiker
+	
+	text: "Eles tinham uma fazenda. Eles fizeram o couro e moldaram para minha cabeça."
+	text_hh: hiker
+	
+	text: "Maneiro. Nao se ve tantos chapeus hoje em dia."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_8b"
+	req: hh_hurricane
+	
+	text: "Eu costumava conhecer uma garota que se parecia muito com voce."
+	text_hh: sleeper
+	
+	text: "O que aconteceu com ela?"
+	text_hh: hurricane
+	
+	text: "Eu realmente nao sei. Alguns rios podem se tornar largos demais para cruzar."
+	text_hh: sleeper
+	
+	text: "So espero que ela esteja feliz."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_9"
+	
+	text: "Engraçado, voce olha pela janela..."
+	text_hh: sleeper
+	
+	text: "...e às vezes tudo o que ve e o futuro passando."
+	text_hh: sleeper
+	
+	text: "Eu geralmente vejo ele chegando."
+	
+	text: "Heh, e, tenho inveja disso."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_10"
+	req: city
+	
+	text: "Uma vez dormi em uma grade porque achei que seria quente."
+	text_hh: sleeper
+	
+	text: "Mas acordei todo molhado com vapor do esgoto. Que nojo."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_11"
+	
+	text: "Me avise se eu roncar, ok? So me da um empurrao."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_12"
+	
+	text: "Uma vez deixei meu melhor amigo na casa de um cliente abusivo."
+	text_hh: sleeper
+	
+	text: "Me senti tao mal, so saí correndo para a estrada. Agora voce sabe, eu acho."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_13"
+	
+	text: "Entao, onde voce conseguiu suas roupas? Sao legais."
+	
+	text: "Nao sei ao certo, acho que uma senhora idosa me deu. Eram do marido falecido."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_14"
+	
+	text: "Voce tem planos depois do verao?"
+	text_hh: sleeper
+	
+	text: "Nao muito, talvez procurar trabalho, talvez continuar viajando. Ainda nao sei."
+	
+	text: "e, melhor deixar livre, eu diria."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_15"
+	
+	text: "Como, quero dizer, o que, quero dizer, quando voce começou a ter seus problemas?"
+	
+	text: "Por volta da epoca em que meus pais se divorciaram. Eu era muito jovem."
+	text_hh: sleeper
+	
+	text: "Comecei a ter ataques de pânico."
+	text_hh: sleeper
+	
+	text: "E acho que meu corpo encontrou um jeito de lidar com isso."
+	text_hh: sleeper
+	
+	text: "Droga, isso e horrível. Pelo menos voce consegue dormir bem, ne?"
+	
+	text: "Heh."
+}
+
+{
+	name: "hh_sleeper_banter_16"
+	req: rain
+	text: "Por favor, nao me expulse enquanto esta chovendo."
+	text_hh: sleeper
+	
+	text: "Nao quero adormecer em uma poça."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_17"
+	req: no_music
+	text: "Voce tem algum CD? Estou cansado de ouvir o vento."
+	text_hh: sleeper
+}
+
+{
+	name: "hh_sleeper_banter_18"
+	req: hh_bride
+	text: "Alguem quer um lanche?"
+	text_hh: sleeper
+	
+	text: "Eu! Estou morrendo de vontade de comer açúcar agora."
+	text_hh: bride
+}
+
+//HIKER
+
+{
+	name: "hh_hiker_banter_1"
+	req: newly_added
+	text: "Saúde! Nao achei que alguem fosse dar carona para esse velho andarilho."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_2"
+	req: car_volvo
+	text: "Eu costumava ter um desses carros quando eram novos."
+	text_hh: hiker
+	
+	text: "Rodava mal, mas sempre pegava. Deus os abençoe."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_3"
+	
+	text: "Sabia que se trocar de marcha um pouco mais tarde, ela roda mais suave?"
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_4"
+	req: mountain
+	
+	text: "Oh, olha so, essas colinas sao lindas."
+	text_hh: hiker
+	
+	text: "Sim, muito bonitas. Voce ja esteve la em cima?"
+	
+	text: "Acho que nao, mas adoraria."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_5"
+	req: rough_road
+	text: "Estrada adoravel, nao acha?"
+	text_hh: hiker
+	
+	text: "Ah, claro, e otima."
+}
+
+{
+	name: "hh_hiker_banter_6"
+	req: trait_good_driver
+	
+	text: "Voce dirige ha muito tempo?"
+	text_hh: hiker
+	
+	text: "Acho que sim. Bem, nao muito tempo, mas bastante recentemente."
+	
+	text: "Voce esta indo muito bem. Deve aprender rapido."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_7"
+	req: trait_bad_driver
+	
+	text: "Ei, garoto, anda logo! Voce acelera muito devagar."
+	text_hh: hiker
+	
+	text: "Tem que manter o movimento."
+	text_hh: hiker
+	
+	text: "E acho que voce esta desviando muito para a direita."
+	text_hh: hiker
+	
+	text: "Mantenha reto."
+	text_hh: hiker
+	
+	text: "Ok, ok! Isso nao esta ajudando."
+	
+	text: "Ugh. Acho que vou fechar os olhos e torcer pelo melhor."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_8"
+	
+	text: "Amor, voce ja sentou para ouvir a chuva?"
+	text_hh: hiker
+	
+	text: "Hmm, eu amo ouvir a chuva. E voce?"
+	text_hh: hippie_girl
+	
+	text: "Sempre. Ela me fala sobre a chegada da primavera."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_9"
+	req: hh_punk
+	
+	text: "Estou feliz que voce esta aqui com seu amigo. Agora eu nao pareço cheirar tao mal."
+	text_hh: hiker
+	
+	text: "Haha! Ela e mais limpa que voce."
+	text_hh: punk
+	
+	text: "Oh, eu nao estava falando com voce."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_10"
+	req: hh_songwriter
+	
+	text: "Posso pegar seu violao emprestado alguma hora?"
+	text_hh: hiker
+	
+	text: "Acho que nao. O que voce tocaria?"
+	text_hh: songwriter
+	
+	text: "Nada em particular. So improvisar. Sentir o groove!"
+	text_hh: hiker
+	
+	text: "Groove? Nao, definitivamente nao."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_hiker_banter_11"
+	req: ailment_hungry
+	
+	text: "Que país lindo!"
+	text_hh: hiker
+	
+	text: "Adoraria fazer uma fogueira hoje à noite, grelhar umas salsichas."
+	text_hh: hiker
+	
+	text: "Oh, salsichas deliciosas."
+	text_hh: hiker
+	
+	text: "Nao fala de churrasco agora. Estou morrendo de fome."
+}
+
+{
+	name: "hh_hiker_banter_12"
+	
+	text: "...Entao essa e minha historia, ate agora, eu acho."
+	text_hh: bride
+	
+	text: "Ahh! Maravilhoso! Voce e uma mulher e tanto!"
+	text_hh: hiker
+	
+	text: "Ohh, voce vai me fazer corar."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_13"
+	req: night
+	
+	text: "Ah, pelo amor de Deus, quase dormi aqui."
+	text_hh: hiker
+	
+	text: "Ouvi dizer que vai ter uma chuva de meteoros esta noite."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_14"
+	req: hh_mechanic
+	
+	text: "Se quiser se destacar, nao dirija um carro, amigo."
+	text_hh: hiker
+	
+	text: "Pegue uma moto. Isso sim e liberdade!"
+	text_hh: hiker
+	
+	text: "Pff, sei."
+	text_hh: mechanic
+}
+
+{
+	name: "hh_hiker_banter_15"
+	req: hh_stranger
+	text: "Voce ja foi aos lagos ao redor da cidade? Sao bem bonitos."
+	text_hh: hiker
+	
+	text: "Cara, foda-se os lagos! Sao nojentos."
+	text_hh: stranger
+	
+	text: "So saí da cidade porque precisei."
+	text_hh: stranger
+}
+
+{
+	name: "hh_hiker_banter_16"
+	
+	text: "Aproveite, hein. A natureza e algo que voce nao pode esquecer."
+	text_hh: hiker
+	
+	text: "Eu nao esqueço. e linda."
+	
+	text: "Claro, mas às vezes a vida atrapalha..."
+	text_hh: hiker
+	
+	text: "...e voce acaba esquecendo."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_17"
+	req: money_low
+	text: "Se precisar de dicas para ganhar dinheiro, me avise."
+	text_hh: hiker
+	
+	text: "Sem ofensa, mas voce nao parece saber muito sobre isso."
+	
+	text: "Ah, dinheiro nao e tudo, foi algo que tive que aprender."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_18"
+	req: ailment_drunk
+	
+	text: "Seu velho bobo, voce sabe quantas pessoas morrem na estrada bebadas?"
+	text_hh: hiker
+	
+	text: "Sim, sim, estou bem."
+	
+	text: "Nao gosto disso, amigo."
+	text_hh: hiker
+}
+
+{
+	name: "hh_hiker_banter_19"
+	req: hh_suit
+	
+	text: "Pelo amor de Deus, eu costumava usar terno antigamente."
+	text_hh: hiker
+	
+	text: "Nao consigo imaginar ter um laço no pescoço o dia todo de novo."
+	text_hh: hiker
+	
+	hh_suit: "Ah, eu meio que gosto de gravatas. Melhor que sextas casuais."
+	text_hh: suit
+}
+
+//BRIDE
+
+{
+	name: "hh_bride_banter_1"
+	req: newly_added
+	req: !car_muscle
+	
+	text: "Oi! Espero que nao se importe de ter uma dama de branco pegando carona com voce."
+	text_hh: bride
+	
+	text: "Nem um pouco. Para onde voce vai?"
+	
+	text: "Para qualquer lugar, menos uma igreja."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_1"
+	req: newly_added
+	req: car_muscle
+	
+	text: "Oi! Esse nao e um carro ruim para pegar carona."
+	text_hh: bride
+	
+	text: "So se voce quiser ir devagar."
+	
+	text: "Nao hoje!"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_2"
+	
+	text: "Deus, estou tao cansada de ser controlada por homens a vida toda."
+	text_hh: bride
+	
+	text: "Meu pai, meus professores, meu namorado."
+	text_hh: bride
+	
+	text: "So quero ser livre."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_3"
+	req: ailment_hungry
+	
+	text: "Quer pegar uma pizza?"
+	text_hh: bride
+	
+	text: "Voce leu minha mente."
+}
+
+{
+	name: "hh_bride_banter_4"
+	
+	text: "Tudo bem se eu colocar os pes aqui?"
+	text_hh: bride
+	
+	text: "Corri usando um par de saltos terrivelmente desconfortaveis."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_5"
+	req: music_playing
+	
+	text: "Voce ouve música classica? Sinto tanta falta de tocar violino."
+	text_hh: bride
+	
+	text: "Nao muito. Meio sonolenta para dirigir."
+	
+	text: "Talvez uma dança irlandesa seja mais a sua cara."
+	text_hh: bride
+	
+	text: "Com um bom violino."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_6"
+	req: ailment_dirty
+	text: "Se voce nao tiver outras roupas... pode pegar meu vestido emprestado se quiser!"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_7"
+	req: ailment_cold
+	text: "Meu Deus! Esta congelando! Talvez devessemos voltar para o sul."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_8"
+	req: ailment_hot
+	
+	text: "Caramba! Esta fervendo aqui dentro! Tem como transformar isso num conversível?"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_9"
+	req: ailment_happy
+	
+	text: "Aww, fico feliz de ver voce sorrindo. Voce e um verdadeiro fofo!"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_10"
+	req: ailment_happy
+	
+	text: "Voce esta indo muito bem na estrada. Posso ver a alegria nos seus olhos."
+	text_hh: bride
+	
+	text: "Hehe, sim, gosto de estar na estrada."
+}
+
+{
+	name: "hh_bride_banter_11"
+	
+	text: "Entao voce encontrou um bardo, pelo que vejo. Que divertido! O que voce toca?"
+	text_hh: bride
+	
+	text: "Principalmente minhas proprias músicas. Alguns covers, mas, sim, mais minhas proprias composições."
+	text_hh: songwriter
+	
+	text: "Sao boas?"
+	text_hh: bride
+	
+	text: "Vou ter que tocar algo para voce."
+	text_hh: songwriter
+}
+
+{
+	name: "hh_bride_banter_12"
+	
+	text: "Voce pode me mostrar um bom momento?"
+	text_hh: bride
+	
+	text: "Sinto que preciso enlouquecer um pouco. Estou livre!"
+	text_hh: bride
+	
+	text: "Nao se preocupe com isso. Vamos dar um jeito."
+	text_hh: hurricane
+}
+
+{
+	name: "hh_bride_banter_13"
+	
+	text: "O que essa bonequinha esta fazendo aqui?"
+	text_hh: bride
+	
+	text: "Estou pegando uma carona para casa. Esta sendo divertido!"
+	text_hh: kid
+	
+	text: "Bem, fico feliz em ouvir isso."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_14"
+	
+	text: "Qual e sua flor favorita, querido?"
+	text_hh: bride
+	
+	text: "Hmmm... acho que o girassol."
+	text_hh: idiot
+	
+	text: "Essa e linda. Eu tambem amo campos de girassois."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_15"
+	
+	text: "Voce pode fazer o carro andar um pouco mais rapido?"
+	text_hh: bride
+	
+	text: "Sim, se conseguirmos as peças."
+	text_hh: mechanic
+	
+	text: "Oh! Isso seria divertido. Acho que deveríamos."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_16"
+	
+	text: "Entao voce pegou dois passarinhos sem gaiola."
+	text_hh: bride
+	
+	text: "Nossas gaiolas ainda nao estao muito longe de nos."
+	text_hh: convict
+	
+	text: "Mas estamos livres agora!"
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_17"
+	req: trait_good_driver
+	
+	text: "Acho que nao deveria dizer isso, mas voce fica meio sexy dirigindo assim."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_18"
+	req: ailment_inspired
+	text: "Estou tao animada para um pouco de aventura. Fiquei presa por tempo demais agora."
+	text_hh: bride
+}
+
+{
+	name: "hh_bride_banter_19"
+	
+	text: "Da proxima vez que encontrarmos uma trilha legal, posso ir junto?"
+	text_hh: bride
+	
+	text: "Claro, querida. Voce sempre sera bem-vinda."
+	text_hh: hiker
+}
+
+{
+	name: "hh_bride_banter_20"
+	req: durability_low
+	
+	text: "Tem como consertarmos um pouco o carro?"
+	text_hh: bride
+	
+	text: "Talvez possamos usar algo melhor que fita adesiva para mante-lo inteiro?"
+	text_hh: bride
+	
+	text: "e, talvez devessemos ver sobre dar um trato nele."
+}

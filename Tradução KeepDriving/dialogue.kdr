@@ -1,0 +1,1627 @@
+////////////////////////////////////MENSAGENS PADRAO
+{
+	id: "test_dialogue_0"
+	text: "Este e um dialogo de teste. Ele sera escrito em muitas partes diferentes e separadas"
+}
+
+{
+	id: "default_done"
+	text: "CONVERSA ENCERRADA (MENSAGEM PADRAO)"
+}
+
+{
+	id: "default_reject"
+	text: "Nao quero falar com voce (MENSAGEM PADRAO)"
+}
+
+{
+	id: "hh_greeting_default"
+	text: "Obrigado por me pegar!"
+}
+
+////////////////////////////////////DIaLOGO DE TESTE
+
+{
+	id: "test_dialogue_1"
+	text: "Este e outro trecho de dialogo de teste. Quando houver pontos. havera. interrupçoes"
+}
+
+////////////////////////////////////VENDEDOR DE FRUTAS
+
+{
+	id: "fruitseller_1"
+	text: "Ola, quer comprar algumas frutas?"
+}
+
+////////////////////////////////////RAPAZ LOIRO 1
+
+{
+	id: "blonde_guy_1"
+	text: "Ola, voce e um viajante?"
+}
+
+////////////////////////////////////ARAUTO DO APOCALIPSE
+
+{
+	id: "doom_diver_1"
+	text: "O FIM ESTA PROXIMO"
+}
+
+////////////////////////////////////GAROTA CHORANDO
+
+{
+	id: "crying_girl_1"
+	text: "*sniff* *sniff*. Acabei de perder meu emprego. E. Meu namorado acabou de me deixar. Eu preciso de companhia!"
+}
+
+{
+	id: "crying_girl_thank"
+	text: "Muito obrigada por falar comigo! Isso significa muito para mim!"
+}
+
+{
+	id: "crying_girl_1_ignore"
+	text: "*sniff* *sniff*"
+}
+
+{
+	id: "cyring_girl_done"
+	text: "Obrigada novamente!"
+}
+
+////////////////////////////////////TEMP DENNIS
+
+{
+	id: "dennis_greeting"
+	text: "Ola, voce parece estar longe de casa. Deixe-me te dar algumas dicas"
+}
+
+{
+	id: "dennis_done"
+	text: "Lembre-se do que te ensinei!"
+}
+
+////////////////////////////////////HOMEM DO CARTAZ
+
+{
+	id: "sign_guy"
+	text: "Venha comprar! Venha, venha comprar!"
+}
+
+////////////////////////////////////VENDEDOR DE OCULOS ESCUROS
+
+{
+	id: "street_peddler_greeting"
+	text: "Ah, oi! Quer comprar algo?"
+}
+
+////////////////////////////////////MENDIGO
+
+{
+	id: "hobo_greeting_1"
+	text: "Se voce nao tem dinheiro, nao tem nada a perder! Para mim, perder dinheiro ja nao parece tao assustador!"
+}
+
+{
+	id: "hobo_ignore_1"
+	text: "*tosse*"
+}
+{
+	id: "hobo_thank_1"
+	text: "Obrigado!"
+}
+
+{
+	id: "hobo_done_1"
+	text: "Obrigado novamente!"
+}
+
+////////////////////////////////////ESTUDANTE GOURMET
+
+{
+	id: "gourmet_greeting"
+	text: "Sou um gourmet. So como queijo e baguetes!"
+}
+
+////////////////////////////////////HOMEM DE NEGOCIOS 1
+
+{
+	id: "business_man_1_greeting"
+	text: "Estou muito ocupado, aqui, pegue um trocado"
+}
+
+{
+	id: "business_man_1_reject"
+	text: "Nao tenho tempo para conversar"
+}
+
+////////////////////////////////////LENHADOR
+
+{
+	id: "lumberjack_1_greeting"
+	text: "Opa! Tenho alguns equipamentos de trilha a venda. Se estiver interessado"
+}
+
+{
+	id: "lumberjack_1_thanks"
+	text: "Muito obrigado, garoto!"
+}
+
+{
+	id: "lumberjack_1_done"
+	text: "Finalmente um descanso merecido!"
+}
+
+////////////////////////////////////TRAFICANTE 1
+
+{
+	id: "drug_dealer_1_greeting"
+	text: "Ei! Quer comprar umas coisas boas?"
+}
+
+{
+	id: "drug_dealer_1_reject"
+	text: "Cai fora!"
+}
+
+////////////////////////////////CARONEIROS
+//hh habilidade padrao
+
+{
+	id: "hh_default_gain_skill"
+	text: "Uma vez, aconteceu algo comigo"
+}
+
+//hh saudaçao padrao no destino_OLD
+
+{
+	id: "hh_default_dest_greeting"
+	text: "[wheel]Ah, ola. Estamos [shake]partindo[/shake] em breve?"
+}
+
+//hh antes de subir de nivel
+
+{
+	id: "hh_default_pre_level_up"
+	text: "Queria conversar com voce sobre algo."
+}
+
+//hh saudaçao ao ser expulso
+
+{
+	id: "hh_default_kicked_greeting"
+	text: "Vou encontrar outra carona de algum jeito"
+}
+
+//condenado
+
+{
+	id: "hh_convict_greeting_a"
+	text: "Ei, precisamos continuar andando."
+}
+
+{
+	id: "hh_convict_greeting_b"
+	text: "Ei, termine o que precisar fazer. Depois, caimos fora!"
+}
+
+{
+	id: "hh_convict_greeting_c"
+	text: "Ei... obrigado por confiar em mim"
+}
+
+//garota
+
+{
+	id: "hh_girl_greeting_a"
+	text: "Beleza. Vou para onde voce quiser. Nao me importo muito"
+}
+
+{
+	id: "hh_girl_greeting_b"
+	text: "e legal aqui. Para onde vamos agora?"
+}
+
+{
+	id: "hh_girl_greeting_c"
+	text: "Seu carro nao e muito confortavel."
+}
+
+//NOIVA
+
+{
+	id: "hh_bride_greeting_a"
+	text: "Oi! Sinto que posso respirar novamente! Obrigada por me buscar!"
+}
+
+{
+	id: "hh_bride_greeting_b"
+	text: "Oi! Nao sei o que eu faria se voce nao tivesse me buscado!"
+}
+
+{
+	id: "hh_bride_greeting_c"
+	text: "Oi! [wheel]Para onde agora?"
+}
+
+//MONTANHISTA
+
+{
+	id: "hh_hiker_greeting_a"
+	text: "[wobble]Ahh! Nada como estar na estrada!"
+}
+
+{
+	id: "hh_hiker_greeting_b"
+	text: "[wheel]Ufa![wobble]Aah! Trabalhando no meu cajado, sabe!"
+}
+
+{
+	id: "hh_hiker_greeting_c"
+	text: "[pulse]HA?[wobble]Ahh! So verificando algumas coisas!"
+}
+
+//IDIOTA
+
+{
+	id: "hh_idiot_greeting_a"
+	text: "Peguei essas flores. Elas cheiram bem."
+}
+
+{
+	id: "hh_idiot_greeting_b"
+	text: "Mmmm. Elas cheiram bem. As flores."
+}
+
+{
+	id: "hh_idiot_greeting_c"
+	text: "Hmmm. Hmmm. EntAo, o que voce acha?"
+}
+
+//FURACAO
+
+{
+	id: "hh_hurricane_greeting_a"
+	text: "[wheel]Oiii![/wheel] Pegamos tudo que precisamos? [wheel]Otimo[/wheel]!"
+}
+
+{
+	id: "hh_hurricane_greeting_b"
+	text: "[wheel]Oiii![/wheel] Estou tAo [shake]Animado[/shake]!"
+}
+
+{
+	id: "hh_hurricane_greeting_c"
+	text: "Melhor. Viagem de carro.[shake]DE TODAS[/shake]!"
+}
+
+//CRIANÇA
+
+{
+	id: "hh_kid_greeting_a"
+	text: "Hee hee. Estou tAo longe de casa. [pulse] Uhuu!"
+}
+
+{
+	id: "hh_kid_greeting_b"
+	text: "Onde eu coloquei meu chapeu de aventura? Tenho certeza de que eu trouxe."
+}
+
+{
+	id: "hh_kid_greeting_c"
+	text: "[wheel]Viagem de carro! [wheel]Viagem de carro! [shake]Ah [wheel]sim!"
+}
+
+//MECÂNICO
+
+{
+	id: "hh_mechanic_greeting_a"
+	text: "Tem algum cigarro?"
+}
+
+{
+	id: "hh_mechanic_greeting_b"
+	text: "Vamos ver o que podemos fazer sobre esse barulho estranho."
+}
+
+{
+	id: "hh_mechanic_greeting_c"
+	text: "Quer dividir um?"
+}
+
+//PUNK
+
+{
+	id: "hh_punk_greeting_a"
+	text: "E ai?"
+}
+
+{
+	id: "hh_punk_greeting_b"
+	text: "Quem e um bom garoto? Ah, oi!"
+}
+
+{
+	id: "hh_punk_greeting_c"
+	text: "E ai, amigo?"
+}
+
+//DORMINHOCO
+
+{
+	id: "hh_sleeper_greeting_a"
+	text: "[wheel]Zzz"
+}
+
+{
+	id: "hh_sleeper_greeting_b"
+	text: "[wheel]Zzz. HA?"
+}
+
+{
+	id: "hh_sleeper_greeting_c"
+	text: "[wheel]Zzz. [wheel]Continue. [wheel]Dirigindo. [wheel]Zzz."
+}
+
+//COMPOSITOR
+
+{
+	id: "hh_songwriter_greeting_a"
+	text: "Sinto que foi o destino. Voce me pegar na estrada, quero dizer."
+}
+
+{
+	id: "hh_songwriter_greeting_b"
+	text: "Trabalhando em algumas coisas novas. Essa viagem esta me inspirando!"
+}
+
+{
+	id: "hh_songwriter_greeting_c"
+	text: "[wheel][spr_text_music_note]Con-ti-nue Di-ri-gen-do[spr_text_music_note]."
+}
+
+//ESTRANHO
+
+{
+	id: "hh_stranger_greeting_a"
+	text: "Me da um dinheiro e eu dobro ate amanhA!"
+}
+
+{
+	id: "hh_stranger_greeting_b"
+	text: "Vou ficar por aqui um tempo. Valeu, alias!"
+}
+
+{
+	id: "hh_stranger_greeting_c"
+	text: "Tem, ahm... alguns caras podem estar nos seguindo. Obrigado por ficar comigo, alias."
+}
+
+//HOMEM DE TERNO
+
+{
+	id: "hh_suit_greeting_a"
+	text: "Oh, obrigado por me pegar!"
+}
+
+{
+	id: "hh_suit_greeting_b"
+	text: "HA? NAo! Sim? O que? Aham."
+}
+
+{
+	id: "hh_suit_greeting_c"
+	text: "NAo, nAo, nAo! Eles tambem sAo meus filhos! Serio?"
+}
+
+//ESPECiFICO
+
+///////////////MECÂNICO
+
+{
+	id: "hh_mechanic_skill_dialogue_cheap_repair"
+	text: "Eu costumava trabalhar com conserto de carros. Ainda conheço algumas pessoas que trabalham la. Se voce precisar de uma revisAo mais detalhada no seu veiculo, eu [wheel]provavelmente[/wheel] consigo um preço melhor para voce la."
+}
+
+//MISSAO COMPLETA
+
+{
+	id: "quest_turn_in_greeting"
+	text: "Ola. Voce e quem vai entregar minhas coisas?"
+}
+
+{
+	id: "quest_turn_in_reject"
+	text: "Ola. Estou esperando alguem. Ja deveriam estar aqui."
+}
+
+{
+	id: "quest_turn_in_done"
+	text: "Obrigada mais uma vez!"
+}
+
+{
+	id: "quest_complete_general"
+	text: "Muito obrigado!"
+}
+
+//MISSOES ESPECiFICAS
+
+//FESTIVAL
+
+{
+	id: "q_festival_turn_in_greeting"
+	text: "Bem-vindo ao Festival Way out East. Posso ver seu ingresso? Perfeito! Divirta-se!"
+}
+
+{
+	id: "q_festival_turn_in_reject"
+	text: "Ola. NAo posso deixar voce entrar sem um ingresso. Desculpe."
+}
+
+{
+	id: "q_festival_turn_in_done"
+	text: "Aproveite sua estadia aqui!"
+}
+
+{
+	id: "q_festival_turn_in_complete"
+	text: "Aproveite sua estadia aqui!"
+}
+
+{
+	id: "q_festival_friends_complete"
+	text: "Voce conseguiu! Estacione e vamos montar sua barraca."
+}
+
+{
+	id: "festival_ticket_vendor_greeting"
+	text: "Ola, eu tenho seu ingresso para o festival aqui!"
+}
+
+{
+	id: "give_zimmer_cd"
+	text: "Oiii! Voce tambem vai ao festival? Voce tem que conferir essa banda que vai tocar la!"
+}
+
+{
+	id: "gave_zimmer_cd"
+	text: "Estou tAoooo empolgado para o festival!"
+}
+
+{
+	id: "festival_ticket_vendor_greeting_lost_ticket"
+	text: "Serio? Voce perdeu seu ingresso? Bom. Aqui esta outro!"
+}
+
+{
+	id: "festival_ticket_vendor_done"
+	text: "Divirta-se no festival!"
+}
+
+//HHs NO FESTIVAL
+
+{
+	id: "hh_suit_festival"
+	text: "Nossa, faz seculos que nAo vou a um festival. NAo aguento mais as barracas. Nem as ressacas. Nem o barulho. Eu nem sei quem sAo os artistas principais!"
+}
+
+{
+	id: "hh_convict_festival"
+	text: "Eu nAo deveria estar aqui. Tem policiais demais. Voce QUER que eu seja pego?"
+}
+
+{
+	id: "hh_songwriter_festival"
+	text: "Todo mundo e tAo bom. Quer dizer, pelo menos parecem muito profissionais. Eu nAo entendo. Um dia, talvez, eu tambem toque em um festival."
+}
+
+{
+	id: "hh_kid_festival"
+	text: "Olha! Tantas bandeiras! Vamos dançar?"
+}
+
+{
+	id: "hh_bride_festival"
+	text: "OOhh meu querido. Eu amo festivais. Vamos pegar uns whiskey sours!"
+}
+
+{
+	id: "hh_stranger_festival"
+	text: "O que?"
+}
+
+{
+	id: "hh_mechanic_festival"
+	text: "Provavelmente vou pegar carona com alguem daqui."
+}
+
+{
+	id: "hh_idiot_festival"
+	text: "Eu queria ter protetores de ouvido! Minha irmA amava festivais. Vou tentar aproveitar tambem."
+}
+
+{
+	id: "hh_hiker_festival"
+	text: "Vem ca! Deixa eu te contar. Nos anos 70, fomos a alguns festivais totalmente insanos! Insanos! Voces jovens devem ter a mesma experiencia, nAo e?"
+}
+
+{
+	id: "hh_hippie_girl_festival"
+	text: "Aposto que consigo entrar no backstage."
+}
+
+{
+	id: "hh_hurricane_festival"
+	text: "Aposto que consigo entrar no backstage e pegar umas cervejas de alguma banda."
+}
+
+{
+	id: "hh_punk_festival"
+	text: "Eu reconheço. uma. nAo, duas bandas que estAo tocando. Mas elas sAo iradas!"
+}
+
+//DEMO
+
+{
+	id: "q_demo_turn_in_greeting"
+	text: "Ei, por que demorou tanto? Apenas estacione la fora, eu ja desço."
+}
+
+//MONTANHA
+
+{
+	id: "q_mountain_turn_in"
+	text: " "
+}
+
+//CORRIDA
+
+{
+	id: "race_give_pamphlet"
+	text: "Bela maquina, garoto! Ja ouviu falar da grande corrida na pista de Pine? Voce deveria conferir!"
+}
+
+{
+	id: "race_lost_pamphlet"
+	text: "Perdeu seu panfleto da corrida? Pegue outro!"
+}
+
+{
+	id: "race_got_quest"
+	text: "Estou ansioso para ver voce na corrida!"
+}
+
+{
+	id: "race_enter_fail"
+	text: "Quer entrar na grande corrida? Voce vai precisar de uma GAIOLA DE PROTEÇAO instalada. QuestAo de segurança."
+}
+
+{
+	id: "race_enter_accept"
+	text: "Quer entrar na grande corrida? Parece que voce esta pronto! Dirija ate a linha de largada ali!"
+}
+
+{
+	id: "race_wowed"
+	text: "Yeeeehaaaw! ISSO sim e corrida!"
+}
+
+{
+	id: "race_enter_done"
+	text: "O que esta esperando? Dirija ate a linha de largada ali!"
+}
+
+{
+	id: "race_podium"
+	text: "Foi um prazer correr com voce. Tenho que dizer, voce mandou bem. Foi acirrado!"
+}
+
+//HERANÇA
+
+{
+	id:"grandma_greeting"
+	text: "Oi, querido, estou tAo feliz que voce veio. Voce esta com uma aparencia otima. Como foi a viagem? *tosse *tosse! Os medicos me disseram que estou com uma inflamaçAo nos pulmoes. Disseram que meus pulmoes começaram a se encher de liquido. *tosse *tosse! NAo parece bom. *tosse *tosse! Enfim, eu comprei esse terreno nos anos 70. Meu sonho era que seus pais construissem uma casa la e vivessem uma boa vida. Mas acho que agora isso vai ficar para voce. *tosse *tosse! e um lugar lindo. Quero que voce aproveite. Tenha uma familia la. Cuide da terra com amor. Eu te desejo tudo de melhor, meu querido. Me da um abraço!"
+}
+
+{
+	id:"grandma_done"
+	text: "e um lugar lindo. Quero que voce aproveite. Tenha uma familia aqui. Cuide bem dessa terra. Te desejo tudo de melhor, meu querido. Me da um abraço!"
+}
+
+//HHs NA HERANÇA
+
+{
+	id: "hh_suit_inheritance"
+	text: "Sabe, seus avos devem ter trabalhado muito para comprar isso. e grande!"
+}
+
+{
+	id: "hh_songwriter_inheritance"
+	text: "Sempre quis morar em uma casa. Assim, posso tocar o quanto quiser, bem alto."
+}
+
+{
+	id: "hh_kid_inheritance"
+	text: "Tem uma estaçAo de ônibus aqui? Acho que meus pais estAo realmente preocupados comigo."
+}
+
+{
+	id: "hh_bride_inheritance"
+	text: "Oh! O que e isso, querido? Vamos construir uma casa e ter um cachorro? NAo, nAo, nAo, acho que nAo. NAo para mim. Ate mais!"
+}
+
+{
+	id: "hh_stranger_inheritance"
+	text: "Voce ja pensou em vender esse terreno? Pode valer muito."
+}
+
+{
+	id: "hh_mechanic_inheritance"
+	text: "Hmm, vou deixar minhas ferramentas com voce. Acho que vai precisar delas."
+}
+
+{
+	id: "hh_idiot_inheritance"
+	text: "Da para ver tanto ceu daqui!"
+}
+
+{
+	id: "hh_hiker_inheritance"
+	text: "Ei, parece bonito e tudo mais, mas voce vai precisar de um emprestimo para arrumar tudo. E ai vai ficar preso no sistema deles!"
+}
+
+{
+	id: "hh_hippie_girl_inheritance"
+	text: "e claro. Eu sabia que voce acabaria se acomodando, como todo mundo."
+}
+
+{
+	id: "hh_sleeper_inheritance"
+	text: "HA? Ah. Legal. Voce deveria fazer um coletivo de artistas aqui. Zzzz"
+}
+
+{
+	id: "hh_punk_inheritance"
+	text: "Parece um lugar onde eu morei de favor um verAo."
+}
+
+{
+	id: "hh_hurricane_inheritance"
+	text: "Que porr*! Sua avo deixou isso para voce? Vamos colocar umas janelas e arrumar tudo para virmos todo verAo."
+}
+
+//JORNALISTA
+
+{
+	id: "demo_journal_girl_done"
+	text: "Ei, boa sorte por ai!"
+}
+
+{
+	id: "demo_journal_girl_greeting"
+	text: "Ei, se voce vai pegar a estrada, e melhor estar preparado! Voce precisa ter um diario para anotar as coisas. Ah, e um tocador de música e ESSENCIAL."
+}
+
+//HOMEM DO TRAVESSEIRO
+
+{
+	id: "demo_pillow_man_done"
+	text: "Boa noite!"
+}
+
+{
+	id: "demo_pillow_man_greeting"
+	text: "Ei! Se voce estiver se sentindo sem energia, tudo que precisa e de um lugar para descansar a cabeça."
+}
+
+//CORRIDA
+
+{
+	id: "race_quest_greeting"
+	text: "Ei, voce ja ouviu falar da grande corrida?"
+}
+
+{
+	id: "race_quest_done"
+	text: "Voce vai competir na corrida?"
+}
+
+//FESTA
+
+{
+	id: "party_turn_in_reject"
+	text: "Hmm, nao deveriamos trazer algo?"
+}
+
+{
+	id: "party_turn_in_greeting"
+	text: "Olha so quem chegou! Hurricaane! Porra, começamos a duvidar que voce viria. Entrem logo e fechem a porta! Ta frio!"
+}
+
+{
+	id: "party_turn_in_done"
+	text: "O que estamos esperando?"
+}
+
+{
+	id: "party_puke_guy"
+	text: "Urgh! Uuuurgh! Uaaaaagh!"
+}
+
+{
+	id: "party_hot_tub"
+	text: "Eii Hurricane, voce trouxe um amigo! Espero que goste de agua quente! Hahaha. Vamos, estacione e entre! Ah, alias, voce viu o Adam? Diga a ele que nao nos importamos."
+}
+
+{
+	id: "party_guys"
+	text: ">Porraa cara, a April e tao incrivel. Ou melhor, gostosa! >Sim, e insano. Deviamos convence-la a jogar strip poker! >Esse verao! Cara, esse lugar e insano! >Mano! Eu te amo! Oh! Olha quem chegou, trouxe mais cerveja?"
+}
+
+//HHs NA FESTA
+
+{
+	id: "hh_suit_party_cabin"
+	text: "Olha, se eu nao precisasse tanto dessa cerveja agora, teria chamado a policia. O que ha de errado com a geraçao de voces?"
+}
+
+{
+	id: "hh_convict_party_cabin"
+	text: "Lugar divertido, mas acho que preciso continuar em movimento. Boa sorte!"
+}
+
+{
+	id: "hh_songwriter_party_cabin"
+	text: "Obrigado por me trazer para essa festa, isso e incrivel!"
+}
+
+{
+	id: "hh_kid_party_cabin"
+	text: "Por favor, podemos ir embora? Nao gosto dessas pessoas. Quero ir para casa."
+}
+
+{
+	id: "hh_bride_party_cabin"
+	text: "Voce vai entrar na banheira tambem? Te vejo la, querido!"
+}
+
+{
+	id: "hh_stranger_party_cabin"
+	text: "A gente devia roubar esses desgraçados. Voce viu a quantidade de cocaina naquela mesa?"
+}
+
+{
+	id: "hh_mechanic_party_cabin"
+	text: "Garotas bonitas. Acho. Quando vamos embora?"
+}
+
+{
+	id: "hh_idiot_party_cabin"
+	text: "As arvores aqui sao muito bonitas. Queria que desligassem essa música."
+}
+
+{
+	id: "hh_hiker_party_cabin"
+	text: "Esses jovens sao bem malucos. Hehe, e bonito de ver, na verdade. e assim que deve ser."
+}
+
+{
+	id: "hh_girl_party_cabin"
+	text: "Festa legal."
+}
+
+{
+	id: "hh_punk_party_cabin"
+	text: "Nao e meu tipo de música. Mas a energia e boa!"
+}
+
+//PEGAR CARONA
+
+{
+	id: "hh_default_hitch"
+	text: "Ola, posso pegar carona com voce? Estou indo para algum lugar."
+}
+
+//TERNO
+
+{
+	id: "hh_suit_hitch"
+	text: "Oh, ah, oi! Obrigado por parar! Eu... acabei de largar meu emprego. Perdi o ônibus. Voce se importaria de me levar ate a proxima cidade com um escritorio de empregos?"
+}
+
+{
+	id: "hh_suit_complete_q1"
+	text: "Se nao for um problema para voce... sabe, eu realmente precisava disso... Se nao for incômodo, posso viajar com voce por mais um tempo? So por uma semana ou algo assim? Depois disso, prometo que nao vou mais atrapalhar."
+}
+
+{
+	id: "hh_suit_begin_q2"
+	text: "Eu realmente agradeço por me levar com voce. Mas estive pensando... preciso voltar para minha filha. Nao posso continuar com isso. Voce poderia me levar ate a cidade mais proxima? Vou pegar um ônibus de volta para casa. Tenho que consertar isso."
+}
+
+{
+	id: "hh_suit_complete_q2"
+	text: "Muito obrigado! Daqui eu me viro! Nunca vou esquecer o que voce fez por mim!"
+}
+
+{
+	id: "hh_suit_hitch2"
+	text: "Oh! Oi de novo. La se foi minha segunda chance, hein?"
+}
+
+//GAROTA HIPPIE
+
+{
+	id:"hh_hippie_girl_hitch"
+	text: "Ei! Uau! Voce nao e um caminhoneiro velho. Para onde esta indo? Tem espaço para mim? Estou so viajando por ai."
+}
+
+{
+	id:"hh_hippie_girl_second_hitch"
+	text: "Ah. e voce de novo."
+}
+
+{
+	id:	"hh_hippie_girl_talk"
+	text: "Voce nao fala muito e e meio entediante, mas foi bom ter um lugar para ficar, acho. Vou ficar por aqui, se nao for um problema."
+}
+
+//MECÂNICO
+
+{
+	id:"hh_mechanic_hitch"
+	text: "Como vai? Espera, isso e um Redblock B21? Eu trabalhava em uma oficina, mas me cansei de consertar essas latas velhas novas. Precisava dar um tempo – tem espaço ai?"
+}
+
+{
+	id:"hh_mechanic_hitch_non_volvo"
+	text: "Como vai? Belo carro! Eu trabalhava em uma oficina, mas me cansei de consertar essas latas velhas novas. Precisava dar um tempo – tem espaço ai?"
+}
+
+{
+	id:	"hh_mechanic_talk1"
+	text: "Que tipo de melhoria voce fez ai? Hmm. Nada mal, mas se quiser, posso te ajudar a escolher umas peças melhores. Tenho algumas ideias para deixa-lo uma verdadeira maquina."
+}
+
+{
+	id:	"hh_mechanic_q_complete"
+	text: "Claro que tem muito mais que podemos fazer, mas odeio admitir... estou com inveja que esse carro nao e meu. Agora temos que correr com ele."
+}
+
+{
+	id:	"hh_mechanic_talk_race"
+	text: "Voce ouviu falar da corrida que vai acontecer no Pine Raceway? Acho que deveriamos ir. Aqui, da uma olhada."
+}
+
+//FURACaO
+
+{
+	id:"hh_hurricane_hitch"
+	text: "Oiiiii, estou indo para as montanhas ou para o meio do mato. Mas nao estou com pressa. Esperando uns amigos mandarem mensagem. Posso ir com voce? Tenho erva."
+}
+
+{
+	id:"hh_hurricane_begin_q1"
+	text: "Deviamos pegar umas cervejas! Ou talvez um gin. Nao pode beber comigo? Beber sozinho nao tem graça. Voce dirige bem, vai ficar tudo bem. Pooor favor, so um pouquinho, hehe."
+}
+
+{
+	id:"hh_hurricane_complete_q1"
+	text: "Voce e meio legal! Consegui o endereço dos meus amigos agora. Voce tem que ir! Aqui esta o cartao-postal."
+}
+
+{
+	id:"hh_hurricane_party_complete"
+	text: "Estou tao empolgado! Vamos la!"
+}
+
+{
+	id:"hh_hurricane_give_cd"
+	text: "Ei! Pegue este CD. Voce deveria tocar isso no carro às vezes. e o meu favorito!"
+}
+
+//PUNK
+
+{
+	id: "hh_punk_hitch"
+	text: "Porr*! Ainda bem que voce apareceu. Achei que ia perder o show. Estou indo para a grande e fodida cidade. Ei, voce tem comida ai? Acho que ela esta com fome."
+}
+
+{
+	id: "hh_punk_city"
+	text: "Entao. Estou procurando um clube chamado BCE, fica por aqui em algum lugar. Quer me ajudar a encontrar? Ah! E pode cuidar do meu cachorro? Acho que ele nao vai gostar do barulho la dentro."
+}
+
+{
+	id:"hh_punk_give_cd"
+	text: "Tente tocar isso alguma hora! e de uma banda local."
+}
+
+{
+	id:"hh_punk_fail_quest"
+	text: "Nao acredito que perdi o show! Droga, achei que voce tinha dito que me levaria ate la. Tanto faz, nao importa. Mas duvido que eles toquem aqui de novo."
+}
+
+//A CRIANÇA
+
+{
+	id:"hh_kid_hitch"
+	text: "Ola! Acho que estou um pouco perdido. Talvez tenha pegado o ônibus errado para a casa do meu pai. O homem na estaçao disse para pegar o 607 e eu peguei! Ou talvez fosse o 705. Voce pode me ajudar, por favor? Acho que nao e longe."
+}
+
+{
+	id:"hh_kid_q1"
+	text: "Sabe, eu realmente achei que era aqui. Meu pai se mudou recentemente e, e... nao consigo lembrar o endereço. Eu escrevi em algum lugar, mas acho que perdi o papel enquanto desenhava."
+}
+
+{
+	id:"hh_kid_q2"
+	text: "Desculpa, desculpa, desculpa. Agora eu acertei! Tenho certeza! O Coelhinho diz que e divertido viajar com voce. Mas eu quero ir para casa."
+}
+
+{
+	id:"hh_kid_q3"
+	text: "Ok, ok, ok. Talvez eu realmente nao saiba onde ele mora. Eu menti. Mas podemos continuar procurando, por favor? Por favor, Coelhinho, oh Coelhinho, mostre-nos o caminho."
+}
+
+{
+	id:"hh_kid_q4"
+	text: "Nao e aqui. Proxima cidade? [wheel]Hee hee."
+}
+
+{
+	id:"hh_kid_complete"
+	text: "Conseguimos! Olha! Mamae E Papai! Obaaa! Obrigado, obrigado, obrigado! Espero que possamos fazer mais viagens juntos."
+}
+
+//ESTRANHO
+
+{
+	id: "hh_stranger_hitch"
+	text: "Estou indo para o deserto. Tem um cassino la onde preciso chegar. El Cobra. Ja ouviu falar? O que me diz?"
+}
+
+{
+	id: "hh_stranger_q1_complete"
+	text: "Ferrei tudo, cara! Peguei dinheiro emprestado com os caras errados. Voce tem que me ajudar. Vamos sair daqui. Voce esta armado? Espero que sim!"
+}
+
+{
+	id: "hh_stranger_q2_complete"
+	text: "Caramba! Nao acredito que voce conseguiu esse dinheiro tao rapido. O que fez? Roubou um banco? Hmm, talvez devessemos roubar um banco."
+}
+
+{
+	id: "hh_stranger_q2_begin"
+	text: "Precisamos encontrar 300 dolares em dinheiro. Em especie! Ok? E logo! Eles vao nos perseguir ate conseguirem cada centavo. Droga!"
+}
+
+//IDIOTA
+
+{
+	id: "hh_idiot_hitch"
+	text: "Oi! Olha, peguei flores bonitas. Estou indo visitar minha irma. Ela mora longe. Voce me leva?"
+}
+
+{
+	id: "hh_idiot_q_complete"
+	text: "Minha irma e linda. Como essas flores. Ela gostava de flores. Sinto muito a falta dela. Sempre ouviamos essa música juntos."
+}
+
+{
+	id: "hh_idiot_q_complete_again"
+	text: "Obrigado por me trazer aqui. Eu gostaria de viajar com voce, nas suas aventuras. Se for possivel. Nao faço muitas viagens de carro."
+}
+
+//CONDENADO
+
+{
+	id:"hh_convict_hitch"
+	text: "Me ajuda, irmao. Estou fugindo ha cinco horas seguidas. Minhas pernas nao aguentam mais. Sou inocente! Voce tem que confiar em mim."
+}
+
+{
+	id:"hh_convict_talk"
+	text: "Estive pensando... vamos para o mar, ok? Conheço um cara que e faroleiro. Ele tem um barco. Posso finalmente dar o fora daqui. Nao posso voltar para aqueles malditos policiais sadicos. Enfim, vamos continuar."
+}
+{
+	id:"hh_convict_q_complete"
+	text: "Nos conseguimos, porr*! Obrigado por confiar em mim. Foi bom te conhecer. Me deseje sorte! Arrivederci!"
+}
+
+//MONTANHISTA
+
+{
+	id: "hh_hiker_hitch"
+	text: "Ora, ora! Um jovem viajante – que maravilha. Voce se importaria de me levar ate a base da montanha? Tenho uma grande caminhada planejada, mas acabei me distraindo. Sai um pouco da rota, por assim dizer."
+}
+
+{
+	id: "hh_hiker_hitch2"
+	text: "*Ufa*, *Phew*, Ola de novo, amigo! O que me diz? *Ufa*, quer fazer essa trilha comigo?"
+}
+
+{
+	id: "hh_hiker_talk"
+	text: "Ha? Ah! So verificando umas coisas. Parece que nunca consigo me desligar de tudo. Nao importa o quanto eu tente! [wheel]Ufa! Vamos para a montanha ou o que? La nao tem sinal nenhum!"
+}
+
+{
+	id: "hh_hiker_complete_quest"
+	text: "Tenha uma boa viagem, amigo! Nos vemos por ai – Saúde!"
+}
+
+{
+	id: "hh_hiker_mountain_top"
+	text: "Olha so isso! Essa vista e realmente majestosa. Da ate vontade de chorar! Estou feliz por compartilhar esse momento com voce."
+}
+
+{
+	id: "hh_hiker_quest_fail"
+	text: "Parece que voce esta ocupado com outras coisas. Vou ter que encontrar outro jeito de chegar ao acampamento base. Sayonara, garoto!"
+}
+
+//DORMINHOCO
+
+{
+	id:"hh_sleeper_hitch"
+	text: "Oh. Oi. Posso pegar uma carona com voce?"
+}
+
+//NOIVA
+
+{
+	id:"hh_bride_hitch"
+	text: "Oi! Como pode ver, sou o que se pode chamar de noiva fugitiva. Pode ajudar essa garota aqui? So preciso pegar a estrada. Tenho que sair daqui e viver um pouco!"
+}
+
+{
+	id:"hh_bride_complete_quest_1"
+	text: "Uau, obrigado por me dar essa liberdade! Nao sei o que faria se voce nao tivesse me pegado! Me senti livre pela primeira vez em anos. Mas acho que preciso voltar para minha familia agora, sinto falta deles. Voce me levaria ate la?"
+}
+
+{
+	id:"hh_bride_complete_quest_2"
+	text: "Vem ca! Quero te dar um abraço bem forte! Obrigada, estou livre! Agora que voce sabe meu endereço, nao suma. Me escreva de vez em quando!"
+}
+
+//COMPOSITOR
+
+{
+	id: "hh_songwriter_hitch"
+	text: "Ei, cara! Voce se importaria de me levar para minha proxima apresentaçao? Estou em turne, sabe. E nao tenho carro. Nunca tirei carteira."
+}
+
+{
+	id: "hh_songwriter_talk"
+	text: "Estou escrevendo uma nova música. Nada de especial. e sobre minha namorada. Terminamos para que eu pudesse viajar nessa turne. *Suspiro*... Mas sei que em breve vou tocar de novo."
+}
+
+{
+	id: "hh_songwriter_complete_quest"
+	text: "Obrigado por me deixar por perto. Sei que posso ser um pouco demais. E ainda levo meu violao e tudo mais. Foi muito legal da sua parte. Espero poder pagar pelo combustivel em breve."
+}
+
+{
+	id: "hh_songwriter_talk_max"
+	text: "[wheel][spr_text_music_note][spr_text_music_note][spr_text_music_note][/wheel]. Obrigado por me deixar por perto."
+}
+
+//HH MISSaO PADRaO COMPLETA
+
+{
+	id:"hh_default_turn_in_greeting"
+	text: "Muito obrigado!"
+}
+
+//////////////////////////////////////MISSOES SECUNDaRIAS
+
+//FILME
+
+{
+	id: "sq_film_turn_in_greeting"
+	text: "Uau, esse e EXATAMENTE o tipo de carro que precisamos!"
+}
+
+{
+	id: "sq_film_turn_in_reject"
+	text: "Ummm. Essa cor NaO e a que pedimos."
+}
+
+{
+	id: "sq_film_turn_in_done"
+	text: "Esse filme vai ser incrivel!"
+}
+
+{
+	id: "sq_film_turn_in_complete"
+	text: "Esse filme vai ser otimo!"
+}
+
+//MUDANÇA
+
+{
+	id: "sq_boxes_turn_in_greeting"
+	text: "Ola, voce trouxe minhas caixas?"
+}
+
+{
+	id: "sq_boxes_turn_in_reject"
+	text: "Ha?"
+}
+
+{
+	id: "sq_boxes_turn_in_done"
+	text: "*nao ha ninguem aqui*"
+}
+
+{
+	id: "sq_boxes_turn_in_complete"
+	text: "*nao ha ninguem aqui*"
+}
+
+//GATO
+
+{
+	id: "sq_cat_turn_in_greeting"
+	text: "Ooooh, voce a encontrou!"
+}
+
+{
+	id: "sq_cat_turn_in_reject"
+	text: "Cade meu gato?"
+}
+
+{
+	id: "sq_cat_turn_in_done"
+	text: "Ela e minha melhor amiga!"
+}
+
+{
+	id: "sq_cat_turn_in_complete"
+	text: "Muito, muito obrigado!"
+}
+
+//PIZZA
+
+{
+	id: "sq_pizza_turn_in_greeting"
+	text: "Voce trouxe minha pizza?"
+}
+
+{
+	id: "sq_pizza_turn_in_reject"
+	text: "Sem pizza?"
+}
+
+{
+	id: "sq_pizza_turn_in_done"
+	text: "Pizza e minha paixao na vida!"
+}
+
+{
+	id: "sq_pizza_turn_in_complete"
+	text: "Oh sim, oh sim, oh sim!"
+}
+
+//GASOLINA
+
+{
+	id: "sq_gas_turn_in_greeting"
+	text: "Estamos presos aqui faz um tempo. Voce tem um pouco de gasolina para nos?"
+}
+
+{
+	id: "sq_gas_turn_in_reject"
+	text: "Ola! Estamos presos aqui. Voce nao tem gasolina para nos?"
+}
+
+{
+	id: "sq_gas_turn_in_done"
+	text: "Muito obrigado! Voce salvou nossa vida!"
+}
+{
+	id: "sq_gas_turn_in_complete"
+	text: "Muito obrigado! Voce salvou nossa vida!"
+}
+
+//INSTRUMENTO
+
+{
+	id: "sq_instrument_turn_in_greeting"
+	text: "Voce trouxe nosso equipamento?"
+}
+
+{
+	id: "sq_instrument_turn_in_reject"
+	text: "Ola! Estamos em uma grande turne, sabia?"
+}
+
+{
+	id: "sq_instrument_turn_in_done"
+	text: "Muito obrigado! Voce salvou nossa vida!"
+}
+
+{
+	id: "sq_instrument_turn_in_complete"
+	text: "Muito obrigado! Voce salvou nossa vida!"
+}
+
+{
+	id: "sq_band_girls_recognize"
+	text: "Oh! e voce de novo!"
+}
+
+//CERVEJA
+
+{
+	id: "sq_beer_turn_in_greeting"
+	text: "Oh, ei! Voce e quem esta entregando a cerveja?"
+}
+
+{
+	id: "sq_beer_turn_in_reject"
+	text: "Hmph!"
+}
+
+{
+	id: "sq_beer_turn_in_done"
+	text: "Oh, sim! Valeu de novo, cara!"
+}
+
+{
+	id: "sq_beer_turn_in_complete"
+	text: "Muito obrigado!"
+}
+
+//REABILITAÇaO
+
+{
+	id:	"rehab_doctor"
+	text:	"Oi. O que esta te incomodando? Ah, claro. Ha quanto tempo voce esta usando? Entendi. Nosso centro público de reabilitaçao esta lotado no momento, mas vamos verificar se ha alguma vaga disponivel na Effectica. Hmm. Voce deu sorte, parece que ainda ha uma disponivel. Se puder, va o quanto antes. Eles estarao te esperando."
+}
+
+{
+	id:	"rehab_junkie"
+	text:	"O que? Ah, desculpa. Achei que voce era um policial ou algo assim. Cara, eles nem me deixam fumar. Disse a eles que estou limpo. Deus sabe que estou. Mas acho que e para o melhor."
+}
+
+{
+	id:	"rehab_junkie_start"
+	text:	"Vou sentir sua falta! Espero te ver de novo quando eu estiver limpo!"
+}
+
+{
+	id: "rehab_ending"
+	text: "Ola, eu estava ansioso para te conhecer. Meu nome e Dr. Williams. Eu serei responsavel pelo seu processo de recuperaçao nas proximas semanas. Voce pode deixar seu carro aqui. Um dos nossos funcionarios o levara para o estacionamento. Vamos fazer seu check-in. Bem-vindo!"
+}
+
+{
+	id: "rehab_start"
+	text: "Voce deveria se orgulhar! O que voce conquistou e algo grande. Nao se esqueça disso. Adeus!"
+}
+
+//NPC//============================================================================================================================//
+//NPC//================================================| VOVO |=================================================================//
+
+{
+	id: old_lady_1
+	text: "Voce precisa comer mais! Engorde um pouquinho."
+	tag:old_lady
+}
+
+{
+	id: old_lady_2
+	text: "Ei, querido, voce nunca ouviu falar que fumar vicia?"
+	tag:old_lady
+}
+
+{
+	id: old_lady_3
+	text: "Antigamente, consertavamos as coisas em vez de comprar novas. Com o tempo, voce fica realmente bom nisso. Basta continuar tentando."
+	tag:old_lady
+}
+
+{
+	id: old_lady_4
+	text: "Meu marido, que Deus o tenha, dirigia muito bem. Nunca se envolveu em um acidente, nem uma vez. Mas isso tambem o levou a dirigir rapido demais."
+	tag:old_lady
+}
+
+{
+	id: old_lady_5
+	text: "Eu, por outro lado, sempre tive muito medo de dirigir rapido. Nao posso te dizer quantas coisas eu bati com meu velho ‘55. Quanto mais eu batia, mais devagar dirigia."
+	tag:old_lady
+}
+
+{
+	id: old_lady_6
+	text: "Cuide bem do seu carro. Ele e tudo o que separa voce da estrada. Por outro lado, talvez uma pane mecânica te ensine uma boa liçao."
+	tag:old_lady
+}
+
+{
+	id: old_lady_7
+	text: "Sinto que tenho muito mais energia desde que virei vegetariana. Meu prato favorito e espinafre e salmao com batatas."
+	tag:old_lady
+}
+
+{
+	id: old_lady_8
+	text: "Nos anos 60, eu e meu marido compramos um carro lindo. Fizemos de tudo para mante-lo impecavel. Nem um amassado. Nem um arranhao! Poderiamos te-lo envolvido em uma armadura."
+	tag:old_lady
+}
+
+{
+	id: old_lady_9
+	text: "Nao ande com muito dinheiro. Voce nunca sabe se ha ladroes por perto."
+	tag:old_lady
+}
+
+{
+	id: old_lady_10
+	text: "Certifique-se de usar suas ferramentas! Nao as deixe jogadas no porta-malas enferrujando."
+	tag:old_lady
+}
+
+{
+	id: old_lady_11
+	text: "Meu velho amigo finlandes me disse: voce precisa dirigir na terra para realmente conhecer seu carro. Nao sei bem o que ele quis dizer, mas ele se divertia muito nessas estradas cheias de curvas."
+	tag:old_lady
+}
+
+{
+	id: old_lady_12
+	text: "Querido, quem nao tem cao caça com gato. Se voce esta sem dinheiro, precisa aproveitar ao maximo o que tem. No fim, vera que o mundo esta cheio de tesouros úteis."
+	tag:old_lady
+}
+
+{
+	id: old_lady_13
+	text: "Cresci no campo, mas me senti uma verdadeira dama da cidade depois da minha terceira visita à capital."
+	tag:old_lady
+}
+
+{
+	id: old_lady_14
+	text: "Pode ser reconfortante ficar no mesmo lugar, mas explorar cada tipo de paisagem e muito mais gratificante."
+	tag:old_lady
+}
+
+{
+	id: old_lady_15
+	text: "Seja gentil com seus amigos e nao os expulse sem necessidade."
+	tag:old_lady
+}
+
+{
+	id: old_lady_16
+	text: "e incrivel como os humanos se adaptam. Se voce so dormir em superficies duras, vai acabar se acostumando e ate gostando."
+	tag:old_lady
+}
+
+{
+	id: old_lady_17
+	text: "Ser sociavel e algo que se pode praticar! E, como tudo na vida, bons relacionamentos exigem esforço."
+	tag:old_lady
+}
+
+{
+	id: old_lady_18
+	text: "Manter um espirito brincalhao na minha idade me mantem feliz. Por isso ainda guardo todas as minhas bonecas e brinquedos de quando era criança."
+	tag:old_lady
+}
+
+{
+	id: old_lady_19
+	text: "Mesmo que voce ache que um livro nao te acrescentou nada, ele pode fazer a diferença no futuro!"
+	tag:old_lady
+}
+{
+	id: old_lady_20
+	text: "Quando meu marido trabalhava com carros, ele adorava fugir da policia. 'e a única maneira de conhecer a verdadeira coragem', ele dizia."
+	tag:old_lady
+}
+
+{
+	id: old_lady_21
+	text: "Antes da minha visao piorar, eu amava dirigir à noite. Isso saciava minha verdadeira vontade de viajar."
+	tag:old_lady
+}
+
+//NPC//============================================================================================================================//
+//NPC//================================================| VELHOS AMIGOS |=================================================================//
+
+{
+	id: old_friends_1
+	text: "Ho ho, ISSO foi divertido. Bons tempos. Voce tirou alguma foto?" "Nao! Nem pensei nisso. Queria ter tirado. Que pena! Seria legal ver o Alex de novo."
+	tag:old_friends
+}
+
+{
+	id: old_friends_2
+	text: "Acho que estou começando a perder a memoria, sabia?" "Nem me fale! Lembro de todas as minhas aventuras antigas, mas nao faço ideia de como chegar ao correio!" "Nem me peça para lembrar um mapa, muito menos onde fica o correio."
+	tag:old_friends
+}
+
+{
+	id: old_friends_3
+	text: "Sinto falta do meu velho carro. O que sera que aconteceu com ele? Provavelmente virou sucata em algum ferro-velho. Hoje em dia, muitos jovens gostam de carros antigos. Eles restauram e tudo mais. Engraçado como as coisas voltam à moda." "e, com certeza. Hmmm, vagamente me lembro de VOCe consertando uma sucata anos atras. He he he! Bons tempos. Aqueles P1900s eram lindos."
+	tag:old_friends
+}
+
+{
+	id: old_friends_4
+	text: "O que aconteceu com o rock and roll? Ninguem dança mais, so se empurram agora. Antes do acidente, sempre viajavamos pelo pais procurando um salao de dança. e triste. As crianças de hoje nunca vao sentir essa alegria."
+	tag:old_friends
+}
+
+{
+	id: old_friends_5
+	text: "Ontem tentei lembrar daquela vez que pegamos um condenado na estrada. Santo Deus, eramos corajosos naquela epoca! Voce se lembra?" "Sim, sim! Que epoca incrivel. Mas sabe, eu realmente nao lembro para onde fomos." "Quer saber? Eu tambem nao! [wheel] Ha ha ha ha!"
+	tag:old_friends
+}
+
+//NPC//================================================| MORADOR DE RUA |=================================================================//
+
+{
+	id: hobo_text_1a
+	text: "Ei, amigo, poderia me dar um trocado?"
+	tag:hobo_greeting
+}
+
+{
+	id: hobo_text_1b
+	text: "Obrigado. Que Deus te abençoe."
+	tag:hobo_thanks
+}
+
+{
+	id: hobo_text_1c
+	text: "Qualquer coisa ajudaria."
+	tag:hobo_rejected
+}
+
+{
+	id: hobo_text_2a
+	text: "Oh, ei ei, desculpa. Tem algum trocado?"
+	tag:hobo_greeting
+}
+
+{
+	id: hobo_text_2b
+	text: "Obrigado, meu amigo."
+	tag:hobo_thanks
+}
+
+{
+	id: hobo_text_3a
+	text: "Tem um dolar?"
+	tag:hobo_greeting
+}
+
+{
+	id: hobo_text_3b
+	text: "Obrigado."
+	tag:hobo_thanks
+}
+
+{
+	id: hobo_text_3c
+	text: "So um?"
+	tag:hobo_rejected
+}
+
+{
+	id: hobo_text_4a
+	text: "So preciso de um trocado para pegar um ônibus."
+	tag:hobo_greeting
+}
+{
+	id: hobo_text_4b
+	text: "Valeu!"
+	tag:hobo_thanks
+}
+
+{
+	id: hobo_text_4b
+	text: "Mhmm"
+	tag:hobo_rejected
+}
+
+{
+	id: hobo_text_5a
+	text: "Ei, amigo, tem um trocado?"
+	tag:hobo_greeting
+}
+
+{
+	id: hobo_text_5b
+	text: "Agradeço."
+	tag:hobo_thanks
+}
+
+{
+	id: hobo_text_5c
+	text: "Quem sabe da proxima vez, ne?"
+	tag:hobo_rejected
+}
+
+{
+	id: hobo_poor
+	text: "Nossa, voce esta ate pior do que eu."
+}
+
+//NPC//================================================| DENNIS |=================================================================//
+
+{
+	id: dennis_intro
+	text: "Ei! E ai, cara? Bom ver outro viajante por essas estradas. Para onde esta indo?"
+	tag:dennis
+}
+
+{
+	id: dennis_festival
+	text: "Acho que estou ficando velho para festivais, acampamentos, casos de uma noite e beber ate cair, mas fico feliz por ter feito isso no passado."
+	tag:dennis
+}
+
+{
+	id: dennis_race
+	text: "Bom te ver de novo! Como esta indo? Vi uns dragsters irados passando por aqui, mas nao sei para onde estao indo. Adoraria assistir algumas corridas ou talvez ajudar como mecânico."
+	tag:dennis
+}
+
+{
+	id: dennis_rehab
+	text: "Ah, merda, e ai, cara! Acabei de acordar de um cochilo. Tem que fazer pausas, lembre-se disso. Eu estava em turne uma vez. Tomava varios estimulantes so para ficar acordado e, bom, voce simplesmente nao consegue manter isso pra sempre. Precisei me internar em uma clinica. Descansar."
+	tag:dennis
+}
+
+{
+	id: dennis_party
+	text: "Eeei! Bom te ver! Passei por uma festa muito louca la nas colinas! Foi estranho, estava um silencio total e de repente BAM! Festa! Um cara pelado escalando uma arvore e umas garotas cheirando cocaina num jacuzzi ao ar livre. Coisa de doido, hahaha!"
+	tag:dennis
+}
+
+{
+	id: dennis_inheritance
+	text: "E ai! Como estao as coisas? Faz um tempo. Sei la, cara, andei pensando em talvez me estabelecer. Meu avô comprou um terreno perto da costa e talvez eu devesse, tipo, construir uma casa la ou algo assim. Nao sei."
+	tag:dennis
+}
+
+{
+	id: dennis_lose
+	text: "E ai! Sempre fico feliz em ver outro viajante da estrada. Espero que voce nunca acabe seguindo o caminho certinho. Quer dizer, claro, voce teria dinheiro e roupas limpas. Mas, tipo, porr*, o mundo precisa de gente como voce."
+	tag:dennis
+}
+
+{
+	id: dennis_jail
+	text: "Eeeei! Chega mais! Espero que esteja bem. Esta meio magro! Nao se esqueça de alongar e comer bem. Vou te mostrar alguns exercicios que aprendi na cadeia algum dia. Haha! Sim, fui preso um tempo atras por posse de drogas. Acontece. Voce so precisa seguir em frente."
+	tag:dennis
+}
+
+{
+	id: dennis_phone
+	text: "Siiiim! Voce tambem esta aqui! Fiquei preso um tempo depois que a van quebrou. Tive que ligar pro meu pai vir me ajudar. Mas, na real, ate que foi legal. Consertamos ela juntos, assistimos um jogo de hoquei e voltei pra estrada."
+	tag:dennis
+}
+
+{
+	id: dennis_mountain
+	text: "Nao acredito que continuamos nos esbarrando assim! Voce sempre sera bem-vindo para relaxar comigo. Sabe disso, ne? Eu sei, eu sei, voce esta ocupado. Mas nao se esqueça de desacelerar e curtir a natureza. Va ate o topo da montanha se tiver a chance. e lindo."
+	tag:dennis
+}
+
+{
+	id: dennis_complete
+	text: "Ei! Sabe, adorei te conhecer na estrada. Nao importa o que voce faça agora, so quero que saiba que voce tera uma vida incrivel. Tenho muito orgulho de voce por explorar e descobrir tudo o que esse mundo tem a oferecer. Boa viagem!"
+	tag:dennis
+}
+
+{
+	id: dennis_done
+	text: "Logo estarei de volta à estrada!"
+}
