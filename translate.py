@@ -1,8 +1,8 @@
-import json
 import os
 import re
 import signal
 import sys
+import time
 
 import langid
 from dotenv import load_dotenv
@@ -14,6 +14,9 @@ try:
     GROQ_AVAILABLE = True
 except ImportError:
     GROQ_AVAILABLE = False
+
+gemini_last_error_time = 0
+gemini_cooldown_period = 60
 
 
 def clear_screen():
@@ -96,14 +99,10 @@ def list_directory_contents(current_dir):
     """Lista os arquivos e diretórios no diretório atual."""
     try:
         items = os.listdir(current_dir)
-        # Separar diretórios e arquivos
         directories = [item for item in items if os.path.isdir(os.path.join(current_dir, item))]
         files = [item for item in items if os.path.isfile(os.path.join(current_dir, item))]
-        
-        # Ordenar alfabeticamente
         directories.sort()
         files.sort()
-        
         return directories, files
     except Exception as e:
         print(f"Erro ao listar o diretório: {e}")
@@ -112,7 +111,6 @@ def list_directory_contents(current_dir):
 
 def select_file_interactively():
     """Interface interativa por linha de comando para selecionar um arquivo."""
-    # Começa no diretório atual
     current_dir = os.getcwd()
     
     while True:
@@ -121,26 +119,20 @@ def select_file_interactively():
         print("-" * 60)
         
         directories, files = list_directory_contents(current_dir)
-        
-        # Lista de todas as opções
         options = []
         
-        # Adiciona opção para subir um nível se não estiver na raiz
         if current_dir != os.path.dirname(current_dir):
             print("[0] .. (Voltar para o diretório anterior)")
             options.append(("parent", None))
         
-        # Lista diretórios
         for i, directory in enumerate(directories, 1):
             print(f"[{i}] 📁 {directory}/")
             options.append(("dir", directory))
         
-        # Lista arquivos
         for i, file in enumerate(files, len(directories) + 1):
             print(f"[{i}] 📄 {file}")
             options.append(("file", file))
         
-        # Solicita a escolha do usuário
         print("\n(Digite q para sair)")
         choice = input("Digite o número da opção desejada: ")
         
@@ -153,7 +145,6 @@ def select_file_interactively():
             
             if 0 <= choice < len(options):
                 option_type, option_value = options[choice]
-                
                 if option_type == "parent":
                     current_dir = os.path.dirname(current_dir)
                 elif option_type == "dir":
@@ -162,7 +153,6 @@ def select_file_interactively():
                     return os.path.join(current_dir, option_value)
             else:
                 input("Opção inválida. Pressione Enter para continuar...")
-        
         except ValueError:
             input("Por favor, digite um número válido. Pressione Enter para continuar...")
         except Exception as e:
@@ -183,18 +173,16 @@ def read_file(filename):
 
 
 def save_file(filename, content):
-    """Salva o conteúdo em um arquivo."""
+    """Salva o conteúdo em um arquivo, preservando a formatação exata."""
     backup_filename = filename + '.bak'
     try:
-        # Cria um backup do arquivo original se ele ainda não existir
         if not os.path.exists(backup_filename):
             with open(filename, 'r', encoding='utf-8') as original:
-                with open(backup_filename, 'w', encoding='utf-8') as backup:
+                with open(backup_filename, 'w', encoding='utf-8', newline='') as backup:
                     backup.write(original.read())
             print(f"Backup criado como '{backup_filename}'")
         
-        # Salva o novo conteúdo
-        with open(filename, 'w', encoding='utf-8') as file:
+        with open(filename, 'w', encoding='utf-8', newline='') as file:
             file.write(content)
         print(f"Arquivo salvo com sucesso!")
         input("Pressione Enter para continuar...")
@@ -203,44 +191,48 @@ def save_file(filename, content):
         input("Pressione Enter para continuar...")
 
 
-def parse_records(content):
-    """Extrai os registros do conteúdo do arquivo usando expressões regulares."""
-    pattern = r'\{\s*([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
-    matches = re.finditer(pattern, content)
-    
+def parse_record_fields(block_text):
+    """
+    Extrai os campos de um bloco mantendo a formatação original.
+    Ignora linhas que começam com '//' (comentários).
+    """
+    record_dict = {}
+    inner = block_text.strip()[1:-1]
+    lines = inner.splitlines()
+    for line in lines:
+        stripped_line = line.strip()
+        if not stripped_line or stripped_line.startswith("//"):
+            continue
+        if ':' in stripped_line:
+            key, value = stripped_line.split(":", 1)
+            key = key.strip().strip('"').strip("'")
+            value = value.strip().rstrip(',')
+            record_dict[key] = value
+    return record_dict
+
+
+def parse_records_fixed(content):
+    """
+    Nova lógica para extrair registros do conteúdo,
+    preservando todo o layout original.
+    Utiliza regex para capturar exatamente as seções delimitadas por '{' e '}'.
+    Retorna:
+      - records: lista de dicionários com os campos extraídos (para referência)
+      - positions: lista de tuplas (início, fim) de cada bloco no conteúdo original
+      - content: o conteúdo original completo
+      - raw_records: lista dos blocos exatamente como foram encontrados
+    """
+    record_pattern = re.compile(r'\{.*?\}', re.DOTALL)
     records = []
     positions = []
     raw_records = []
     
-    for match in matches:
-        record_text = match.group(0)
-        start_pos = match.start()
-        end_pos = match.end()
-        
-        # Armazena o texto bruto do registro
-        raw_records.append(record_text)
-        
-        # Converte o texto do registro para um dicionário
-        record_dict = {}
-        try:
-            lines = record_text.strip('{}').split('\n')
-            for line in lines:
-                line = line.strip()
-                if line and not line.startswith('//'):  # Ignora linhas vazias e comentários
-                    if ':' in line:
-                        parts = line.split(':', 1)
-                        if len(parts) == 2:
-                            key, value = parts
-                            key = key.strip()
-                            value = value.strip()
-                            record_dict[key] = value
-        except Exception as e:
-            print(f"Erro ao processar registro: {e}")
-            print(f"Texto do registro: {record_text}")
-            continue
-        
-        records.append(record_dict)
-        positions.append((start_pos, end_pos))
+    for match in record_pattern.finditer(content):
+        start, end = match.span()
+        block_text = match.group(0)
+        raw_records.append(block_text)
+        records.append(parse_record_fields(block_text))
+        positions.append((start, end))
     
     return records, positions, content, raw_records
 
@@ -248,46 +240,59 @@ def parse_records(content):
 def is_portuguese(text):
     """Verifica se o texto já está em português."""
     try:
-        # O langid pode falhar em textos muito curtos ou que contêm muitas palavras estrangeiras
         lang, confidence = langid.classify(text)
-        
-        # Retorna True se for português (pt) com uma confiança razoável
         return lang == 'pt' and confidence > 0.5
     except:
-        # Em caso de erro, presume que não é português
         return False
 
 
-def translate_with_gemini(text, field_name, original_text=None, is_retry=False):
-    """Traduz o texto usando a API do Google Gemini."""
+def translate_with_gemini(record_text, field_name, original_text=None, is_retry=False):
+    """
+    Traduz apenas o campo específico do bloco de texto usando a API do Google Gemini.
+    Envia o bloco inteiro entre chaves para melhor contexto.
+    """
     if is_retry:
         prompt = f"""
-        Traduza o seguinte texto de inglês para português para um jogo indie. A tradução anterior não foi satisfatória.
+        Traduza apenas o campo '{field_name}' no seguinte bloco JSON de um jogo indie.
+        A tradução anterior não foi satisfatória.
         
-        Campo: {field_name}
-        Texto original: {text}
-        Tentativa anterior: {original_text}
+        Bloco original:
+        ```
+        {record_text}
+        ```
         
-        Mantenha a tradução com tamanho similar ao original e preserve a terminologia de jogos.
-        Evite traduções literais que percam o significado ou o humor do original.
-        NÃO repita o texto original junto com a tradução!
+        INSTRUÇÕES IMPORTANTES:
+        1. Traduza SOMENTE o valor para o campo '{field_name}' do inglês para o português.
+        2. NÃO altere nenhum outro campo ou texto.
+        3. NÃO altere formatação, espaços, quebras de linha ou indentação.
+        4. Mantenha todas as aspas, vírgulas e pontuação exatamente como no original.
+        5. Retorne o bloco COMPLETO, incluindo todos os campos.
         
-        Obrigatório: Retorne apenas o texto traduzido e nada mais. 
-        Não adicione informações extras ou explicações.
+        Exemplo:
+        Se o campo 'name' com valor "Bee in car" deve ser traduzido, apenas substitua "Bee in car" por "Abelha no carro", mantendo todo o resto idêntico.
         """
     else:
         prompt = f"""
-        Traduza o seguinte texto de inglês para português para um jogo indie.
+        Traduza apenas o campo '{field_name}' no seguinte bloco JSON de um jogo indie.
         
-        Campo: {field_name}
-        Texto original: {text}
+        Bloco original:
+        ```
+        {record_text}
+        ```
         
-        Mantenha a tradução com tamanho similar ao original e preserve a terminologia de jogos.
-        Evite traduções literais que percam o significado ou o humor do original.
-        NÃO repita o texto original junto com a tradução!
+        Traduza APENAS o valor do campo '{field_name}' do inglês para o português.
+        Mantenha todos os outros campos EXATAMENTE iguais.
+        Mantenha todos os espaços, aspas, vírgulas e outros caracteres como estão.
         
-        Obrigatório: Retorne apenas o texto traduzido e nada mais. 
-        Não adicione informações extras ou explicações.
+        INSTRUÇÕES IMPORTANTES:
+        1. Traduza SOMENTE o valor para o campo '{field_name}' do inglês para o português.
+        2. NÃO altere nenhum outro campo ou texto.
+        3. NÃO altere formatação, espaços, quebras de linha ou indentação.
+        4. Mantenha todas as aspas, vírgulas e pontuação exatamente como no original.
+        5. Retorne o bloco COMPLETO, incluindo todos os campos.
+        
+        Exemplo:
+        Se o campo 'name' com valor "Bee in car" deve ser traduzido, apenas substitua "Bee in car" por "Abelha no carro", mantendo todo o resto idêntico.
         """
     
     try:
@@ -299,49 +304,61 @@ def translate_with_gemini(text, field_name, original_text=None, is_retry=False):
         return response.text.strip(), True
     except Exception as e:
         print(f"Erro na tradução com Gemini: {e}")
-        return None, False
+        return str(e), False
 
 
-def translate_with_groq(text, field_name, original_text=None, is_retry=False):
-    """Traduz o texto usando a API do Groq como fallback."""
+def translate_with_groq(record_text, field_name, original_text=None, is_retry=False):
+    """
+    Traduz apenas o campo específico do bloco de texto usando a API do Groq como fallback.
+    Envia o bloco inteiro entre chaves para melhor contexto.
+    """
     if not GROQ_AVAILABLE or not groq_client:
         return "ERRO NA TRADUÇÃO - Groq não disponível", False
     
     if is_retry:
-        prompt = f"""Traduza o seguinte texto de inglês para português para um jogo indie. A tradução anterior não foi satisfatória.
+        prompt = f"""
+        Traduza apenas o campo '{field_name}' no seguinte bloco JSON de um jogo indie.
+        A tradução anterior não foi satisfatória.
         
-Campo: {field_name}
-Texto original: {text}
-Tentativa anterior: {original_text}
+        Bloco original:
+        ```
+        {record_text}
+        ```
         
-Mantenha a tradução com tamanho similar ao original e preserve a terminologia de jogos.
-Evite traduções literais que percam o significado ou o humor do original.
-NÃO repita o texto original junto com a tradução!
-
-Obrigatório: Retorne apenas o texto traduzido e nada mais. 
-Não adicione informações extras ou explicações."""
+        INSTRUÇÕES IMPORTANTES:
+        1. Traduza SOMENTE o valor para o campo '{field_name}' do inglês para o português.
+        2. NÃO altere nenhum outro campo ou texto.
+        3. NÃO altere formatação, espaços, quebras de linha ou indentação.
+        4. Mantenha todas as aspas, vírgulas e pontuação exatamente como no original.
+        5. Retorne o bloco COMPLETO, incluindo todos os campos.
+        
+        Exemplo:
+        Se o campo 'name' com valor "Bee in car" deve ser traduzido, apenas substitua "Bee in car" por "Abelha no carro", mantendo todo o resto idêntico.
+        """
     else:
-        prompt = f"""Traduza o seguinte texto de inglês para português para um jogo indie.
+        prompt = f"""
+        Traduza apenas o campo '{field_name}' no seguinte bloco JSON de um jogo indie.
         
-Campo: {field_name}
-Texto original: {text}
+        Bloco original:
+        ```
+        {record_text}
+        ```
         
-Mantenha a tradução com tamanho similar ao original e preserve a terminologia de jogos.
-Evite traduções literais que percam o significado ou o humor do original.
-NÃO repita o texto original junto com a tradução!
-
-Obrigatório: Retorne apenas o texto traduzido e nada mais. 
-Não adicione informações extras ou explicações."""
+        INSTRUÇÕES IMPORTANTES:
+        1. Traduza SOMENTE o valor para o campo '{field_name}' do inglês para o português.
+        2. NÃO altere nenhum outro campo ou texto.
+        3. NÃO altere formatação, espaços, quebras de linha ou indentação.
+        4. Mantenha todas as aspas, vírgulas e pontuação exatamente como no original.
+        5. Retorne o bloco COMPLETO, incluindo todos os campos.
+        
+        Exemplo:
+        Se o campo 'name' com valor "Bee in car" deve ser traduzido, apenas substitua "Bee in car" por "Abelha no carro", mantendo todo o resto idêntico.
+        """
     
     try:
         print("Traduzindo com Groq (fallback)...")
         chat_completion = groq_client.chat.completions.create(
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
+            messages=[{"role": "user", "content": prompt}],
             model="llama3-70b-8192",
         )
         return chat_completion.choices[0].message.content.strip(), True
@@ -349,79 +366,121 @@ Não adicione informações extras ou explicações."""
         print(f"Erro na tradução com Groq: {e}")
         return "ERRO NA TRADUÇÃO", False
 
-def translate_text(text, field_name, original_text=None, is_retry=False):
-    """Traduz o texto usando a API do Google Gemini com fallback para Groq."""
-    # Tenta primeiro com Gemini
-    result, success = translate_with_gemini(text, field_name, original_text, is_retry)
+
+def extract_field_value(record_text, field_name):
+    """
+    Extrai o valor de um campo específico de um bloco de texto.
+    """
+    pattern = re.compile(r'"?' + re.escape(field_name) + r'"?\s*:\s*([^,\n]+)')
+    match = pattern.search(record_text)
+    if match:
+        return match.group(1).strip()
+    return None
+
+
+def translate_text(record_text, field_name, original_text=None, is_retry=False):
+    """
+    Traduz o texto usando a API do Google Gemini com fallback para Groq.
+    Envia todo o bloco de texto e recebe o bloco inteiro com a tradução.
+    """
+    global gemini_last_error_time
+    current_time = time.time()
+    use_gemini = True
+    field_value = extract_field_value(record_text, field_name)
+    if field_value and is_portuguese(field_value):
+        return record_text, True
     
-    # Se falhar, tenta com Groq como fallback
+    if gemini_last_error_time > 0:
+        time_since_error = current_time - gemini_last_error_time
+        if time_since_error < gemini_cooldown_period:
+            print(f"Gemini em cooldown por mais {gemini_cooldown_period - time_since_error:.0f} segundos. Usando Groq...")
+            use_gemini = False
+        else:
+            print("Período de cooldown do Gemini encerrado. Tentando usar o Gemini novamente...")
+            gemini_last_error_time = 0
+    
+    result = None
+    success = False
+    if use_gemini:
+        result, success = translate_with_gemini(record_text, field_name, original_text, is_retry)
+        if not success:
+            error_message = str(result) if result else "Erro desconhecido"
+            if any(k in error_message.lower() for k in ["quota", "rate limit", "limit exceeded"]):
+                gemini_last_error_time = current_time
+                print(f"Limite da API Gemini atingido. Cooldown de {gemini_cooldown_period} segundos.")
+                print("Alternando automaticamente para Groq...")
+            print("Tradução com Gemini falhou. Tentando com Groq como fallback...")
+            result, success = translate_with_groq(record_text, field_name, original_text, is_retry)
+    else:
+        result, success = translate_with_groq(record_text, field_name, original_text, is_retry)
+    
     if not success:
-        print("Tradução com Gemini falhou. Tentando com Groq como fallback...")
-        result, success = translate_with_groq(text, field_name, original_text, is_retry)
+        return "ERRO NA TRADUÇÃO - Todas as APIs falharam", False
     
-    return result
+    result = result.replace('```', '').strip()
+    return result, success
 
 
-def update_content(content, positions, records, raw_records, translated_fields, field_name):
-    """Atualiza o conteúdo do arquivo com as traduções aprovadas."""
-    # Cria uma cópia do conteúdo original
+def update_content_fixed(content, positions, translated_blocks):
+    """
+    Atualiza o conteúdo original substituindo os blocos pelos traduzidos.
+    A substituição é feita de trás para frente para preservar os índices.
+    
+    translated_blocks: dicionário onde a chave é o índice do registro e o valor
+    é o bloco traduzido que deve substituir o bloco original.
+    """
     new_content = content
-    
-    # Aplica as traduções de trás para frente para evitar problemas com índices
-    for i in range(len(records) - 1, -1, -1):
-        if i in translated_fields:
-            start_pos, end_pos = positions[i]
-            raw_record = raw_records[i]
-            
-            # Divide o registro em linhas para processamento linha a linha
-            lines = raw_record.split('\n')
-            updated_lines = []
-            
-            for line in lines:
-                # Padrão mais preciso: início da linha + espaços + nome exato do campo + dois pontos
-                if re.match(r'^\s*' + re.escape(field_name) + r':\s*', line):
-                    # Encontra a posição dos dois pontos para preservar a formatação
-                    colon_pos = line.find(':')
-                    if colon_pos != -1:
-                        # Preserva tudo até os dois pontos (incluindo espaços) e substitui o resto
-                        prefix = line[:colon_pos+1]
-                        # Alguns valores têm espaços após os dois pontos que devem ser preservados
-                        # Conta os espaços após os dois pontos
-                        spaces_after_colon = len(line[colon_pos+1:]) - len(line[colon_pos+1:].lstrip())
-                        space_padding = ' ' * spaces_after_colon
-                        # Cria a nova linha com a tradução
-                        updated_line = f"{prefix}{space_padding}{translated_fields[i]}"
-                        updated_lines.append(updated_line)
-                    else:
-                        # Caso improvável, mas mantém a linha original se não encontrar dois pontos
-                        updated_lines.append(line)
-                else:
-                    # Mantém a linha original para qualquer linha que não corresponda ao campo
-                    updated_lines.append(line)
-            
-            # Reconstrói o registro com as linhas atualizadas
-            updated_record = '\n'.join(updated_lines)
-            
-            # Substitui o registro original pelo atualizado no conteúdo completo
-            new_content = new_content[:start_pos] + updated_record + new_content[end_pos:]
-    
+    for i in sorted(translated_blocks.keys(), reverse=True):
+        start, end = positions[i]
+        new_block = translated_blocks[i]
+        new_content = new_content[:start] + new_block + new_content[end:]
     return new_content
+
+
+def _update_single_record(record_text, field_name, new_value):
+    """
+    Atualiza apenas o valor de um campo específico no bloco, mantendo a formatação exata.
+    """
+    lines = record_text.split('\n')
+    updated_lines = []
+    pattern = re.compile(r'^(\s*"?' + re.escape(field_name) + r'"?\s*:\s*)([^,\n]*)(.*)$')
+    
+    for line in lines:
+        match = pattern.match(line)
+        if not match:
+            updated_lines.append(line)
+            continue
+        
+        prefix = match.group(1)
+        old_value = match.group(2)
+        suffix = match.group(3)
+        is_quoted = old_value.strip().startswith('"') or old_value.strip().startswith("'")
+        quote_type = old_value.strip()[0] if is_quoted else ''
+        
+        if is_quoted:
+            if quote_type == '"':
+                escaped_value = new_value.replace('"', '\\"')
+            else:
+                escaped_value = new_value.replace("'", "\\'")
+            new_line = f"{prefix}{quote_type}{escaped_value}{quote_type}{suffix}"
+        else:
+            new_line = f"{prefix}{new_value}{suffix}"
+        
+        updated_lines.append(new_line)
+    
+    return '\n'.join(updated_lines)
 
 
 def select_from_menu(options, title, prompt="Escolha uma opção:"):
     """Exibe um menu e retorna a opção selecionada."""
     while True:
         print_header(title)
-        
         for i, option in enumerate(options):
             print(f"[{i+1}] {option}")
-        
         print("\n(Digite q para sair)")
         choice = input(f"{prompt} ")
-        
         if choice.lower() == 'q':
             return None
-        
         try:
             choice = int(choice)
             if 1 <= choice <= len(options):
@@ -430,25 +489,20 @@ def select_from_menu(options, title, prompt="Escolha uma opção:"):
                 input("Opção inválida. Pressione Enter para continuar...")
         except ValueError:
             input("Por favor, digite um número válido. Pressione Enter para continuar...")
-   
+
 
 def select_field_interactively(available_fields):
     """Seleciona um campo para tradução de forma interativa."""
     fields_list = sorted(list(available_fields))
-    
     while True:
         print_header("SELEÇÃO DE CAMPO PARA TRADUÇÃO")
-        
         for i, field in enumerate(fields_list, 1):
             print(f"[{i}] {field}")
-        
         print("\n(Digite q para sair)")
         choice = input("Digite o número do campo que deseja traduzir: ")
-        
         if choice.lower() == 'q':
             print("\nOperação cancelada pelo usuário.")
             sys.exit(0)
-        
         try:
             choice = int(choice)
             if 1 <= choice <= len(fields_list):
@@ -464,13 +518,10 @@ def show_translation_options(history_index, history_length):
     print("\nOpções:")
     print("[1] Aprovar esta tradução")
     print("[2] Gerar nova tradução")
-    
     if history_index > 0:
         print("[3] Ver tradução anterior")
-    
     if history_index < history_length - 1:
         print("[4] Ver próxima tradução")
-    
     print("[5] Usar texto original")
     print("[6] Modificar manualmente")
     print("[q] Sair")
@@ -479,13 +530,10 @@ def show_translation_options(history_index, history_length):
 def get_translation_choice(history_index, history_length):
     """Obtém a escolha do usuário para a tradução atual."""
     show_translation_options(history_index, history_length)
-    
     while True:
         choice = input("\nEscolha uma opção: ").lower()
-        
         if choice == 'q':
             return 'quit'
-        
         try:
             choice = int(choice)
             if choice == 1:
@@ -506,14 +554,34 @@ def get_translation_choice(history_index, history_length):
             print("Por favor, digite um número válido.")
 
 
+def extract_field_display_value(record_text, field_name):
+    """
+    Extrai o valor limpo de um campo para exibição.
+    """
+    try:
+        pattern = re.compile(r'^\s*"?' + re.escape(field_name) + r'"?\s*:\s*([^,\n]+)', re.MULTILINE)
+        match = pattern.search(record_text)
+        if match:
+            value = match.group(1).strip()
+            if (value.startswith('"') and value.endswith('"')) or (value.startswith("'") and value.endswith("'")):
+                value = value[1:-1]
+            if value.endswith(','):
+                value = value[:-1]
+            if '//' in value:
+                value = value.split('//')[0].strip()
+            value = value.replace('\\"', '"').replace("\\'", "'")
+            return value
+        return None
+    except Exception as e:
+        print(f"Erro ao extrair valor do campo: {e}")
+        return None
+
+
 def main():
     """Função principal do script."""
     try:
-        # Banner inicial
         print_header("TRADUTOR DE JOGOS INDIE")
         input("Pressione Enter para selecionar um arquivo...")
-        
-        # Seleciona o arquivo
         filename = select_file_interactively()
         if not filename:
             print("Nenhum arquivo selecionado. Encerrando.")
@@ -521,17 +589,14 @@ def main():
         
         print_header("PROCESSANDO ARQUIVO")
         print(f"Arquivo selecionado: {filename}")
-        
-        # Lê o conteúdo do arquivo
         content = read_file(filename)
         
-        # Extrai os registros do conteúdo
-        records, positions, content, raw_records = parse_records(content)
+        # Utiliza a nova função de extração que preserva o layout
+        records, positions, content, raw_records = parse_records_fixed(content)
         
         print(f"Foram encontrados {len(records)} registros no arquivo.")
         input("Pressione Enter para continuar...")
         
-        # Obtém os campos disponíveis para tradução
         if not records:
             print("Nenhum registro encontrado no arquivo. Encerrando.")
             sys.exit(1)
@@ -540,95 +605,90 @@ def main():
         for record in records:
             available_fields.update(record.keys())
         
-        # Seleciona o campo para tradução
         field_name = select_field_interactively(available_fields)
+        translated_blocks = {}
         
-        # Dicionário para armazenar as traduções aprovadas
-        translated_fields = {}
-        
-        # Conteúdo atualizado que será salvo a cada aprovação
-        current_content = content
-        
-        # Processa cada registro
+        # "content" mantém o conteúdo original para que os índices em "positions" permaneçam válidos
         for i, record in enumerate(records):
             if field_name in record:
                 print_header(f"TRADUÇÃO DE REGISTRO {i+1}/{len(records)}")
-                print(f"Nome: {record.get('name', record.get('devname', 'N/A'))}")
+                print(f"Identificador: {record.get('name', record.get('devname', 'N/A'))}")
+                original_block = raw_records[i]
+                original_text = extract_field_display_value(original_block, field_name)
                 
-                original_text = record[field_name]
+                if not original_text:
+                    print(f"\nCampo '{field_name}' não encontrado ou vazio neste registro. Pulando...")
+                    input("Pressione Enter para continuar...")
+                    continue
+                
                 print(f"\nOriginal ({field_name}):\n{original_text}")
                 
-                # Verifica se o texto já está em português
                 if is_portuguese(original_text):
                     print("\nTexto já está em português. Pulando para o próximo registro...")
                     input("Pressione Enter para continuar...")
                     continue
                 
-                # Traduz o texto
                 print("\nGerando tradução inicial...")
-                translated_text = translate_text(original_text, field_name)
+                translated_block, success = translate_text(original_block, field_name)
+                translated_value = extract_field_display_value(translated_block, field_name)
+                if translated_value == original_text and success:
+                    print("AVISO: A API não alterou o texto. Tentando novamente com um prompt mais explícito...")
+                    translated_block, success = translate_text(original_block, field_name, original_text=original_text, is_retry=True)
                 
-                # Histórico de traduções para este registro
-                translation_history = [translated_text]
+                translation_history = [translated_block]
                 history_index = 0
-                
-                # Loop até que a tradução seja aprovada
                 is_approved = False
+                
                 while not is_approved:
                     print_header(f"TRADUÇÃO DE REGISTRO {i+1}/{len(records)}")
-                    print(f"Nome: {record.get('name', record.get('devname', 'N/A'))}")
+                    print(f"Identificador: {record.get('name', record.get('devname', 'N/A'))}")
+                    current_block = translation_history[history_index]
+                    current_text = extract_field_display_value(current_block, field_name)
+                    
                     print(f"\nOriginal ({field_name}):\n{original_text}")
+                    print(f"\nTradução proposta ({field_name}) ({history_index + 1}/{len(translation_history)}):\n{current_text}")
                     
-                    current_translation = translation_history[history_index]
-                    print(f"\nTradução ({history_index + 1}/{len(translation_history)}):\n{current_translation}")
-                    
-                    # Obtém a escolha do usuário
                     choice = get_translation_choice(history_index, len(translation_history))
                     
                     if choice == 'approve':
-                        # Aprova a tradução atual
-                        translated_fields[i] = current_translation
+                        translated_blocks[i] = current_block
                         is_approved = True
-                        
-                        # Atualiza o conteúdo do arquivo em tempo real
-                        current_content = update_content(current_content, positions, records, raw_records, {i: current_translation}, field_name)
-                        save_file(filename, current_content)
-                        print(f"Tradução aplicada ao arquivo em tempo real.")
+                        # Atualiza o conteúdo com base no conteúdo original e nas traduções aprovadas
+                        updated_content = update_content_fixed(content, positions, translated_blocks)
+                        save_file(filename, updated_content)
+                        print("Tradução aplicada ao arquivo em tempo real.")
                     
                     elif choice == 'new':
-                        # Gera uma nova tradução
                         print("\nGerando nova tradução...")
-                        new_translation = translate_text(original_text, field_name, current_translation, is_retry=True)
-                        translation_history.append(new_translation)
+                        new_block, success = translate_text(original_block, field_name, current_text, is_retry=True)
+                        translation_history.append(new_block)
                         history_index = len(translation_history) - 1
                     
                     elif choice == 'previous':
-                        # Vai para a tradução anterior no histórico
                         history_index -= 1
                     
                     elif choice == 'next':
-                        # Vai para a próxima tradução no histórico
                         history_index += 1
                     
                     elif choice == 'original':
-                        # Usa o texto original (sem tradução)
-                        translated_fields[i] = original_text
+                        translated_blocks[i] = original_block
                         is_approved = True
-                        
-                        # Atualiza o conteúdo do arquivo em tempo real
-                        current_content = update_content(current_content, positions, records, raw_records, {i: original_text}, field_name)
-                        save_file(filename, current_content)
-                        print(f"Texto original mantido e aplicado ao arquivo.")
+                        updated_content = update_content_fixed(content, positions, translated_blocks)
+                        save_file(filename, updated_content)
+                        print("Texto original mantido e salvo.")
                     
                     elif choice == 'manual':
-                        # Permite modificação manual
-                        print("\nDigite a tradução manualmente:")
-                        manual_translation = input("> ")
-                        translation_history.append(manual_translation)
+                        print("\nEDITANDO MANUALMENTE")
+                        print("\nBloco original:")
+                        print(original_block)
+                        print("\nBloco atual:")
+                        print(current_block)
+                        print("\nDigite o bloco completo com sua tradução:")
+                        manual_block = input("> ")
+                        translation_history.append(manual_block)
                         history_index = len(translation_history) - 1
                     
                     elif choice == 'quit':
-                        # Sai do programa
                         print("\nOperação cancelada pelo usuário.")
                         sys.exit(0)
         
@@ -639,6 +699,10 @@ def main():
     except KeyboardInterrupt:
         print("\n\nOperação cancelada pelo usuário. As traduções já aprovadas foram salvas.")
         sys.exit(0)
+    except Exception as e:
+        print(f"\n\nErro inesperado: {e}")
+        input("Pressione Enter para sair...")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
