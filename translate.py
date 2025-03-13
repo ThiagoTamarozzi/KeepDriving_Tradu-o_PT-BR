@@ -14,17 +14,20 @@ try:
     GROQ_AVAILABLE = True
 except ImportError:
     GROQ_AVAILABLE = False
-    
+
+
 def clear_screen():
     """Limpa a tela do terminal."""
     os.system('cls' if os.name == 'nt' else 'clear')
-    
+
+
 def print_header(title):
     """Imprime um cabeçalho formatado."""
     clear_screen()
     print("\n" + "=" * 60)
     print(f"{title:^60}")
     print("=" * 60 + "\n")
+
 
 def create_env_file_if_needed():
     """Verifica se o arquivo .env existe e, se não, solicita as chaves API ao usuário."""
@@ -54,6 +57,7 @@ def create_env_file_if_needed():
                 
         print("\nArquivo .env criado com sucesso!")
         input("Pressione Enter para continuar...")
+
 
 # Chama a função para verificar o .env antes de carregar as variáveis de ambiente
 create_env_file_if_needed()
@@ -104,6 +108,7 @@ def list_directory_contents(current_dir):
     except Exception as e:
         print(f"Erro ao listar o diretório: {e}")
         return [], []
+
 
 def select_file_interactively():
     """Interface interativa por linha de comando para selecionar um arquivo."""
@@ -163,6 +168,7 @@ def select_file_interactively():
         except Exception as e:
             input(f"Erro: {e}. Pressione Enter para continuar...")
 
+
 def read_file(filename):
     """Lê o arquivo e retorna seu conteúdo."""
     try:
@@ -174,6 +180,7 @@ def read_file(filename):
     except Exception as e:
         print(f"Erro ao ler o arquivo: {e}")
         sys.exit(1)
+
 
 def save_file(filename, content):
     """Salva o conteúdo em um arquivo."""
@@ -194,6 +201,7 @@ def save_file(filename, content):
     except Exception as e:
         print(f"Erro ao salvar o arquivo: {e}")
         input("Pressione Enter para continuar...")
+
 
 def parse_records(content):
     """Extrai os registros do conteúdo do arquivo usando expressões regulares."""
@@ -236,6 +244,7 @@ def parse_records(content):
     
     return records, positions, content, raw_records
 
+
 def is_portuguese(text):
     """Verifica se o texto já está em português."""
     try:
@@ -247,6 +256,7 @@ def is_portuguese(text):
     except:
         # Em caso de erro, presume que não é português
         return False
+
 
 def translate_with_gemini(text, field_name, original_text=None, is_retry=False):
     """Traduz o texto usando a API do Google Gemini."""
@@ -290,6 +300,7 @@ def translate_with_gemini(text, field_name, original_text=None, is_retry=False):
     except Exception as e:
         print(f"Erro na tradução com Gemini: {e}")
         return None, False
+
 
 def translate_with_groq(text, field_name, original_text=None, is_retry=False):
     """Traduz o texto usando a API do Groq como fallback."""
@@ -350,6 +361,7 @@ def translate_text(text, field_name, original_text=None, is_retry=False):
     
     return result
 
+
 def update_content(content, positions, records, raw_records, translated_fields, field_name):
     """Atualiza o conteúdo do arquivo com as traduções aprovadas."""
     # Cria uma cópia do conteúdo original
@@ -358,26 +370,43 @@ def update_content(content, positions, records, raw_records, translated_fields, 
     # Aplica as traduções de trás para frente para evitar problemas com índices
     for i in range(len(records) - 1, -1, -1):
         if i in translated_fields:
-            record = records[i]
             start_pos, end_pos = positions[i]
             raw_record = raw_records[i]
             
-            # Extrai a linha com o campo a ser traduzido
-            field_pattern = re.compile(r'(\s*' + re.escape(field_name) + r':\s*)([^\n]*)', re.MULTILINE)
-            field_match = field_pattern.search(raw_record)
+            # Divide o registro em linhas para processamento linha a linha
+            lines = raw_record.split('\n')
+            updated_lines = []
             
-            if field_match:
-                # Substitui o valor do campo no texto original
-                prefix = field_match.group(1)  # field_name + ":"
-                translated_value = translated_fields[i]
-                
-                # Substitui apenas a linha específica no texto do registro
-                updated_record = field_pattern.sub(f'{prefix}{translated_value}', raw_record)
-                
-                # Substitui o registro original pelo atualizado no conteúdo completo
-                new_content = new_content[:start_pos] + updated_record + new_content[end_pos:]
+            for line in lines:
+                # Padrão mais preciso: início da linha + espaços + nome exato do campo + dois pontos
+                if re.match(r'^\s*' + re.escape(field_name) + r':\s*', line):
+                    # Encontra a posição dos dois pontos para preservar a formatação
+                    colon_pos = line.find(':')
+                    if colon_pos != -1:
+                        # Preserva tudo até os dois pontos (incluindo espaços) e substitui o resto
+                        prefix = line[:colon_pos+1]
+                        # Alguns valores têm espaços após os dois pontos que devem ser preservados
+                        # Conta os espaços após os dois pontos
+                        spaces_after_colon = len(line[colon_pos+1:]) - len(line[colon_pos+1:].lstrip())
+                        space_padding = ' ' * spaces_after_colon
+                        # Cria a nova linha com a tradução
+                        updated_line = f"{prefix}{space_padding}{translated_fields[i]}"
+                        updated_lines.append(updated_line)
+                    else:
+                        # Caso improvável, mas mantém a linha original se não encontrar dois pontos
+                        updated_lines.append(line)
+                else:
+                    # Mantém a linha original para qualquer linha que não corresponda ao campo
+                    updated_lines.append(line)
+            
+            # Reconstrói o registro com as linhas atualizadas
+            updated_record = '\n'.join(updated_lines)
+            
+            # Substitui o registro original pelo atualizado no conteúdo completo
+            new_content = new_content[:start_pos] + updated_record + new_content[end_pos:]
     
     return new_content
+
 
 def select_from_menu(options, title, prompt="Escolha uma opção:"):
     """Exibe um menu e retorna a opção selecionada."""
@@ -401,6 +430,7 @@ def select_from_menu(options, title, prompt="Escolha uma opção:"):
                 input("Opção inválida. Pressione Enter para continuar...")
         except ValueError:
             input("Por favor, digite um número válido. Pressione Enter para continuar...")
+   
 
 def select_field_interactively(available_fields):
     """Seleciona um campo para tradução de forma interativa."""
@@ -428,6 +458,7 @@ def select_field_interactively(available_fields):
         except ValueError:
             input("Por favor, digite um número válido. Pressione Enter para continuar...")
 
+
 def show_translation_options(history_index, history_length):
     """Exibe as opções para o usuário durante a tradução."""
     print("\nOpções:")
@@ -443,6 +474,7 @@ def show_translation_options(history_index, history_length):
     print("[5] Usar texto original")
     print("[6] Modificar manualmente")
     print("[q] Sair")
+
 
 def get_translation_choice(history_index, history_length):
     """Obtém a escolha do usuário para a tradução atual."""
@@ -472,6 +504,7 @@ def get_translation_choice(history_index, history_length):
                 print("Opção inválida. Tente novamente.")
         except ValueError:
             print("Por favor, digite um número válido.")
+
 
 def main():
     """Função principal do script."""
@@ -606,6 +639,7 @@ def main():
     except KeyboardInterrupt:
         print("\n\nOperação cancelada pelo usuário. As traduções já aprovadas foram salvas.")
         sys.exit(0)
+
 
 if __name__ == "__main__":
     main()
